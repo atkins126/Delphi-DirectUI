@@ -14,9 +14,9 @@ JDUI是一套Delphi DirectUI界面引擎，基于Graphics32并做了大量针对
 
 ## 使用环境
 
-操作系统: Windows XP/VISTA/7/8/10；
+操作系统: Windows XP/VISTA/7/8/10
 
-开发工具: XE8,XE10等。
+开发工具: Delphi 10.3
 
 ## 安装编译
 
