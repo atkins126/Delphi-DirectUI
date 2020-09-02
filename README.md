@@ -157,45 +157,9 @@ end;
 
 此为容器类，此类在窗体上可做为DirectUI控件的容器，以方便多个控件组合在一起进行排版。此类不会参与窗体的渲染。
 
-## TJDUIButton
+## 其它控件
 
-待完成
-
-## TJDUIEdit
-
-待完成
-
-## TJDUIComboBox
-
-待完成
-
-## TJDUICheckBox
-
-待完成
-
-## JDUIRadioButton
-
-待完成
-
-## TJDUIImage
-
-待完成
-
-## TJDUIListView
-
-待完成
-
-## TJDUITableView
-
-待完成
-
-## TJDUIWebView
-
-待完成
-
-## TJDUIListView
-
-待完成
+项目内其它所有控件均通过继承以上几个控件实现（组合类控件派生自TJDUIContainer）
 
 # 四、更多屏幕截图
 ![alt screenshot1](http://imupdate.oss-cn-hangzhou.aliyuncs.com/pc/DDUI/FILE/screenshot/screenshot1.png) 
