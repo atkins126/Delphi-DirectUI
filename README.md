@@ -2,7 +2,7 @@
 
 # 一、JDUI 介绍
 
-JDUI是一套Delphi DirectUI界面引擎，基于Graphics32，并做了大量针对性的性能优化。 支持高DPI缩放， 具有非常优秀的渲染性能和酷炫的动画特效。
+JDUI是一套Delphi DirectUI界面引擎，基于Graphics32并做了大量针对性的性能优化，支持高DPI缩放， 具有非常优秀的渲染性能和酷炫的动画特效。
 
 ![alt Animate](http://imupdate.oss-cn-hangzhou.aliyuncs.com/pc/DDUI/FILE/screenshot/AnimateDemo.gif)
 
@@ -42,7 +42,7 @@ JDUI是一套Delphi DirectUI界面引擎，基于Graphics32，并做了大量针
    在控件未安装之前，请勿打开此项目中的窗口文件，避免找不到控件导致控件被移除，可能造成无法编译或运行出错；
 
 10. 编译运行DEMO项目；
-   直接编译并运行Demo项目即可（如以Release方式运行，请先将Debug目录中的文件复制到Release目录）。
+      直接编译并运行Demo项目即可（如以Release方式运行，请先将Debug目录中的文件复制到Release目录）。
 
    
 
@@ -116,15 +116,45 @@ DirectUI的窗体以 WS_EX_LAYERED 模式运行，通过 UpdateLayeredWindow 方
 
 ## TJDUIControl
 
-待完成
+DirectUI控件的基类，不直接使用，主要实现了为控件创建32位画布、渲染图像、提供一系列动画方法等等功能；
 
-## TJDUIAnimation
+## TJDUIGraphicsControl
 
-待完成
+父类为TJDUIControl，继承此类并重写绘制方法可创建自己的DirectUI控件。
 
+~~~pascal
+  type
+	TJDUIImageView = class(TJDUIGraphicsControl)
+		private
+		FImageFile: String;
+    protected
+    procedure PaintSelf(ATargetBitmap: TBitmap32); override;
+    
+    public
+    procedure LoadImage(AImageFile: String);
+	end;
+	
+	implementation
+	procedure TJDUIImageView.PaintSelf(ATargetBitmap: TBitmap32);
+	begin
+		//在 ATargetBitmap 上绘制即可，此处仅做示例
+		ATargetBitmap.LoadFromFile(FImageFile);
+	end;
+	
+	procedure TJDUIImageView.LoadImage(AImageFile: String);
+	begin
+		FImageFile := AImageFile;
+    ForceRepaint; //调用 ForceRepaint 触发控件重绘;
+	end;
+
+~~~
+
+## TJDUIWinControl
+
+父类为TJDUIControl，继承此类并重写绘制方法可创建自己的DirectUI控件，使用方式与TJDUIGraphicsControl一样，所不同的是：通过继续TJDUIWinControl的控件可以获取焦点（具有 JduTabStop，JduTabOrder 属性）。
 ## TJDUIContainer
 
-待完成
+此为容器类，此类在窗体上可做为DirectUI控件的容器，以方便多个控件组合在一起进行排版。此类不会参与窗体的渲染。
 
 ## TJDUIButton
 
