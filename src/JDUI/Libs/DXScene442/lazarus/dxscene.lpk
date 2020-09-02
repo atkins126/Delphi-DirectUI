@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Package Version="3">
+    <Name Value="dxscene"/>
+    <Author Value="Eugene Kryuov"/>
+    <CompilerOptions>
+      <Version Value="9"/>
+      <SearchPaths>
+        <OtherUnitFiles Value=".."/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <SyntaxMode Value="Delphi"/>
+          <CStyleOperator Value="False"/>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+      <Other>
+        <CompilerPath Value="$(CompPath)"/>
+      </Other>
+    </CompilerOptions>
+    <Description Value="DXScene Library	"/>
+    <Version Major="4"/>
+    <Files Count="14">
+      <Item1>
+        <Filename Value="../dx_ani.pas"/>
+        <UnitName Value="dx_ani"/>
+      </Item1>
+      <Item2>
+        <Filename Value="../dx_controls.pas"/>
+        <UnitName Value="dx_controls"/>
+      </Item2>
+      <Item3>
+        <Filename Value="../dx_objects.pas"/>
+        <UnitName Value="dx_objects"/>
+      </Item3>
+      <Item4>
+        <Filename Value="../dx_scene.pas"/>
+        <UnitName Value="dx_scene"/>
+      </Item4>
+      <Item5>
+        <Filename Value="../dx_utils.pas"/>
+        <UnitName Value="dx_utils"/>
+      </Item5>
+      <Item6>
+        <Filename Value="../dx_reg.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="dx_reg"/>
+      </Item6>
+      <Item7>
+        <Filename Value="../dx_vgcore.pas"/>
+        <UnitName Value="dx_vgcore"/>
+      </Item7>
+      <Item8>
+        <Filename Value="../dx_vglayer.pas"/>
+        <UnitName Value="dx_vglayer"/>
+      </Item8>
+      <Item9>
+        <Filename Value="../dx_opengl.pas"/>
+        <UnitName Value="dx_opengl"/>
+      </Item9>
+      <Item10>
+        <Filename Value="../dx_directx.pas"/>
+        <UnitName Value="dx_directx"/>
+      </Item10>
+      <Item11>
+        <Filename Value="../dx_dsgn_material.lfm"/>
+        <Type Value="LFM"/>
+      </Item11>
+      <Item12>
+        <Filename Value="../dx_dsgn_particle.pas"/>
+        <UnitName Value="dx_dsgn_particle"/>
+      </Item12>
+      <Item13>
+        <Filename Value="../dx_physics_newton.pas"/>
+        <UnitName Value="dx_physics_newton"/>
+      </Item13>
+      <Item14>
+        <Filename Value="../dx_textbox.pas"/>
+        <UnitName Value="dx_textbox"/>
+      </Item14>
+    </Files>
+    <Type Value="RunAndDesignTime"/>
+    <RequiredPkgs Count="3">
+      <Item1>
+        <PackageName Value="IDEIntf"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item3>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

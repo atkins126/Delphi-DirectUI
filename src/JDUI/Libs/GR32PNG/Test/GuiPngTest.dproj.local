@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="..\..\GR32PNG"/>
+    <File Path="..\GR32_Png.pas"/>
+    <File Path="..\GR32_PortableNetworkGraphic.pas"/>
+    <File Path="GR32_TestGuiPng.pas"/>
+    <File Path="GR32_TestGuiPngDisplay.pas"/>
+    <File Path="GR32_TestGuiPngDisplay.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

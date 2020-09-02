@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.05.03"/>
+    <PROJECT value="dxscene_cb5.bpl"/>
+    <OBJFILES value="..\dx_directx.obj ..\dx_objects.obj ..\dx_scene.obj ..\dx_timer.obj ..\dx_utils.obj ..\dx_version.obj ..\dx_ani.obj ..\dx_viewport.obj ..\dx_resource.obj ..\dx_controls.obj ..\dx_textbox.obj ..\dx_physics_newton.obj ..\dx_vgcore.obj ..\dx_vglayer.obj ..\dx_dsgn_material.obj ..\dx_dynamics.obj ..\dx_dsgn_particle.obj ..\dx_vgdb.obj ..\dx_reg.obj dxscene_cb5.obj"/>
+    <RESFILES value="..\dx_reg.dcr "/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="vcl50.lib Vclx50.lib"/>
+    <PACKAGES value=" vcl50.bpi vcldb50.bpi"/>
+    <PATHCPP value=".;..;"/>
+    <PATHPAS value=".;..;"/>
+    <PATHRC value=".;..;"/>
+    <PATHASM value=".;..;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="dxscene_cb5.cpp"/>
+    <INCLUDEPATH value="$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;..;"/>
+    <WARNINGS value="-w-par -w-8027 -w-8026"/>
+    <WARNOPTSTR value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-src_suffix cpp -I$(BCB)\include -I$(BCB)\include\vcl -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\vcl50.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y 
+      -v -vi- -c -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -v -JPHNE -M -LUdclstd50"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot; Package&quot; -aa -Tpp -x -Gn -Gl -Gi -v"/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0pkg32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+  </LINKER>
+  <IDEOPTIONS>
+  </IDEOPTIONS>
+</PROJECT>

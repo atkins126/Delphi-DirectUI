@@ -1,0 +1,55 @@
+package dxscene_d4;
+
+{$R *.res}
+{$ALIGN ON}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $00400000}
+{$IMPLICITBUILD ON}
+{$DESCRIPTION ' Package'}
+{$R '..\dx_reg.dcr'}
+
+
+requires
+  vcl40,
+  vcldb40;
+
+contains
+  dx_directx in '..\dx_directx.pas',
+  dx_objects in '..\dx_objects.pas',
+  dx_scene in '..\dx_scene.pas',
+  dx_timer in '..\dx_timer.pas',
+  dx_utils in '..\dx_utils.pas',
+  dx_version in '..\dx_version.pas',
+  dx_ani in '..\dx_ani.pas',
+  dx_viewport in '..\dx_viewport.pas',
+  dx_resource in '..\dx_resource.pas',
+  dx_controls in '..\dx_controls.pas',
+  dx_textbox in '..\dx_textbox.pas',
+  dx_physics_newton in '..\dx_physics_newton.pas',
+  dx_vgcore in '..\dx_vgcore.pas',
+  dx_vglayer in '..\dx_vglayer.pas',
+  dx_dsgn_material in '..\dx_dsgn_material.pas',
+  dx_dynamics in '..\dx_dynamics.pas',
+  dx_dsgn_particle in '..\dx_dsgn_particle.pas',
+  dx_vgdb in '..\dx_vgdb.pas',
+  dx_reg in '..\dx_reg.pas';
+
+end.

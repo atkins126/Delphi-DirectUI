@@ -1,19 +1,187 @@
-# Delphi-DirectUI
-Delphi DirectUI界面引擎。图形绘制基于Graphics32，支持IDE拖拽控件布局，具有非常优秀的渲染性能和酷炫的动画特效。
+[TOC]
 
-![alt screenshot1](http://imupdate.oss-cn-hangzhou.aliyuncs.com/pc/DDUI/FILE/screenshot/AnimateDemo.gif) 
+# 一、JDUI 介绍
 
+JDUI是一套Delphi DirectUI界面引擎，基于Graphics32，并做了大量针对性的性能优化。 支持高DPI缩放， 具有非常优秀的渲染性能和酷炫的动画特效。
+
+![alt Animate](http://imupdate.oss-cn-hangzhou.aliyuncs.com/pc/DDUI/FILE/screenshot/AnimateDemo.gif)
+
+![alt screenshot3](http://imupdate.oss-cn-hangzhou.aliyuncs.com/pc/DDUI/FILE/screenshot/screenshot3.png) 
+
+
+
+# 二、Demo项目安装说明
+
+## 使用环境
+
+操作系统: Windows XP/VISTA/7/8/10；
+
+开发工具: XE8,XE10等。
+
+## 安装编译
+
+1. clone 所有文件至本地电脑；
+
+2. 打开 JDUI Projects项目组；
+
+3. 编译并安装：PngComponents;
+
+4. 编译并安装：DCEF3;
+
+5. 编译并安装：Graphics32;
+
+6. 编译并安装：DragDrop；
+
+7. 编译并安装：DXScene；
+
+8. 安装  JDUIControls（DirectUI界面组件）;
+   1. 复制DirectUIDemo/win32/Debug/*.dll 文件至 C:\Users\Public\Documents\Embarcadero\Studio\16.0\Bpl （注意不一定是C盘）；
+   2. 编译并安装 JDUIControls 控件。
+
+9. 打开Demo项目；
+   在控件未安装之前，请勿打开此项目中的窗口文件，避免找不到控件导致控件被移除，可能造成无法编译或运行出错；
+
+10. 编译运行DEMO项目；
+   直接编译并运行Demo项目即可（如以Release方式运行，请先将Debug目录中的文件复制到Release目录）。
+
+   
+
+# 三、JDUI主要控件介绍
+
+## JDUI Form
+
+DirectUI的窗体以 WS_EX_LAYERED 模式运行，通过 UpdateLayeredWindow 方法刷新窗口，主要包括有以下几个类：
+
+* TJDUIFormRes
+
+  窗体的主要资源组件，可放置于窗体上，定义了窗体的外观属性（边框图片资源、工作区域等等）。
+
+* TJDUIFormBackRes
+
+  窗体的皮肤（背景）资源组件，可以通过FromFile或FromColor方法将窗体设置为图片背景或纯色的样式。
+
+* TJDUIFormBorderMaskRes
+
+  窗体的边框遮罩资源组件，窗体边框四角进行圆角处理时所用到的遮罩图片。
+
+* TJDUIForm
+
+  DirectUI窗体基类，将Delphi的窗体文件基类TForm替换成TJDUIForm即可将窗体以DirectUI模式工作：
+
+  ```pascal
+  //建议在IDE的窗体属性面版本中将 BorderStyle 设置为 bsNone，TJDUIForm会根据FormCreate中设置的属性做二次调整
+  
+  uses ..., JDUIBaseControl, JDUIControl;
+  
+  TDemoForm = class(TJDUIForm)  //替换基类
+  ...
+  end;
+    
+  procedure TDemoForm.FormCreate(Sender: TObject);
+  begin
+    OnAnimatedShow := AnimatedShow;  //窗口第一次方式打开（动画结束后）执行此事件
+    
+    //以下是TJDUIForm可设置的一些属性
+    AllowResize := True;
+    ShowIcon := False;
+    ShowCaption := False;
+    ShowSkinButton := False;
+    ShowMaxOrRestoreButton := True;
+    ShowMinButton := True;
+    
+    EnabledGlass := VistaUP and (not Win8) and (not Win10); //是否显示毛玻璃效果，仅Win7或Vista有效
+    DWMEnabled := EnabledGlass; //开启DWMEnabled，EnabledGlass才会生效
+    
+    PlaySwfSkin := True; //是否允许加载Flash皮肤（动态）
+    BlendBorder := True; //窗体四角是否做遮罩处理（通常是为了处理平滑的圆角效果）
+  
+    Self.ShowStyle := fssZoom; //窗体打开时的动画效果，有很多种效果，具体请查看枚举值
+    Self.HideStyle := fssZoom; //窗体关闭时的动画效果
+  
+    Self.ShowTime := 0.6; //窗体打开时的动画效果时长（秒）
+    Self.HideTime := 0.6; //窗体关闭时的动画效果时长（秒）
+  	
+  	WorkAreaAlpha := 255;
+    
+    //关联窗体所需要的资源组件，并载入一个皮肤文件
+    BorderMask := jduBorderMask;
+    FormBackRes := jduFormBackRes;
+    FormBackRes.FromFile(ExtractFilePath(Application.ExeName) + 'skins\skin1.jpg', bdtStretch);
+    FormRes := JduFormRes;
+  end;
+  
+  ```
+  
+  > 提示：图片资源的设置详情，请查看Demo示例项目
+
+## TJDUIControl
+
+待完成
+
+## TJDUIAnimation
+
+待完成
+
+## TJDUIContainer
+
+待完成
+
+## TJDUIButton
+
+待完成
+
+## TJDUIEdit
+
+待完成
+
+## TJDUIComboBox
+
+待完成
+
+## TJDUICheckBox
+
+待完成
+
+## JDUIRadioButton
+
+待完成
+
+## TJDUIImage
+
+待完成
+
+## TJDUIListView
+
+待完成
+
+## TJDUITableView
+
+待完成
+
+## TJDUIWebView
+
+待完成
+
+## TJDUIListView
+
+待完成
+
+# 四、更多屏幕截图
 ![alt screenshot1](http://imupdate.oss-cn-hangzhou.aliyuncs.com/pc/DDUI/FILE/screenshot/screenshot1.png) 
 
 ![alt screenshot2](http://imupdate.oss-cn-hangzhou.aliyuncs.com/pc/DDUI/FILE/screenshot/screenshot2.png) 
-
-![alt screenshot3](http://imupdate.oss-cn-hangzhou.aliyuncs.com/pc/DDUI/FILE/screenshot/screenshot3.png) 
 
 ![alt screenshot4](http://imupdate.oss-cn-hangzhou.aliyuncs.com/pc/DDUI/FILE/screenshot/screenshot4.png) 
 
 ![alt screenshot5](http://imupdate.oss-cn-hangzhou.aliyuncs.com/pc/DDUI/FILE/screenshot/screenshot5.png) 
 
-![alt screenshot6](http://imupdate.oss-cn-hangzhou.aliyuncs.com/pc/DDUI/FILE/screenshot/screenshot6.png) 
+![alt screenshot6](http://imupdate.oss-cn-hangzhou.aliyuncs.com/pc/DDUI/FILE/screenshot/screenshot6.png)  
 
-![alt screenshot7](http://imupdate.oss-cn-hangzhou.aliyuncs.com/pc/DDUI/FILE/screenshot/screenshot7.png) 
+![alt Animate](http://imupdate.oss-cn-hangzhou.aliyuncs.com/pc/DDUI/FILE/screenshot/AnimateDemo.gif)
+
+
+
+# 五、获取完整源码
+
+获取JDUI DirectUI引擎完整源码（有偿），详情请联系：QQ:  327902924 微信:  18674590115
 

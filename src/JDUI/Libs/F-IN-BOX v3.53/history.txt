@@ -1,0 +1,117 @@
+http://www.f-in-box.com/delphi/history.html
+
+LEGEND
+-------
+
+[+] - new feature;
+[x] - fixed bug;
+[!] - changes;
+
+HISTORY
+--------
+
+3.4
+------
+
+[+] OnLoadExternalResourceAsync 
+[+] SetGlobalOnLoadExternalResourceHandlerAsync 
+[x] The problem of WS_IME_* messages has fixed: some symbols (for example, in Korean language) showed incorrectly 
+[+] Flash 10 is fully supported 
+[+] Delphi 2009 and Builder C++ 2009 is fully supported 
+
+3.3.5
+------
+
+[x] the problem of the processing WM_IME_* messages has been fixed.
+
+3.1.2
+------
+
+[x] Problem with OnLoadExternalResourceHandler. If you provide content using OnLoadExternalResourceHandler, 
+    Flash doesn't receive notification when all data is provided.
+
+[+] New event OnPreProcessURL.
+
+[+] Builder C++ 2006 is supported.
+
+3.1
+----
+
+[!] UNICODE is fully suported now: the signatures of the following functions / events have been changed (AnsiString -> WideString): 
+OnLoadExternalResource 
+SetGlobalOnLoadExternalResourceHandler 
+OnLoadExternalResourceEx 
+SetGlobalOnLoadExternalResourceHandlerEx 
+
+3.0.2
+------
+
+[x] GDI leaks in TTransparentFlashPlayerControl fixed.
+[+] Builder C++ 2006 is fully supported.
+
+3.0
+----
+
+[+] Streaming is added.
+
+2.2 
+----
+
+[+] Flash 9 is supported. 
+
+[+] External API is supported. 
+
+[+] All versions of Builder (3, 4, 5, 6) are supported. 
+
+[+] Delphi 2006 is supported.
+
+2.1
+----
+
+[+] Flash 8 is supported.
+
+2.0
+----
+
+[+] Flash Transparent is fully supported. 
+
+[+] Ability to play Flash Video (FLV) from stream. 
+
+[+] New functions: IsFlashInstalled and SetGlobalOnLoadExternalResourceHandler. 
+
+[+] Builder 6 is supported.
+
+1.2
+----
+
+[+] New function: CreateFrameBitmap - create a bitmap from the current frame of a movie.
+
+[+] New functions: SetAudioEnabled/GetAudioEnabled - enabling/disabling all flash sounds.
+
+[+] New property: StandartMenu - enabling/disabling the standart flash context menu.
+
+[+] Delphi 2005 is supported.
+
+1.1
+----
+
+[+] New events: OnDblClick, OnMouseMove, OnMouseUp, OnClick, OnMouseDown.
+
+[+] New functions: GetUsingFlashVersion and GetInstalledFlashVersion.
+
+[+] New event: OnLoadExternalResource. The event OnLoadExternalResource is called when a movie tries to load an external resource (xml, jpeg, etc.) using a relative path. The event is called only if the movie is loaded from a stream.
+
+[+] Flash 3, 4, 5, 6, 7 are supported.
+
+[!] The property SWRemote and the property FlashVars are not supported for Flash 6.
+
+[x] Crash when access to the property SWRemote and the property FlashVars under some subversions of Flash 6 - fixed.
+
+[x] The hand cursor disappears under win98/Me - fixed.
+
+[x] Sound is interrupting sometimes if size of a movie is changing - fixed.
+
+1.0
+----
+
+First version.

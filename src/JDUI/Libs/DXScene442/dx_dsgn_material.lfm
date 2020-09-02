@@ -1,0 +1,818 @@
+object frmMaterialDesign: TfrmMaterialDesign
+  Left = 488
+  Height = 422
+  Top = 212
+  Width = 640
+  BorderStyle = bsDialog
+  Caption = 'Material Designer'
+  ClientHeight = 422
+  ClientWidth = 640
+  Color = 3158064
+  Font.CharSet = RUSSIAN_CHARSET
+  Font.Color = 10526880
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '0.9.29'
+  object dxScene1: TdxScene
+    Left = 0
+    Height = 422
+    Top = 0
+    Width = 640
+    Align = alClient
+    Quality = dxHighQuality
+    FillColor = '#FF020202'
+    AmbientColor = '#FF202020'
+    RealTimeSleep = 0
+    DesignCameraPos = -20
+    DesignCameraZAngle = -45.5999526977539
+    DesignCameraXAngle = 16.10009765625
+    DesignSnapGridShow = False
+    DesignSnapToGrid = False
+    DesignSnapToLines = True
+    object Root1: TdxVisualObject
+      DragMode = dxDragManual
+      DragDisableHighlight = False
+      Locked = False
+      Width = 1
+      Height = 1
+      Depth = 1
+      DesignHide = False
+      Opacity = 1
+      Quanternion = '(0,0,0,1)'
+      object GUIImage1: TdxGUIImage
+        DragMode = dxDragManual
+        DragDisableHighlight = False
+        Position.Point = '(470,181,0)'
+        Locked = True
+        Width = 340
+        Height = 362
+        Depth = 3
+        DesignHide = False
+        Opacity = 1
+        CanFocused = True
+        TwoSide = True
+        LayerAlign = dxLayerClient
+        Bitmap.PNG = {
+          FFD8FFE000104A46494600010101006000600000FFDB00430001010101010101
+          0101010101010101010101010101010101010101010101010101010101010101
+          01010101010101010101010101010101010101010101010101FFDB0043010101
+          0101010101010101010101010101010101010101010101010101010101010101
+          010101010101010101010101010101010101010101010101010101010101FFC0
+          00110800C0014003012200021101031101FFC4001F0000010501010101010100
+          000000000000000102030405060708090A0BFFC400B510000201030302040305
+          0504040000017D01020300041105122131410613516107227114328191A10823
+          42B1C11552D1F02433627282090A161718191A25262728292A3435363738393A
+          434445464748494A535455565758595A636465666768696A737475767778797A
+          838485868788898A92939495969798999AA2A3A4A5A6A7A8A9AAB2B3B4B5B6B7
+          B8B9BAC2C3C4C5C6C7C8C9CAD2D3D4D5D6D7D8D9DAE1E2E3E4E5E6E7E8E9EAF1
+          F2F3F4F5F6F7F8F9FAFFC4001F01000301010101010101010100000000000001
+          02030405060708090A0BFFC400B5110002010204040304070504040001027700
+          0102031104052131061241510761711322328108144291A1B1C109233352F015
+          6272D10A162434E125F11718191A262728292A35363738393A43444546474849
+          4A535455565758595A636465666768696A737475767778797A82838485868788
+          898A92939495969798999AA2A3A4A5A6A7A8A9AAB2B3B4B5B6B7B8B9BAC2C3C4
+          C5C6C7C8C9CAD2D3D4D5D6D7D8D9DAE2E3E4E5E6E7E8E9EAF2F3F4F5F6F7F8F9
+          FAFFDA000C03010002110311003F00FE5DEB3E8AD0A002B3E8AD0A002B3E8AD0
+          A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8A
+          D0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E
+          8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B
+          3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A00
+          2B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A
+          002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD
+          0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8
+          AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3
+          E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002
+          B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A0
+          02B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0
+          A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8A
+          D0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E
+          8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B
+          3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A00
+          2B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A
+          002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD
+          0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8
+          AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3
+          E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002
+          B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A0
+          02B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0
+          A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8A
+          D0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E
+          8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B
+          3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A00
+          2B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A
+          002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD
+          0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8
+          AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3
+          E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002
+          B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A0
+          02B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0
+          A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8A
+          D0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E
+          8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B
+          3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A00
+          2B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A
+          002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD
+          0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8
+          AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A002B3E8AD0A00FFD9
+        }
+        WrapMode = vgImageTile
+        Quanternion = '(0,0,0,1)'
+      end
+      object Light1: TdxLight
+        DragMode = dxDragManual
+        DragDisableHighlight = False
+        Position.Point = '(6.18068,-11.8728,2.14413)'
+        RotateAngle.Point = '(21.8747,0,-23.6022)'
+        Locked = False
+        Width = 1
+        Height = 1
+        Depth = 1
+        DesignHide = False
+        Opacity = 1
+        LightType = dxLightDirectional
+        Quanternion = '(-0.15153,0.08274,0.20804,0.96276)'
+      end
+      object Cube1: TdxCylinder
+        DragMode = dxDragManual
+        DragDisableHighlight = False
+        Position.Point = '(1.51941,7.35516,3.9327)'
+        Locked = False
+        Width = 5
+        Height = 5
+        Depth = 5
+        DesignHide = False
+        Opacity = 1
+        Align = dxNone
+        Collider = False
+        ColliseTrack = False
+        Dynamic = False
+        Material.Diffuse = '#FF6839E4'
+        Material.Ambient = '#FF303030'
+        Material.BitmapMode = dxTexModulate
+        Material.BitmapTileX = 1
+        Material.BitmapTileY = 1
+        Material.BitmapRect.left = 0
+        Material.BitmapRect.top = 0
+        Material.BitmapRect.right = 0
+        Material.BitmapRect.bottom = 0
+        Material.FillMode = dxSolid
+        Quanternion = '(0,0,0,1)'
+        object rotate: TdxFloatAnimation
+          Duration = 10
+          Enabled = True
+          Inverse = False
+          Loop = True
+          StartValue = 0
+          StartFromCurrent = False
+          StopValue = 360
+          PropertyName = 'RotateAngle.Z'
+        end
+      end
+      object GUIObjectLayer1: TdxGUIObjectLayer
+        DragMode = dxDragManual
+        DragDisableHighlight = True
+        Position.Point = '(150,211,0)'
+        Locked = False
+        Width = 300
+        Height = 422
+        Depth = 8
+        DesignHide = False
+        Opacity = 1
+        ShowHint = True
+        TwoSide = True
+        ModulationColor = '#FFFFFFFF'
+        Resolution = 60
+        LayerAlign = dxLayerMostLeft
+        Fill.Style = vgBrushNone
+        Quanternion = '(0,0,0,1)'
+        DesignSnapGridShow = False
+        DesignSnapToGrid = False
+        DesignSnapToLines = True
+        object Root2: TvxLayout
+          RotateAngle = 0
+          Width = 300
+          Height = 422
+          Margins.Rect = '(9,9,9,9)'
+          object Background1: TvxBackground
+            Align = vaContents
+            RotateAngle = 0
+            Width = 300
+            Height = 422
+            HitTest = False
+          end
+          object checkLight: TvxCheckBox
+            Align = vaTop
+            Position.Point = '(79,195.910)'
+            RotateAngle = 0
+            Width = 212
+            Height = 19
+            Padding.Rect = '(70,9,0,0)'
+            CanFocused = True
+            IsChecked = False
+            Font.Size = 11.0000009536743
+            Font.Style = vgFontRegular
+            TextAlign = vgTextAlignNear
+            Text = 'Light Enabled'
+            OnChange = checkLightChange
+          end
+          object popupModulation: TvxCompoundPopupBox
+            Align = vaTop
+            Position.Point = '(9,14)'
+            RotateAngle = 0
+            Width = 282
+            Height = 21
+            Padding.Rect = '(0,5,0,0)'
+            TextLabel.Align = vaLeft
+            TextLabel.RotateAngle = 0
+            TextLabel.Locked = True
+            TextLabel.Width = 70
+            TextLabel.Height = 21
+            TextLabel.Padding.Rect = '(0,0,5,0)'
+            TextLabel.Font.Size = 11.0000009536743
+            TextLabel.Font.Style = vgFontRegular
+            TextLabel.TextAlign = vgTextAlignFar
+            TextLabel.Text = 'Modulation:'
+            TextLabel.WordWrap = False
+            PopupBox.Align = vaVertCenter
+            PopupBox.RotateAngle = 0
+            PopupBox.Locked = True
+            PopupBox.Width = 207
+            PopupBox.Height = 21
+            PopupBox.CanFocused = True
+            PopupBox.IsPressed = False
+            PopupBox.StaysPressed = False
+            PopupBox.Font.Size = 11.0000009536743
+            PopupBox.Font.Style = vgFontRegular
+            PopupBox.TextAlign = vgTextAlignCenter
+            PopupBox.Text = 'Modulate'
+            PopupBox.Items.strings = (
+              'Modulate'
+              'Replace'
+            )
+            PopupBox.ItemIndex = 0
+            Value = 0
+            OnChange = rgModulationClick
+          end
+          object popupFillMode: TvxCompoundPopupBox
+            Align = vaTop
+            Position.Point = '(9,40)'
+            RotateAngle = 0
+            Width = 282
+            Height = 21
+            Padding.Rect = '(0,5,0,0)'
+            TextLabel.Align = vaLeft
+            TextLabel.RotateAngle = 0
+            TextLabel.Locked = True
+            TextLabel.Width = 70
+            TextLabel.Height = 21
+            TextLabel.Padding.Rect = '(0,0,5,0)'
+            TextLabel.Font.Size = 11.0000009536743
+            TextLabel.Font.Style = vgFontRegular
+            TextLabel.TextAlign = vgTextAlignFar
+            TextLabel.Text = 'Fill Mode:'
+            TextLabel.WordWrap = False
+            PopupBox.Align = vaVertCenter
+            PopupBox.RotateAngle = 0
+            PopupBox.Locked = True
+            PopupBox.Width = 207
+            PopupBox.Height = 21
+            PopupBox.CanFocused = True
+            PopupBox.IsPressed = False
+            PopupBox.StaysPressed = False
+            PopupBox.Font.Size = 11.0000009536743
+            PopupBox.Font.Style = vgFontRegular
+            PopupBox.TextAlign = vgTextAlignCenter
+            PopupBox.Text = 'Solid'
+            PopupBox.Items.strings = (
+              'Solid'
+              'Wire Frame'
+            )
+            PopupBox.ItemIndex = 0
+            Value = 0
+            OnChange = rgFillModeClick
+          end
+          object popupShadeMode: TvxCompoundPopupBox
+            Align = vaTop
+            Position.Point = '(9,66)'
+            RotateAngle = 0
+            Width = 282
+            Height = 21
+            Padding.Rect = '(0,5,0,0)'
+            TextLabel.Align = vaLeft
+            TextLabel.RotateAngle = 0
+            TextLabel.Locked = True
+            TextLabel.Width = 70
+            TextLabel.Height = 21
+            TextLabel.Padding.Rect = '(0,0,5,0)'
+            TextLabel.Font.Size = 11.0000009536743
+            TextLabel.Font.Style = vgFontRegular
+            TextLabel.TextAlign = vgTextAlignFar
+            TextLabel.Text = 'Shade Mode:'
+            TextLabel.WordWrap = False
+            PopupBox.Align = vaVertCenter
+            PopupBox.RotateAngle = 0
+            PopupBox.Locked = True
+            PopupBox.Width = 207
+            PopupBox.Height = 21
+            PopupBox.CanFocused = True
+            PopupBox.IsPressed = False
+            PopupBox.StaysPressed = False
+            PopupBox.Font.Size = 11.0000009536743
+            PopupBox.Font.Style = vgFontRegular
+            PopupBox.TextAlign = vgTextAlignCenter
+            PopupBox.Text = 'Flat'
+            PopupBox.Items.strings = (
+              'Flat'
+              'Gouraud'
+            )
+            PopupBox.ItemIndex = 0
+            Value = 0
+            OnChange = rgShadeModeClick
+          end
+          object GroupBox1: TvxGroupBox
+            Align = vaTop
+            Position.Point = '(9,87)'
+            RotateAngle = 0
+            Width = 284
+            Height = 99.9098815917968
+            Margins.Rect = '(4,15,10,4)'
+            Padding.Rect = '(0,0,-2,0)'
+            Font.Size = 11.0000009536743
+            Font.Style = vgFontRegular
+            TextAlign = vgTextAlignCenter
+            Text = 'Texture:'
+            object popupBitmap: TvxCompoundPopupBox
+              Align = vaTop
+              Position.Point = '(4,20)'
+              RotateAngle = 0
+              Width = 200
+              Height = 21
+              Padding.Rect = '(0,5,70,0)'
+              TextLabel.Align = vaLeft
+              TextLabel.RotateAngle = 0
+              TextLabel.Locked = True
+              TextLabel.Width = 70
+              TextLabel.Height = 21
+              TextLabel.Padding.Rect = '(0,0,5,0)'
+              TextLabel.Font.Size = 11.0000009536743
+              TextLabel.Font.Style = vgFontRegular
+              TextLabel.TextAlign = vgTextAlignFar
+              TextLabel.Text = 'Bitmap:'
+              TextLabel.WordWrap = False
+              PopupBox.Align = vaVertCenter
+              PopupBox.RotateAngle = 0
+              PopupBox.Locked = True
+              PopupBox.Width = 125
+              PopupBox.Height = 21
+              PopupBox.CanFocused = True
+              PopupBox.IsPressed = False
+              PopupBox.StaysPressed = False
+              PopupBox.Font.Size = 11.0000009536743
+              PopupBox.Font.Style = vgFontRegular
+              PopupBox.TextAlign = vgTextAlignCenter
+              PopupBox.ItemIndex = -1
+              Value = -1
+              OnChange = cbBitmapListChange
+            end
+            object trackTileX: TvxCompoundTrackBar
+              Align = vaTop
+              Position.Point = '(4,44)'
+              RotateAngle = 0
+              Width = 270
+              Height = 20
+              Padding.Rect = '(0,3,0,0)'
+              DecimalDigits = 1
+              TextLabel.Align = vaLeft
+              TextLabel.RotateAngle = 0
+              TextLabel.Locked = True
+              TextLabel.Width = 70
+              TextLabel.Height = 20
+              TextLabel.Padding.Rect = '(0,0,5,0)'
+              TextLabel.Font.Size = 11.0000009536743
+              TextLabel.Font.Style = vgFontRegular
+              TextLabel.TextAlign = vgTextAlignFar
+              TextLabel.Text = 'Tile X:'
+              TextLabel.WordWrap = False
+              TrackBar.Align = vaVertCenter
+              TrackBar.Position.Point = '(0,2)'
+              TrackBar.RotateAngle = 0
+              TrackBar.Locked = True
+              TrackBar.Width = 145
+              TrackBar.Height = 15
+              TrackBar.CanFocused = True
+              TrackBar.Min = 0.20000000298023
+              TrackBar.Max = 10
+              TrackBar.Frequency = 0.20000000298023
+              TrackBar.Orientation = vgHorizontal
+              TrackBar.Value = 1
+              TrackBar.Tracking = True
+              ValueLabel.Align = vaVertCenter
+              ValueLabel.Position.Point = '(5,2)'
+              ValueLabel.RotateAngle = 0
+              ValueLabel.Locked = True
+              ValueLabel.Width = 45
+              ValueLabel.Height = 15
+              ValueLabel.Padding.Rect = '(5,0,0,0)'
+              ValueLabel.Font.Size = 11.0000009536743
+              ValueLabel.Font.Style = vgFontRegular
+              ValueLabel.TextAlign = vgTextAlignCenter
+              ValueLabel.Text = '1.0 '
+              OnChange = tbBitmaptileXChange
+            end
+            object trackTileY: TvxCompoundTrackBar
+              Align = vaTop
+              Position.Point = '(4,67)'
+              RotateAngle = 0
+              Width = 270
+              Height = 20
+              Padding.Rect = '(0,3,0,0)'
+              DecimalDigits = 1
+              TextLabel.Align = vaLeft
+              TextLabel.RotateAngle = 0
+              TextLabel.Locked = True
+              TextLabel.Width = 70
+              TextLabel.Height = 20
+              TextLabel.Padding.Rect = '(0,0,5,0)'
+              TextLabel.Font.Size = 11.0000009536743
+              TextLabel.Font.Style = vgFontRegular
+              TextLabel.TextAlign = vgTextAlignFar
+              TextLabel.Text = 'Tile Y:'
+              TextLabel.WordWrap = False
+              TrackBar.Align = vaVertCenter
+              TrackBar.Position.Point = '(0,2)'
+              TrackBar.RotateAngle = 0
+              TrackBar.Locked = True
+              TrackBar.Width = 145
+              TrackBar.Height = 15
+              TrackBar.CanFocused = True
+              TrackBar.Min = 0.20000000298023
+              TrackBar.Max = 10
+              TrackBar.Frequency = 0.20000000298023
+              TrackBar.Orientation = vgHorizontal
+              TrackBar.Value = 1
+              TrackBar.Tracking = True
+              ValueLabel.Align = vaVertCenter
+              ValueLabel.Position.Point = '(5,2)'
+              ValueLabel.RotateAngle = 0
+              ValueLabel.Locked = True
+              ValueLabel.Width = 45
+              ValueLabel.Height = 15
+              ValueLabel.Padding.Rect = '(5,0,0,0)'
+              ValueLabel.Font.Size = 11.0000009536743
+              ValueLabel.Font.Style = vgFontRegular
+              ValueLabel.TextAlign = vgTextAlignCenter
+              ValueLabel.Text = '1.0 '
+              OnChange = tbBitmaptileYChange
+            end
+            object btnAddBitmap: TvxButton
+              Position.Point = '(211,20)'
+              RotateAngle = 0
+              Width = 63.0000038146972
+              Height = 21
+              CanFocused = True
+              OnClick = btnAddBitmapClick
+              IsPressed = False
+              StaysPressed = False
+              Font.Style = vgFontRegular
+              TextAlign = vgTextAlignCenter
+              Text = 'Add...'
+            end
+          end
+          object GroupBox2: TvxGroupBox
+            Align = vaTop
+            Position.Point = '(9,214.910)'
+            RotateAngle = 0
+            Width = 282
+            Height = 199.090103149414
+            Margins.Rect = '(10,15,10,4)'
+            Font.Size = 11.0000009536743
+            Font.Style = vgFontRegular
+            TextAlign = vgTextAlignCenter
+            Text = 'Colors:'
+            object ColorBox1: TvxColorBox
+              Position.Point = '(10,161.090)'
+              RotateAngle = 0
+              Width = 130
+              Height = 18.9999389648437
+              Fill.Color = '#FF000000'
+              xRadius = 0
+              yRadius = 0
+              CornerType = vgCornerRound
+            end
+            object colorList: TvxStringListBox
+              Align = vaTop
+              Position.Point = '(10,15)'
+              RotateAngle = 0
+              Width = 262
+              Height = 25.090087890625
+              CanFocused = True
+              Resource = 'listboxstyle'
+              DisableMouseWheel = False
+              Columns = 2
+              HideSelectionUnfocused = False
+              ScrollBarSize = 16
+              ItemIndex = 1
+              ItemWidth = 0
+              ItemHeight = 19
+              OnChange = colorListChange
+              Items.strings = (
+                'Ambient'
+                'Diffuse'
+              )
+            end
+            object ColorQuad1: TvxColorQuad
+              Position.Point = '(10,40.090)'
+              RotateAngle = 0
+              Width = 128.999969482421
+              Height = 119.999992370605
+              Hue = 0
+              Lum = 0
+              Sat = 0
+              Alpha = 1
+              ColorBox = ColorBox1
+              OnChange = ColorQuad1Change
+            end
+            object ColorPicker1: TvxColorPicker
+              Position.Point = '(140,40.090)'
+              RotateAngle = 0
+              Width = 19
+              Height = 119.999992370605
+              Hue = 0
+              ColorQuad = ColorQuad1
+            end
+            object Layout1: TvxLayout
+              Align = vaRight
+              Position.Point = '(166.000,40.090)'
+              RotateAngle = 0
+              Width = 106.000015258789
+              Height = 155.000015258789
+              object numR: TvxNumberBox
+                Align = vaTop
+                Cursor = crIBeam
+                Position.Point = '(20,0)'
+                RotateAngle = 0
+                Width = 86.000015258789
+                Height = 21
+                Padding.Rect = '(20,0,0,5)'
+                CanFocused = True
+                Font.Size = 11.0000009536743
+                Font.Style = vgFontRegular
+                Password = False
+                Text = '0'
+                ReadOnly = False
+                OnChange = numRChange
+                Min = 0
+                Max = 255.000015258789
+                Value = 0
+                ValueType = vgValueInteger
+                HorzIncrement = 1
+                VertIncrement = 5
+                object Label1: TvxLabel
+                  Align = vaLeft
+                  Position.Point = '(-20,0)'
+                  RotateAngle = 0
+                  Width = 30
+                  Height = 21
+                  Padding.Rect = '(-20,0,0,0)'
+                  Font.Size = 11.0000009536743
+                  Font.Style = vgFontRegular
+                  TextAlign = vgTextAlignNear
+                  Text = 'R:'
+                end
+              end
+              object numB: TvxNumberBox
+                Align = vaTop
+                Cursor = crIBeam
+                Position.Point = '(20,52)'
+                RotateAngle = 0
+                Width = 86.000015258789
+                Height = 21
+                Padding.Rect = '(20,0,0,5)'
+                CanFocused = True
+                Font.Size = 11.0000009536743
+                Font.Style = vgFontRegular
+                Password = False
+                Text = '0'
+                ReadOnly = False
+                OnChange = numRChange
+                Min = 0
+                Max = 255.000015258789
+                Value = 0
+                ValueType = vgValueInteger
+                HorzIncrement = 1
+                VertIncrement = 5
+                object TvxLabel
+                  Align = vaLeft
+                  Position.Point = '(-20,0)'
+                  RotateAngle = 0
+                  Width = 30
+                  Height = 21
+                  Padding.Rect = '(-20,0,0,0)'
+                  Font.Size = 11.0000009536743
+                  Font.Style = vgFontRegular
+                  TextAlign = vgTextAlignNear
+                  Text = 'B:'
+                end
+              end
+              object numG: TvxNumberBox
+                Align = vaTop
+                Cursor = crIBeam
+                Position.Point = '(20,26)'
+                RotateAngle = 0
+                Width = 86.000015258789
+                Height = 21
+                Padding.Rect = '(20,0,0,5)'
+                CanFocused = True
+                Font.Size = 11.0000009536743
+                Font.Style = vgFontRegular
+                Password = False
+                Text = '0'
+                ReadOnly = False
+                OnChange = numRChange
+                Min = 0
+                Max = 255.000015258789
+                Value = 0
+                ValueType = vgValueInteger
+                HorzIncrement = 1
+                VertIncrement = 5
+                object TvxLabel
+                  Align = vaLeft
+                  Position.Point = '(-20,0)'
+                  RotateAngle = 0
+                  Width = 30
+                  Height = 21
+                  Padding.Rect = '(-20,0,0,0)'
+                  Font.Size = 11.0000009536743
+                  Font.Style = vgFontRegular
+                  TextAlign = vgTextAlignNear
+                  Text = 'G:'
+                end
+              end
+              object Label2: TvxLabel
+                Align = vaTop
+                Position.Point = '(0,104)'
+                RotateAngle = 0
+                Width = 106.000015258789
+                Height = 15
+                Font.Size = 11.0000009536743
+                Font.Style = vgFontRegular
+                TextAlign = vgTextAlignNear
+                Text = 'RGBA:'
+              end
+              object textRGBA: TvxTextBox
+                Align = vaTop
+                Cursor = crIBeam
+                Position.Point = '(0,119)'
+                RotateAngle = 0
+                Width = 106.000015258789
+                Height = 21
+                CanFocused = True
+                Font.Size = 11.0000009536743
+                Font.Style = vgFontRegular
+                FontFill.Color = '#FFEAEAEA'
+                Password = False
+                Text = 'TextBox'
+                ReadOnly = False
+                OnChange = textRGBAChange
+              end
+              object numA: TvxNumberBox
+                Align = vaTop
+                Cursor = crIBeam
+                Position.Point = '(20,78)'
+                RotateAngle = 0
+                Width = 86.000015258789
+                Height = 21
+                Padding.Rect = '(20,0,0,5)'
+                CanFocused = True
+                Font.Size = 11.0000009536743
+                Font.Style = vgFontRegular
+                Password = False
+                Text = '0'
+                ReadOnly = False
+                OnChange = numRChange
+                Min = 0
+                Max = 255.000015258789
+                Value = 0
+                ValueType = vgValueInteger
+                HorzIncrement = 1
+                VertIncrement = 5
+                object TvxLabel
+                  Align = vaLeft
+                  Position.Point = '(-20,0)'
+                  RotateAngle = 0
+                  Width = 30
+                  Height = 21
+                  Padding.Rect = '(-20,0,0,0)'
+                  Font.Size = 11.0000009536743
+                  Font.Style = vgFontRegular
+                  TextAlign = vgTextAlignNear
+                  Text = 'A:'
+                end
+              end
+            end
+          end
+        end
+      end
+      object Cube2: TdxCube
+        DragMode = dxDragManual
+        DragDisableHighlight = False
+        Position.Point = '(4.75667,2.91498,-1.15283)'
+        Locked = False
+        Width = 4
+        Height = 4
+        Depth = 4
+        DesignHide = False
+        Opacity = 1
+        Align = dxNone
+        Collider = False
+        ColliseTrack = False
+        Dynamic = False
+        Material.Diffuse = '#FFC7D5B4'
+        Material.Ambient = '#FF303030'
+        Material.BitmapMode = dxTexModulate
+        Material.BitmapTileX = 1
+        Material.BitmapTileY = 1
+        Material.BitmapRect.left = 0
+        Material.BitmapRect.top = 0
+        Material.BitmapRect.right = 0
+        Material.BitmapRect.bottom = 0
+        Material.FillMode = dxSolid
+        Quanternion = '(0,0,0,1)'
+        object FloatAnimation1: TdxFloatAnimation
+          Duration = 10
+          Enabled = True
+          Inverse = False
+          Loop = True
+          StartValue = 0
+          StartFromCurrent = False
+          StopValue = 360
+          PropertyName = 'RotateAngle.Z'
+        end
+      end
+      object modalLayout: TdxGUIObjectLayer
+        DragMode = dxDragManual
+        DragDisableHighlight = True
+        Position.Point = '(470,392,0)'
+        Locked = False
+        Width = 340
+        Height = 60
+        Depth = 8
+        DesignHide = False
+        Opacity = 1
+        ShowHint = True
+        TwoSide = True
+        Visible = False
+        ModulationColor = '#FFFFFFFF'
+        Resolution = 60
+        LayerAlign = dxLayerBottom
+        Fill.Style = vgBrushNone
+        Quanternion = '(0,0,0,1)'
+        DesignSnapGridShow = False
+        DesignSnapToGrid = False
+        DesignSnapToLines = True
+        object Root3: TvxLayout
+          RotateAngle = 0
+          Width = 340
+          Height = 60
+          object Background2: TvxBackground
+            Align = vaContents
+            RotateAngle = 0
+            Width = 340
+            Height = 60
+            object Button1: TvxButton
+              Position.Point = '(157,19)'
+              RotateAngle = 0
+              Width = 80
+              Height = 22
+              CanFocused = True
+              OnClick = Button1Click
+              IsPressed = False
+              StaysPressed = False
+              Font.Size = 11.0000009536743
+              Font.Style = vgFontRegular
+              ModalResult = 1
+              TextAlign = vgTextAlignCenter
+              Text = 'OK'
+            end
+            object Button2: TvxButton
+              Position.Point = '(250,19)'
+              RotateAngle = 0
+              Width = 80
+              Height = 22
+              CanFocused = True
+              IsPressed = False
+              StaysPressed = False
+              Font.Size = 11.0000009536743
+              Font.Style = vgFontRegular
+              ModalResult = 2
+              TextAlign = vgTextAlignCenter
+              Text = 'Cancel'
+            end
+          end
+        end
+      end
+    end
+  end
+end
