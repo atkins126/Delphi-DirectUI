@@ -30,7 +30,9 @@ package GR32_RSXE3;
 {$IMPLICITBUILD OFF}
 
 requires
-  vcl;
+  vcl,
+  vclimg,
+  rtl;
 
 contains
   GR32 in '..\GR32.pas',

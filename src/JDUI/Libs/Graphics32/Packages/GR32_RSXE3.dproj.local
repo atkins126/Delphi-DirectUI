@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899/12/30 00:00:00.000.000,F:\尹进的文件\IM\Client\Libs\Graphics32\Packages\GR32_RSXE3.dproj=F:\尹进的文件\IM\Client\Libs\Graphics32\Packages\GR32_RSXE2.dproj</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.000,F:\尹进的文件\IM\Client\Libs\Graphics32\Packages\GR32_RSXE2.dproj=F:\尹进的文件\IM\Client\Libs\Graphics32\Packages\GR32_RSXE3.dproj</Transaction>
+    <Transaction>2020/09/02 20:05:22.109,=vclimg.dcp</Transaction>
+    <Transaction>2020/09/02 20:05:22.125,=rtl.dcp</Transaction>
   </Transactions>
 	<ProjectSortOrder AutoSort="0" SortType="1">
-    <File Path="vcl.dcp"/>
     <File Path="..\..\Graphics32"/>
     <File Path="..\GR32.pas"/>
     <File Path="..\GR32_Backends.pas"/>
@@ -31,5 +32,8 @@
     <File Path="..\GR32_Transforms.pas"/>
     <File Path="..\GR32_VectorMaps.pas"/>
     <File Path="..\GR32_XPThemes.pas"/>
+    <File Path="rtl.dcp"/>
+    <File Path="vcl.dcp"/>
+    <File Path="vclimg.dcp"/>
   </ProjectSortOrder>
 </BorlandProject>
