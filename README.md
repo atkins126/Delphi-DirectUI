@@ -123,29 +123,30 @@ DirectUI控件的基类，不直接使用，主要实现了为控件创建32位�
 父类为TJDUIControl，继承此类并重写绘制方法可创建自己的DirectUI控件。
 
 ~~~pascal
-  type
-	TJDUIImageView = class(TJDUIGraphicsControl)
-		private
-		FImageFile: String;
-    protected
-    procedure PaintSelf(ATargetBitmap: TBitmap32); override;
+type
+TJDUIImageView = class(TJDUIGraphicsControl)
+  private
+  FImageFile: String;		
+  
+  protected
+  procedure PaintSelf(ATargetBitmap: TBitmap32); override;
     
-    public
-    procedure LoadImage(AImageFile: String);
-	end;
+  public
+  procedure LoadImage(AImageFile: String);
+end;
 	
-	implementation
-	procedure TJDUIImageView.PaintSelf(ATargetBitmap: TBitmap32);
-	begin
-		//在 ATargetBitmap 上绘制即可，此处仅做示例
-		ATargetBitmap.LoadFromFile(FImageFile);
-	end;
+implementation
+procedure TJDUIImageView.PaintSelf(ATargetBitmap: TBitmap32);
+begin
+  //在 ATargetBitmap 上绘制即可，此处仅做示例
+  ATargetBitmap.LoadFromFile(FImageFile);
+end;
 	
-	procedure TJDUIImageView.LoadImage(AImageFile: String);
-	begin
-		FImageFile := AImageFile;
-    ForceRepaint; //调用 ForceRepaint 触发控件重绘;
-	end;
+procedure TJDUIImageView.LoadImage(AImageFile: String);
+begin
+  FImageFile := AImageFile;
+  ForceRepaint; //调用 ForceRepaint 触发控件重绘;
+end;
 
 ~~~
 
