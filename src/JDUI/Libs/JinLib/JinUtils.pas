@@ -2227,7 +2227,7 @@ begin
           end;
       end;
     end
-    else
+    else if FileExists(FileName) then
     begin
       case TimeFlag of
         1:
@@ -2243,6 +2243,10 @@ begin
             Result := IOUtils.TFile.GetLastAccessTime(FileName);
           end;
       end;
+    end
+    else
+    begin
+      Result := 0;
     end;
   except
     Result := 0;

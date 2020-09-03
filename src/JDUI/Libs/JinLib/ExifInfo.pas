@@ -1713,7 +1713,7 @@ var
   AllowError: Boolean;
   Msg: string;
 begin
-  AllowError := True;
+  AllowError := False;
   if Assigned(FOnError) then FOnError(Self, ACode, AllowError);
   if AllowError then
   begin
