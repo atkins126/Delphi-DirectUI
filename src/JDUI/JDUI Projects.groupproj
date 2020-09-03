@@ -27,6 +27,9 @@
         <Projects Include="Libs\pngcomponents\PackagesD2010\PngComponents.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="Libs\pngcomponents\PackagesD2010\PngComponentsDesign.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -107,14 +110,23 @@
     <Target Name="PngComponents:Make">
         <MSBuild Projects="Libs\pngcomponents\PackagesD2010\PngComponents.dproj" Targets="Make"/>
     </Target>
+    <Target Name="PngComponentsDesign">
+        <MSBuild Projects="Libs\pngcomponents\PackagesD2010\PngComponentsDesign.dproj"/>
+    </Target>
+    <Target Name="PngComponentsDesign:Clean">
+        <MSBuild Projects="Libs\pngcomponents\PackagesD2010\PngComponentsDesign.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PngComponentsDesign:Make">
+        <MSBuild Projects="Libs\pngcomponents\PackagesD2010\PngComponentsDesign.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="DirectUIDemo;JDUIControls;DragDropDXE5;dxscene_d2011;GR32_DSGN_RSXE3;GR32_RSXE3;DCEF_XE5;PngComponents"/>
+        <CallTarget Targets="DirectUIDemo;JDUIControls;DragDropDXE5;dxscene_d2011;GR32_DSGN_RSXE3;GR32_RSXE3;DCEF_XE5;PngComponents;PngComponentsDesign"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="DirectUIDemo:Clean;JDUIControls:Clean;DragDropDXE5:Clean;dxscene_d2011:Clean;GR32_DSGN_RSXE3:Clean;GR32_RSXE3:Clean;DCEF_XE5:Clean;PngComponents:Clean"/>
+        <CallTarget Targets="DirectUIDemo:Clean;JDUIControls:Clean;DragDropDXE5:Clean;dxscene_d2011:Clean;GR32_DSGN_RSXE3:Clean;GR32_RSXE3:Clean;DCEF_XE5:Clean;PngComponents:Clean;PngComponentsDesign:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="DirectUIDemo:Make;JDUIControls:Make;DragDropDXE5:Make;dxscene_d2011:Make;GR32_DSGN_RSXE3:Make;GR32_RSXE3:Make;DCEF_XE5:Make;PngComponents:Make"/>
+        <CallTarget Targets="DirectUIDemo:Make;JDUIControls:Make;DragDropDXE5:Make;dxscene_d2011:Make;GR32_DSGN_RSXE3:Make;GR32_RSXE3:Make;DCEF_XE5:Make;PngComponents:Make;PngComponentsDesign:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
