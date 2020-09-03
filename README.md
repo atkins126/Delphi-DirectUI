@@ -101,7 +101,7 @@ DirectUI的窗体以 WS_EX_LAYERED 模式运行，通过 UpdateLayeredWindow 方
     Self.ShowTime := 0.6; //窗体打开时的动画效果时长（秒）
     Self.HideTime := 0.6; //窗体关闭时的动画效果时长（秒）
   	
-  	WorkAreaAlpha := 255;
+    WorkAreaAlpha := 255;
     
     //关联窗体所需要的资源组件，并载入一个皮肤文件
     BorderMask := jduBorderMask;
