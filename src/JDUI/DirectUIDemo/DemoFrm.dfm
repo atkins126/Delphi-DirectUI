@@ -942,97 +942,6 @@ object DemoForm: TDemoForm
           ExplicitLeft = 819
         end
       end
-      object jduPage5: TJDUIContainer
-        Left = 0
-        Top = 0
-        Width = 1080
-        Height = 668
-        Clips.Left = 0
-        Clips.Top = 0
-        Clips.Right = 0
-        Clips.Bottom = 0
-        TabOrder = 6
-        Align = alClient
-        Visible = False
-        DesignSize = (
-          1080
-          668)
-        object jduWebView: TJDUIWebView
-          Left = 0
-          Top = 0
-          Width = 1080
-          Height = 668
-          Animate = True
-          GrayScale = False
-          UseFormFontName = False
-          UseFormFontColor = False
-          UseExtendResource = False
-          Alpha = 255
-          EnableParentClip = True
-          EnableFormClip = True
-          Align = alClient
-          JduTabStop = False
-          JduTabOrder = 0
-          Transparent = False
-          OnLoadEnd = jduWebViewLoadEnd
-          ExplicitTop = 56
-          ExplicitHeight = 654
-        end
-        object jduImageLoading: TJDUIImageLoading
-          Left = 496
-          Top = 286
-          Width = 108
-          Height = 108
-          Animate = True
-          GrayScale = False
-          UseFormFontName = False
-          UseFormFontColor = False
-          UseExtendResource = False
-          Alpha = 255
-          EnableParentClip = True
-          EnableFormClip = True
-          Anchors = []
-          Duration = 1.200000000000000000
-          RealTime = False
-          EnableRadio = True
-          Count = 5
-          Picture.Data = {
-            89504E470D0A1A0A0000000D4948445200000019000000191006000000947959
-            200000000467414D410000B18F0BFC6105000000017352474200AECE1CE90000
-            0006624B4744000000000000F943BB7F00000009704859730000004800000048
-            0046C96B3E000002904944415478DAD598CF4F134114C7BF5390B672D44421A2
-            51E0E4C59F91AB5E881A12F4E0C9A340FC2B4C4C8CFE031A82C13FC013865F37
-            391B5A6E26460413D1AA516FFE601BCBFA7D6F6651973676B7B553DE64BBF363
-            3BFB3E3BEFCDBC1983D4B28A0564990CF317F81BF23EAABFC0195E52D3A3ADC0
-            3E57FF8597E44A5A6F506449723308B4FE29AF415C6229A998FA1F0D710B19E4
-            B08673B8AEAF0D71CF01F4A4FF1EDBBD8B7CD2BBC11D94F11679DC67E93CD3CF
-            C64144F1591CE60BB68831E3FE70B261C5EB013358E195410557B0897E8CE04D
-            72903CD6B188B354BFC24E67F5C11007FE3B4075A08FC4E9E07D043F700C17B1
-            FC6F901C01E671841D54D8F8CC1B402D20C3D4C10FBC89010C63A31AC8125327
-            9DB70FDF496C6DFF846FFDAB02819344401FDA8B21443EB40D92D559E8A61B81
-            07BEF5AD0348C6669C40039CE51E8ADEBFA7D110AF9B360BB506A44490005F71
-            14A60B2F3187CB74266998F3AD5F2A20D0FD4D8E23328F29573DE65BAF142220
-            933059055969D9FAD06CB1CE5F8840DE3B9083BEF54A01627D85A6F58A208163
-            EBF2AD574A09644404A4B46B66ABB858677F179956C199D669DF7AA50011598E
-            4C6BD2554DF8D62B95182EE06A5A0B320F1324646EB7898DC186FF5ED9C180D1
-            02F5FAD6AF0E80D8CA1E35D891197320538DBCA3452022378831C8B864BA5AF4
-            7B88317F14BE9FF2AD6F0D80A2068BDFB85715C3BAA65B8E98E4F1024F685A5B
-            84DAE3C2F97630B504FB913850FBEC10810F0C6A336E87D8CFB0BDB0E3B9B6DE
-            B36B0CC5D489AB3B462031C89F5DC74F5180BB4D33BD6885B6F9DBF4810D74E3
-            119A768A525B9EE331633399B8BBF55C4B6454B16C8420DFB2D799E47E67E39F
-            B5144A48A12D452D857AAE55E6167B8975C7E9BCE5C4DAFC02C1C8DB8D18826E
-            510000002574455874646174653A63726561746500323031382D31302D303854
-            31353A35383A35392B30383A30302F22004D0000002574455874646174653A6D
-            6F6469667900323031382D31302D30385431353A35383A35392B30383A30305E
-            7FB8F10000004C744558747376673A626173652D7572690066696C653A2F2F2F
-            686F6D652F61646D696E2F69636F6E2D666F6E742F746D702F69636F6E5F686C
-            6C7738686E3130306F2F2545352539432538362E737667D44D078D0000000049
-            454E44AE426082}
-          OnStart = jduImageLoadingStart
-          OnStop = jduImageLoadingStop
-          ExplicitTop = 279
-        end
-      end
       object jduPage3: TJDUIContainer
         Left = 0
         Top = 0
@@ -1523,3712 +1432,6 @@ object DemoForm: TDemoForm
               Align = alClient
               ScrollBarRes = jduScrollBarRes
               DefaultLineHeight = 60
-            end
-          end
-        end
-      end
-      object jduPage4: TJDUIContainer
-        Left = 0
-        Top = 0
-        Width = 1080
-        Height = 668
-        Clips.Left = 0
-        Clips.Top = 0
-        Clips.Right = 0
-        Clips.Bottom = 0
-        TabOrder = 5
-        Align = alClient
-        Visible = False
-        object jduContainerInput: TJDUIContainer
-          Left = 0
-          Top = 0
-          Width = 1080
-          Height = 668
-          Clips.Left = 0
-          Clips.Top = 0
-          Clips.Right = 0
-          Clips.Bottom = 0
-          TabOrder = 0
-          Align = alClient
-          object jduInputTop: TJDUIContainer
-            Left = 0
-            Top = 0
-            Width = 1080
-            Height = 50
-            Clips.Left = 0
-            Clips.Top = 0
-            Clips.Right = 0
-            Clips.Bottom = 0
-            TabOrder = 0
-            Align = alTop
-            DesignSize = (
-              1080
-              50)
-            object jduPanel3: TJDUIPanel
-              Left = 0
-              Top = 0
-              Width = 1080
-              Height = 50
-              Animate = True
-              GrayScale = False
-              UseFormFontName = False
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              Align = alClient
-              Caption = ''
-              Color = 0
-              BorderColor = -1776412
-              Borders = [pbkBottomLine]
-              ExplicitLeft = -1
-              ExplicitWidth = 754
-            end
-            object btAddImage: TJDUIButton
-              Left = 367
-              Top = 12
-              Width = 28
-              Height = 28
-              Hint = 'Add Image'
-              Animate = True
-              GrayScale = False
-              UseFormFontName = False
-              UseFormFontColor = False
-              UseExtendResource = True
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = False
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clBlack
-              Font.Height = -12
-              Font.Name = #23435#20307
-              Font.Style = []
-              OnClick = btAddImageClick
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = ''
-              ParentFont = False
-              EllipsisPosition = epEndEllipsis
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = True
-              PictureClick = False
-              Down = False
-              ImageAlign = iatCenter
-              ImagePadding = 0
-              ShowCaption = True
-              ShowShadown = False
-              CaptionShadownColor = clBlack
-              ShowNineGridsType = ngtHover
-              IncContentWhenClick = True
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = 0
-              Picture.Data = {
-                89504E470D0A1A0A0000000D49484452000000100000001010060000004F6323
-                220000000467414D410000B18F0BFC6105000000017352474200AECE1CE90000
-                0006624B4744000000000000F943BB7F00000009704859730000004800000048
-                0046C96B3E0000010D4944415478DA63641860C058C800824719FE83A1159DAD
-                3FC2C058C00082FF1926802123DDAC86D94B750740CC6B83F2F2A0213B110AAB
-                E9E580CF501E0F94FE0C359F8F5C073042352C646007C35C864E30FC88A1321F
-                0C5B813A40300F2A3A116A7E0DE90E8024D2446850CE838A6E66E007C3008646
-                30FC476648E171401918F232FC02C39B505149B83CC4418DD0B86DC069512818
-                32334883611FD49E7CC20E808877437925388CFF0F85A15087AC85CB94802137
-                C31F305C0E15F585DB83D301902057811A7C05AA919D40807E86C6B925C36F30
-                7CCFC002869BA0F2C67095041D0049445BA1067A911CB784004107C0F8B40283
-                DF01F402680E380C15B6A19B0320E0301DBD8C03000065F7ACEAEDB2F80A0000
-                002574455874646174653A63726561746500323032302D30382D32375431343A
-                30373A34312B30383A3030741BAEFD0000002574455874646174653A6D6F6469
-                667900323032302D30382D32375431343A30373A34312B30383A303005461641
-                00000048744558747376673A626173652D7572690066696C653A2F2F2F686F6D
-                652F61646D696E2F69636F6E2D666F6E742F746D702F69636F6E5F6873377764
-                6B6A703831682F696D6167652E737667369744AE0000000049454E44AE426082}
-              NineGridsRes = jdu9GLightGrayNormal
-              NineGridsResAtTop = False
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.050000000745058060
-              AnimateOutTime = 0.200000002980232200
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object btCopyScreen: TJDUIButton
-              Left = 400
-              Top = 12
-              Width = 28
-              Height = 28
-              Hint = 'ScreenShot'
-              Animate = True
-              GrayScale = False
-              UseFormFontName = False
-              UseFormFontColor = False
-              UseExtendResource = True
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = False
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clBlack
-              Font.Height = -12
-              Font.Name = #23435#20307
-              Font.Style = []
-              OnClick = btCopyScreenClick
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = ''
-              ParentFont = False
-              EllipsisPosition = epEndEllipsis
-              Default = False
-              DropDownIconClickAreaWidth = 12
-              DropDownIconClickAreaMargin = 1
-              DropDownIconHoverColor = 14145495
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = True
-              PictureClick = False
-              Down = False
-              ImageAlign = iatCenter
-              ImagePadding = 0
-              ShowCaption = False
-              ShowShadown = False
-              CaptionShadownColor = clBlack
-              ShowNineGridsType = ngtHover
-              IncContentWhenClick = True
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = 0
-              Picture.Data = {
-                89504E470D0A1A0A0000000D49484452000000100000001010060000004F6323
-                220000000467414D410000B18F0BFC6105000000017352474200AECE1CE90000
-                0006624B4744000000000000F943BB7F00000009704859730000004800000048
-                0046C96B3E000002394944415478DAB5944D4854511480CFD3F107498304459C
-                85846E0AC2DA5B8C82E242D028711144B8C84DE40CFE444262222E54465DE842
-                C4851B91425C84442806D12A70A1AE14DA64A015E110A2637FF79DFBCD8BDE90
-                4EA2EF5B1CCEB9E7EFDE7BEE73C2E2D220BF9419B15FA69CED77886C16C736D0
-                43034F5858407E3BE5C2E790B5C8E1E4061CA54CA2CAE6A995B6754AA9B3917A
-                030F95421951B6532EE88FFBEF06AC5E86E333ECF7686CF6989D36123F85F516
-                F11BA93760659AFC54160928C27E874666BCC2ADCA4DB484FDABFC50421250E2
-                27BD8212D38ACB127E41FC6EA3C74938878CD178A58C2A6B279F81BF777811BF
-                25FC8A7C1710C35E49FC6AAA4378998E2F9917EAB220634AF233B4FE2D241AF7
-                ECB6701B858792E21E287992AE34615D35317CDD4AA6EC2AED58AB91BB147C47
-                A12EEC5FB03B7001F908FB15F45CF44539AF4C9A337789271A7038E21724AE95
-                A3BF1D125E673602E8AF59CFFF67A46DE8B9390B97C6C4155493E025725EB295
-                BBA64797A06F3D5D3E2A4173692E0E27F78132874C7F8DE4285B72A04CB35E47
-                9E1BE2D89D4758186221C40F64D93784514FB33B09323B19E8EF898F121FF1E2
-                234A08FFC46B0A8B639F593D09E6904F19A66EC866876F082C2551A164290186
-                F733F16BDC750577BDCF73EEF7CD88F941D9E9CC623ADFD2EF351C560828C05E
-                8CBD831D0E783BB405FAF07F8C750BF909598E5C973DE5EA9F57D0A614C877A5
-                176B150563E8E3149E481A2E7B52699C542771F7692807FD95B92C97B00C2A3B
-                F21BC7A2610DD5E4375C0000002574455874646174653A637265617465003230
-                32302D30382D32375431343A30383A34312B30383A30308510F5700000002574
-                455874646174653A6D6F6469667900323032302D30382D32375431343A30383A
-                34312B30383A3030F44D4DCC0000004D744558747376673A626173652D757269
-                0066696C653A2F2F2F686F6D652F61646D696E2F69636F6E2D666F6E742F746D
-                702F69636F6E5F3632637531786F726F66342F73637265656E73686F742E7376
-                6744E524390000000049454E44AE426082}
-              NineGridsRes = jdu9GLightGrayNormal
-              NineGridsResAtTop = False
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.050000000745058060
-              AnimateOutTime = 0.200000002980232200
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object edFontSize: TJDUIComboBox
-              Left = 4
-              Top = 11
-              Width = 88
-              Height = 31
-              Margins.Left = 8
-              Margins.Top = 0
-              Margins.Right = 29
-              Margins.Bottom = 0
-              Animate = True
-              GrayScale = False
-              UseFormFontName = True
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clBlack
-              Font.Height = -13
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              JduTabStop = False
-              JduTabOrder = 6
-              PopupFormRes = JduFormRes
-              Hover9G = jdu9GppmGray
-              DropDownMode = True
-              ShowImage = False
-              ItemHeight = 22
-              ItemViewCount = 12
-              Split = False
-              SplitColor = -1710619
-              DropColor = -5592406
-              DropBackColor = -657931
-              DropButtonWidth = 21
-              DropButtonTopMargin = 3
-              DropButtonBottomMargin = 3
-              DropButtonLeftMargin = 5
-              DropButtonRightMargin = 3
-              MouseOverActionWidth = 0
-              Text = ''
-              MaxLength = 0
-              PasswordChar = #0
-              ReadOnly = True
-              AutoSelect = False
-              NumbersOnly = False
-              BorderRes = jdu9GEditHover
-              ScrollBarRes = jduScrollBarRes
-              UnFocusedColor = clBlack
-              OnChange = edFontSizeChange
-            end
-            object cbLineSpace: TJDUIComboBox
-              Left = 91
-              Top = 11
-              Width = 93
-              Height = 31
-              Cursor = crIBeam
-              Margins.Left = 5
-              Margins.Top = 0
-              Margins.Right = 29
-              Margins.Bottom = 0
-              Animate = True
-              GrayScale = False
-              UseFormFontName = True
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clBlack
-              Font.Height = -13
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              JduTabStop = False
-              JduTabOrder = 4
-              PopupFormRes = JduFormRes
-              ScrollBar = jduScrollBarRes
-              Hover9G = jdu9GppmGray
-              DropDownMode = True
-              ShowImage = False
-              ItemHeight = 22
-              ItemViewCount = 20
-              Split = False
-              SplitColor = -1710619
-              DropColor = -5592406
-              DropBackColor = -657931
-              DropButtonWidth = 21
-              DropButtonTopMargin = 3
-              DropButtonBottomMargin = 3
-              DropButtonLeftMargin = 5
-              DropButtonRightMargin = 3
-              MouseOverActionWidth = 0
-              Text = ''
-              MaxLength = 0
-              PasswordChar = #0
-              ReadOnly = False
-              AutoSelect = False
-              NumbersOnly = False
-              BorderRes = jdu9GEditHover
-              ScrollBarRes = jduScrollBarRes
-              UnFocusedColor = clBlack
-              OnChange = cbLineSpaceChange
-            end
-            object jduImage2: TJDUIImage
-              Left = 358
-              Top = 18
-              Width = 1
-              Height = 17
-              Animate = True
-              GrayScale = False
-              UseFormFontName = False
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 200
-              EnableParentClip = True
-              EnableFormClip = True
-              AutoSize = False
-              BaseProtectedBack = False
-              PaintMode = False
-              Picture.Data = {
-                89504E470D0A1A0A0000000D4948445200000001000000010802000000907753
-                DE000000097048597300000B1300000B1301009A9C1800000A4D694343505068
-                6F746F73686F70204943432070726F66696C65000078DA9D53775893F7163EDF
-                F7650F5642D8F0B1976C81002223AC08C81059A21092006184101240C585880A
-                561415119C4855C482D50A489D88E2A028B867418A885A8B555C38EE1FDCA7B5
-                7D7AEFEDEDFBD7FBBCE79CE7FCCE79CF0F8011122691E6A26A003952853C3AD8
-                1F8F4F48C4C9BD80021548E0042010E6CBC26705C50000F00379787E74B03FFC
-                01AF6F00020070D52E2412C7E1FF83BA50265700209100E02212E70B01905200
-                C82E54C81400C81800B053B3640A009400006C797C422200AA0D00ECF4493E05
-                00D8A993DC1700D8A21CA908008D0100992847240240BB00605581522C02C0C2
-                00A0AC40222E04C0AE018059B632470280BD0500768E58900F4060008099422C
-                CC0020380200431E13CD03204C03A030D2BFE0A95F7085B8480100C0CB95CD97
-                4BD23314B895D01A77F2F0E0E221E2C26CB142611729106609E4229C979B2313
-                48E7034CCE0C00001AF9D1C1FE383F90E7E6E4E1E666E76CEFF4C5A2FE6BF06F
-                223E21F1DFFEBC8C020400104ECFEFDA5FE5E5D60370C701B075BF6BA95B00DA
-                560068DFF95D33DB09A05A0AD07AF98B7938FC401E9EA150C83C1D1C0A0B0BED
-                2562A1BD30E38B3EFF33E16FE08B7EF6FC401EFEDB7AF000719A4099ADC0A383
-                FD71616E76AE528EE7CB0442316EF7E723FEC7857FFD8E29D1E234B15C2C158A
-                F15889B850224DC779B952914421C995E212E97F32F11F96FD0993770D00AC86
-                4FC04EB607B5CB6CC07EEE01028B0E58D27600407EF32D8C1A0B910010673432
-                79F7000093BFF98F402B0100CD97A4E30000BCE8185CA894174CC608000044A0
-                812AB041070CC114ACC00E9CC11DBCC01702610644400C24C03C104206E4801C
-                0AA11896411954C03AD804B5B0031AA0119AE110B4C131380DE7E0125C81EB70
-                170660189EC218BC86090441C8081361213A8811628ED822CE0817998E042261
-                48349280A420E988145122C5C872A402A9426A915D4823F22D7214398D5C40FA
-                90DBC820328AFC8ABC47319481B25103D4027540B9A81F1A8AC6A073D174340F
-                5D8096A26BD11AB41E3D80B6A2A7D14BE87574007D8A8E6380D1310E668CD961
-                5C8C87456089581A26C71663E55835568F35631D583776151BC09E61EF082402
-                8B8013EC085E8410C26C82909047584C5843A825EC23B412BA085709838431C2
-                272293A84FB4257A12F9C478623AB1905846AC26EE211E219E255E270E135F93
-                48240EC992E44E0A21259032490B496B48DB482DA453A43ED210699C4C26EB90
-                6DC9DEE408B280AC209791B7900F904F92FBC9C3E4B7143AC588E24C09A22452
-                A494124A35653FE504A59F324299A0AA51CDA99ED408AA883A9F5A496DA07650
-                2F5387A91334759A25CD9B1643CBA42DA3D5D09A696769F7682FE974BA09DD83
-                1E4597D097D26BE807E9E7E983F4770C0D860D83C7486228196B197B19A718B7
-                192F994CA605D39799C85430D7321B9967980F986F55582AF62A7C1591CA1295
-                3A9556957E95E7AA545573553FD579AA0B54AB550FAB5E567DA64655B350E3A9
-                09D416ABD5A91D55BBA936AECE5277528F50CF515FA3BE5FFD82FA630DB28685
-                46A08648A35463B7C6198D2116C63265F15842D6725603EB2C6B984D625BB2F9
-                EC4C7605FB1B762F7B4C534373AA66AC6691669DE671CD010EC6B1E0F039D99C
-                4ACE21CE0DCE7B2D032D3F2DB1D66AAD66AD7EAD37DA7ADABEDA62ED72ED16ED
-                EBDAEF75709D409D2C9DF53A6D3AF77509BA36BA51BA85BADB75CFEA3ED363EB
-                79E909F5CAF50EE9DDD147F56DF4A3F517EAEFD6EFD11F373034083690196C31
-                3863F0CC9063E86B9869B8D1F084E1A811CB68BA91C468A3D149A327B826EE87
-                67E33578173E66AC6F1C62AC34DE65DC6B3C61626932DBA4C4A4C5E4BE29CD94
-                6B9A66BAD1B4D374CCCCC82CDCACD8ACC9EC8E39D59C6B9E61BED9BCDBFC8D85
-                A5459CC54A8B368BC796DA967CCB05964D96F7AC98563E567956F556D7AC49D6
-                5CEB2CEB6DD6576C501B579B0C9B3A9BCBB6A8AD9BADC4769B6DDF14E2148F29
-                D229F5536EDA31ECFCEC0AEC9AEC06ED39F661F625F66DF6CF1DCC1C121DD63B
-                743B7C727475CC766C70BCEBA4E134C3A9C4A9C3E957671B67A1739DF33517A6
-                4B90CB1297769717536DA78AA76E9F7ACB95E51AEEBAD2B5D3F5A39BBB9BDCAD
-                D96DD4DDCC3DC57DABFB4D2E9B1BC95DC33DEF41F4F0F758E271CCE39DA79BA7
-                C2F390E72F5E765E595EFBBD1E4FB39C269ED6306DC8DBC45BE0BDCB7B603A3E
-                3D65FACEE9033EC63E029F7A9F87BEA6BE22DF3DBE237ED67E997E07FC9EFB3B
-                FACBFD8FF8BFE179F216F14E056001C101E501BD811A81B3036B031F049904A5
-                0735058D05BB062F0C3E15420C090D591F72936FC017F21BF96333DC672C9AD1
-                15CA089D155A1BFA30CC264C1ED6118E86CF08DF107E6FA6F94CE9CCB60888E0
-                476C88B81F69199917F97D14292A32AA2EEA51B453747174F72CD6ACE459FB67
-                BD8EF18FA98CB93BDB6AB6727667AC6A6C526C63EC9BB880B8AAB8817887F845
-                F1971274132409ED89E4C4D8C43D89E37302E76C9A339CE49A54967463AEE5DC
-                A2B917E6E9CECB9E773C593559907C3885981297B23FE5832042502F184FE5A7
-                6E4D1D13F2849B854F45BEA28DA251B1B7B84A3C92E69D5695F638DD3B7D43FA
-                68864F4675C633094F522B79911992B923F34D5644D6DEACCFD971D92D39949C
-                949CA3520D6996B42BD730B728B74F662B2B930DE479E66DCA1B9387CAF7E423
-                F973F3DB156C854CD1A3B452AE500E164C2FA82B785B185B78B848BD485AD433
-                DF66FEEAF9230B82167CBD90B050B8B0B3D8B87859F1E022BF45BB16238B5317
-                772E315D52BA647869F0D27DCB68CBB296FD50E2585255F26A79DCF28E5283D2
-                A5A5432B82573495A994C9CB6EAEF45AB9631561956455EF6A97D55B567F2A17
-                955FAC70ACA8AEF8B046B8E6E2574E5FD57CF5796DDADADE4AB7CAEDEB48EBA4
-                EB6EACF759BFAF4ABD6A41D5D086F00DAD1BF18DE51B5F6D4ADE74A17A6AF58E
-                CDB4CDCACD03356135ED5BCCB6ACDBF2A136A3F67A9D7F5DCB56FDADABB7BED9
-                26DAD6BFDD777BF30E831D153BDEEF94ECBCB52B78576BBD457DF56ED2EE82DD
-                8F1A621BBABFE67EDDB847774FC59E8F7BA57B07F645EFEB6A746F6CDCAFBFBF
-                B2096D52368D1E483A70E59B806FDA9BED9A77B5705A2A0EC241E5C127DFA67C
-                7BE350E8A1CEC3DCC3CDDF997FB7F508EB48792BD23ABF75AC2DA36DA03DA1BD
-                EFE88CA39D1D5E1D47BEB7FF7EEF31E36375C7358F579EA09D283DF1F9E48293
-                E3A764A79E9D4E3F3DD499DC79F74CFC996B5D515DBD6743CF9E3F1774EE4CB7
-                5FF7C9F3DEE78F5DF0BC70F422F762DB25B74BAD3DAE3D477E70FDE148AF5B6F
-                EB65F7CBED573CAE74F44DEB3BD1EFD37FFA6AC0D573D7F8D72E5D9F79BDEFC6
-                EC1BB76E26DD1CB825BAF5F876F6ED17770AEE4CDC5D7A8F78AFFCBEDAFDEA07
-                FA0FEA7FB4FEB165C06DE0F860C060CFC3590FEF0E09879EFE94FFD387E1D247
-                CC47D52346238D8F9D1F1F1B0D1ABDF264CE93E1A7B2A713CFCA7E56FF79EB73
-                ABE7DFFDE2FB4BCF58FCD8F00BF98BCFBFAE79A9F372EFABA9AF3AC723C71FBC
-                CE793DF1A6FCADCEDB7DEFB8EFBADFC7BD1F9928FC40FE50F3D1FA63C7A7D04F
-                F73EE77CFEFC2FF784F3FB25D29F330000000C4944415478DA633C77EE1C0004
-                DC026C8B02BE5E0000000049454E44AE426082}
-              StreachMode = smNearest
-              Rotate = rtNone
-              Async = False
-              KeepScale = False
-            end
-            object btBold: TJDUIButton
-              Left = 188
-              Top = 12
-              Width = 28
-              Height = 28
-              Hint = 'Bold'
-              Animate = True
-              GrayScale = False
-              UseFormFontName = True
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = True
-              Anchors = [akLeft, akBottom]
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clScrollBar
-              Font.Height = -12
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              OnClick = btBoldClick
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = ''
-              ParentFont = False
-              EllipsisPosition = epNone
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = True
-              PictureClick = False
-              Down = False
-              ImageAlign = iatCenter
-              ImagePadding = 0
-              ShowCaption = True
-              ShowShadown = False
-              CaptionShadownColor = -1
-              ShowNineGridsType = ngtHover
-              IncContentWhenClick = True
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = 0
-              Picture.Data = {
-                89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
-                610000001974455874536F6674776172650041646F626520496D616765526561
-                647971C9653C0000032469545874584D4C3A636F6D2E61646F62652E786D7000
-                000000003C3F787061636B657420626567696E3D22EFBBBF222069643D225735
-                4D304D7043656869487A7265537A4E54637A6B633964223F3E203C783A786D70
-                6D65746120786D6C6E733A783D2261646F62653A6E733A6D6574612F2220783A
-                786D70746B3D2241646F626520584D5020436F726520352E332D633031312036
-                362E3134353636312C20323031322F30322F30362D31343A35363A3237202020
-                2020202020223E203C7264663A52444620786D6C6E733A7264663D2268747470
-                3A2F2F7777772E77332E6F72672F313939392F30322F32322D7264662D73796E
-                7461782D6E7323223E203C7264663A4465736372697074696F6E207264663A61
-                626F75743D222220786D6C6E733A786D703D22687474703A2F2F6E732E61646F
-                62652E636F6D2F7861702F312E302F2220786D6C6E733A786D704D4D3D226874
-                74703A2F2F6E732E61646F62652E636F6D2F7861702F312E302F6D6D2F222078
-                6D6C6E733A73745265663D22687474703A2F2F6E732E61646F62652E636F6D2F
-                7861702F312E302F73547970652F5265736F75726365526566232220786D703A
-                43726561746F72546F6F6C3D2241646F62652050686F746F73686F7020435336
-                20284D6163696E746F7368292220786D704D4D3A496E7374616E636549443D22
-                786D702E6969643A444141393230373944413631313145383932383539413444
-                45463639433842462220786D704D4D3A446F63756D656E7449443D22786D702E
-                6469643A44414139323037414441363131314538393238353941344445463639
-                43384246223E203C786D704D4D3A4465726976656446726F6D2073745265663A
-                696E7374616E636549443D22786D702E6969643A444141393230373744413631
-                3131453839323835394134444546363943384246222073745265663A646F6375
-                6D656E7449443D22786D702E6469643A44414139323037384441363131314538
-                39323835394134444546363943384246222F3E203C2F7264663A446573637269
-                7074696F6E3E203C2F7264663A5244463E203C2F783A786D706D6574613E203C
-                3F787061636B657420656E643D2272223F3E9A2FC407000001B74944415478DA
-                CD92CB4A425114867FCFD1E3357060E00B0829153532B0C2CAB21CA954D24528
-                5211894AA1D25917139C1545D43C875256937A87EA05A29920A239D05214DD9D
-                B307819C6CD2A4051B166B2DBEBD2EBF841082BF98E4FF00AE6FEFC87DE6A663
-                61DFC0207CAB2BD068341211A0D56A917ABD8E62B1889D9D5D9AF0FBFD30998C
-                A87C547179718E42A140211BA12018562A1175D06834483E9FFF062C2D2F6374
-                6498FA57A9141E1F1E603018108FC72193C9C400C17800090683D4F7F90398B6
-                4FA1542A616FFF00EF7C77E14804FD7DBDE038AE33C0EBF58AE6D7E9BA31EBF1
-                60727C0C4AA5122CCB7606B8DD6EA8D56A04020158AD56349B4D1CC68FF0F2FC
-                048BC5824422F13BC0E17040A150201C0EC36EB7D3F8EB5B16EBA135D46A356C
-                F33BF2CCCF7506D8266CE0E41C62B1185C2E17847C2E97C3CCF40C8D6F6E45B0
-                B8E0F9EEA20D90CD668950F859FD44329984D3E904C3B0884677914EA7A1D56A
-                91C964A0D7EBC580E3D3337276724CFD6AB90C655757DB22CDE6217A0593B107
-                2A95AA7D044148C27C954A45D0034DF0B76E03F03FD20BC8E5F29F97280849D8
-                380FFB51CA52A9943E8661C452FE8B7D01631CD4E13414405D0000000049454E
-                44AE426082}
-              NineGridsRes = jdu9GLightGrayNormal
-              NineGridsResAtTop = False
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.200000002980232200
-              AnimateOutTime = 0.300000011920929000
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object btUnderLine: TJDUIButton
-              Left = 221
-              Top = 12
-              Width = 28
-              Height = 28
-              Hint = 'Under Line'
-              Animate = True
-              GrayScale = False
-              UseFormFontName = True
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = True
-              Anchors = [akLeft, akBottom]
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clScrollBar
-              Font.Height = -12
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              OnClick = btUnderLineClick
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = ''
-              ParentFont = False
-              EllipsisPosition = epNone
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = True
-              PictureClick = False
-              Down = False
-              ImageAlign = iatCenter
-              ImagePadding = 0
-              ShowCaption = True
-              ShowShadown = False
-              CaptionShadownColor = -1
-              ShowNineGridsType = ngtHover
-              IncContentWhenClick = True
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = 0
-              Picture.Data = {
-                89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
-                610000001974455874536F6674776172650041646F626520496D616765526561
-                647971C9653C0000032469545874584D4C3A636F6D2E61646F62652E786D7000
-                000000003C3F787061636B657420626567696E3D22EFBBBF222069643D225735
-                4D304D7043656869487A7265537A4E54637A6B633964223F3E203C783A786D70
-                6D65746120786D6C6E733A783D2261646F62653A6E733A6D6574612F2220783A
-                786D70746B3D2241646F626520584D5020436F726520352E332D633031312036
-                362E3134353636312C20323031322F30322F30362D31343A35363A3237202020
-                2020202020223E203C7264663A52444620786D6C6E733A7264663D2268747470
-                3A2F2F7777772E77332E6F72672F313939392F30322F32322D7264662D73796E
-                7461782D6E7323223E203C7264663A4465736372697074696F6E207264663A61
-                626F75743D222220786D6C6E733A786D703D22687474703A2F2F6E732E61646F
-                62652E636F6D2F7861702F312E302F2220786D6C6E733A786D704D4D3D226874
-                74703A2F2F6E732E61646F62652E636F6D2F7861702F312E302F6D6D2F222078
-                6D6C6E733A73745265663D22687474703A2F2F6E732E61646F62652E636F6D2F
-                7861702F312E302F73547970652F5265736F75726365526566232220786D703A
-                43726561746F72546F6F6C3D2241646F62652050686F746F73686F7020435336
-                20284D6163696E746F7368292220786D704D4D3A496E7374616E636549443D22
-                786D702E6969643A444141393230374444413631313145383932383539413444
-                45463639433842462220786D704D4D3A446F63756D656E7449443D22786D702E
-                6469643A44414139323037454441363131314538393238353941344445463639
-                43384246223E203C786D704D4D3A4465726976656446726F6D2073745265663A
-                696E7374616E636549443D22786D702E6969643A444141393230374244413631
-                3131453839323835394134444546363943384246222073745265663A646F6375
-                6D656E7449443D22786D702E6469643A44414139323037434441363131314538
-                39323835394134444546363943384246222F3E203C2F7264663A446573637269
-                7074696F6E3E203C2F7264663A5244463E203C2F783A786D706D6574613E203C
-                3F787061636B657420656E643D2272223F3E6EACD63F000001E44944415478DA
-                63FCFFFF3F03258071F018B072D5EAFFBB76EE40917473F760080D0966983475
-                1AC3E50BE7E1E23EFE010C817EBE8C7003FEFEFDFBFFE7CF9F0CE72F5C649836
-                752A585157572783A0A020030B0B0BC3AF5FBF18B66EDBCEB069E34686D2F25A
-                06351559060E0E0E0626262646B80B8006FCBF7CE52A437F5F1FDC0031313190
-                22863F7FFE303C7DF682A1B5A50928DEC5C0CBCBCBC0C6C6C688E2857FFFFEFD
-                BF74E53643534325983F63C60C90018C30B9376FDE3014161631CC9E3D8B818B
-                8B8B11230CFEFDFDF3FFD2D5BB0CE5A57960FEE2C58BE10680C0DBB76FFFA7A6
-                A6322C59B2048701405BCE9DBFC050909FC7C0CDCD8D61C0AB57AFFE67646410
-                67C08F1F3F18B66DDB8661406C6C2CC3FAF5EBF11B90949000E66FD8B4994149
-                511EAEF0C08183FF274D9AC8B07CF972067676764C0340E0CB972FFFE3E2E218
-                2E5DBAC4606E6EC100D2202C2CCC78E1D2CDFFA0C0F5F6F56388898AC46D0028
-                2A3F7EFCC8D0DBDBCBB076ED5AB8B8B2B2324358442443487010030F307C9899
-                99B11B00F20628D17CFDFA1594B8C06240C5601A682B28EEE1F18F350C642525
-                C1ECF79F3E3108F2F1C115A1F31F3C79C2C0CACA8A9A9040CEFF014CCE7F7EFF
-                66F8CFC8C6F0EFCF77B0F87F565606E6FF2C703E3B3009737172C20D00008658
-                0BF06C2B538A0000000049454E44AE426082}
-              NineGridsRes = jdu9GLightGrayNormal
-              NineGridsResAtTop = False
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.200000002980232200
-              AnimateOutTime = 0.300000011920929000
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object btSUB: TJDUIButton
-              Left = 287
-              Top = 12
-              Width = 28
-              Height = 28
-              Hint = 'sub'
-              Animate = True
-              GrayScale = False
-              UseFormFontName = True
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = True
-              Anchors = [akLeft, akBottom]
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clScrollBar
-              Font.Height = -12
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              OnClick = btSUBClick
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = ''
-              ParentFont = False
-              EllipsisPosition = epNone
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = True
-              PictureClick = False
-              Down = False
-              ImageAlign = iatCenter
-              ImagePadding = 0
-              ShowCaption = True
-              ShowShadown = False
-              CaptionShadownColor = -1
-              ShowNineGridsType = ngtHover
-              IncContentWhenClick = True
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = 0
-              Picture.Data = {
-                89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
-                610000001974455874536F6674776172650041646F626520496D616765526561
-                647971C9653C0000032469545874584D4C3A636F6D2E61646F62652E786D7000
-                000000003C3F787061636B657420626567696E3D22EFBBBF222069643D225735
-                4D304D7043656869487A7265537A4E54637A6B633964223F3E203C783A786D70
-                6D65746120786D6C6E733A783D2261646F62653A6E733A6D6574612F2220783A
-                786D70746B3D2241646F626520584D5020436F726520352E332D633031312036
-                362E3134353636312C20323031322F30322F30362D31343A35363A3237202020
-                2020202020223E203C7264663A52444620786D6C6E733A7264663D2268747470
-                3A2F2F7777772E77332E6F72672F313939392F30322F32322D7264662D73796E
-                7461782D6E7323223E203C7264663A4465736372697074696F6E207264663A61
-                626F75743D222220786D6C6E733A786D703D22687474703A2F2F6E732E61646F
-                62652E636F6D2F7861702F312E302F2220786D6C6E733A786D704D4D3D226874
-                74703A2F2F6E732E61646F62652E636F6D2F7861702F312E302F6D6D2F222078
-                6D6C6E733A73745265663D22687474703A2F2F6E732E61646F62652E636F6D2F
-                7861702F312E302F73547970652F5265736F75726365526566232220786D703A
-                43726561746F72546F6F6C3D2241646F62652050686F746F73686F7020435336
-                20284D6163696E746F7368292220786D704D4D3A496E7374616E636549443D22
-                786D702E6969643A334641423238374544413632313145383932383539413444
-                45463639433842462220786D704D4D3A446F63756D656E7449443D22786D702E
-                6469643A33464142323837464441363231314538393238353941344445463639
-                43384246223E203C786D704D4D3A4465726976656446726F6D2073745265663A
-                696E7374616E636549443D22786D702E6969643A334641423238374344413632
-                3131453839323835394134444546363943384246222073745265663A646F6375
-                6D656E7449443D22786D702E6469643A33464142323837444441363231314538
-                39323835394134444546363943384246222F3E203C2F7264663A446573637269
-                7074696F6E3E203C2F7264663A5244463E203C2F783A786D706D6574613E203C
-                3F787061636B657420656E643D2272223F3EB02ED16A0000017A4944415478DA
-                63FCFFFF3F032580717018F0EFDFBFFF9595956081F6F676062626264698027C
-                7270037EFCF8F1BFB4AC1C2E3871423F58E1BFBF7FFEE71716C3C57BBABB18D8
-                D9D9310DF8F9F3E7FF8F1F3F32C06C028119336630646464C0F920DBF9F8F818
-                383838300D0039F3DBB76F0C2043CA905C02035D5D9D0CFCFCFC0C5C5C5CD8BD
-                00F32BCC90DCDC5CB882C99327E3D48C110BBF7FFFFEEFE3E383E1822D5BB630
-                B0B2B2823577ADF9FE7FE3B10F0C7CDC6C0C2BCA79515D60676707D7B468F152
-                86B8D86838FFF0E12340357F41E1C5F0F9EB5F86C0D2B70CEDF9228830303333
-                832BDEB8712328B040B1C3E0EFEF0F173F79F224482DC394556F180E9DFFC0B0
-                B84116110BA626A66045DB776C07FB19185D60DB4061E2E9E109963B75FA14C3
-                BAFD3F1856EF7DCE30A148964144880B351A41001458B00083052C0883003BD0
-                559E79EF189EBFFB0CE6E78523790118806041606061A444981C087CF9F205EC
-                35901739393949CB0B30C3607A98999929CF4C00BA9AF5F27E72771800000000
-                49454E44AE426082}
-              NineGridsRes = jdu9GLightGrayNormal
-              NineGridsResAtTop = False
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.200000002980232200
-              AnimateOutTime = 0.300000011920929000
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object btSUP: TJDUIButton
-              Left = 320
-              Top = 12
-              Width = 28
-              Height = 28
-              Hint = 'sup'
-              Animate = True
-              GrayScale = False
-              UseFormFontName = True
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = True
-              Anchors = [akLeft, akBottom]
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clScrollBar
-              Font.Height = -12
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              OnClick = btSUPClick
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = ''
-              ParentFont = False
-              EllipsisPosition = epNone
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = True
-              PictureClick = False
-              Down = False
-              ImageAlign = iatCenter
-              ImagePadding = 0
-              ShowCaption = True
-              ShowShadown = False
-              CaptionShadownColor = -1
-              ShowNineGridsType = ngtHover
-              IncContentWhenClick = True
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = 0
-              Picture.Data = {
-                89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
-                610000001974455874536F6674776172650041646F626520496D616765526561
-                647971C9653C0000032469545874584D4C3A636F6D2E61646F62652E786D7000
-                000000003C3F787061636B657420626567696E3D22EFBBBF222069643D225735
-                4D304D7043656869487A7265537A4E54637A6B633964223F3E203C783A786D70
-                6D65746120786D6C6E733A783D2261646F62653A6E733A6D6574612F2220783A
-                786D70746B3D2241646F626520584D5020436F726520352E332D633031312036
-                362E3134353636312C20323031322F30322F30362D31343A35363A3237202020
-                2020202020223E203C7264663A52444620786D6C6E733A7264663D2268747470
-                3A2F2F7777772E77332E6F72672F313939392F30322F32322D7264662D73796E
-                7461782D6E7323223E203C7264663A4465736372697074696F6E207264663A61
-                626F75743D222220786D6C6E733A786D703D22687474703A2F2F6E732E61646F
-                62652E636F6D2F7861702F312E302F2220786D6C6E733A786D704D4D3D226874
-                74703A2F2F6E732E61646F62652E636F6D2F7861702F312E302F6D6D2F222078
-                6D6C6E733A73745265663D22687474703A2F2F6E732E61646F62652E636F6D2F
-                7861702F312E302F73547970652F5265736F75726365526566232220786D703A
-                43726561746F72546F6F6C3D2241646F62652050686F746F73686F7020435336
-                20284D6163696E746F7368292220786D704D4D3A496E7374616E636549443D22
-                786D702E6969643A334641423238374144413632313145383932383539413444
-                45463639433842462220786D704D4D3A446F63756D656E7449443D22786D702E
-                6469643A33464142323837424441363231314538393238353941344445463639
-                43384246223E203C786D704D4D3A4465726976656446726F6D2073745265663A
-                696E7374616E636549443D22786D702E6969643A444141393230374644413631
-                3131453839323835394134444546363943384246222073745265663A646F6375
-                6D656E7449443D22786D702E6469643A44414139323038304441363131314538
-                39323835394134444546363943384246222F3E203C2F7264663A446573637269
-                7074696F6E3E203C2F7264663A5244463E203C2F783A786D706D6574613E203C
-                3F787061636B657420656E643D2272223F3E3C81A7670000018D4944415478DA
-                A5523D4FC26010BEB662A146490C2BFF42D8649684843839189D590035026173
-                A291C400C181596262FC189A34C145870E0E60E2CF6051C2977CA6BC726FED6B
-                2B38204FF20E77D77B9EBBE7CA11426019708B1264EFFB447969C2C6DA2ADCA4
-                D61723D0759D0C8743E87CEAB09BF80039EE310826930949A7D3F423599681E7
-                79CE6CB2D632990CC67079FB0EDA5B13CA675E8360CA4A4E1349A654C85D002F
-                AC70D81C3F3A36D44723C815F2F0F0DC87BBA73AE44FBCE0D9940C82C16040DA
-                ED36984A8852A904914884C53899E8744230D6807AA34373B13DCB0ABD5E0F5A
-                AD162493A959E3B2E7E076BBC1E17040B7DB4541704EC95C2ED78F8956926834
-                CA9A8BC5226D962489C6E3F118CC1E4110EC5798164928149A9940555554E760
-                0E2C131012086CB3C255F91A0E0FF659AC699AED3A36021CDFEFF7B3A4A22874
-                47DC351C0EB37CB55A9D216167F46DF968A2F258A13B8BA28879EA497027486B
-                B5D71AE6E713E08708340B1F2A99C6E2437C1373735740771178AADF7FE25F35
-                9B89FFC5D2045F727DF5F24BFBAB3D0000000049454E44AE426082}
-              NineGridsRes = jdu9GLightGrayNormal
-              NineGridsResAtTop = False
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.200000002980232200
-              AnimateOutTime = 0.300000011920929000
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object btItalic: TJDUIButton
-              Left = 254
-              Top = 12
-              Width = 28
-              Height = 28
-              Hint = 'Italic'
-              Animate = True
-              GrayScale = False
-              UseFormFontName = True
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = True
-              Anchors = [akLeft, akBottom]
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clScrollBar
-              Font.Height = -12
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              OnClick = btItalicClick
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = ''
-              ParentFont = False
-              EllipsisPosition = epNone
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = True
-              PictureClick = False
-              Down = False
-              ImageAlign = iatCenter
-              ImagePadding = 0
-              ShowCaption = True
-              ShowShadown = False
-              CaptionShadownColor = -1
-              ShowNineGridsType = ngtHover
-              IncContentWhenClick = True
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = 0
-              Picture.Data = {
-                89504E470D0A1A0A0000000D4948445200000010000000100804000000B5FA37
-                EA0000000467414D410000AFC837058AE90000001974455874536F6674776172
-                650041646F626520496D616765526561647971C9653C000000894944415478DA
-                63FCCF801F30525B414EC3AF82DFFC3F3FFEBAB0C6018709F10F7ECBFF485CB7
-                008709B106BFCFFFF8B84100A715A113FEE57F59B83301A702DF077FE5BF041E
-                DA80438137D082EF1F0F0B206B4151E0348139FFDDC2B3093815583E6090FF14
-                7875030E05E60EFFF77F66B8CE8823A04C1B7E3AFC64F8C9F0EBC3B3009AC605
-                26000064CC440160698B1D0000000049454E44AE426082}
-              NineGridsRes = jdu9GLightGrayNormal
-              NineGridsResAtTop = False
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.200000002980232200
-              AnimateOutTime = 0.300000011920929000
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-          end
-          object edMessageInput: TJDUIEditOSR
-            Left = 0
-            Top = 50
-            Width = 1080
-            Height = 618
-            Margins.Left = 2
-            Margins.Top = 2
-            Margins.Right = 15
-            Margins.Bottom = 2
-            Clips.Left = 0
-            Clips.Top = 0
-            Clips.Right = 0
-            Clips.Bottom = 0
-            TabOrder = 1
-            Align = alClient
-            Padding.Left = 5
-            Padding.Right = 5
-            LineSpace = 2
-            ScrollBarMarginRight = 0
-            Alpha = 255
-            TextOnly = False
-            AutoClientSize = False
-            MaxAutoClientWidth = 0
-            MaxAutoClientHeight = 0
-            MinAutoClientWidth = 0
-            ImageUseMD5Code = False
-            MaxImageSize = 1000
-            MultiLine = True
-            WordBreak = False
-            Text = ''
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clBlack
-            Font.Height = -13
-            Font.Name = #23435#20307
-            Font.Style = []
-            ParentFont = False
-            ScrollBarRes = jduScrollBarRes
-            MaxLength = 0
-            PasswordChar = #0
-            ReadOnly = False
-            AutoSelect = False
-            NumbersOnly = False
-            UnFocusedColor = clBlack
-            UseFormFontName = False
-            UseFormFontColor = False
-            OnChange = edMessageInputChange
-            OnEditMouseUP = edMessageInputEditMouseUP
-            OnSelChanged = edMessageInputChange
-          end
-        end
-      end
-      object jduPage0: TJDUIContainer
-        Left = 0
-        Top = 0
-        Width = 1080
-        Height = 668
-        Clips.Left = 0
-        Clips.Top = 0
-        Clips.Right = 0
-        Clips.Bottom = 0
-        TabOrder = 0
-        Align = alClient
-        object jduScrollView2: TJDUIScrollView
-          Left = 0
-          Top = 0
-          Width = 1080
-          Height = 668
-          Clips.Left = 0
-          Clips.Top = 0
-          Clips.Right = 0
-          Clips.Bottom = 0
-          TabOrder = 0
-          Align = alClient
-          ScrollBarRes = jduScrollBarRes
-          DesignSize = (
-            1080
-            668)
-          object jduContainer6: TJDUIContainer
-            Left = 0
-            Top = 0
-            Width = 1049
-            Height = 649
-            Clips.Left = 0
-            Clips.Top = 0
-            Clips.Right = 0
-            Clips.Bottom = 0
-            TabOrder = 0
-            Anchors = [akLeft, akTop, akRight]
-            object btArrow: TJDUIButton
-              Left = 36
-              Top = 169
-              Width = 30
-              Height = 27
-              Hint = #31661#22836#24037#20855
-              Animate = True
-              GrayScale = False
-              UseFormFontName = False
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = True
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clWhite
-              Font.Height = -12
-              Font.Name = #23435#20307
-              Font.Style = []
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = ''
-              ParentFont = False
-              EllipsisPosition = epEndEllipsis
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = True
-              PictureClick = False
-              Down = False
-              ImageAlign = iatTop
-              ImagePadding = 6
-              ShowCaption = False
-              ShowShadown = True
-              CaptionShadownColor = clBlack
-              ShowNineGridsType = ngtHover
-              IncContentWhenClick = True
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = 0
-              Picture.Data = {
-                89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
-                610000001974455874536F6674776172650041646F626520496D616765526561
-                647971C9653C000001D34944415478DA63FCFFFF3F032580916A0638CE7F3513
-                481913507F16A83E1DC43890248E6A80EDEC6767429CA48CFFFCC174111B1B23
-                C3AA3DCFCE3232324E00729780C40EA548A21A6031E5FE197F7B59E3AF5FFFA2
-                681612626558B5EB2158330B1BDB1220CD80D500E3DE1B67BC6CE48D3F7EFC03
-                E6FFFAF58B4142828D61F3C1A76781DCC3405C0852FBF7CF1F30BE5263886A80
-                6EEB85335E76AAC6AF5F7F6578FFFE3DC3D7AF5F194072DADA520C7B4FBE04F9
-                7DC2AF1F3F96FCFAF19DE1E7F71F0CCFA77AA11AA05673FC8C938D8AF1ADFB2F
-                19B4D545192E5D7F09F786AAA230C3A1638FC086FCFEF963095603144AF69DD1
-                B6D23016136067D8BFEDE2591B373DE3AB0F3FC20D5194E0663877F01AD4253F
-                9760182099BDED8C4588ADF1893587617EB6D5F5B336BEF9FA27DC10697E5686
-                FB3B8E830D7931CD7B098A01C2496BCF800580A1CDCCCABAE4EFEFDF3140B902
-                E9081FE3879F103123C2C9C4F061EDD6B36FE7059BA018C017B31C94900EB302
-                A30A185D0C7F80B1F0FBD72FB021BCF191C62F7F00A3949D81E1C7A2E5E028FD
-                B42412D505BCD1CB2089869D9D0166C0AF9F3F4134D810F69444E39F73E6C3D3
-                C3E7A5510C4419F01B6408D43B60CD40EFB102D5601840716622170000B6871C
-                F016E4537B0000000049454E44AE426082}
-              NineGridsRes = jdu9GSpeedBtn
-              NineGridsResAtTop = False
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.050000000745058060
-              AnimateOutTime = 0.200000002980232200
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object btCancel: TJDUIButton
-              Tag = 7
-              Left = 274
-              Top = 169
-              Width = 30
-              Height = 27
-              Hint = #21462#28040
-              Animate = True
-              GrayScale = False
-              UseFormFontName = False
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = True
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clWhite
-              Font.Height = -12
-              Font.Name = #23435#20307
-              Font.Style = []
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = ''
-              ParentFont = False
-              EllipsisPosition = epEndEllipsis
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = True
-              PictureClick = False
-              Down = False
-              ImageAlign = iatTop
-              ImagePadding = 6
-              ShowCaption = False
-              ShowShadown = True
-              CaptionShadownColor = clBlack
-              ShowNineGridsType = ngtHover
-              IncContentWhenClick = True
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = 0
-              Picture.Data = {
-                89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
-                610000001974455874536F6674776172650041646F626520496D616765526561
-                647971C9653C000001924944415478DAAD933148025118C7BFD7657043780E8E
-                8D8AD0F882A6A0ADA6245C84A2C021572150079BBA2183C4B92D71B029683A72
-                6868ED70885C6C124B9023239D4ABBFEF77881BE6ECA1E3CDEBBF7FDBFDF7DEF
-                FFDD31D7756996C1FE0D50638C34A24D6C4DCCC298C81A49D13CA61A4BCABC49
-                80102473395E2B166D4F0880250122B69DC9F0AB7259C400B0A60055C6EE77B2
-                59DE6C36291A8DD265A92484B208732395E2BD5E8F0CC3A0DB6AD5DE75DD9529
-                4005156067C6D369DE683428168BD14DA5E24168351EE7DD6E9782C1203DD4EB
-                3603784FADE0021EA06401594F24F853AB251286C3213D773AA4EB3A0DDA6D91
-                8C2B59FBAA071EE013EB5842962211FEEA3822A6691ABD3B8E488699560067BF
-                0027002C48C398070887F978F4D307A2977EDF76A5B11F78CEFB010232793914
-                E27E3D7F9410546AF90144ABD62692EF90E0AD3E6785BC6AE231DAB83521BC86
-                90C9367A9EA8B123B58D59540003CD0308CF2180598545F9210D70353576AA56
-                70080FFA107E4138074108C9867CE31BA61A3B533D98F967FAEBF806D42FE6E1
-                5C13E3C60000000049454E44AE426082}
-              NineGridsRes = jdu9GSpeedBtn
-              NineGridsResAtTop = False
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.050000000745058060
-              AnimateOutTime = 0.200000002980232200
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object btCircle: TJDUIButton
-              Tag = 2
-              Left = 100
-              Top = 169
-              Width = 30
-              Height = 27
-              Hint = #26925#22278#24037#20855
-              Animate = True
-              GrayScale = False
-              UseFormFontName = False
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = True
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clWhite
-              Font.Height = -12
-              Font.Name = #23435#20307
-              Font.Style = []
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = ''
-              ParentFont = False
-              EllipsisPosition = epEndEllipsis
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = True
-              PictureClick = False
-              Down = False
-              ImageAlign = iatTop
-              ImagePadding = 6
-              ShowCaption = False
-              ShowShadown = True
-              CaptionShadownColor = clBlack
-              ShowNineGridsType = ngtHover
-              IncContentWhenClick = True
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = 0
-              Picture.Data = {
-                89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
-                61000002BE4944415478DA6D936D48535118C7FFF79EBB5727AB342CB4576996
-                65852F5F8C28C3D00A2DB244A3DA87FA5020C90CF393821254A4E58782022153
-                90A6A124840A89F545E905CB8C0A439340876DD66CCEB9DDBB7B3A776B73D32E
-                1CCE73B8E7FF7B5ECEF3703879132B3E996AE1130FB03D8D9DE2D8FA0E81BC85
-                5A78BFFC2AB70CC031E139A2555F3225C6EFD992B046AFD3AA609F73637CCA31
-                3D35F37B003C7F1B841F5909A0D0337153D6AECDA596A2FDD89D9C08AD468024
-                B35F14B03BDDE87BF7050FBA07DDB3B3AE32164D732480C02BB614E7A69FA935
-                E781A808E617FD10FD32FC3408E0791E313A824FE3365CBDD7496DF6B9535091
-                CE20C0279DCD48DDD8DA5A550A9923F0887E26A260CE030059A6815D622B56A7
-                C6C8D80F9437B6DB3C3E2983C3891B3A81702F5AAA4AB2B3766CC2DC82C4844C
-                AC08A902088A593061DBA857E3566B0F9EF50F5772385A97B32D797D77578DD9
-                20826739CBFF844141C896C25150E8D42A8C8E4DA2E2AEB59F437E6DF9E17D3B
-                1B1F5A8AE09897986F1A0508EF7250EC0FD483C0E974A2ACBEEDB302A82E3CB4
-                B7AEE172217EB9C5B058A64B1E83E12FD91CE131FFC705CB9DB66F0AE07C76A6
-                A9B9B9B2849B5D10A3F30E41E4489B8208021C7607AED4B70D7328B86E5A1B6F
-                EC7F5A634ED21B62C02A1B80485105A4E1B3C86006F6122F873EA0E1714F4BE8
-                199B2A4A732E5C2CC8C68CCBC79E2DDA63287C2512F01CB43CC5B5C627189B98
-                CE0B02FC724AAC5E3374DF727A759A69031C2E6FC05364F114B1D24C06AD8047
-                5D03E8E87DDDC9BAB178A99545E97842BCB1BDDA9CAFCE4CDD0A2FF3EA611451
-                C987352C61855B5CF4C0DA3B046BDF9B61360F47C0713FA38749F21F2302A9CF
-                CD4AD97E303D05EBE25681572AEEF1E1EBA40DCF0747313169B342259433F1CC
-                FFA651697C238BA6885D38A6D16B92342A41E75AF03AA957FCC8BC76B0B17E15
-                79FD2FCA4D97A63D6FA1690000000049454E44AE426082}
-              NineGridsRes = jdu9GSpeedBtn
-              NineGridsResAtTop = False
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.050000000745058060
-              AnimateOutTime = 0.200000002980232200
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object btImage: TJDUIButton
-              Left = 38
-              Top = 396
-              Width = 138
-              Height = 138
-              Animate = True
-              GrayScale = False
-              UseFormFontName = False
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = False
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clScrollBar
-              Font.Height = -11
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = ''
-              ParentFont = False
-              EllipsisPosition = epNone
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = 128
-              PicureHeight = 128
-              ShowPicture = True
-              PictureClick = False
-              Down = False
-              ImageAlign = iatLeft
-              ImagePadding = 5
-              ShowCaption = False
-              ShowShadown = False
-              CaptionShadownColor = -1
-              ShowNineGridsType = ngtAlways
-              IncContentWhenClick = False
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = -1710619
-              Picture.Data = {
-                89504E470D0A1A0A0000000D49484452000001000000010010060000000CE274
-                25000000097048597300000B1300000B1301009A9C180000060069545874584D
-                4C3A636F6D2E61646F62652E786D7000000000003C3F787061636B6574206265
-                67696E3D22EFBBBF222069643D2257354D304D7043656869487A7265537A4E54
-                637A6B633964223F3E203C783A786D706D65746120786D6C6E733A783D226164
-                6F62653A6E733A6D6574612F2220783A786D70746B3D2241646F626520584D50
-                20436F726520352E362D633134352037392E3136333439392C20323031382F30
-                382F31332D31363A34303A32322020202020202020223E203C7264663A524446
-                20786D6C6E733A7264663D22687474703A2F2F7777772E77332E6F72672F3139
-                39392F30322F32322D7264662D73796E7461782D6E7323223E203C7264663A44
-                65736372697074696F6E207264663A61626F75743D222220786D6C6E733A786D
-                703D22687474703A2F2F6E732E61646F62652E636F6D2F7861702F312E302F22
-                20786D6C6E733A786D704D4D3D22687474703A2F2F6E732E61646F62652E636F
-                6D2F7861702F312E302F6D6D2F2220786D6C6E733A73744576743D2268747470
-                3A2F2F6E732E61646F62652E636F6D2F7861702F312E302F73547970652F5265
-                736F757263654576656E74232220786D6C6E733A64633D22687474703A2F2F70
-                75726C2E6F72672F64632F656C656D656E74732F312E312F2220786D6C6E733A
-                70686F746F73686F703D22687474703A2F2F6E732E61646F62652E636F6D2F70
-                686F746F73686F702F312E302F2220786D703A43726561746F72546F6F6C3D22
-                41646F62652050686F746F73686F70204343203230313920284D6163696E746F
-                7368292220786D703A437265617465446174653D22323032302D30382D323154
-                31303A30383A31342B30383A30302220786D703A4D6574616461746144617465
-                3D22323032302D30382D32315431303A30383A31342B30383A30302220786D70
-                3A4D6F64696679446174653D22323032302D30382D32315431303A30383A3134
-                2B30383A30302220786D704D4D3A496E7374616E636549443D22786D702E6969
-                643A36383734396438332D383561302D343937382D386666302D373135633063
-                3865396663312220786D704D4D3A446F63756D656E7449443D2261646F62653A
-                646F6369643A70686F746F73686F703A30346437653139342D373465352D3834
-                34642D613031622D3861333863623737623831372220786D704D4D3A4F726967
-                696E616C446F63756D656E7449443D22786D702E6469643A3163393430393530
-                2D326330382D343761352D626532312D37373435333362343162376422206463
-                3A666F726D61743D22696D6167652F706E67222070686F746F73686F703A436F
-                6C6F724D6F64653D2233222070686F746F73686F703A49434350726F66696C65
-                3D22735247422049454336313936362D322E31223E203C786D704D4D3A486973
-                746F72793E203C7264663A5365713E203C7264663A6C692073744576743A6163
-                74696F6E3D2263726561746564222073744576743A696E7374616E636549443D
-                22786D702E6969643A31633934303935302D326330382D343761352D62653231
-                2D373734353333623431623764222073744576743A7768656E3D22323032302D
-                30382D32315431303A30383A31342B30383A3030222073744576743A736F6674
-                776172654167656E743D2241646F62652050686F746F73686F70204343203230
-                313920284D6163696E746F736829222F3E203C7264663A6C692073744576743A
-                616374696F6E3D227361766564222073744576743A696E7374616E636549443D
-                22786D702E6969643A36383734396438332D383561302D343937382D38666630
-                2D373135633063386539666331222073744576743A7768656E3D22323032302D
-                30382D32315431303A30383A31342B30383A3030222073744576743A736F6674
-                776172654167656E743D2241646F62652050686F746F73686F70204343203230
-                313920284D6163696E746F736829222073744576743A6368616E6765643D222F
-                222F3E203C2F7264663A5365713E203C2F786D704D4D3A486973746F72793E20
-                3C2F7264663A4465736372697074696F6E3E203C2F7264663A5244463E203C2F
-                783A786D706D6574613E203C3F787061636B657420656E643D2272223F3ED314
-                79BF00002F5F4944415478DAEDDD09BCCD75FA07F00FA2ECFB5E964A4A7B8910
-                356449DA9B88864A51689976AD7F34D33A4DD3A27DA6B4376DDAA9CC0CD126A2
-                4451B6424896448AFEDFEFEFF77CCF750ED73DF76CCF6FF9BCE7659EBE77F9DD
-                E7772EE7FBFCB6E75BE677D8FF119186FDF11FEC8CC6326A24B1A1C40612EBA6
-                C45A29B1BAC46A12AB48AC24B1A2C49D259697582E259BCD127F95F88BC40D12
-                7F96F893C4B512D7485C951257A4C46512974A5C82CFF007F353BE2BC44B4D44
-                29CAB00020CA9E3F91BB09BA85C43D25EE21B1B9C466129B4A6CA29DBEB24512
-                174A5C2071BEC4AF25CE9338570A8715696C9B888AC302806807FC89BD6162E4
-                DB4F622B89FB48DC5B62AD74364D19736718E6489C2DF10B899F4BFC4C0A85A5
-                696F99284E580050ACF9137C4B191D92120F4A8975B4D3A5525929F1D394382D
-                11FD02E14BED448954B000A0484B3E826F9B12DB483C4C6255ED74A9A0D649FC
-                58E247123F4C449E41A02863014091E04FF4EE14FD11123B486C2FB179E9364A
-                31E7EE41982271B2C4F7A430F84C3B41A2ACB000A050F127FA83657494C42353
-                620DED3429D2564BFC5F4AFCAF1406D3B513244A0B0B000A247FA2DF4B465D24
-                1E2DB1B3444EF41424AE309820F11D89EF4A61F095768244495800902A7FA2AF
-                2CA31E12BB49EC2EB169E9364A1428EEF1C67112C74B7C4B0A83F5DA09524CB1
-                00A0824ABE567FACC4632476D24E8FA880264A7C53E2EBBCB7800A8A0500E595
-                3FE1BB23F9E35262DC1BE0106DCD35447A3511FD82605CA61B24DA2116009413
-                FE44EF5ACE9E24F10489274AACA09D2651886C92F8B2C4B1125F92C2604306DB
-                242AC2028032E24FF8AEE3DDC9124F91D823832D12517ADE92F882C417A52058
-                95E90629A65800505A9227FCD3249E2AB14B065B24A2DC7857E2F3129F634140
-                69610140DB957C777E9F947874065B24A2C2708F1F3E93887CDA80B687050025
-                F1277E37D19F2EF178EDB4882863AF487C5A0A8167B2DA1A45070B8098F327FC
-                AE323A232596D54E8F8872668BC42712D12F08DED64E8C94B00088197FC2DF57
-                46FD536203EDF488A86096491C93887E41304B3B312A10160011977C2DFFCC94
-                D85A3B3D220A8CA9121F4D44DE3B106D2C0022CA9FF85D4BDDB325F6D64E8B88
-                42E35989FF9442607C565BA3E061011011FE84DF4846E7A4C4DDB4D323A2D05A
-                2CF1E144F40B8225DA8951965800849C3FF1BBD6BA8324F6D24E8B8822EB3589
-                0F4A21F06A565B233D2C0042C69FF0EBC9E8BC94D8503B3D228A8DA512EF4F44
-                BF2058AE9D18A589054048F8137F67190D91784AA69B2322CA31D79A78B41402
-                13B413A212B00008387FE21F2AA36112F7D64E8B88A8187324DE2385C0BDDA09
-                51315800048C3FE1B790D105299188286CEE4E44BF2098AB9D1009160001E14F
-                FCDD6574A1C49EDA691111E5C81B12EF9242609C7642B1C70240993FF1BBBBF7
-                2F96B88F765A444479325BE29D52083CA89D506CB10028307FC2AF21A34B5262
-                E50CB648441446AEC3E01D89E81704ABB5138B0D160005E24FFCEEE6BDCB240E
-                D44E8B8828201E9178BB140273B2DA1A958C05409EF9137F47195D2EF1B84C37
-                47441471AEB1D06D52084CD24E28B25800E4893FF19F20A32B25B6D34E8B8828
-                24DE97788B140263B5138A1C160039E64FFC03647495443EB74F4494197729E0
-                6629041ED34E28325800E4883FF1BB463DC32536CA7473444494C42D3E749314
-                02F76827147A2C00B2E44FFCEEDAFEB512AB69A7454414516B25DE2885C06DDA
-                0985160B800CF913BF9BF0AF9358413B2D22A298D82471941402376A27143A2C
-                00D2E44FF8E564747D4A2422225D2313D12F08366B2714782C004A903CF1DF20
-                F1BA4C3747444479354AE20816022560015002BF001821231EF1131185833B13
-                7043F69B8A281600C548BEC63F2AAB6D11119196EB788F40315800A448BEABDF
-                FD85E1CD7D4444E1E46E16BC964F0DA4600120929FE3FF8B443ECE4744140DEE
-                F1C16BD84740C4BE0048EEDCF757896CE04344144DAEA1D0D5B1EF2C18DB0220
-                B957FFCD12D9B29788281E5C8BE1AB62BBD640EC0A80E4D5F96E91C8457A8888
-                E2C92D3A7465EC561F8C4D01E04FFCEE08FF56895C969788882CB70CF1155208
-                CCC96A6B6110F902C09FF86BC8E8768903B5D32222A2407A44E2655208ACD64E
-                286F625200B81691ECE0474444E9706B0C44B7015C640B007FE21F24A33B2456
-                D64E8B88884261BDC44BA41078503BA19C8B5C01E04FFCDD65F47789FB68A745
-                4444A1345BE29FA51018A79D50CE44A600F027FE1632BA53624FEDB488882812
-                DE9078B1140273B513CA5AC40A80BB647481763A44441449774B0170A1762259
-                0B7D01E04FFC4365C4D68E44445408C3A410B8573B918C85B600F027FECE3272
-                BF0076F22322A242707D02864A2130413BA1520B5D01E04FFCF564345AE229DA
-                691111512CBD2071881402CBB5134A5B480B00F75CE608ED748888888C1BA400
-                1899FDA60A243405803FF1BBD6BD0F486CA89D16111191B154E26029045ECD6A
-                6B8510F802C09FF8DDF2BC6EE2EFA59D161111D176BC26D115024BB2DA5A3E85
-                A400E0297F22220A93E05F12086C01E04FFCDD64F4B0C4DDB4D32222224AC362
-                89E74821305E3BA16D04AE00F0277ED7B3DFADCAD45B3B2D22A2D06B8A4A5EBF
-                D4D3D118E79B7833E6E212EDA422EF598903A510589FD5D67229A005001BFB10
-                1165AB0A764235D807D49A7B6BA1FE09BB7AFDEB7EC666FC64625B4C446DED24
-                6323788D83025300F813FFBE327A54626BEDB4888842A302CA9AF75160109A61
-                B8897DCC91FE6013AB9B42A0D6565FF728167B6BA4FE0DF3BCAFA342982AF14C
-                290466692714B402E016195DA19D0E1151E095F1FE07F4C76EB808FE11BE5D09
-                A5BE7937DD7507DF7705BE305F0BBC89EFF19CF64EC4CEAD52005CA99D887E01
-                E04FFC5D6534466203E597858828B8FA99E9DD5E28FD9399F8ED29FDC6D8C51C
-                F3A7AF073E404B13BFC3062CD0DE99D85926B1BF14026FAB65129002E0B1C40B
-                424444C94E4443EFDDD11EE95F6C620B544E5C302D8DAFB1DE1CFBDBED7D8483
-                B5772AF6C6480130402D03B502C09FF8FBC8E8498965D55E0822A2A0380A7570
-                2C6C2B9966B8DAC4FD50352777448DC162FCC3C4DB308F175AD56D91D84F0A81
-                670A9E41C10B80E4C7FC9E92787CC1779C8828283AA3AED7E87C8039C2FFB389
-                87A03A3AE4E1E70CC76C9C09DBAB6E199ED6DE6912AF48EC5BF0C704950A8081
-                327A38AB6D111185516BD44027F877EBDB5BC1DAA1268E2EC0CFED850FB19F89
-                0BF133E66ABF0894C2350C7A24FB4DA5A96005803FF1BB07515C638442FC9527
-                22D2B537AAE240D895E39B7B8DCD8F42ED82AE68B2081BF0B589C7E203B4D27E
-                31A818EF48EC2D85C0AABCFFC4021700E7C9E8BE02FC4422221DADCC846F6FB2
-                7337ED1D8BFA893B9E343C896FBDF633ECFC1706E74B01707FDE7F52DE0B80E4
-                237FF7C46997BCEF181151A134C22E6882A2063CA7A021CED64E6A2BD7620ECE
-                31712C96E271ED64A804EF4A3C2DEF67020A54009C23A387F2F89388880AA326
-                2AA00EEC5DFA4DBD09BFAF3C975F46FE04CD49F2D8DF3C790C90C2E05C2900F2
-                77AF5CDE0A007FE2AF28A31725F6C8DB8E1011E54B25944315D8DBB49A7A8FCF
-                D9097F888995CDC7AB6A27B703EBB119EB606F329C84BA266AF77DA1D2784BE2
-                C952086CC8F94FC87301D057464F66B52D22A2422A8FB2E6187FEB16BB7EC7BD
-                DAE633F5B4932B850958E93D6476919942FEA89D0C65C8F509782AFB4DA5C873
-                01E0EEF63F2DAF2F0F11512E9C8526B81445AD766D4FFDC6DA4965E17ACCC120
-                135FC2D244BF550A9BE7A400E89DF32DE7BC00F027FEEE32720D0E2AE4FB1522
-                222AB5D3CCF46E27C8FE7284DF1415D1423BA91C3A151FE33013BFC44F98A99D
-                0C656893C4E3A5101897B32DE7A900B84746430BF50A111195A82BEAE124F837
-                EFD916BB2D510507682795071BB1053F9B7838267A372B6E36EFF29BB593A22C
-                DD2B05C0B09C6D316705803FF1EF2FA3D7243629F42B444494D0DD4CF8A7A2E8
-                1AFE81A886B6DA4915C044FC8037610FC166E244ED6428471649EC2585C06759
-                6F31C705C05532BA49EB1522A2183B1CB5D019F66EFD26DEDDFA6D51D3BC55C6
-                CF487CE59D7FFD37BE63C3F5C8192E05C0CD596F29EB022079719F372476D27E
-                858828065CC7BD8BB03B4699D8DE14005DB5930A803EF804ED4C9C85B598A69D
-                0CE5D844893DB35E3C284705C029327A5EFB9521A208DB0FD5BC657107A2292E
-                875D4DA40E4F716FE5676CC64F261E81F7D0D0C45FB125710B1945CDA95200BC
-                90F1167254003C20A341DAAF081145481354C21E260E41335C07BFA7FEE9DA49
-                05D834ACC164D86585A779974228CA1E94026070C65BC8B800F027FEBD64345E
-                6253ED57848842AC9E79576904BB1C4A335C037B8CD328D1489C4AF61816E34E
-                136FC73C6F99618AB28512BB4921F055A9B790650170BE8C466BBF12441442B5
-                51C11CD3FB0D78EC2A75BDD1D83B9ED90565138DC4297D0330DD3BF29F86D5DE
-                99008A83215200947E95DD2C0B0077EDE164ED57808842A022CAA112EC32274D
-                BD67865C039E9D39E167E5176CF13AC5B7DDEAB9FFDFB493A20279510A80534A
-                FD9DA52E00FC89FF60194D905843FB1520A2002A8732E60F70B639C2BFCCC433
-                CC847F8189B550DE5B9C86726326D6E223D816C69FA0A376325460AB25769642
-                607ADADF996101F06719DDA1BDE74414406EB53CB7984E63EC8266DA4945D893
-                F816F79A7833E67A9752288E2E9102E0EF697F478605C0CB323A417B8F892800
-                7AA2BEB75489BD79EF5A139BA152E21661CABF73F1298E31F103FC98382F4B71
-                33560A80F41F8C4DBB00486EF5EB1A11F0D43F511CF542036FB16F7784BF0FAA
-                E020EDA462E857F3EE6D9FF3773DFF37618B9900289EDCA5804E69B70A2E6501
-                C0BBFE89E2A8236AA3076C8BDDA65E8BDD43501D1DB493227C8E75986AE2E9E6
-                FFF9FB205FFA4F0594B200784246FDB4F79088F2E86033C1DB56B243D0DC6BC0
-                73386AA28B7652B48DE7B0040F9A380A5F7A375712D93B42FC02E08C12BFB2C4
-                02C09FF81BCAC83D59DA5C7B0F892887EC84DFDEC433D1C4BBC5B733EAE078ED
-                A4A84437608ED737E1452CC5A3DAC95040CC97D8410A81A5C57E659A0580BBA9
-                E025ED3D23A21C688ECA6809BB5C6C733389D86573EB66F0143169D9227FBA98
-                83B26626AEC4267CAF9D1405CC495200BC5CEC57A45900B8E57DAF0211854F23
-                EC628EED8B26FCE3D1208D138414545FE227CC806D95FC31DA6827430175B314
-                00C38BFD8A340B807765C4E52588C2A0AE5CB81B241DF76C4FFD8126EE843228
-                AF9D9CA2F5D88C75F05B0DDB8E84AE5151D83C8FA578C4C41198E3F55B20DAD6
-                0429008ABF7BA7D802C09FF85BCAE8638955B5F78888B6A3AA99DAAB9B3818CD
-                70358A1AF19437135C05EDE4026006D6E283ADC6FBA39A77E45C56FE84CD487C
-                856126FE1BDFE121ED6428A0D6493C4C0A812FB7F98A120A00B7F0E653DA7B42
-                445BB1BDF3773171A039C2BF1CF631B0C6DE43BA35CC945F5B3BB90079C91C29
-                3F66E2626CC0D7282A90DCEB1756DDF03EF6347129369A7D23DA91BE52003CBD
-                CD674A28006E93D165DA7B40146BEE54F519E6C8FE0214F5D46F60FE95EEAA9D
-                5C00FD138BF03713DFC4723C6BE24338D0FC77F80BA479588F2F606FEFFA28B1
-                220BD18EDD2E05C0E5DB7CA68402E06D191DADBD0744B1D4CF4CEF4351D471CF
-                DECCD7543BA900BB0BDFE07AD8097F216E31713CDA63AE890DCDBB5913EDE472
-                E02579DCEF7A79FC8FA864EF4801D0759BCF6C5300243FF73F53621DED3D208A
-                8513CDBFBD01269E25CFE3EF8E4AD8473BA910B817F331D2C4FBB1007F31F131
-                1CE2F5C48F5AC7C21BF19577E6E7597CE73500222AD94A89076CD317A09802A0
-                9B8CC669674E14694799E2FA58142DA2D30A55CDA445E91A6D26FC5126DE670A
-                801B61EF8ADFDB1401C0C9A6903A4B3BB93CE8834FBC864DB3B0D6FC17516974
-                9702607CE223C514006E41C9BF69674C14296D50D34CFAFEF3F8F65475D48E50
-                0BE52659F6F6295906D75D2AB90A2D22B948F91AFC8655261E89F7B09B899BCD
-                BBF66FDA4951C85C2A0540D1BF90620A80876534503B63A2503BCC4CF8479A78
-                369A987F7EC011A865EA70CAD43598EDBD2BBD8265DECA2407C8E37C4FE2504C
-                D24E2E8FDCFEBAFD272ABD47A4003827F191620A00D7F3BFBD76C644A1D21255
-                CCA454B4880E7BEAE7C620CC404F13DF37C7C1B62D59259433AFB45D9DA4A399
-                1AA3DFE0E8AF988B8B4D7C1ADFA6B1C61BD1F64C9102A0E89C63A200F027FEBA
-                F2E139126B69674C14684DCC54649FC7B6D7F0AF31B117EAA3AF765211B0C9BC
-                2BD975ED0762BA7747D2A75893D4C8E70573DC6F97C1DD0B95CD7B57F4FD09D3
-                BC3349A9AF0351FA5649DC5B0A8115A905803BE29F9CE10F208AB686D253FF5C
-                34C59526FE118DB63AA146D95A6EA6FE25269E6326FE1EB0EB9AFD9CD4BFEC6A
-                33E5DF89A2C64751F713369B29BFE8DAFF266CF10A23A2CCB95502A7A41600FD
-                E50B1ED3CE9028106AA182775ECC7590EB63269EF310DE16B241B5101B30CFC4
-                01E648F70F26FE60A6BAE55B7DDE3E1E69DF9D4699A39738B5BE758D8CAEC0AC
-                C4BB3351760648013026B50018215F70BD7686442ADCB5E54166C2B76B68D909
-                DF365CA96C3ECE953072CF9ED27E1F45D7F8379823DE9FB7FABC5BB6F815B449
-                74258993DB4C5964FBB78DC162DCA59D0C45C44829006E482D00C6C817FC493B
-                43A282D8C91CC7DB9BC7066037EF26AB3F9978A189B5CD47EB6927176153F023
-                DE813DB3F2A9D707215579F37BB18B18BD81C3311BF16D797C26A67B6BB97D82
-                D5784F3B198A88C7A500E89F5A004C942FE8A89D21515ED94E7BF639F2BEF2FC
-                785C2798424BB795ED2338D86B57D20635BC9BDFE2C63DE7DF0E93BC4B50A967
-                46883237490A804EA905C042F9822874CD262AD21B8D31084513BE6DB1BBB776
-                5231F214BEC368D8063E5F792D8E8B7381F9CDD80B9183D014576927ADE833AC
-                F51661EF6B8EFD8FD04E8622669114004D51663F4C4005F3E6E8FB563B33A29C
-                E86A8E9B4E42D1B5FCBD5105076A271543AE37BFEBD55F9C4EA88D63BCAF3B00
-                2F6B271D00A98B1A11E5DEAEAE00384C3EF09176464419E9867A380545A7F6F7
-                4355B4D64E2AC646C9A235CF95B068CD6EA8688EF981D771B8B7CC6D19F91377
-                6761BAB706EB54AC8E748743D2D4C61500AE57D958ED8C88D272386AA1338A4E
-                151F16D36BC541738599C6ED2DC46FE27B33F997EC2DB4F39EF36F8C5DD04C3B
-                F900D8227F3A9869BF3E6C1F80DFB0563B298AA8135C0130483EF080764644DB
-                B52FAAE1501387A1396E007BEA07CD799889E3605B88FDB0D55A63C5BBDDFC46
-                9F845D9FAC1E4ED54E3E40E698297F066C83A98FBD350E88F267B02B00AE910F
-                DCA89D1191670F54462B14F5D4EF86BA38593B294AD8688E53ED5DE9674BAB5E
-                77D35A49FACB639697634FDCA6BD1301741F1678EFC2A331DF5BE698287FAE75
-                05C09DF2818BB433A298B23DF5F740518BDD13D10003B493A26DACC2AF5E87BE
-                FED2B16FA12903E6A5F17DFBA39A77A7D1533894CFB3EFC0B9F8D4BB19F203FC
-                68DE9989F2E91FAE006003202AAC7AD8198D604F1DFB8BE8B0A77EB02D3013FD
-                57B013FF746FE2FF119BB0328DEF739D1527E2087C67E2CE288B5DB47726807E
-                973F4798F2A8A1896B4DA1F5A3765214718FBB02E035F9C0B1596D8EA838D551
-                1E35E11FE1DB9BF65C4F7D4E08C1F639D679ABEEB91EFD76319A4DA5F8FEE7CC
-                71BF5DBD6E1F53061CACBD3301F635D67B4F419C888FF83A5181BCEE0A00F7A0
-                095B4E506E5434477E95E1B7D6B58F839D69A27D3CAF2A7632C50005DD7B5885
-                71B0CB1CCF483C23541A57A2056E37F10CECEAFDFE69C75EC5F7DE4D91579B32
-                E06CED642826DE7305C00CF9C001DA195148954319F3C7DE14D6049799D8CF4C
-                F8C3C09EFA61F30A96E10913AFC16C0CCCE0FB8F470333E9037F31C7FC8F68EF
-                4C885C8A59E86BE2782CC70BDAC9504CCC7405C0D7F281DDB533A290E927AD75
-                CF9023FD5DB10B9A6B2745A5F604BEC5DD26DE82B95E01575A2D5005FB99F822
-                0EC327DA3B13421DCCD1987DEEDF5EFB5FAD9D0CC5C437AE00582A1F68A09D11
-                05DC31E66DAA37EC13A47E8BDD3D50C91CEB5158DD27AD7A4797D0AAB738EECC
-                8F6DE8636F12E4A24AA5B3001BBCD7ED387C80FDB593A19859E60A005773F2EA
-                2C253BCEBCA5F7837F2DD79ED26F85AA38443B29CA9A6DD56B7F9FB655EF4359
-                6CE7211C8437613B33D6F43A3352E9BC81E57816F69E8959E8AF9D0CC5CC1A57
-                006C900FF07EECB8EB88DAE861E24034C5E5261E6A8A42DE1A1A1D979B89C65E
-                A37FCB4C3CFFCE623B17610FAF51CD3968822BB4772AC4866336CE32F1357334
-                F694763214331B5D01F09B7CA09C76465460079909BE1D8A5AECB63547727FD0
-                4E8A726E3066780FF94EC12ABC93C576DAA316BAC2360D3F30F1F03065EE484C
-                F62E99ACC226ACD04E866266B32B007ED7CE840AA425AA78CF7A0CC3EEF83F13
-                8F3247FCECFE103DBF997FD3B6ACEF27EBC97F8175989EC5F66A9B77097B93DA
-                7FD1018BB4772E02BE35475FF361EFA9791F7B6B2743B1C50220E29AA3B299F4
-                8B3AEEF5443DEF263E8AA615E648D2DED23B109F7A8B25CDC77A6FB5BD6CD9E5
-                7A67C1B66CAE883DB5773202DEC4726FB5C42BCCABCAFEABA485970022A62176
-                316FD2C0505944E70434E0CD4531B0101BBC9EFC7DE5883F57AD646FC1BE780C
-                7EE1D8477B2723E40E7CED3D45F32F2C32FF4DA461336F020CBB9AE6B75707B6
-                635B335C6BE2A968E43570298F32E633147533CC546F5BED0E3247FCF652CECF
-                E61FF54F39D86E5FE9EF301C2D3841E5C169988AB626CEC63AF39B23D2B0918F
-                01868DEBA9DF4F1ECBB3CBABDA351C2BA31CAA6A274705936DABDEE2EC8B6A38
-                D4C467CCFF4FD1DEC9085A865FF0AD895DCDABBB87763214736BD80828E87636
-                137B45D86BBA7E8B5DF73CBEEDA95F433B392AB8B1660A791C7625EFD9395D3D
-                D1ADD1F036DA7B7D415950E6C778ACF05AFD5E8ACFBDD6BF447A96B11570D094
-                31FF2B0BBB888E3FD19F69267EBB884E5DF35B6AA89D1CA9795C5AF5DE9A61AB
-                DE923C8DD6986CE27E66DA6FADBDB3117617BEC1F5B00D9416E216ED6428E6BE
-                E16240DA9AA1125AC02EC45C1FA7C35E1B6C8C4126D6427933E953DC3D8005F8
-                AB89F7603E46E461FBC3B197778DBFAFF97B37547B6763A01FA6A113EC322C6B
-                F0A17632147333B91CB0B6CE669AB7D770AF3665C09D26D6C7CEE6AD98E26E04
-                BEC410139FC792BCACAAD70B0DBC53D037611FFC4B7B676360393699DF24D005
-                93B958160544623960D7D38B2D61B4ED89CA68656237D4C32926B6432DF3A661
-                3BF655F33AF651B45D852F3000F6B9FBEFF14C1EB6BF87FCFD7A196DB26A0C44
-                A533012B3116B685F267384D3B1922CFEBAE0018231F604B8AA0B2970AF6823D
-                635007C799D803F5BD37927D50C514071476E7E2531C63E207F8D1FC8BCC9FFF
-                E1082C867F89A99EF64EC7C8DD98EFB5DA7E100B70B37632449EC75D0170A77C
-                E022ED8CA894764345EF71227B29C116061DCC5B7B37130F430DEF5AE34E2863
-                DEEA2968D6E137AC81EDD038D3FBBDE5FB9AB0EBDDEF7AF95361E56A2D06A2DC
-                F9872B00AE910FDCA89D11E5485DECEC3D35E07AFDF7447DAF939B5DFCE770B0
-                30D0F23D7EC177B0FD1BA6798B2E2DC1462CCCE3CFBB10BB6324EC1986A6B852
-                7BE763688BFCE988F7BC7F8FB643E3EA2CB749941BD7BA0260907CE001ED8C28
-                CF6C6160BB3D1C298581BB09B1A33932ECA19D5C842DC006CC853FF11F65E28F
-                D8849579FC79879BDF6767D8C7CD0EC49BDA3B1F63EE88DF9D01200A8EC1AE00
-                70BDC4C66A67444AECA504DB05E26054477B138F3685C189B0CF85D4F6169561
-                6BE1CC4CC31AEFF97A37016CC4E644E3ED7CB0ABF6D96BFBEFA283293AFCD53D
-                B8C2879E7BE5F1CDFBE5714EA2E038C1150087C9073ED2CE8802C69D31B09712
-                7A99D80635BD23D83FC8CD883BA32C5790D80EDBAA773CFC56BDC715F0E78E45
-                5BAFABC7EEA8C465660360183EC349B0375FAEC41BDAC9102569E30A00F7E4F9
-                B7DA195148D49223CDD6A8E1758FB04F279C007B69A18E77377B1573DC19C795
-                255EC052FCD3C4FFC31C33F917CE4D68E53DCFDF0BF5D96236403A9952D0BEBB
-                FE885FF37AC987A8F4764599DF61FF07EC8FFF98A339773B5213EDCC28A4DC1A
-                05F60C813D6370A81975846D80E2DF6B50DD7CBE96769279F084299EEF815D3E
-                772E2E2DE0CFB5ABF6D9864176D5BEBF6BBF08943015ABBDF66A67613A8ED64E
-                8628C9227C66DEA17F41D3D40260A27C4147ED0C29622AA11CAAC07F0CCDBE21
-                BA4647EE9E8306E66FDFAEDA4966603416609489F7617E419FA13900D5D0C6C4
-                274D893529EBAD51AED96BFE7F817F0FC048ED6488924C9202A0536A01C08640
-                54586EF1237B09C19E21682BF7181C65C6F6A6B986E66F6510CF478DC4975EEF
-                FC7F63091E2EE0CFAD86F2DE1996377138E678E39DBCE5A129582E346FB1A79A
-                F81FACC4ABDAC91025795C0A80FEA905805B6EE47AED0C29E6CA4A61E0CE1874
-                455D9C0CFF9282BDE7A0292A7A8B2815DAE598857E26BE85E5785EE1E7BB237E
-                77068082A933A6A099892BCCDBECD26C3746945323A500B821B500E82F5FF098
-                7686443B64CF14D8463AF671457B97B5BDF9B027FC3306BBE5E1E7697772BB06
-                7BE12E13FBA0B1C985826AA9795B5D047B896B8A4A814A54B20152008C492D00
-                DACB174CD6CE902823AED3E131B256426B6989BC172A9BBFE3E95B83DFCC546F
-                5BF5FA8FF17D8EB598AAB03FB683636FD89B0B5B252ED051703D8DEF709F897F
-                C557B8583B19A2EDEA2005C094D402C0AD403F476214EFD7A638DA1FD5BC6E17
-                6E31A5AEA8E75D5248BD94B00ABF628589BDCD746F0B8965D8A8F270AC5BFCE9
-                55B435FF58292CECB57F7B73ABBDF6FF5AD65B23CAA55512F7960260455101E0
-                F885803B03D0BE943F80285C5AA20A0E40514BE497B1D4BB00B6D44CFC8B15F3
-                9A8823BCC2A326CA27CA720ABE6E781F7B42FFEF0FD1B6A6C8C4DF21F191620A
-                00775FF340ED8C8962E55E538EBC0CDB40A6B6D75089C261393661096CBF8BC9
-                68AE9D0CD1763D2205C039898F1453005C22A3BF69674C140BC3B0BBB75EFC60
-                34C5D5DAC950A9B9C741DDE3A144C173A9140077243E524C01D04D46E3B43326
-                8A3477A4EF8EFC299C2EC12C6FB9EDB7B11C2F692743B45DDDA500189FF84831
-                05404319CD9458473B73A248698ECA6869E22B6893F85746E1750C3EF0165FFA
-                161B305F3B19A2246E158A03A40028EA4CB14D01E0F885C0DB3262376BA25CAA
-                23AB2CB696B5123AA016BA9A7808AA7BB7E8344145EF66320AB615D8E4BD9D76
-                C664AFF10F51F0BC23137FD76D3E534201709B8C2ED3DE03A258E988DAE86EE2
-                E1A86926177F7125FB94C26EA630D85D3B394A98881FBC657E8762A6D7908A28
-                786E9702E0F26D3E53420170BA8C9ED2DE032232DAA116BA98D803F5F047E8B7
-                468EBB5B31CF7B5B7D1C8BBD4E8D44C1D3570A80A7B7F94C0905404B197D2CB1
-                AAF69E10D1761C6E0A037BA6A01BEA7A8D685C6BE47AA88046DAC945D8B1F810
-                AD601758FD195F6B274394649DC4C3A400F8729BAF28B60070FC42E05D1975D6
-                DE23224A433994C14EB0F714D4F0EE29702D850F4575EF9E83E6D2699032F303
-                7EC572D8552BDFCBCBDA1344D99B20137F9762BF22CD02E026195DA5BD474494
-                036D64D965BB98D289285A8EB9BEF9D7DE583BB910780FABBC87A9CE97B52288
-                82E76629008617FB1569160027CA884FB81245915B7EF96054F71A801F6B4A01
-                FB5CFB51A630E865625D54483C1C4CC03FF00DAE33F1612CC4ADDAC9106DD749
-                520014DF6124CD02C0FDD3776B04B0D925511C9437654105D8AB88FEAA8A1DA5
-                715117593BC12EBFDC443B490527E0231C64E237588FD9DAC91025719D283A6C
-                F3DC7FAA120B00C72F049E90513FED3D240A955D500E154DDC842DE60FCCFFFF
-                8ECDDA49E5C081A88EB6F0CF18D86786A27E2961357EC50FB085D07BBCB99202
-                EA4999F8CF28F12B4B59009C2FA3D1DA7B48142A0D4D09608F94FF8583BDF65A
-                5FE227AF03E0BB5881B1264EC22ABC65E28FA63C5899D54FD2E56E3E740D8EEC
-                19831E28BAD7A0B1791D9A6927998529E6F7647F7F8331C3BB3442143C43A400
-                B8AFC4AF2C6501B0BF8C264AACA1BDA744A16097F5B50DB5ED32BFDF6DE7F31B
-                B1051B50D45866AA39D69C047BB3D90FDE8A1C8BCD67BFD1DE891C70F714B806
-                477619667B135D582E25B86BFEEE1E00A2E0582DB19314009F95F81D6917008E
-                5F08B89B0A4ED0DE63A250A8850A66AAB34D39DB7B13797973A45CA114DFFF29
-                D6E27DD8C2E047AF30188F1578C1C4D958673E175EEEE6C3D65BDD63603B2076
-                3185827D77B19D0FF7D04E722B4330D3CB6B9229CCDED24E8628C95899F84F4C
-                FB3B322C00FE2CA33B4AF19D44F1956D01501C772961B29C9AFED81C05FC0F45
-                670EC2CE5D42686F5E41BB22C991667C2C0ADF12793D367B6D558E30AFACBD25
-                FA376CC1AFDA2F0E51924BA400F87BDADF91610170B08C2648E4A500A21DC957
-                01509C25D8888526FED71402AFA3E8DAF5E7588BA926AE32D397BDD7C0FEEBDF
-                A2FDE264C01504DDA525B2BBE7A0499ECE187C801FBD77BB73F1A9F714045170
-                B853FF9DA500989EF67796BA0070FC42E005199DACFD0A10055AA10B8092D8C7
-                D80E84FF18DB1CED172787DA4961D0CD1406F65DE928396350C7BCDA0DB2D8EE
-                A358EC9DEFFC1BE6EDA0AD0A91861765E23FA5D4DF996501C0A70288D2119402
-                601C96E37913AFC66C9C0DFFB1C45FB45F9C3CB27D0CCAC35F66D92E9A740CEA
-                E334142DBB6C5B22B74C633B17E373EFFBDC531B44C191FE5DFFA9B22C005C37
-                F1F1129B6ABF124481A45D00ACC16F58057B0D7B123BFA6DC52DA2E46E3A747D
-                0CEA9977B7AD9FF36F8DFF999201E64D760B366A274DE45928B19B14005F957A
-                0B1917008E5F083C20A341DAAF085120691700FDF089778D7C26D6E223ED1723
-                C0EC5309E550F43442335934E9312CC29DDAC91125795026FEC1196F21470580
-                BBF6F0BCF62B4214485A05C0182CC63F4CBC0DF37085F68B40443974AA14002F
-                64BC851C15009565F486C44EDAAF0C51A014BA0058894D5866E21F309917E688
-                22C535E2EB2905C0FA8CB7947501E0F885805B2EF8A6ACB6451435852E00FE88
-                A96863E21CACC30CED9D27A21C1A2E13FFCD596F29C705806B15FC9AC43034F7
-                24CABF4215006C554B14558B24F64ABBD56F49725600387E21708F8C8616FA15
-                220AA47C17008BB0015FC3AECAF7015A69EF2C11E5C1BD32F10FCBD916F35400
-                7497D12B12355B9E10E9CB770170123EF2FA73CEC37A7CA1BDB34494439B241E
-                2F0540EE9A7CE7BC0070FC42E059199D96EF578828D0F25500DC8DF9B801F681
-                A00539B8224844C1F39C4CFCBD73BEE53C17007D65F4645E5F1EA2A0CB750130
-                0BEB30CDC43E988A76DA3B474479D44F0A80A772BEE53C17001565F4A2C41EF9
-                7A8588022DD70580BBD6EFAEFD1351D4B805A74F96026043CE7F42DE0A00C72F
-                04CE91D14379FC4944C195AB02E056CCC3E5263E8EC5B84B7BA788288FCE9589
-                FFE1BCFD84021500B564F49CC42E79FC8944C1936D0130036BCD313F70063EC1
-                91DA3B434479F4AEC4D3A4005895B79F94F702C0F10B81F36454FA558B88C22C
-                DB02A033A6A099892BCCDBC152ED9D21A23C3A5F26FEFBF3FE930A5C00B83301
-                EEE980A30BF09389F4655A008CC0971802BBCAC6123CA2BD13449447EF48EC9D
-                F7237FA7600580E31702036594BF6B1B444152DA02602A5663928967613ACB64
-                A258384726FEC295FA4A05805B3CC83DD6707C0133202ABCD21600EDCCF46FBF
-                FE27FC86B5DAC913511EB986797DB35EDCA7B40A5E00387E21D04746AE4F4059
-                854C88F22FDD02603866E34CD8D53496E169EDA489288FB64874CFF93F53F00C
-                D40A00C72F041E93517FC54C88F2A7A402600A56E16D130763067A69274B4405
-                304626FE016A1904A400E89A78417C0D143322CA3D5700BC6D0A00DBB8A78229
-                0076867F0CB0D9FC698B89A86DE24633CA7DBB0F220A8E6512FB4B01F0B65A26
-                EA0580E31702B7C8E80AED748872AAA61400FF45072C847FB1AB9CF9732966E1
-                7413C76379A25F261145D9AD32F15FA99D48D00A807D65F4A8C4D6DA6911E544
-                3594470D1327E3087C6FE234AC31FF0D0C30FFD5593B39222A80A912CF940260
-                967642C129001CBF10182AA37BB4D321CA89FD4D0960CBD97B7100C6C23EF7F2
-                A1F918B01ABF16E0695F22D2374C26FE7BB51349086801E01E1374CF43E67E19
-                44A2423AC014006D4CAC829DCC7FF937FDBD93ED468928045CE3BB81057FCCAF
-                24812B001CBF10E82623D7306837EDB4888888D2B058A26BF0335E3BA16D04B6
-                0070FC42E07A198DD04E878888280D37C8C43F523B916285A4006824A30724F2
-                496922220AA2D7240E960260897642C50A7C01E0F885C0713272854043EDB488
-                88880CB74EA79BF85FD54EA844A129001C5E122022A2E009FE29FF54212D00EA
-                C968B4C453B4D32222A2587A41E2102900966B2794B6D015008E5F08B8162AEE
-                B9CABDB5D32222A258982371A84CFC13B4132AB5D016000E1B07111151E105AF
-                B14F6985BE0070FC42E02E195DA09D0E111145D2DD32F15FA89D48D6225600B4
-                90D19D127B6AA745444491F086C48BA50098AB9D50D6225300387E21D05D467F
-                97B88F765A4444144AB325FE5926FE71DA09E54CE40A00C72F0406C9E80E8995
-                33DD1C1111C58AEBD97F894CFC0F6A279473912D001CBF1070CF655EA79D0E11
-                1185C22899F8AFCF7E5301159302A0868C6E9738503B2D22220A24B70AED6552
-                00ACD64E286F225F00387E21E0FA04DC2AF1B84C3747444491E25AF75E2113FF
-                9CACB61606B129001CBF10E828A35B24B6D34E8B888854BC2FF14A99F8276927
-                5430B12B001CBF10384146374B64274122A2787047F857C9C43F563BA1828B6D
-                01E0F885C00019FD5562A34C3747444481E696E7BD5A26FEC7B4135213FB02C0
-                F10B816132FA8BC46ADA691111514EAC95788D4CFC6C1DCF0220855F085C2EA3
-                1B2556D04E8B888832B249E2B532F1DFA69D5060B00028865F085C2BA351DAE9
-                10115146AE9389FFC6EC3715312C004AE01702236414DD86104444D1325226FE
-                1BB413092C160025F00B807232727F91D85190882898DC19DB1152006CD64E28
-                B05800A429B910B83E25121191AE9189C8893F3D2C0032947C8F803B23C09B05
-                89880AC3DDDC378AD7F833C402204BC94F0DB882808F0F1211E5877B9CEF46DE
-                D59F2516003992DC4760B84436142222CA0DD7C0E7263EC79F232C00722CB9B3
-                E05512D96298882833AE65EFCDB1EFDC976B2C00F22479AD812B2572D12122A2
-                F4B8457A6E896DAFFE7C63019067C9AB0FBA7B05B80C3111D1F6B965796F8BDD
-                EA7C85C602A040FC42C05D0AB84CE240EDB4888802E21189B7CBC43F27ABAD51
-                C9580014985F08D490D12529B1B2767A444405B25EE21D89E84FFCABB5138B0D
-                1600CAFC8260908C2E96B88F765A444479325BE29D32E13FA89D506CB1000808
-                BF10E82EA30B25F6D44E8B882847DE9078974CFCE3B4138A3D160001E317022D
-                6474414A24220A9BBB13D19FF8E76A2744820540C0F905C15019B94643EC2B40
-                4441E56EDEBB4726FC7BB513A262B0000809BF10E82CA321124FD14E8B8848BC
-                2071B44CFC13B413A212B0000819BF10A827A3F3526243EDF4882836964ABC3F
-                11FD897FB976629426160021E71704AEB1907B9AA097765A441459AF497C5026
-                FC57B3DA1AE9610110117E21E0161F3A2725EEA69D1E1185D662890F27A23FF1
-                2FC9748314102C0022CA2F08BAC9E86C89BDB5D322A2D07856E23F65C21FAF9D
-                10E5180B8088F30B01D761F0CC94D85A3B3D220A8CA9121F4D447FE25F9FE1F6
-                28E85800C48C5F10EC2BA3FE29B181767A445430CB248E49447FC29FA59D1815
-                080B8098F30B82AE323A232596D54E8F8872668BC42712D19FF0DFD64E8C94B0
-                00A0247E41D04746A74B3C5E3B2D22CAD82B129F9609FF19ED8428205800D076
-                25DF3BD027251EAD9D1E1115EB1D89CF2422AFE5D3F6B000A0B4F805412D199D
-                26F154895DB4D3238AB177253E2FF13999F05769274601C7028032925C109C2C
-                D1B526EEA19D1E5184BD25D1B5DE7D91133E65840500E5845F105494D149124F
-                9078A2C40ADA691285C826892F4B1C2BF12599F03768274821C70280F2CA2F0C
-                BACBE8B894D8443B3DA2005924F1D544F427FA71DA895144B100A082F20B82FD
-                6574ACC4632476D24E8FA880264A7C53E2EB32E17FA69D18C5040B005295FCB4
-                81BB77C0B53076670E9A6AA74994858512DD91BC6BA9FB16EFCE27552C002890
-                FCC2602F19B9A70CDCE3879D25D6D04E93682BAB254E90E81EC77B5726FAAFB4
-                13244AC2028042C52F0C0E96D151128F4C892C0C289FDC44FFBF94F85F99E8A7
-                6B2748941616001409C9F7161C21B183C4F6129B6BA749A1325FE214899325BE
-                C76BF514092C0028D2FCC2A0A18CDAA6C436120F9358553B5D2AA875123F96F8
-                91C40F13D19FE8976A274A94172C0028D6FC02A1A58C0E498907A5C43ADAE952
-                A9AC94F8694A9C9688FE04FFA576A2442A580010ED40F219047789613F89AD24
-                EE23716F89B5D2D93465CC75BC9B2371B6C42F247E2EF1331EC113ED000B00A2
-                1CF00B85BA326A21714F897B4874F7203493E81E6F8C7B4324D700C73D2EB740
-                A2BB06FFB5C47912E7CAC4BE423B71A250630140A4C82F1C1ACBA8914477C6A1
-                81C4BA29B1564AAC2EB19AC42A122B49742D9A7796585E62B9946C364BFC55E2
-                2F125DCBD99F25FE2471ADC4351257A5C415297199447744BE4426F2EF0AF152
-                13518AFF07C07D7862E0000F010000000049454E44AE426082}
-              NineGridsResAtTop = False
-              IconCreater = IconCreaterCircle
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.250000000000000000
-              AnimateOutTime = 0.200000002980232200
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object btOK: TJDUIButton
-              Tag = 8
-              Left = 307
-              Top = 169
-              Width = 67
-              Height = 27
-              Animate = True
-              GrayScale = False
-              UseFormFontName = False
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = True
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clBlack
-              Font.Height = -13
-              Font.Name = #23435#20307
-              Font.Style = []
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = #30830#23450
-              ParentFont = False
-              EllipsisPosition = epEndEllipsis
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = True
-              PictureClick = False
-              Down = False
-              ImageAlign = iatLeft
-              ImagePadding = 6
-              ShowCaption = True
-              ShowShadown = True
-              CaptionShadownColor = clWhite
-              ShowNineGridsType = ngtHover
-              IncContentWhenClick = True
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = 0
-              Picture.Data = {
-                89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
-                610000001974455874536F6674776172650041646F626520496D616765526561
-                647971C9653C000002054944415478DA63FCFFFF3F032580912A0630CE106260
-                606104F2802220F3FE00096E2606066646A82A206602CBCB03F15A20AF86E1EF
-                FF1DFF235EE33100A89F810D6A00C820664601A0D88234F764FF593BE79E0519
-                02346007B106B0313032CE3054D677D794D190626567FDB370D7928BFF635E9B
-                1063002350738B828442A481829EE2EFBFBF7F1FBC7CE8C6979F5FABFEC7BDD9
-                826C800750710BD87F7FFEEF60F8F30F28C60412CF14E617CA37563556FBF7EF
-                DFFF33B7CEDCFCF0F5632F507CEEFFF837D030982EE401B4A7252938C970DEDA
-                79E781AE0006D2BF1D0CCC4C3E1CECECED2A92AA1ABF7EFE627EF1F1C59D4FDF
-                3F2D04AA6D0585CBFF94B75003260B9C89098ED37BF3FA0DAB80A0C0DF151B97
-                5D00BA64210B334B9CBCBCA22ED066F6776FDF3EF8F8F9C35A606C94010DF807
-                F2DBFFACF75003FAF93D80B6B6F8FB04EA5E7E7C854D4E44F6E781BDFBAE48A9
-                CAA833B231F17C79F5E9E9C7D71F7601356731B032FE6080862DC2803E7E0686
-                DFFFC186183B9B693DFDF98C53805380E1FDB7F70C3F5E7C7BFDF1EEFB230CCC
-                0C490CAC4C1F8006306037E01730E4FFFC031B226D27AFF183F717F7EF973F3F
-                7C3EFBFECC7F268604A0C6A7400318F01BF01BE8B5CF7F3D80A9AC85CB845FE6
-                FB854F7780D2A9C028BD8E2D19FFEFF88EC5800F7F1818DEFFF160F8F7BF05E8
-                E71C06419613605BF11930A0B91100DC9D0EF041E2DA1B0000000049454E44AE
-                426082}
-              NineGridsRes = jdu9GSpeedBtn
-              NineGridsResAtTop = False
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.050000000745058060
-              AnimateOutTime = 0.200000002980232200
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object btPen: TJDUIButton
-              Tag = 3
-              Left = 132
-              Top = 169
-              Width = 30
-              Height = 27
-              Hint = #31508#30011#24037#20855
-              Animate = True
-              GrayScale = False
-              UseFormFontName = False
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = True
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clWhite
-              Font.Height = -12
-              Font.Name = #23435#20307
-              Font.Style = []
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = ''
-              ParentFont = False
-              EllipsisPosition = epEndEllipsis
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = True
-              PictureClick = False
-              Down = False
-              ImageAlign = iatTop
-              ImagePadding = 6
-              ShowCaption = False
-              ShowShadown = True
-              CaptionShadownColor = clBlack
-              ShowNineGridsType = ngtHover
-              IncContentWhenClick = True
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = 0
-              Picture.Data = {
-                89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
-                610000001974455874536F6674776172650041646F626520496D616765526561
-                647971C9653C000002034944415478DA6314303060F8FBF72FC39F3F7F187001
-                E56FDF18DCDEBC6150FAFA95E12F54EC3F0383F56F0686898CF80C700769026A
-                06698401A801FEBF1818AA8178015603401ADD5FBF46D600038C407E3A50630A
-                101FFCC7C0508C6280AAA82843E6A143283A900C60056AA8F9C9C8E8F3EBFFFF
-                3B40EBE280623F190D1D1D19FEFFFFCFA024240456E5BA6E1D360378809ABBD9
-                F9F8ECDE7EFDFAE3F7DFBF6940B1B36027050505A168C062803850F344717979
-                8BA76FDE7CFCF0F56B3630008FC0FD846E8011D00B42C0308002953F8C8C9335
-                0D0C4C6F3D78F0FAE5FBF79D40CD0B500205DD00F9AB5719946FDE04318D8136
-                CF34B5B7D7BA73FFFEABDB8F1EAD01F24BD0630A970160CD4E3E3EC6B7EFDE7D
-                79FEFAF58D407EFA3F2C69049B01C68A376F82353F7CFCF8DDC98B178F0135FA
-                FE87241EFC06006343F5EBD7AF1ED59F3F4FFAFAFDFBE713172EDC0206A20936
-                8D1806C0346FDAB469D2B66DDB1E5E080A7A834F332B10F3820C589F250AE21B
-                FCFAF56FA2FF94A77620CD6969694B7CDEBFAF91FAFB17AB66362016006250DA
-                656C2EAC6250FB3C73A59A856BD8A37B0F3F25CFBA3DF9D7AF5F35A63F7E3098
-                FFFA8555B320343CC00644D73C4AD067DD30DF8069C3A7C33B8F2C9B7C852B13
-                94AC419AD10D100162665878C10C886F78F6FF0A30EA841E4E9E6CC6B23D6FEA
-                356E066C0688406DFF8B660000BB46178B30BE70E10000000049454E44AE4260
-                82}
-              NineGridsRes = jdu9GSpeedBtn
-              NineGridsResAtTop = False
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.050000000745058060
-              AnimateOutTime = 0.200000002980232200
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object btRect: TJDUIButton
-              Tag = 1
-              Left = 68
-              Top = 169
-              Width = 30
-              Height = 27
-              Hint = #30697#24418#24037#20855
-              Animate = True
-              GrayScale = False
-              UseFormFontName = False
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = True
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clWhite
-              Font.Height = -12
-              Font.Name = #23435#20307
-              Font.Style = []
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = ''
-              ParentFont = False
-              EllipsisPosition = epEndEllipsis
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = True
-              PictureClick = False
-              Down = False
-              ImageAlign = iatTop
-              ImagePadding = 6
-              ShowCaption = False
-              ShowShadown = True
-              CaptionShadownColor = clBlack
-              ShowNineGridsType = ngtHover
-              IncContentWhenClick = True
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = 0
-              Picture.Data = {
-                89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
-                61000001604944415478DAAD93CD4AC34010C72760AAED21C5D7F01DC4A2088A
-                20087A153FD0FA14018B1F2F22162F5EBC0B3E8120A5A8E0454F1EB54AD2EE97
-                33BBB3EDA6542F7121CC24BBF39BFFCC6622630C9459D15DF76DBE2F2428A5F1
-                6DC2815F0229ED4C3C85FBABC7A52458C0FB4D0ADF7991AE8D7B94097C142971
-                57A2ADD72298DB6C39C0F315012478292ED000B547B0AF2CC0596101312CEC9C
-                8C005F08D04CD088225F526674242B2110659768936A05167719F044804CDA40
-                5A2A0820D9CAB8206BB58324A86079EFD4011E11D0CBC450812CC8E6CC5C8264
-                4852ABC0CA3E03BA6D04E4C26E863DF019870A58BEED413586B5833307E8B49D
-                020F089B2683DABD1281DFEBD883F543063C5CA6F0614B30C512F458ED0CA59B
-                21C0469301F71708C807F6A05510743E2CC1ABF0D7B87574EE002FD7297C6630
-                0204D7355EBFB7B30858DA6EFDC3AF7CDB796DF407C2CA8EA23F0E4E18A6691A
-                A6B2E3FC03ECCD50E5513F3E360000000049454E44AE426082}
-              NineGridsRes = jdu9GSpeedBtn
-              NineGridsResAtTop = False
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.050000000745058060
-              AnimateOutTime = 0.200000002980232200
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object btSave: TJDUIButton
-              Tag = 6
-              Left = 238
-              Top = 169
-              Width = 30
-              Height = 27
-              Hint = #20445#23384
-              Animate = True
-              GrayScale = False
-              UseFormFontName = False
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = True
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clWhite
-              Font.Height = -12
-              Font.Name = #23435#20307
-              Font.Style = []
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = ''
-              ParentFont = False
-              EllipsisPosition = epEndEllipsis
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = True
-              PictureClick = False
-              Down = False
-              ImageAlign = iatTop
-              ImagePadding = 6
-              ShowCaption = False
-              ShowShadown = True
-              CaptionShadownColor = clBlack
-              ShowNineGridsType = ngtHover
-              IncContentWhenClick = True
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = 0
-              Picture.Data = {
-                89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
-                610000001974455874536F6674776172650041646F626520496D616765526561
-                647971C9653C000002334944415478DA63FCFFFF3F03258011644032CBC40C20
-                5BF973CDFBDBC468E26D1154055277E7FEC99F0136208965426FC5E2E422B548
-                5E0642EE6104E25BCB3F3374C4CEED9BF7A7A0186C40224B5F7FF1DCF8028D38
-                2186BF7FFFE23580999999E1C6A2770CBDC90B27CCFF535408362081A57762D1
-                ECB83C95584186DFBF7FE33580959595E1CEE2F70C7DA98B262DF8539C0F3620
-                9EA57B4AFEF4986C25A00B7EFCFC89D7000E7676867B40174CCC5C3275E19FD2
-                1CB001B1CC1DD3F3A6C664C8C70B337CFBF60DAF015C5C5C0C0F17BE659894BD
-                64C6E2BF15996003A299DB66E54E8A4E15F71460601367C16BC0AF977F185E6E
-                FFC030396FE9ECA57FABD2C0064431B7CCCDEA8B4CFAFEFD3B5171CFC9C9C930
-                AD68F9BC657F6B92C1064430372EC8EC8E8C3F79F22403AE84C5C8C80867DBDB
-                DB33F4E7CE5FB8E26F7D02D88030E6FA25E9EDE1D1172E5C60B0CE53C6880950
-                C81F9D7497414E4E8EE1E9D3A70CA6A6A60C130B172E5DF5B731066C400873CD
-                8AB496F0F0EBD7AF3368C789331CECBB0AD66896A90477F2D5452F19A4A4A418
-                DEBE7DCBA0A5A5C530A964E1CA357F5B22C006043257ACCD6E8B0DBA79F32683
-                6C002FC3E30D9FC11A45DC59E00680C4C4C4C418BE7EFDCAA0A0A0C030B16CFE
-                BAF57F3B82C106F8301538FE67F85F69E6AE6BAA9D2C27F076D70FB0467E2788
-                012C2C2C0C20312121484A0519D45B3E63F7D67F13DDC0067833E533FCFAFFC3
-                156848E34196F947B005A2FD9F441BD43CC1786EF7FF9990844409000043B100
-                F0FCC18A150000000049454E44AE426082}
-              NineGridsRes = jdu9GSpeedBtn
-              NineGridsResAtTop = False
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.050000000745058060
-              AnimateOutTime = 0.200000002980232200
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object btStartProgress: TJDUIButton
-              Left = 789
-              Top = 267
-              Width = 50
-              Height = 23
-              Animate = True
-              GrayScale = False
-              UseFormFontName = False
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = True
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clBlack
-              Font.Height = -13
-              Font.Name = #23435#20307
-              Font.Style = []
-              OnClick = btStartProgressClick
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = 'start'
-              ParentFont = False
-              EllipsisPosition = epEndEllipsis
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = True
-              PictureClick = False
-              Down = False
-              ImageAlign = iatTop
-              ImagePadding = 0
-              ShowCaption = True
-              ShowShadown = False
-              CaptionShadownColor = clBlack
-              ShowNineGridsType = ngtAlways
-              IncContentWhenClick = True
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = 0
-              NineGridsRes = jdu9GSpeedBtn
-              NineGridsResAtTop = False
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.050000000745058060
-              AnimateOutTime = 0.200000002980232200
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object btUndo: TJDUIButton
-              Tag = 5
-              Left = 206
-              Top = 169
-              Width = 30
-              Height = 27
-              Hint = #25764#28040
-              Animate = True
-              GrayScale = False
-              UseFormFontName = False
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = True
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clWhite
-              Font.Height = -12
-              Font.Name = #23435#20307
-              Font.Style = []
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = ''
-              ParentFont = False
-              EllipsisPosition = epEndEllipsis
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = True
-              PictureClick = False
-              Down = False
-              ImageAlign = iatTop
-              ImagePadding = 6
-              ShowCaption = False
-              ShowShadown = True
-              CaptionShadownColor = clBlack
-              ShowNineGridsType = ngtHover
-              IncContentWhenClick = True
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = 0
-              Picture.Data = {
-                89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
-                610000001974455874536F6674776172650041646F626520496D616765526561
-                647971C9653C000001E94944415478DAC5934D48545114C7CF7DCDBC8F911166
-                1568200882B97DB373639B1A7293B549DC84224E1B255A08AE14A416AD6A5554
-                9BC81444105CD52ADC8E83AB6188191417A235238FDEF4BEEEC7BB9D77AD6126
-                08825974E10F8FC7F9FFEE3BFF731E9152422F87F40CB8BE76008665816E9A90
-                360C48A5D3057C3F85E085A4A0E538ED6219C7C0A2482916026A4FC6FF00E87A
-                010859FF559F8F820004E7FF08300C659EBB376CBFDD392AA3311FA3A1F3FC15
-                80B717089A1FCE8CD9AE2B6063EF4BB9D3876AA0AAD8D616A7B4D405185D2D29
-                F3E2AC6DD76A1E98A6A694647B290961C469D3F15BD57AE3CC71C30F82B1E708
-                F015607879FFE05171DCAE54DCAECF8DB0F7561082873950CA208E0558962E1A
-                4DEFE4A2E9BD41C0D3E3671340AE2D7D2AE02DEB4BC51B76BDFE03887E051C22
-                E15BC48109093C9640310A8ACF1197902652F8957A95B5BCD9D317B74A6470F1
-                23D0205090FBC549FBF3770DCE37F7DA19104D23C4D4535A5F4627D9AC450706
-                72108494940FDF355EDF79AC0091EF030D430519294EDBB5979B65DC873C9A01
-                FB4D21278BBA8A1AC2C9DC845C6E021CE7ABFB7EFA761B90CC1C135690DF7B60
-                64329749761C8ED9C49CAF60DDDD60FB41BE0B908C8733A63611A536B1AFBFBF
-                0B40931A4A93E9BC62BBF30BBDFF0BFF1DF0139D9445F0654C4A2F0000000049
-                454E44AE426082}
-              NineGridsRes = jdu9GSpeedBtn
-              NineGridsResAtTop = False
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.050000000745058060
-              AnimateOutTime = 0.200000002980232200
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object jduButton10: TJDUIButton
-              Left = 37
-              Top = 91
-              Width = 180
-              Height = 68
-              Animate = True
-              GrayScale = False
-              UseFormFontName = True
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = False
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = 3355443
-              Font.Height = -13
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = 'Button'
-              ParentFont = False
-              EllipsisPosition = epNone
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = True
-              PictureClick = False
-              Down = False
-              ImageAlign = iatTop
-              ImagePadding = 8
-              ShowCaption = True
-              ShowShadown = False
-              CaptionShadownColor = 3355443
-              ShowNineGridsType = ngtAlways
-              IncContentWhenClick = True
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = 0
-              Picture.Data = {
-                89504E470D0A1A0A0000000D494844520000002000000020100600000023EAA6
-                B70000000467414D410000B18F0BFC6105000000017352474200AECE1CE90000
-                0006624B4744000000000000F943BB7F00000009704859730000004800000048
-                0046C96B3E000004A74944415478DAD5595D6C544514FEA6A59636FEB0AD0A45
-                4B30DDED8B0F3E1AA1556924C1F060C194002F427CA12DA9C46813096A0BD168
-                4D4C08698510046230C1DA604C20040234D096C4C4449EAAA5B53162C29F90A0
-                01D47AAF67E69C7B77B777B77B6FEF6EAF7B369BEE9D997B66BE6FCE3973E654
-                A140F228F6611435988285796842096C283C63FA6C2CA52FE839E68E57A6FDB6
-                F9A53049BFF5E712BD6BD3F72C6EA01D4FE16ADED7A9C2ABB00DB42AECC5CF68
-                96966DD2DE98A7692C4318709E88D4DA76E377B4218E6FA22320865E4CA0C128
-                B0D023AA9E0BBDA060322296F436D98E2664A49004F04EC7F019C6D1292F7E28
-                7D25730CDCBB3606D3835BB8863A6CA7A76E7AB6C213F0243EC5AFA8C05DCCC7
-                7D1C96D6968801E722E32B54E22F5AF1265CC19BA8C5BDD910E0F8B6DEF12FA5
-                6D7DD4E802D1A03040AED14A16D1020EAEB67F0234F0CB785F5475458D47E45F
-                01F6BD3CDF91BFCFCA29F250867774CF7BE41AAD4860576E0292C14D7BD0F95C
-                3C155C18F06FE038D3423BBA8582DD45B7FF315AEF241611358A8EDC7E696DF0
-                68613D0D9E60A9D2076993EF23931F463451DD0BBC94802BACC04D025E473699
-                4D6266DDB5620993D25A3A6DD43059421B5942922097802A62720C6BC1BE3250
-                34C0BD4468D7FD49FCBDDED3AFCC778D9B47A410D0472F0ECAD30B45071C14AF
-                6C7AB70A0BC9126E49DB2319E701CE1957485086AAAAB1073F62317594D2E74A
-                0A4FC5029C4507ED3174188D3A539C59747A5E46732E868A999DDF28908F1425
-                F00932698E61474577998FF915CDBC018A8FBB4F64496FCD0970D0A546990537
-                91B1B693A78E06D6A3376E0CABC5A79D98551E4887C2C76C01E3F85AA2E7AB3E
-                5F9C12307F4CEB71A2EEC3198147B9E399A5DF21E09410B0D2177C9B120F9D58
-                D4E33B4F2FBBD42171A9D7DC1DD7C04BF0FCFF04B8B321A78313A02F1B718213
-                A3683B8127A4F5657378020FC802B7497B1D38A0764926D69D27E02542EC7119
-                B55208AF0848C0A9E02E9024A086EEFFAB4CBE68B90BF10AFBE85639777B4302
-                2F13E083728CADF0585C30E9E720384EC18027EACC3B014CC1EB62019FCF1A78
-                FADE9D30C1334141908378AFB4B70500AFC77F14FC182C1401FE7D3C3F04B00B
-                AC87726A77165D27E6B98950F6024750026C43C0981C7B5F88F607C1C1549F1A
-                BA68B1049C82AF9901783E09B068069D07D424533EB68473D2F0624E02AAE906
-                364E519DAF50077C331F565263409C2C2B2801BC21674C9D2081979204549B60
-                D86CD4D83896554129F5FE4DF76E5DA57D1A7FCE19F06CC225BA8362619B728E
-                67C0AF98A09CC0B7DEA49F2F45C3F2B42C8B8A9372C31E8C0C38DFF616C88EBE
-                E1F3181C92EB70638A9E0C8C4E60B999C0C2856CC38A4C2C933B704124BDA092
-                A324F62ED8B776468D2084681BD96182661C1F787A7D1445F792451C91E70D51
-                A309003B6451D4916459BC1CF729E3E257D6458D2F871C4525AD763E3687298B
-                4F9762F9C788DEF177906DC74310902E7C87582677881E695D3EC7C08724B875
-                7A829B5FC95B7877F208CB10D2218A9DDA62580BB1DC048835ED76CFF1B052B0
-                F3ED71ECA7547921FEA1B4694A171F4DEA39FDDFE3D5690BB171537EFF62DC4D
-                E10773C106CE52FEA94DFB7ADED7F91F88FBD01610DF39AA0000002574455874
-                646174653A63726561746500323031382D30372D31385431313A35343A34362B
-                30383A303067BA816C0000002574455874646174653A6D6F6469667900323031
-                382D30372D31385431313A35343A34362B30383A303016E739D00000005D7445
-                58747376673A626173652D7572690066696C653A2F2F2F686F6D652F61646D69
-                6E2F69636F6E2D666F6E742F746D702F69636F6E5F6D7864626367633173772F
-                2545352541312541422545372541392542412545392541322539382E737667C7
-                F22E910000000049454E44AE426082}
-              NineGridsRes = jdu9GSpeedBtn
-              NineGridsHoverRes = jdu9GSpeedBtn
-              NineGridsDownRes = jdu9GSpeedBtn
-              NineGridsResAtTop = False
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.200000002980232200
-              AnimateOutTime = 0.300000011920929000
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object jduButton11: TJDUIButton
-              Left = 222
-              Top = 91
-              Width = 180
-              Height = 68
-              Animate = True
-              GrayScale = False
-              UseFormFontName = True
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = False
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = 3355443
-              Font.Height = -13
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = 'Button'
-              ParentFont = False
-              EllipsisPosition = epNone
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = True
-              PictureClick = False
-              Down = False
-              ImageAlign = iatTop
-              ImagePadding = 8
-              ShowCaption = True
-              ShowShadown = False
-              CaptionShadownColor = 3355443
-              ShowNineGridsType = ngtAlways
-              IncContentWhenClick = True
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = 0
-              Picture.Data = {
-                89504E470D0A1A0A0000000D494844520000002000000020100600000023EAA6
-                B70000000467414D410000B18F0BFC6105000000017352474200AECE1CE90000
-                0006624B4744000000000000F943BB7F00000009704859730000004800000048
-                0046C96B3E000004464944415478DAED595B884D5118FEF79C63CCA08890DCC9
-                9DDC8B21E49C07945B52942711F1201E3086CE83CB88F2240FE241E281924B29
-                B93D5198178C412E934B12E5924B7266CEF6AD7F7DFB3067CE3973B0F799736A
-                FEDDD9FBECB5D6FEF7FF7FFF65FD7B2D47F244AE9E1D792483649B8C9246BD8F
-                689B48A98C9667B247F6E74B9C24397E337C28FDA0602F49402947A643717344
-                D93B97D7BE29D09C0300CF01C0A2C207E0A10C974AE9060B36488954A802AE4C
-                23A3282D3DF12F3816180035B05E4C3AE028839215B064097ED11405C7737489
-                0F22B43200F7119355B25855716503159C2A5E6C064FE68D6FF8EF4640EFA851
-                80AB655F73006A35291DA4C2EBF3A070BEC9007C9E1EB6B00D808203C0E6969B
-                B89A6C134BB6DBDCE3E59A7D54E59AB686E0CCA964C7AFE5DD92E2012053127C
-                A07245D06BE4BAC29127B45EA89615CDB8583D0E508F8DC5048011F18A5AD095
-                35BF05C39D99661D55E078122863FF846C6AC623A41CAA98C457FA078075D146
-                DE1D5376AE94B36F790695CEA2CF1C273136815F35390D6E15787DF100470B9E
-                4A14B1663AD94B973BCFE7E6EBD9957712862D4A312A0ED0E2322F095C3672E4
-                2E9F3FF487D846F0E1D2D4A56FD32047D3AAE9CA52F28BA6F4F80480A0FA138D
-                CA6970B746FC7B85733B31116BDBD7E32E8CE332461A00EAE892DD5BB05011E5
-                006B81C750B0A3FC44C91B962FD21E161F25F5B21B1632FC2AE5948E746891EC
-                5464003405623F14375F719B55E0ED325B054EC8D59CF9044FBE036018C63524
-                CCD7DE48B5FC1DF8C430C0D0099ED100AFA8E5D87E390AF984D7332900F76708
-                2DE37BEBD87321039FD9BC4E0E1200C372875ABE142CEB90D9E3725A233E21AB
-                9002DB213F4CA1E0177304B46842E006147E067BCD04008365086C6E15DDC3FE
-                C35CD85843058E5381155978163800D6153FC3AA26AF8F13537284E0EA8DDA53
-                C351ED932FB3A13143E782B03CD2A77E421D5779F5C8C0FF3B057DFB87D8A6A7
-                9C77BDD8FF95E3DFA501D2F474A3413AFBED013F380DBEA1605DD8DE358D1866
-                DC738EBB4C81C750B08A0C1ED0FC73D8216096CF4CB6BE145B21DC4A0B802363
-                F97FA8DF000449051E026D00044C3644DEB394BDDB44704743CC8C98C0B60F1C
-                5F9F1646913EBCEB593C00044F6D006407E09E0C40093B0CD39C595159A4B9D4
-                6E58189A4ED72ACFF975FF42E9BE06FD53DF707E01009E02804B69DE9D81EA51
-                86C6A40C33744897C72DB308633542A02611A0D07F8918E4B2781DCAB52AD425
-                E64BD641ED6A4AF75D4CAA590168896A103A5B507094834558662581B10A795B
-                5E237D03E03A6A8118DED4435EA3E85E9903DFDFFC5DD407B6105B4DB9D6B162
-                3DE2FFD69847DE165983EE2D44582146B9B0E24D6F7D7206C0DBB029C32F2EDF
-                7C9272677000B4445EEE09E9964C6F5D69DA25D7F204C0471A6441EB01F0B7E4
-                ED2EDF474C6F9581393F6752BB93F4C01837F3E6C808F5B8DAE201E05FA9169E
-                B60539A04473D527AE5FBC48F6FF02891504E0BEAD8F81000000257445587464
-                6174653A63726561746500323031382D30392D30345431313A32333A33382B30
-                383A3030425EF3CF0000002574455874646174653A6D6F646966790032303138
-                2D30392D30345431313A32333A33382B30383A303033034B7300000055744558
-                747376673A626173652D7572690066696C653A2F2F2F686F6D652F61646D696E
-                2F69636F6E2D666F6E742F746D702F69636F6E5F6F6E7879776263673573612F
-                2545352541462542432545352538372542412E7376671EB1679D000000004945
-                4E44AE426082}
-              NineGridsRes = jdu9GSpeedBtn
-              NineGridsHoverRes = jdu9GSpeedBtn
-              NineGridsDownRes = jdu9GSpeedBtn
-              NineGridsResAtTop = False
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.200000002980232200
-              AnimateOutTime = 0.300000011920929000
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object jduButton12: TJDUIButton
-              Left = 407
-              Top = 91
-              Width = 180
-              Height = 68
-              Animate = True
-              GrayScale = False
-              UseFormFontName = True
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = False
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = 3355443
-              Font.Height = -13
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = 'Button'
-              ParentFont = False
-              EllipsisPosition = epNone
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = True
-              PictureClick = False
-              Down = False
-              ImageAlign = iatTop
-              ImagePadding = 8
-              ShowCaption = True
-              ShowShadown = False
-              CaptionShadownColor = 3355443
-              ShowNineGridsType = ngtAlways
-              IncContentWhenClick = True
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = 0
-              Picture.Data = {
-                89504E470D0A1A0A0000000D494844520000002000000020100600000023EAA6
-                B70000000467414D410000B18F0BFC6105000000017352474200AECE1CE90000
-                0006624B4744000000000000F943BB7F00000009704859730000004800000048
-                0046C96B3E000007044944415478DAE5597B68956518FF9D73E656DE2331C2AD
-                12BB99E1D234083197A594FD119B3734CBE62E9565572A432822C822D02862B5
-                9D6D686823A7497829B510CA4C33878648EE62348D10A336B37497EFEBF73EEF
-                F37DDB3987E3B9ECA2D07B98E7FBDEF3DE9EDFF37B6EAF01FCCF5BA0AF373882
-                B9F81499C8C0109CC158DD309BDF01B8B8CA1F1794F7DFD10187CF27F97D8633
-                8E621C36601EDA2E7D005CBCC64F10F568C628E48B8041CCD1DFEED751C3525C
-                B5456001B61116B3622D6E2078CDD8CCE7D7F9712E3E000D5882720AE8CA01DF
-                D2DEF151A39A75AB1D024700BF6AFF89A871D932CEC535320E98A9FD3951073E
-                A4CFCB713D2A518C2FFA0F807A2CC37BC8E2C4B3B81C65220E50A8BF3AF216C0
-                272AC86A8C4198073CA8FD6E3748E6621557F81783311C57E3465413CA26FF77
-                57A16A626F156E976707CFE90A0BFCE307645C15CEA395EB3C91B2C9240DC0CF
-                28C54718415A77F26FB3F64ED1EF3A5DAC8814351AA94B02C84232671A9F429C
-                F70C3569809A8D460A5CC12757D6CB5566AD254066DDFD645C21CF3111C66B04
-                29B8052457F7FF96208578C27CDCC4D51FC3E99E037040041F40EB3582EFD4DE
-                69AAD18DE4411B5DDC621EE1633CC2B79EB6DF64BF815CC938C302582E3CAEDF
-                A7A51764C239EA3C0BA73088BBB7618D3266B6AEB2877F03C9AE7BA890F7F134
-                C7A60D408368A4CAA7BAA5712DA95D458DCC8BA1765FB57AB22B4CB33162BA58
-                297D412C257372E85176913927E84136E8490A7456581859C24FCA00443AB76D
-                DA5B877F887716A6F69AC65307C230640CCFD44100B648AC019EC4DFC2887DC2
-                88F36480671A567133694261C2B03366BD1800BC70D620881ED0DE5C71410E26
-                13F16ADAD6C17E173CBA35E2517C48FD1A930861BBB03084BBF99E4168AE94F3
-                06F0A30AF81321CBA6441363C2670C00C744F3B345EF26EE5A8AAFD370B3E862
-                CB1DD3AC692CD4B7F9EA841F54D35DAF0C5840981C3E1710886A72E8B3F80044
-                4FB481669278E91222DAF3035BEF1F90DCAF0CD6B9192765A85C9CF63E06880A
-                EC153183749A03241A64F2CF30617F5C45FA00447AFB533AE12C11ABE4D2393D
-                7676471929CA701D77C8E0E72B0962364334505FC65DCDDA1BF96F3B299C479B
-                5DCBA87E324D264C11418BF014156AFABDC46B083D582B651CE9E70B3E00C788
-                7B396E53DBA9536C2A4929A391E2B405EF02D638ADDD6A5AEFA82636FBE31AF8
-                5641EABA02C4CB7AD0BCA4139BE304B89AA950A7F880EF64FD12DC220094F3D9
-                E6154B04F6207D998962453C9D0F40A31C60965008D8AA00BCAA00BC91360096
-                9AABFC771B969E8F3BDE6AEC5D3985433698F1A57831E9FDAC091F2577DB1915
-                26311B3079C20BF29B4BF7171488170800A5A8E902C06E5CAC094585F4756576
-                55290B6E9C69251E104B7708E479D1E8D4841AED6E8A217CAD46B75A33C14D49
-                02BE9BF34C4EB8444CCDC1F428B996AA5C655D00D40B7245AAF9B0DA7C895235
-                9CB4E08D22C0306E667CC941FE6B56BA97A9A961D2F114345948D87384B09D04
-                C2103B83D41DCDACAF107F5D0078A3C8BB5865B4F2F303811FC26A6391E633E5
-                F101E82D13B01AC8530057C0BACEE5FEEF0EB5DFC1BA3F9E936B105F340E9E73
-                B45162A532E14D35A1DD299D274C39800426D05B4ED0950B901005194A0DACD0
-                BE5B157908C00EBE2723CC0156C5CCB700B6E8DB974ADDC33C87A9F656720D63
-                429D499F2736958F0CEBFD1606BD2ACE95CC6D8C5270431C009A55D33969ECE4
-                29C27228320C0E26B4212A60242130D5627BE244283A6CA4DB0EE161927E10BD
-                F2005672A64A330CF8DCFFDD96DB376BB95DAD00DC99F67ED617DCA1F705FB12
-                274291130B74E2461DB05EE3EA43691FC8BB1BCC14D3D8ABEBEE148B74A9777B
-                9467056E17AFD0475410922D69EF679954A36FF31580FC98FCE382C5500EBDA8
-                ED9BA0B633B9C729B117253AA58C592C410A1821BB383C584F8BAD26F1659335
-                05DEA7021E4EBE18F29AB59DFBD496B6FB777167A51C9E72D1CAE178ED0843DB
-                07B471530C67CA858869E305561733E4CAAD14BB62E625712112994ADA099B14
-                D1B9BD763B9B6EEB62EC499EA816D6FDE5EB77B9F89A12722A5E4BF14A6C87F6
-                E6E9C4ADDCE61C938E85DC681D5D4B6BBF09EE693C4B34BE26EA26688FD612D3
-                13669E295F8A86A4A8D9A451626AB76B6AF354D46B6573BC1669E35E863A5E43
-                F437524B66920163197316E38F84EBA57C2DDEDD9BB75007B6798992AB07A991
-                686FAEC547D3179768D5954A1EE1C571E3CD2B29B08D4A5E1135AFDBF12DD5DB
-                70861A5FD677D7E2F1DA3149A167A8706F6BEF84880D0292F29A70B74373F25F
-                F43D3A15CED6035D0B7BE73F5381181535AE4E9DDB4B719D5BBF01E035CF1935
-                31EB1A2575BDA903E7A8CE67E9A8E129AD08FCA9F707DEA56CAD38DF66265097
-                CC7F8D256A9E13BD42AAB95C71A50E5DA625F8507F5C4874DAA2C0D5B3DE33E3
-                0EFB296B5FB53E07E0526FFF01442CC23F508864330000002574455874646174
-                653A63726561746500323031382D30372D31385431313A34383A30382B30383A
-                3030687DCB850000002574455874646174653A6D6F6469667900323031382D30
-                372D31385431313A34383A30382B30383A303019207339000000497445587473
-                76673A626173652D7572690066696C653A2F2F2F686F6D652F61646D696E2F69
-                636F6E2D666F6E742F746D702F69636F6E5F70796E62356F6C7579636E2F696D
-                706F72742E7376675080C19B0000000049454E44AE426082}
-              NineGridsRes = jdu9GSpeedBtn
-              NineGridsHoverRes = jdu9GSpeedBtn
-              NineGridsDownRes = jdu9GSpeedBtn
-              NineGridsResAtTop = False
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.200000002980232200
-              AnimateOutTime = 0.300000011920929000
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object jduButton13: TJDUIButton
-              Left = 593
-              Top = 91
-              Width = 180
-              Height = 68
-              Animate = True
-              GrayScale = False
-              UseFormFontName = True
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = False
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = 3355443
-              Font.Height = -13
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = 'Button'
-              ParentFont = False
-              EllipsisPosition = epNone
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = True
-              PictureClick = False
-              Down = False
-              ImageAlign = iatTop
-              ImagePadding = 8
-              ShowCaption = True
-              ShowShadown = False
-              CaptionShadownColor = 3355443
-              ShowNineGridsType = ngtAlways
-              IncContentWhenClick = True
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = 0
-              Picture.Data = {
-                89504E470D0A1A0A0000000D494844520000002000000020100600000023EAA6
-                B70000000467414D410000B18F0BFC6105000000017352474200AECE1CE90000
-                0006624B4744000000000000F943BB7F00000009704859730000004800000048
-                0046C96B3E0000071D4944415478DAE5595D6C544514FEEE6E05145163BB5D0A
-                881AE5011E40906AA2414023017C202D504489060A02B5A26834121395F8A03E
-                288A5410A146A348A42821020688215134FC54024678D0281161D9DD1644A4F2
-                D7BD7E73E6ECBFEDF6EEB694C4B9D9DD7BEFCC9C39E73BBF33EBE07FDE9CAE5E
-                C0C56718821E8822CCCF602EE8870F03D813E32798C1CC718E77D18AA308B02F
-                80437C578583387FF903E0E2257EFB2864007D5121F7C014E90126E8A86B3D52
-                3DA5BF9BF5B781D423846903195FAC2076330011BC4B8127909011F435F90686
-                6680734417DBCA8F59F27761DEC51F29A37CEC192016000CD479E374DE0D290C
-                9BF9FB75DCF328C5E304E4AB4B07C0CF588A5BD193BAF4E36F2CD7B733F537A6
-                8C7F2A8CFAB00425988F107E50C6DD049D237893E25E49E7E845032FA3C1D710
-                CC5F53407385BD662C23C0B793B299BF50599E9EC2BEF9D4D3324A703DD7F2EA
-                321D06E018DE239B25B8821E1AA3091A061DDCADCCEE1371FDA82623F339765F
-                4E7A51B19CD13AFF49012A8CC968E2FB32CC5608860955171FA158FA7773DE32
-                F68F80B11897825BA086299D6F711145ECA9403FCC25F04D8503E0527050EC28
-                4907B14D278D169377B19E70FCC3378F529867C9E0990E23DF3ED05751EC563E
-                554A2489619E70E250A056711D630967611CD04F2B023E945E87003AC2D94EFC
-                497EFBE03E0CC202FC8273F90310411D85ABD7A7996AC80DD4580D05AECA32ED
-                AE6A36D64C55865F550BAC91A018C27642534A05AD53C7A954D156F16D0D63C4
-                1CEF00C4839B15CE466163EA31B4F06E54A769DC3B104B29F42DBC33A6FEA584
-                4E30105E64440276D1227AF3CDCE846B98DF18836910B59CBB2D3700C9746610
-                DDAB838689613928E7E2B512D4BABB45B182563808C6418AB085821BAEC71208
-                2378B18C89A1512DF4478E0DD3124664A5CF2C00221275276B578382F289A49B
-                306674B7DC59CD04CD523C44916204601AEF6B29E82475DD353A6ABABA4CA558
-                42085FB40740FA4447AE91D47C0D273616CCB0A53F45177E51A3472F057AA902
-                BDCC33DDA8D0FD5E0CBE9541D327F9A387EA7AB7D2CF56640280F4681FD1B767
-                44F0300B9142835DB3303858195A47E64CE29CC08CED90E1737C36997EA37CC7
-                F098D605073A4C3F6E0946D33EA6E712097EB5926E8352781961FB509E00EB85
-                D244BD9000C068A61F6E93FB58228FAFD64A6B76616A170D99FCFD146CFEF609
-                B0C7590CC55B3CFD95F12EC414E7B5D43DC9A2EB465C870BD4FA597CA79A1EA2
-                C17CB52A6F16573634CB09D0135C7F6F1280A8F8FE44F1146053C2440302C02B
-                9E050EB14A0CE226C9E70E2B396B6C555A3F6C93601A669A4AAE6F2C64A1DA58
-                40196EE46C530835121853081DCEB96E44347E88629A0C3552B3C2339A1516EB
-                FAD375FDB5E90004A9695B50BCAF03AB75607DCE85E3ED38DE219D9BC5072135
-                BA597887BA90F14FF36CC036747F4A61BC8E428E93F13109C2F166E68D11BE5C
-                BA4C66C99C0D401DC7ECD0F156E30EEE4DC865F9A9D160B93C150033B15A0B89
-                550AC09C2C4DE506C00079A7E4678716645DE801CF1694E4CB68D46E767C7821
-                6730B6967C0FDDE03CD3E31E86D79E047D86C8E562657B0074AE0BD868FFB522
-                5F2F9A0BE1638FF31F917B170FAA4F4FCC0BC0BE926D72B8406707C130DE9252
-                CA6166F17193E2975265124B9479A477B05DC103DC6F9AE66781635A2B2B4FC3
-                479433F353446A299F9ED6BB3C0D36896B8D554B58C2286D12E05DBA5B6B498C
-                4BDD669FD652D6C5A2364BD85C2DBE9D4E4D83C0D594A788F298343897CF1772
-                1742996923DF1616205ED61DFC40B5AC5929EB1A537D5B0F565AD4F516E5BD5E
-                B364A13B64F7E8708F604169A7104A07A0529FD6C36A7D8D068D87F36628BEC7
-                B0BBB62DB0673BFB95FE691D359E4017719D31090DE5DBAC1C6BF5699A5A6085
-                C6A20D6D0390BE19DAA38386ABEF94175C12FF860F58B0F462766E61A45EA000
-                F4964AF002DE608C588013F82B6FFA4D2278B99650BBD4750F747C33948EE078
-                7DDA92388B6B655C70596A76D776B83D7E03F471C3A55F6288694345F331DCAF
-                F5C3F6AC791D3810492F256D28FC9C884608C0D44E3B9DCDB7255D2BC8AB4177
-                7D15B06170A5B86E58DCE9BF9B8723B15602B1558118A3BD9BA4D43DCF4D48A1
-                A6EBB5A56ADC274762F624287E2456C2AB981560AE4352CF87A2454C93315A80
-                9D3C2AE11AF6B9BAD3B6CD6DB5B88F5B135F95760CEFE21BC611974AA9407F6A
-                FE187341AEE6F9583CF94F4F13355E076B11B313BDB6AD959D0098F78B65D7B7
-                D7731D11CFE327B082A65DAEE9EC69EDAD4A61DF9A7A80C65ECC54DD65C7E26D
-                35737851CA2063B3C4EB4A7478863047F57DFC8F91C3CAF8D10C6606284437EA
-                BCF81F23FD33E8EDD3CDCE736D06B74B064092291B8C22D445194B5EAB9B29B2
-                84AB35BCC3FDBA379A27F56EB308EC63902B25E4216CBC7CFE1ACB2D840DA2CD
-                34CBBE724A6B0E44066945784DCA38739D12107D2C8C4BE8C921E6EF420BA26E
-                07E0726FFF023B09BA3FE4D65CB90000002574455874646174653A6372656174
-                6500323031382D30372D31385431313A34373A33322B30383A3030B389C8A500
-                00002574455874646174653A6D6F6469667900323031382D30372D3138543131
-                3A34373A33322B30383A3030C2D4701900000049744558747376673A62617365
-                2D7572690066696C653A2F2F2F686F6D652F61646D696E2F69636F6E2D666F6E
-                742F746D702F69636F6E5F396A30346F756F387264652F6578706F72742E7376
-                670856C0AD0000000049454E44AE426082}
-              NineGridsRes = jdu9GSpeedBtn
-              NineGridsHoverRes = jdu9GSpeedBtn
-              NineGridsDownRes = jdu9GSpeedBtn
-              NineGridsResAtTop = False
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.200000002980232200
-              AnimateOutTime = 0.300000011920929000
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object jduButton14: TJDUIButton
-              Left = 778
-              Top = 91
-              Width = 180
-              Height = 68
-              Animate = True
-              GrayScale = False
-              UseFormFontName = True
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = False
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = 3355443
-              Font.Height = -13
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = 'Button'
-              ParentFont = False
-              EllipsisPosition = epNone
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = True
-              PictureClick = False
-              Down = False
-              ImageAlign = iatTop
-              ImagePadding = 8
-              ShowCaption = True
-              ShowShadown = False
-              CaptionShadownColor = 3355443
-              ShowNineGridsType = ngtAlways
-              IncContentWhenClick = True
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = 0
-              Picture.Data = {
-                89504E470D0A1A0A0000000D494844520000002000000020100600000023EAA6
-                B7000000097048597300000B1300000B1301009A9C1800000A4D694343505068
-                6F746F73686F70204943432070726F66696C65000078DA9D53775893F7163EDF
-                F7650F5642D8F0B1976C81002223AC08C81059A21092006184101240C585880A
-                561415119C4855C482D50A489D88E2A028B867418A885A8B555C38EE1FDCA7B5
-                7D7AEFEDEDFBD7FBBCE79CE7FCCE79CF0F8011122691E6A26A003952853C3AD8
-                1F8F4F48C4C9BD80021548E0042010E6CBC26705C50000F00379787E74B03FFC
-                01AF6F00020070D52E2412C7E1FF83BA50265700209100E02212E70B01905200
-                C82E54C81400C81800B053B3640A009400006C797C422200AA0D00ECF4493E05
-                00D8A993DC1700D8A21CA908008D0100992847240240BB00605581522C02C0C2
-                00A0AC40222E04C0AE018059B632470280BD0500768E58900F4060008099422C
-                CC0020380200431E13CD03204C03A030D2BFE0A95F7085B8480100C0CB95CD97
-                4BD23314B895D01A77F2F0E0E221E2C26CB142611729106609E4229C979B2313
-                48E7034CCE0C00001AF9D1C1FE383F90E7E6E4E1E666E76CEFF4C5A2FE6BF06F
-                223E21F1DFFEBC8C020400104ECFEFDA5FE5E5D60370C701B075BF6BA95B00DA
-                560068DFF95D33DB09A05A0AD07AF98B7938FC401E9EA150C83C1D1C0A0B0BED
-                2562A1BD30E38B3EFF33E16FE08B7EF6FC401EFEDB7AF000719A4099ADC0A383
-                FD71616E76AE528EE7CB0442316EF7E723FEC7857FFD8E29D1E234B15C2C158A
-                F15889B850224DC779B952914421C995E212E97F32F11F96FD0993770D00AC86
-                4FC04EB607B5CB6CC07EEE01028B0E58D27600407EF32D8C1A0B910010673432
-                79F7000093BFF98F402B0100CD97A4E30000BCE8185CA894174CC608000044A0
-                812AB041070CC114ACC00E9CC11DBCC01702610644400C24C03C104206E4801C
-                0AA11896411954C03AD804B5B0031AA0119AE110B4C131380DE7E0125C81EB70
-                170660189EC218BC86090441C8081361213A8811628ED822CE0817998E042261
-                48349280A420E988145122C5C872A402A9426A915D4823F22D7214398D5C40FA
-                90DBC820328AFC8ABC47319481B25103D4027540B9A81F1A8AC6A073D174340F
-                5D8096A26BD11AB41E3D80B6A2A7D14BE87574007D8A8E6380D1310E668CD961
-                5C8C87456089581A26C71663E55835568F35631D583776151BC09E61EF082402
-                8B8013EC085E8410C26C82909047584C5843A825EC23B412BA085709838431C2
-                272293A84FB4257A12F9C478623AB1905846AC26EE211E219E255E270E135F93
-                48240EC992E44E0A21259032490B496B48DB482DA453A43ED210699C4C26EB90
-                6DC9DEE408B280AC209791B7900F904F92FBC9C3E4B7143AC588E24C09A22452
-                A494124A35653FE504A59F324299A0AA51CDA99ED408AA883A9F5A496DA07650
-                2F5387A91334759A25CD9B1643CBA42DA3D5D09A696769F7682FE974BA09DD83
-                1E4597D097D26BE807E9E7E983F4770C0D860D83C7486228196B197B19A718B7
-                192F994CA605D39799C85430D7321B9967980F986F55582AF62A7C1591CA1295
-                3A9556957E95E7AA545573553FD579AA0B54AB550FAB5E567DA64655B350E3A9
-                09D416ABD5A91D55BBA936AECE5277528F50CF515FA3BE5FFD82FA630DB28685
-                46A08648A35463B7C6198D2116C63265F15842D6725603EB2C6B984D625BB2F9
-                EC4C7605FB1B762F7B4C534373AA66AC6691669DE671CD010EC6B1E0F039D99C
-                4ACE21CE0DCE7B2D032D3F2DB1D66AAD66AD7EAD37DA7ADABEDA62ED72ED16ED
-                EBDAEF75709D409D2C9DF53A6D3AF77509BA36BA51BA85BADB75CFEA3ED363EB
-                79E909F5CAF50EE9DDD147F56DF4A3F517EAEFD6EFD11F373034083690196C31
-                3863F0CC9063E86B9869B8D1F084E1A811CB68BA91C468A3D149A327B826EE87
-                67E33578173E66AC6F1C62AC34DE65DC6B3C61626932DBA4C4A4C5E4BE29CD94
-                6B9A66BAD1B4D374CCCCC82CDCACD8ACC9EC8E39D59C6B9E61BED9BCDBFC8D85
-                A5459CC54A8B368BC796DA967CCB05964D96F7AC98563E567956F556D7AC49D6
-                5CEB2CEB6DD6576C501B579B0C9B3A9BCBB6A8AD9BADC4769B6DDF14E2148F29
-                D229F5536EDA31ECFCEC0AEC9AEC06ED39F661F625F66DF6CF1DCC1C121DD63B
-                743B7C727475CC766C70BCEBA4E134C3A9C4A9C3E957671B67A1739DF33517A6
-                4B90CB1297769717536DA78AA76E9F7ACB95E51AEEBAD2B5D3F5A39BBB9BDCAD
-                D96DD4DDCC3DC57DABFB4D2E9B1BC95DC33DEF41F4F0F758E271CCE39DA79BA7
-                C2F390E72F5E765E595EFBBD1E4FB39C269ED6306DC8DBC45BE0BDCB7B603A3E
-                3D65FACEE9033EC63E029F7A9F87BEA6BE22DF3DBE237ED67E997E07FC9EFB3B
-                FACBFD8FF8BFE179F216F14E056001C101E501BD811A81B3036B031F049904A5
-                0735058D05BB062F0C3E15420C090D591F72936FC017F21BF96333DC672C9AD1
-                15CA089D155A1BFA30CC264C1ED6118E86CF08DF107E6FA6F94CE9CCB60888E0
-                476C88B81F69199917F97D14292A32AA2EEA51B453747174F72CD6ACE459FB67
-                BD8EF18FA98CB93BDB6AB6727667AC6A6C526C63EC9BB880B8AAB8817887F845
-                F1971274132409ED89E4C4D8C43D89E37302E76C9A339CE49A54967463AEE5DC
-                A2B917E6E9CECB9E773C593559907C3885981297B23FE5832042502F184FE5A7
-                6E4D1D13F2849B854F45BEA28DA251B1B7B84A3C92E69D5695F638DD3B7D43FA
-                68864F4675C633094F522B79911992B923F34D5644D6DEACCFD971D92D39949C
-                949CA3520D6996B42BD730B728B74F662B2B930DE479E66DCA1B9387CAF7E423
-                F973F3DB156C854CD1A3B452AE500E164C2FA82B785B185B78B848BD485AD433
-                DF66FEEAF9230B82167CBD90B050B8B0B3D8B87859F1E022BF45BB16238B5317
-                772E315D52BA647869F0D27DCB68CBB296FD50E2585255F26A79DCF28E5283D2
-                A5A5432B82573495A994C9CB6EAEF45AB9631561956455EF6A97D55B567F2A17
-                955FAC70ACA8AEF8B046B8E6E2574E5FD57CF5796DDADADE4AB7CAEDEB48EBA4
-                EB6EACF759BFAF4ABD6A41D5D086F00DAD1BF18DE51B5F6D4ADE74A17A6AF58E
-                CDB4CDCACD03356135ED5BCCB6ACDBF2A136A3F67A9D7F5DCB56FDADABB7BED9
-                26DAD6BFDD777BF30E831D153BDEEF94ECBCB52B78576BBD457DF56ED2EE82DD
-                8F1A621BBABFE67EDDB847774FC59E8F7BA57B07F645EFEB6A746F6CDCAFBFBF
-                B2096D52368D1E483A70E59B806FDA9BED9A77B5705A2A0EC241E5C127DFA67C
-                7BE350E8A1CEC3DCC3CDDF997FB7F508EB48792BD23ABF75AC2DA36DA03DA1BD
-                EFE88CA39D1D5E1D47BEB7FF7EEF31E36375C7358F579EA09D283DF1F9E48293
-                E3A764A79E9D4E3F3DD499DC79F74CFC996B5D515DBD6743CF9E3F1774EE4CB7
-                5FF7C9F3DEE78F5DF0BC70F422F762DB25B74BAD3DAE3D477E70FDE148AF5B6F
-                EB65F7CBED573CAE74F44DEB3BD1EFD37FFA6AC0D573D7F8D72E5D9F79BDEFC6
-                EC1BB76E26DD1CB825BAF5F876F6ED17770AEE4CDC5D7A8F78AFFCBEDAFDEA07
-                FA0FEA7FB4FEB165C06DE0F860C060CFC3590FEF0E09879EFE94FFD387E1D247
-                CC47D52346238D8F9D1F1F1B0D1ABDF264CE93E1A7B2A713CFCA7E56FF79EB73
-                ABE7DFFDE2FB4BCF58FCD8F00BF98BCFBFAE79A9F372EFABA9AF3AC723C71FBC
-                CE793DF1A6FCADCEDB7DEFB8EFBADFC7BD1F9928FC40FE50F3D1FA63C7A7D04F
-                F73EE77CFEFC2FF784F3FB25D29F330000064D4944415478DACD59096C545514
-                3D7F3A2DD0BD6011BA596A0195A81817B42A88A24604214A04C528188D8A6B50
-                5343100583092826A8B810B7A8189788268A11A350A02A68894BAC5DA8D4D20A
-                A52D565BDAD2753CF7FE37ED74A3ADFD7FCA9DCCDCFFDF7FF3DEBBE7DDF57D0B
-                0ED31F48E36F0C9AD18250CCE2B50F16A6935BFC9E6D7AA56A3B101DF04F79FE
-                AFB92ED63BE067EDE7C3368E768C636EC12454B2EDA863EBB5063B40018509C3
-                69BC6AE33753C502E69BA7231C5E689DB9DBA4F716D660020EA011FB83074029
-                9254B03A78B8C3ABCD42EE37827B1D13B86F92199B38B7C5AB67A92191D49095
-                D490DFB5DD7100F2914CB113F42FADF8C4B45E104481FB124400F98EA27BB931
-                D7E34C9A511D0E0F1E8042AA78282653C145C5B7983F250CB5BCC721F1197F52
-                3F3D5CE74C9A480941C91B380079484138C66A8766FC603A270DB57403062284
-                AB6FA6A68E4739DB2AFB0620D0C6C3B0C3B49EEFD8B24662091E557E179692FF
-                8377B091BC8A76FC840B30D802EE402DE2A90957E23CEC856C69AF00E473E743
-                B1CE3C5CEAF88252B01959E40DF891162B8170366E8484CF0CA4BB004067419F
-                C444468D263ACB6E00E46B389BC806B1F5DF5CF3EAA9F8027BC8ABCDCE473364
-                2E8268DE5C5CEA2200361DA349B4F23B9E9FBFB809651D0014706FC2F086117C
-                B16B4B48C2DBF81CA2017BF13D79382ED634A9947A30C375006CF2613D339703
-                34848760ED53C58B262E4D04A0DC74712E81E94AA3A986CFA9E017622AC41ACB
-                E8A7C1FDB803370441787BC7ABD5C3358993CFC729B4F99B61A7AC9B5C5F4034
-                E6689E3816CF531764296F620379058171DEE3F44E1EFD9D250024138B8D069B
-                3B5D9F3894F3A592A7219B6627DE7F9DBAA42304E4E9200220E4A32E5AF96AFB
-                7B4C93FB999D1763348D3A15BB3583AFE7DCBB203E603E835470C5F7E11B5B03
-                42356594AC7AB4EBD3C6E33156109207DC8D87B5C552DD3B887B7013792DA3C4
-                E6A041B0DFAF010DA669B86B9379108128D83B5F04C9C9D6E071F251F4C4CB15
-                86107EC0DCED6A9C4BDE42AF503E9809FB45557E00EA4D837BDE3F8EFEE541E5
-                8B711FA4E29F8AD3C923300D579127E2357C0C3B41FA96BC8CD9C11C48915DDF
-                5E04BB0240819AC0218D0116EDD369F230E045908FA3A5E793FF8D97B016E2FD
-                5FC70B01FD62712B8D0238194F314A4BCAF20B72C80F639902E633E59897663A
-                2660DC160A5141DEC832F85705EC286AFAB12E4BC72CB2010823E63E6DCA701C
-                007FEE1F87DB78055ADD349CA193376BD53E9C7A701644F7A6E0128849DC8B4C
-                F2105EC5F7305E2B21AC3282D66ABF588E2D02852312A2390B710DC4B9EEC6CE
-                3E01F8CA6F021B4CF312C704F730E2C742C2DD4E3DA2A827C8DB037628923E7F
-                7640FF4606C55CE585E648A348356604CED1D814C5983D4F17DDA2A54C0D3EC5
-                FB9033A22C6CD5E7D76A22D5C0A8920D29B2DEA3511D8F240AACF50330CF347E
-                E480E0518881243AEBF11624E3BB887B2E0064639B2E7817BE0EB86FA24E14F6
-                63DC10EEF328482235170B20BEE332BA4BC92B52685E026C9D9E149651D3AE83
-                68CA911E8ADFCEE25B1CC1CAE152A1EAE335A9B0A578F69FEC3016C365DD4E7E
-                12F3B915E8B0D583B4E05B20E1ED3307E0758A2A099694C78981D5E0C04CC1A2
-                F54ACC48C08B78577722892380638C63A5253B6C97BB65147FE650CBDB69DD72
-                78B69A756F094D69790700794C5087F32B277E6D6A7DF26858AF0325327D961D
-                F5F22A595B5AF91100D2F58CB884363905A2E2C51AF74F0CAAA429491194CE4D
-                9255D5F47420226171A5C16A45B721FC555C12F77D8B0AB84F4FDCC2300193C8
-                0FD18B2F84A8FC9774532716597840CBE0C68000DC0D801CCDC342E9132AF8BB
-                D50031BDFDB9974A2F87668978051FA0C3E95560151E8138B9ED14FDC4214BDD
-                5D16B7A7942A3FC308DCDA3B007ECAD39265143BC831B3FF50346DA8E5191049
-                AEDFAC4A9FD1EB31799FC7E20284A8B78740F8A8F43EFD939BA777CE082EF5BE
-                87B9465F6F8EFAFD622457157F24F1B4A8111FC2368D2B865AD600416C556FD2
-                70BEC0B917235D69BBFE7A993D480A9D69B28065E62C313CC862571A8D5C659C
-                DBCBDD6CDC7100BA52E02BB31656F8F6BBC2450690918E0B6CE770AF521387D1
-                BE9F690F67FF97060D4057CAD552278C0BACE1122F570D6923B7A79A6C7AA59A
-                9D8B33F73E539C549BFB6203E04F2AAE8749731D33CB46AA78D7171B83A5FF00
-                20B5B9B70DDDF6020000000049454E44AE426082}
-              NineGridsRes = jdu9GSpeedBtn
-              NineGridsHoverRes = jdu9GSpeedBtn
-              NineGridsDownRes = jdu9GSpeedBtn
-              NineGridsResAtTop = False
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.200000002980232200
-              AnimateOutTime = 0.300000011920929000
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object jduButton15: TJDUIButton
-              Left = 19
-              Top = 228
-              Width = 191
-              Height = 23
-              Animate = True
-              GrayScale = False
-              UseFormFontName = True
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = False
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = 3355443
-              Font.Height = -16
-              Font.Name = 'Tahoma'
-              Font.Style = [fsBold]
-              OnMouseDown = FormMouseDown
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = #9670' Checkbox & RadioBox'
-              ParentFont = False
-              EllipsisPosition = epNone
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = False
-              PictureClick = False
-              Down = False
-              ImageAlign = iatLeft
-              ImagePadding = 0
-              ShowCaption = True
-              ShowShadown = False
-              CaptionShadownColor = 3355443
-              ShowNineGridsType = ngtHover
-              IncContentWhenClick = False
-              ShowNineGridsCenter = False
-              PictureBackgroundColor = 0
-              NineGridsResAtTop = True
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.200000002980232200
-              AnimateOutTime = 0.300000011920929000
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object jduButton16: TJDUIButton
-              Left = 427
-              Top = 228
-              Width = 191
-              Height = 23
-              Animate = True
-              GrayScale = False
-              UseFormFontName = True
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = False
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = 3355443
-              Font.Height = -16
-              Font.Name = 'Tahoma'
-              Font.Style = [fsBold]
-              OnMouseDown = FormMouseDown
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = #9670' Progress & Track'
-              ParentFont = False
-              EllipsisPosition = epNone
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = False
-              PictureClick = False
-              Down = False
-              ImageAlign = iatLeft
-              ImagePadding = 0
-              ShowCaption = True
-              ShowShadown = False
-              CaptionShadownColor = 3355443
-              ShowNineGridsType = ngtHover
-              IncContentWhenClick = False
-              ShowNineGridsCenter = False
-              PictureBackgroundColor = 0
-              NineGridsResAtTop = True
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.200000002980232200
-              AnimateOutTime = 0.300000011920929000
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object jduButton17: TJDUIButton
-              Left = 19
-              Top = 359
-              Width = 191
-              Height = 23
-              Animate = True
-              GrayScale = False
-              UseFormFontName = True
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = False
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = 3355443
-              Font.Height = -16
-              Font.Name = 'Tahoma'
-              Font.Style = [fsBold]
-              OnMouseDown = FormMouseDown
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = #9670' Image'
-              ParentFont = False
-              EllipsisPosition = epNone
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = False
-              PictureClick = False
-              Down = False
-              ImageAlign = iatLeft
-              ImagePadding = 0
-              ShowCaption = True
-              ShowShadown = False
-              CaptionShadownColor = 3355443
-              ShowNineGridsType = ngtHover
-              IncContentWhenClick = False
-              ShowNineGridsCenter = False
-              PictureBackgroundColor = 0
-              NineGridsResAtTop = True
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.200000002980232200
-              AnimateOutTime = 0.300000011920929000
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object jduButton18: TJDUIButton
-              Left = 38
-              Top = 540
-              Width = 138
-              Height = 33
-              Animate = True
-              GrayScale = False
-              UseFormFontName = False
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = True
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clBlack
-              Font.Height = -13
-              Font.Name = #23435#20307
-              Font.Style = []
-              OnClick = jduButton18Click
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = 'switch image'
-              ParentFont = False
-              EllipsisPosition = epEndEllipsis
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = True
-              PictureClick = False
-              Down = False
-              ImageAlign = iatTop
-              ImagePadding = 0
-              ShowCaption = True
-              ShowShadown = False
-              CaptionShadownColor = clBlack
-              ShowNineGridsType = ngtAlways
-              IncContentWhenClick = True
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = 0
-              NineGridsRes = jdu9GSpeedBtn
-              NineGridsResAtTop = False
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.050000000745058060
-              AnimateOutTime = 0.200000002980232200
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object jduButton4: TJDUIButton
-              Left = 19
-              Top = 8
-              Width = 191
-              Height = 23
-              Animate = True
-              GrayScale = False
-              UseFormFontName = True
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = False
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = 3355443
-              Font.Height = -16
-              Font.Name = 'Tahoma'
-              Font.Style = [fsBold]
-              OnMouseDown = FormMouseDown
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = #9670' Button'
-              ParentFont = False
-              EllipsisPosition = epNone
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = False
-              PictureClick = False
-              Down = False
-              ImageAlign = iatLeft
-              ImagePadding = 0
-              ShowCaption = True
-              ShowShadown = False
-              CaptionShadownColor = 3355443
-              ShowNineGridsType = ngtHover
-              IncContentWhenClick = False
-              ShowNineGridsCenter = False
-              PictureBackgroundColor = 0
-              NineGridsResAtTop = True
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.200000002980232200
-              AnimateOutTime = 0.300000011920929000
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object jduButton5: TJDUIButton
-              Left = 222
-              Top = 44
-              Width = 180
-              Height = 38
-              Animate = True
-              GrayScale = False
-              UseFormFontName = True
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = False
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = 3355443
-              Font.Height = -13
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = 'Button'
-              ParentFont = False
-              EllipsisPosition = epNone
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = False
-              PictureClick = False
-              Down = False
-              ImageAlign = iatTop
-              ImagePadding = 0
-              ShowCaption = True
-              ShowShadown = False
-              CaptionShadownColor = 3355443
-              ShowNineGridsType = ngtAlways
-              IncContentWhenClick = True
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = 0
-              NineGridsRes = jdu9GButtonLigntNormal
-              NineGridsHoverRes = jdu9GButtonLigntHover
-              NineGridsDownRes = jdu9GButtonLigntDown
-              NineGridsResAtTop = False
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.200000002980232200
-              AnimateOutTime = 0.300000011920929000
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object jduButton6: TJDUIButton
-              Left = 407
-              Top = 44
-              Width = 180
-              Height = 38
-              Animate = True
-              GrayScale = False
-              UseFormFontName = True
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = False
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = 3355443
-              Font.Height = -13
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = 'Button'
-              ParentFont = False
-              EllipsisPosition = epNone
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = False
-              PictureClick = False
-              Down = False
-              ImageAlign = iatTop
-              ImagePadding = 0
-              ShowCaption = True
-              ShowShadown = False
-              CaptionShadownColor = 3355443
-              ShowNineGridsType = ngtAlways
-              IncContentWhenClick = True
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = 0
-              NineGridsRes = jdu9GLightBlueNormal
-              NineGridsHoverRes = jdu9GLightBlueHover
-              NineGridsDownRes = jdu9GLightBlueDown
-              NineGridsResAtTop = False
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.200000002980232200
-              AnimateOutTime = 0.300000011920929000
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object jduButton7: TJDUIButton
-              Left = 592
-              Top = 44
-              Width = 180
-              Height = 38
-              Animate = True
-              GrayScale = False
-              UseFormFontName = True
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = False
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = 3355443
-              Font.Height = -13
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = 'Button'
-              ParentFont = False
-              EllipsisPosition = epNone
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = False
-              PictureClick = False
-              Down = False
-              ImageAlign = iatTop
-              ImagePadding = 0
-              ShowCaption = True
-              ShowShadown = False
-              CaptionShadownColor = 3355443
-              ShowNineGridsType = ngtAlways
-              IncContentWhenClick = True
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = 0
-              NineGridsRes = jdu9GLightYellowNormal
-              NineGridsHoverRes = jdu9GLightYellowHover
-              NineGridsDownRes = jdu9GLightYellowDown
-              NineGridsResAtTop = False
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.200000002980232200
-              AnimateOutTime = 0.300000011920929000
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object jduButton8: TJDUIButton
-              Left = 778
-              Top = 44
-              Width = 180
-              Height = 38
-              Animate = True
-              GrayScale = False
-              UseFormFontName = True
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = False
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = 3355443
-              Font.Height = -13
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = 'Button'
-              ParentFont = False
-              EllipsisPosition = epNone
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = False
-              PictureClick = False
-              Down = False
-              ImageAlign = iatTop
-              ImagePadding = 0
-              ShowCaption = True
-              ShowShadown = False
-              CaptionShadownColor = 3355443
-              ShowNineGridsType = ngtAlways
-              IncContentWhenClick = True
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = 0
-              NineGridsRes = jdu9GLightRedNormal
-              NineGridsHoverRes = jdu9GLightRedHover
-              NineGridsDownRes = jdu9GLightYellowDown
-              NineGridsResAtTop = False
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.200000002980232200
-              AnimateOutTime = 0.300000011920929000
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object jduButton9: TJDUIButton
-              Left = 37
-              Top = 44
-              Width = 180
-              Height = 38
-              Animate = True
-              GrayScale = False
-              UseFormFontName = True
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              ShowHint = False
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = 3355443
-              Font.Height = -13
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              JduTabStop = False
-              JduTabOrder = 0
-              KeepPicture = False
-              Caption = 'Button'
-              ParentFont = False
-              EllipsisPosition = epNone
-              Default = False
-              DropDownIconClickAreaWidth = 0
-              DropDownIconClickAreaMargin = 0
-              DropDownIconHoverColor = 0
-              PicureWidth = -1
-              PicureHeight = -1
-              ShowPicture = False
-              PictureClick = False
-              Down = False
-              ImageAlign = iatTop
-              ImagePadding = 0
-              ShowCaption = True
-              ShowShadown = False
-              CaptionShadownColor = 3355443
-              ShowNineGridsType = ngtAlways
-              IncContentWhenClick = True
-              ShowNineGridsCenter = True
-              PictureBackgroundColor = 0
-              NineGridsRes = jdu9GLightGrayNormal
-              NineGridsHoverRes = jdu9GLightGrayHover
-              NineGridsDownRes = jdu9GLightGrayDown
-              NineGridsResAtTop = False
-              AnimateInType = batAlpha
-              AnimateOutType = batAlpha
-              AnimateInTime = 0.200000002980232200
-              AnimateOutTime = 0.300000011920929000
-              AnimationInType = jduAnimationOut
-              AnimationOutType = jduAnimationOut
-              AnimationInInterpolation = jduInterpolationSinusoidal
-              AnimationOutInterpolation = jduInterpolationSinusoidal
-            end
-            object jduCheckBox0: TJDUICheckBox
-              Left = 33
-              Top = 266
-              Width = 93
-              Height = 28
-              Animate = True
-              GrayScale = False
-              UseFormFontName = False
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clBlack
-              Font.Height = -13
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              JduTabStop = True
-              JduTabOrder = 0
-              Caption = 'CheckBox'
-              ParentFont = False
-              CheckBoxRes = jduCheckBoxRes1
-              IconTextSpace = 5
-              Checked = False
-              EllipsisPosition = epNone
-              ShowShadown = False
-              CaptionShadownColor = -1
-            end
-            object jduCheckBox1: TJDUICheckBox
-              Left = 33
-              Top = 300
-              Width = 93
-              Height = 28
-              Animate = True
-              GrayScale = False
-              UseFormFontName = False
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clBlack
-              Font.Height = -13
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              JduTabStop = True
-              JduTabOrder = 0
-              Caption = 'CheckBox'
-              ParentFont = False
-              CheckBoxRes = jduCheckBoxRes1
-              IconTextSpace = 5
-              Checked = True
-              EllipsisPosition = epNone
-              ShowShadown = False
-              CaptionShadownColor = -1
-            end
-            object jduCheckBox2: TJDUICheckBox
-              Left = 153
-              Top = 266
-              Width = 93
-              Height = 28
-              Animate = True
-              GrayScale = False
-              UseFormFontName = False
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clBlack
-              Font.Height = -13
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              JduTabStop = True
-              JduTabOrder = 0
-              Caption = 'CheckBox'
-              ParentFont = False
-              CheckBoxRes = jduCheckBoxRes2
-              IconTextSpace = 5
-              Checked = False
-              EllipsisPosition = epNone
-              ShowShadown = False
-              CaptionShadownColor = -1
-            end
-            object jduCheckBox3: TJDUICheckBox
-              Left = 153
-              Top = 300
-              Width = 93
-              Height = 28
-              Animate = True
-              GrayScale = False
-              UseFormFontName = False
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clBlack
-              Font.Height = -13
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              JduTabStop = True
-              JduTabOrder = 0
-              Caption = 'CheckBox'
-              ParentFont = False
-              CheckBoxRes = jduCheckBoxRes2
-              IconTextSpace = 5
-              Checked = True
-              EllipsisPosition = epNone
-              ShowShadown = False
-              CaptionShadownColor = -1
-            end
-            object jduProgressBar1: TJDUIProgressBar
-              Left = 445
-              Top = 271
-              Width = 337
-              Height = 17
-              Animate = True
-              GrayScale = False
-              UseFormFontName = False
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              Max = 100
-              Min = 0
-              Value = 30
-              Background9GRes = jdu9GProgressBack
-              Foreground9GRes = jdu9GProgressFore
-            end
-            object jduRadioButton1: TJDUIRadioButton
-              Left = 274
-              Top = 266
-              Width = 100
-              Height = 28
-              Animate = True
-              GrayScale = False
-              UseFormFontName = False
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clBlack
-              Font.Height = -13
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              JduTabStop = True
-              JduTabOrder = 0
-              Caption = 'RadioButton'
-              ParentFont = False
-              CheckBoxRes = jduCheckBoxRes3
-              IconTextSpace = 5
-              Checked = False
-              EllipsisPosition = epNone
-              ShowShadown = False
-              CaptionShadownColor = -1
-              GroupID = 0
-            end
-            object jduRadioButton2: TJDUIRadioButton
-              Left = 274
-              Top = 300
-              Width = 100
-              Height = 28
-              Animate = True
-              GrayScale = False
-              UseFormFontName = False
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              AutoSize = False
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clBlack
-              Font.Height = -13
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              JduTabStop = True
-              JduTabOrder = 0
-              Caption = 'RadioButton'
-              ParentFont = False
-              CheckBoxRes = jduCheckBoxRes3
-              IconTextSpace = 5
-              Checked = True
-              EllipsisPosition = epNone
-              ShowShadown = False
-              CaptionShadownColor = -1
-              GroupID = 0
-            end
-            object jduTrackBar1: TJDUITrackBar
-              Left = 445
-              Top = 304
-              Width = 337
-              Height = 21
-              Animate = True
-              GrayScale = False
-              UseFormFontName = False
-              UseFormFontColor = False
-              UseExtendResource = False
-              Alpha = 255
-              EnableParentClip = True
-              EnableFormClip = True
-              Max = 100
-              Min = 0
-              Value = 30
-              Background9GRes = jdu9GProgressBack
-              Foreground9GRes = jdu9GProgressFore
-              OnChange = jduTrackBar1Change
-              TrackPicture.Data = {
-                89504E470D0A1A0A0000000D494844520000000F0000000F08060000003BD695
-                4A0000001974455874536F6674776172650041646F626520496D616765526561
-                647971C9653C0000032269545874584D4C3A636F6D2E61646F62652E786D7000
-                000000003C3F787061636B657420626567696E3D22EFBBBF222069643D225735
-                4D304D7043656869487A7265537A4E54637A6B633964223F3E203C783A786D70
-                6D65746120786D6C6E733A783D2261646F62653A6E733A6D6574612F2220783A
-                786D70746B3D2241646F626520584D5020436F726520352E332D633031312036
-                362E3134353636312C20323031322F30322F30362D31343A35363A3237202020
-                2020202020223E203C7264663A52444620786D6C6E733A7264663D2268747470
-                3A2F2F7777772E77332E6F72672F313939392F30322F32322D7264662D73796E
-                7461782D6E7323223E203C7264663A4465736372697074696F6E207264663A61
-                626F75743D222220786D6C6E733A786D703D22687474703A2F2F6E732E61646F
-                62652E636F6D2F7861702F312E302F2220786D6C6E733A786D704D4D3D226874
-                74703A2F2F6E732E61646F62652E636F6D2F7861702F312E302F6D6D2F222078
-                6D6C6E733A73745265663D22687474703A2F2F6E732E61646F62652E636F6D2F
-                7861702F312E302F73547970652F5265736F75726365526566232220786D703A
-                43726561746F72546F6F6C3D2241646F62652050686F746F73686F7020435336
-                202857696E646F7773292220786D704D4D3A496E7374616E636549443D22786D
-                702E6969643A4144374146454541414630433131453339383644393245323437
-                3846444436422220786D704D4D3A446F63756D656E7449443D22786D702E6469
-                643A414437414645454241463043313145333938364439324532343738464444
-                3642223E203C786D704D4D3A4465726976656446726F6D2073745265663A696E
-                7374616E636549443D22786D702E6969643A4144374146454538414630433131
-                453339383644393245323437384644443642222073745265663A646F63756D65
-                6E7449443D22786D702E6469643A414437414645453941463043313145333938
-                3644393245323437384644443642222F3E203C2F7264663A4465736372697074
-                696F6E3E203C2F7264663A5244463E203C2F783A786D706D6574613E203C3F78
-                7061636B657420656E643D2272223F3EDCC19222000001174944415478DAAD93
-                316B83501485EF03DD5C04A58B0A2E2E8D8B9D93FE8D766F07F38392A19DDBFC
-                8DA4B375305D5C049552507071AA823DB7E581B4B4B1690F1C1EC2FBEEF35ECE
-                155114D1272DE0109EC3265CC10FF01ADEF1852008DE2F8A113C83979AA685A6
-                69124E521485FABEA7B66DA9AA2A3EB9C00AF07E0C074288C8B22C62F03B7181
-                B22C69188633147894F08DE338578661D021D5754D799EDF02BE66788E5FDC79
-                9E7710944AD3945B3867F8CE75DD4B5DD727C34DD35096651B865F7CDF3F5155
-                7532DC751D2549F2CCF020473F551818C571FCFAE797EFD1F3C5B13D2F30EDED
-                B1D3E6EF956DDBE14F0191E2A01445B1C69C96123E45C2F6BF48D80CF0D3BF64
-                7B2CB9557C725E6BFAD8A62F5BF5065E34AA5671796E0C0000000049454E44AE
-                426082}
-              TrackPictureHover.Data = {
-                89504E470D0A1A0A0000000D494844520000000F0000000F08060000003BD695
-                4A0000001974455874536F6674776172650041646F626520496D616765526561
-                647971C9653C0000036669545874584D4C3A636F6D2E61646F62652E786D7000
-                000000003C3F787061636B657420626567696E3D22EFBBBF222069643D225735
-                4D304D7043656869487A7265537A4E54637A6B633964223F3E203C783A786D70
-                6D65746120786D6C6E733A783D2261646F62653A6E733A6D6574612F2220783A
-                786D70746B3D2241646F626520584D5020436F726520352E332D633031312036
-                362E3134353636312C20323031322F30322F30362D31343A35363A3237202020
-                2020202020223E203C7264663A52444620786D6C6E733A7264663D2268747470
-                3A2F2F7777772E77332E6F72672F313939392F30322F32322D7264662D73796E
-                7461782D6E7323223E203C7264663A4465736372697074696F6E207264663A61
-                626F75743D222220786D6C6E733A786D704D4D3D22687474703A2F2F6E732E61
-                646F62652E636F6D2F7861702F312E302F6D6D2F2220786D6C6E733A73745265
-                663D22687474703A2F2F6E732E61646F62652E636F6D2F7861702F312E302F73
-                547970652F5265736F75726365526566232220786D6C6E733A786D703D226874
-                74703A2F2F6E732E61646F62652E636F6D2F7861702F312E302F2220786D704D
-                4D3A4F726967696E616C446F63756D656E7449443D22786D702E6469643A3641
-                3645453243323043414645333131393042304132324242374139324242332220
-                786D704D4D3A446F63756D656E7449443D22786D702E6469643A333131333544
-                39314146304431314533414245384134454331453944333236462220786D704D
-                4D3A496E7374616E636549443D22786D702E6969643A33313133354439304146
-                304431314533414245384134454331453944333236462220786D703A43726561
-                746F72546F6F6C3D2241646F62652050686F746F73686F702043533620285769
-                6E646F777329223E203C786D704D4D3A4465726976656446726F6D2073745265
-                663A696E7374616E636549443D22786D702E6969643A36413645453243323043
-                41464533313139304230413232424237413932424233222073745265663A646F
-                63756D656E7449443D22786D702E6469643A3636364545324332304341464533
-                313139304230413232424237413932424233222F3E203C2F7264663A44657363
-                72697074696F6E3E203C2F7264663A5244463E203C2F783A786D706D6574613E
-                203C3F787061636B657420656E643D2272223F3E225A8DB80000012849444154
-                78DAA593314F836010868FC00403013406080B13894C38B7FE0DDD75A03FA81D
-                7456FF8675C6A9244C2C043051200C301808BDD37C09D1B4C5FA266F2E24DFF3
-                C11DEF714110C00FCDD13E7A863E45BFA35FD02BF49A0E789EF775901BC12E7A
-                218AA2AF691A60054110A0EB3A68DB168AA2A04A172C11DE8C618FE3B840D775
-                50551576A92C4BC8F31C8661B8C00B5E197C679AE68DA22870485555419AA6F7
-                08DF123CC34F5CDBB67D10648AE3985AB824F8C1B2AC6B599627C3755D439224
-                4F04BF398E7346C3992A1A62144519C183EBBA9341120E0CC230FCFCF79B1FB1
-                E7AB637B9EE3B49F8F9D363D2F0DC3F0F7058489829265D90AFFF382C1E798B0
-                CD1F12E6221CEECCB62449C0F33CF47D0F4DD3ECCDF6586CABA89EA03FE07B9B
-                7E6DD5163914AA566338F0630000000049454E44AE426082}
-              TrackPictureDown.Data = {
-                89504E470D0A1A0A0000000D494844520000000F0000000F08060000003BD695
-                4A0000001974455874536F6674776172650041646F626520496D616765526561
-                647971C9653C0000036669545874584D4C3A636F6D2E61646F62652E786D7000
-                000000003C3F787061636B657420626567696E3D22EFBBBF222069643D225735
-                4D304D7043656869487A7265537A4E54637A6B633964223F3E203C783A786D70
-                6D65746120786D6C6E733A783D2261646F62653A6E733A6D6574612F2220783A
-                786D70746B3D2241646F626520584D5020436F726520352E332D633031312036
-                362E3134353636312C20323031322F30322F30362D31343A35363A3237202020
-                2020202020223E203C7264663A52444620786D6C6E733A7264663D2268747470
-                3A2F2F7777772E77332E6F72672F313939392F30322F32322D7264662D73796E
-                7461782D6E7323223E203C7264663A4465736372697074696F6E207264663A61
-                626F75743D222220786D6C6E733A786D704D4D3D22687474703A2F2F6E732E61
-                646F62652E636F6D2F7861702F312E302F6D6D2F2220786D6C6E733A73745265
-                663D22687474703A2F2F6E732E61646F62652E636F6D2F7861702F312E302F73
-                547970652F5265736F75726365526566232220786D6C6E733A786D703D226874
-                74703A2F2F6E732E61646F62652E636F6D2F7861702F312E302F2220786D704D
-                4D3A4F726967696E616C446F63756D656E7449443D22786D702E6469643A3641
-                3645453243323043414645333131393042304132324242374139324242332220
-                786D704D4D3A446F63756D656E7449443D22786D702E6469643A314238454546
-                42384146304431314533383739424330314245344237333146452220786D704D
-                4D3A496E7374616E636549443D22786D702E6969643A31423845454642374146
-                304431314533383739424330314245344237333146452220786D703A43726561
-                746F72546F6F6C3D2241646F62652050686F746F73686F702043533620285769
-                6E646F777329223E203C786D704D4D3A4465726976656446726F6D2073745265
-                663A696E7374616E636549443D22786D702E6969643A36413645453243323043
-                41464533313139304230413232424237413932424233222073745265663A646F
-                63756D656E7449443D22786D702E6469643A3636364545324332304341464533
-                313139304230413232424237413932424233222F3E203C2F7264663A44657363
-                72697074696F6E3E203C2F7264663A5244463E203C2F783A786D706D6574613E
-                203C3F787061636B657420656E643D2272223F3E8A9934DA0000011749444154
-                78DAAD93314F835010C7EF858581C00084818584D14E38B77E0DDD75A01FA81D
-                74AE7E8DD619A7BA92306024C00061200682FFD3BC8468B4B4FA4FFEB9BCE4FD
-                0EEEDE9D88A288BE680187F01CB6E11C7E84D7F08E2F0441F071518CE019BC54
-                5535340C8310495114EAFB9EDAB6A5AAAA38728215E0FD180E841091699AC4E0
-                4FE2046559D2300CE748F024E15BDBB6AF755DA743AAEB9AF23CBF037CC3F01C
-                BFB8735DF7202895A6299770C1F0C6719C2B4DD326C34DD35096650F0CBF7A9E
-                E77073A6AAEB3A4A92E485E1C1F7FDC9200B0DA3388EDFFEFCE57BD47C796ACD
-                0B747B7B6AB7F9BCB22C2BFC6D40A478508AA258E39D97123EC384ED8F98B019
-                E0E77F99EDB1E45671B4E0823EB7E9DB56BD0300F8AA568F7DF0630000000049
-                454E44AE426082}
             end
           end
         end
@@ -8188,6 +4391,4164 @@ object DemoForm: TDemoForm
               AnimationOutType = jduAnimationOut
               AnimationInInterpolation = jduInterpolationSinusoidal
               AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+          end
+        end
+      end
+      object jduPage5: TJDUIContainer
+        Left = 0
+        Top = 0
+        Width = 1080
+        Height = 668
+        Clips.Left = 0
+        Clips.Top = 0
+        Clips.Right = 0
+        Clips.Bottom = 0
+        TabOrder = 6
+        Align = alClient
+        Visible = False
+        DesignSize = (
+          1080
+          668)
+        object jduWebView: TJDUIWebView
+          Left = 0
+          Top = 0
+          Width = 1080
+          Height = 668
+          Animate = True
+          GrayScale = False
+          UseFormFontName = False
+          UseFormFontColor = False
+          UseExtendResource = False
+          Alpha = 255
+          EnableParentClip = True
+          EnableFormClip = True
+          Align = alClient
+          JduTabStop = False
+          JduTabOrder = 0
+          Transparent = False
+          OnLoadEnd = jduWebViewLoadEnd
+          ExplicitTop = 56
+          ExplicitHeight = 654
+        end
+        object jduImageLoading: TJDUIImageLoading
+          Left = 496
+          Top = 286
+          Width = 108
+          Height = 108
+          Animate = True
+          GrayScale = False
+          UseFormFontName = False
+          UseFormFontColor = False
+          UseExtendResource = False
+          Alpha = 255
+          EnableParentClip = True
+          EnableFormClip = True
+          Anchors = []
+          Duration = 1.200000000000000000
+          RealTime = False
+          EnableRadio = True
+          Count = 5
+          Picture.Data = {
+            89504E470D0A1A0A0000000D4948445200000019000000191006000000947959
+            200000000467414D410000B18F0BFC6105000000017352474200AECE1CE90000
+            0006624B4744000000000000F943BB7F00000009704859730000004800000048
+            0046C96B3E000002904944415478DAD598CF4F134114C7BF5390B672D44421A2
+            51E0E4C59F91AB5E881A12F4E0C9A340FC2B4C4C8CFE031A82C13FC013865F37
+            391B5A6E26460413D1AA516FFE601BCBFA7D6F6651973676B7B553DE64BBF363
+            3BFB3E3BEFCDBC1983D4B28A0564990CF317F81BF23EAABFC0195E52D3A3ADC0
+            3E57FF8597E44A5A6F506449723308B4FE29AF415C6229A998FA1F0D710B19E4
+            B08673B8AEAF0D71CF01F4A4FF1EDBBD8B7CD2BBC11D94F11679DC67E93CD3CF
+            C64144F1591CE60BB68831E3FE70B261C5EB013358E195410557B0897E8CE04D
+            72903CD6B188B354BFC24E67F5C11007FE3B4075A08FC4E9E07D043F700C17B1
+            FC6F901C01E671841D54D8F8CC1B402D20C3D4C10FBC89010C63A31AC8125327
+            9DB70FDF496C6DFF846FFDAB02819344401FDA8B21443EB40D92D559E8A61B81
+            07BEF5AD0348C6669C40039CE51E8ADEBFA7D110AF9B360BB506A44490005F71
+            14A60B2F3187CB74266998F3AD5F2A20D0FD4D8E23328F29573DE65BAF142220
+            933059055969D9FAD06CB1CE5F8840DE3B9083BEF54A01627D85A6F58A208163
+            EBF2AD574A09644404A4B46B66ABB858677F179956C199D669DF7AA50011598E
+            4C6BD2554DF8D62B95182EE06A5A0B320F1324646EB7898DC186FF5ED9C180D1
+            02F5FAD6AF0E80D8CA1E35D891197320538DBCA3452022378831C8B864BA5AF4
+            7B88317F14BE9FF2AD6F0D80A2068BDFB85715C3BAA65B8E98E4F1024F685A5B
+            84DAE3C2F97630B504FB913850FBEC10810F0C6A336E87D8CFB0BDB0E3B9B6DE
+            B36B0CC5D489AB3B462031C89F5DC74F5180BB4D33BD6885B6F9DBF4810D74E3
+            119A768A525B9EE331633399B8BBF55C4B6454B16C8420DFB2D799E47E67E39F
+            B5144A48A12D452D857AAE55E6167B8975C7E9BCE5C4DAFC02C1C8DB8D18826E
+            510000002574455874646174653A63726561746500323031382D31302D303854
+            31353A35383A35392B30383A30302F22004D0000002574455874646174653A6D
+            6F6469667900323031382D31302D30385431353A35383A35392B30383A30305E
+            7FB8F10000004C744558747376673A626173652D7572690066696C653A2F2F2F
+            686F6D652F61646D696E2F69636F6E2D666F6E742F746D702F69636F6E5F686C
+            6C7738686E3130306F2F2545352539432538362E737667D44D078D0000000049
+            454E44AE426082}
+          OnStart = jduImageLoadingStart
+          OnStop = jduImageLoadingStop
+          ExplicitTop = 279
+        end
+      end
+      object jduPage4: TJDUIContainer
+        Left = 0
+        Top = 0
+        Width = 1080
+        Height = 668
+        Clips.Left = 0
+        Clips.Top = 0
+        Clips.Right = 0
+        Clips.Bottom = 0
+        TabOrder = 5
+        Align = alClient
+        Visible = False
+        object jduContainerInput: TJDUIContainer
+          Left = 0
+          Top = 0
+          Width = 1080
+          Height = 668
+          Clips.Left = 0
+          Clips.Top = 0
+          Clips.Right = 0
+          Clips.Bottom = 0
+          TabOrder = 0
+          Align = alClient
+          object jduInputTop: TJDUIContainer
+            Left = 0
+            Top = 0
+            Width = 1080
+            Height = 50
+            Clips.Left = 0
+            Clips.Top = 0
+            Clips.Right = 0
+            Clips.Bottom = 0
+            TabOrder = 0
+            Align = alTop
+            DesignSize = (
+              1080
+              50)
+            object jduPanel3: TJDUIPanel
+              Left = 0
+              Top = 0
+              Width = 1080
+              Height = 50
+              Animate = True
+              GrayScale = False
+              UseFormFontName = False
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              Align = alClient
+              Caption = ''
+              Color = 0
+              BorderColor = -1776412
+              Borders = [pbkBottomLine]
+              ExplicitLeft = -1
+              ExplicitWidth = 754
+            end
+            object btAddImage: TJDUIButton
+              Left = 367
+              Top = 12
+              Width = 28
+              Height = 28
+              Hint = 'Add Image'
+              Animate = True
+              GrayScale = False
+              UseFormFontName = False
+              UseFormFontColor = False
+              UseExtendResource = True
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = False
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Height = -12
+              Font.Name = #23435#20307
+              Font.Style = []
+              OnClick = btAddImageClick
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = ''
+              ParentFont = False
+              EllipsisPosition = epEndEllipsis
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = True
+              PictureClick = False
+              Down = False
+              ImageAlign = iatCenter
+              ImagePadding = 0
+              ShowCaption = True
+              ShowShadown = False
+              CaptionShadownColor = clBlack
+              ShowNineGridsType = ngtHover
+              IncContentWhenClick = True
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = 0
+              Picture.Data = {
+                89504E470D0A1A0A0000000D49484452000000100000001010060000004F6323
+                220000000467414D410000B18F0BFC6105000000017352474200AECE1CE90000
+                0006624B4744000000000000F943BB7F00000009704859730000004800000048
+                0046C96B3E0000010D4944415478DA63641860C058C800824719FE83A1159DAD
+                3FC2C058C00082FF1926802123DDAC86D94B750740CC6B83F2F2A0213B110AAB
+                E9E580CF501E0F94FE0C359F8F5C073042352C646007C35C864E30FC88A1321F
+                0C5B813A40300F2A3A116A7E0DE90E8024D2446850CE838A6E66E007C3008646
+                30FC476648E171401918F232FC02C39B505149B83CC4418DD0B86DC069512818
+                32334883611FD49E7CC20E808877437925388CFF0F85A15087AC85CB94802137
+                C31F305C0E15F585DB83D301902057811A7C05AA919D40807E86C6B925C36F30
+                7CCFC002869BA0F2C67095041D0049445BA1067A911CB784004107C0F8B40283
+                DF01F402680E380C15B6A19B0320E0301DBD8C03000065F7ACEAEDB2F80A0000
+                002574455874646174653A63726561746500323032302D30382D32375431343A
+                30373A34312B30383A3030741BAEFD0000002574455874646174653A6D6F6469
+                667900323032302D30382D32375431343A30373A34312B30383A303005461641
+                00000048744558747376673A626173652D7572690066696C653A2F2F2F686F6D
+                652F61646D696E2F69636F6E2D666F6E742F746D702F69636F6E5F6873377764
+                6B6A703831682F696D6167652E737667369744AE0000000049454E44AE426082}
+              NineGridsRes = jdu9GLightGrayNormal
+              NineGridsResAtTop = False
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.050000000745058060
+              AnimateOutTime = 0.200000002980232200
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object btCopyScreen: TJDUIButton
+              Left = 400
+              Top = 12
+              Width = 28
+              Height = 28
+              Hint = 'ScreenShot'
+              Animate = True
+              GrayScale = False
+              UseFormFontName = False
+              UseFormFontColor = False
+              UseExtendResource = True
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = False
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Height = -12
+              Font.Name = #23435#20307
+              Font.Style = []
+              OnClick = btCopyScreenClick
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = ''
+              ParentFont = False
+              EllipsisPosition = epEndEllipsis
+              Default = False
+              DropDownIconClickAreaWidth = 12
+              DropDownIconClickAreaMargin = 1
+              DropDownIconHoverColor = 14145495
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = True
+              PictureClick = False
+              Down = False
+              ImageAlign = iatCenter
+              ImagePadding = 0
+              ShowCaption = False
+              ShowShadown = False
+              CaptionShadownColor = clBlack
+              ShowNineGridsType = ngtHover
+              IncContentWhenClick = True
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = 0
+              Picture.Data = {
+                89504E470D0A1A0A0000000D49484452000000100000001010060000004F6323
+                220000000467414D410000B18F0BFC6105000000017352474200AECE1CE90000
+                0006624B4744000000000000F943BB7F00000009704859730000004800000048
+                0046C96B3E000002394944415478DAB5944D4854511480CFD3F107498304459C
+                85846E0AC2DA5B8C82E242D028711144B8C84DE40CFE444262222E54465DE842
+                C4851B91425C84442806D12A70A1AE14DA64A015E110A2637FF79DFBCD8BDE90
+                4EA2EF5B1CCEB9E7EFDE7BEE73C2E2D220BF9419B15FA69CED77886C16C736D0
+                43034F5858407E3BE5C2E790B5C8E1E4061CA54CA2CAE6A995B6754AA9B3917A
+                030F95421951B6532EE88FFBEF06AC5E86E333ECF7686CF6989D36123F85F516
+                F11BA93760659AFC54160928C27E874666BCC2ADCA4DB484FDABFC50421250E2
+                27BD8212D38ACB127E41FC6EA3C74938878CD178A58C2A6B279F81BF777811BF
+                25FC8A7C1710C35E49FC6AAA4378998E2F9917EAB220634AF233B4FE2D241AF7
+                ECB6701B858792E21E287992AE34615D35317CDD4AA6EC2AED58AB91BB147C47
+                A12EEC5FB03B7001F908FB15F45CF44539AF4C9A337789271A7038E21724AE95
+                A3BF1D125E673602E8AF59CFFF67A46DE8B9390B97C6C4155493E025725EB295
+                BBA64797A06F3D5D3E2A4173692E0E27F78132874C7F8DE4285B72A04CB35E47
+                9E1BE2D89D4758186221C40F64D93784514FB33B09323B19E8EF898F121FF1E2
+                234A08FFC46B0A8B639F593D09E6904F19A66EC866876F082C2551A164290186
+                F733F16BDC750577BDCF73EEF7CD88F941D9E9CC623ADFD2EF351C560828C05E
+                8CBD831D0E783BB405FAF07F8C750BF909598E5C973DE5EA9F57D0A614C877A5
+                176B150563E8E3149E481A2E7B52699C542771F7692807FD95B92C97B00C2A3B
+                F21BC7A2610DD5E4375C0000002574455874646174653A637265617465003230
+                32302D30382D32375431343A30383A34312B30383A30308510F5700000002574
+                455874646174653A6D6F6469667900323032302D30382D32375431343A30383A
+                34312B30383A3030F44D4DCC0000004D744558747376673A626173652D757269
+                0066696C653A2F2F2F686F6D652F61646D696E2F69636F6E2D666F6E742F746D
+                702F69636F6E5F3632637531786F726F66342F73637265656E73686F742E7376
+                6744E524390000000049454E44AE426082}
+              NineGridsRes = jdu9GLightGrayNormal
+              NineGridsResAtTop = False
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.050000000745058060
+              AnimateOutTime = 0.200000002980232200
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object edFontSize: TJDUIComboBox
+              Left = 4
+              Top = 11
+              Width = 88
+              Height = 31
+              Margins.Left = 8
+              Margins.Top = 0
+              Margins.Right = 29
+              Margins.Bottom = 0
+              Animate = True
+              GrayScale = False
+              UseFormFontName = True
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              JduTabStop = False
+              JduTabOrder = 6
+              PopupFormRes = JduFormRes
+              Hover9G = jdu9GppmGray
+              DropDownMode = True
+              ShowImage = False
+              ItemHeight = 22
+              ItemViewCount = 12
+              Split = False
+              SplitColor = -1710619
+              DropColor = -5592406
+              DropBackColor = -657931
+              DropButtonWidth = 21
+              DropButtonTopMargin = 3
+              DropButtonBottomMargin = 3
+              DropButtonLeftMargin = 5
+              DropButtonRightMargin = 3
+              MouseOverActionWidth = 0
+              Text = ''
+              MaxLength = 0
+              PasswordChar = #0
+              ReadOnly = True
+              AutoSelect = False
+              NumbersOnly = False
+              BorderRes = jdu9GEditHover
+              ScrollBarRes = jduScrollBarRes
+              UnFocusedColor = clBlack
+              OnChange = edFontSizeChange
+            end
+            object cbLineSpace: TJDUIComboBox
+              Left = 91
+              Top = 11
+              Width = 93
+              Height = 31
+              Cursor = crIBeam
+              Margins.Left = 5
+              Margins.Top = 0
+              Margins.Right = 29
+              Margins.Bottom = 0
+              Animate = True
+              GrayScale = False
+              UseFormFontName = True
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              JduTabStop = False
+              JduTabOrder = 4
+              PopupFormRes = JduFormRes
+              ScrollBar = jduScrollBarRes
+              Hover9G = jdu9GppmGray
+              DropDownMode = True
+              ShowImage = False
+              ItemHeight = 22
+              ItemViewCount = 20
+              Split = False
+              SplitColor = -1710619
+              DropColor = -5592406
+              DropBackColor = -657931
+              DropButtonWidth = 21
+              DropButtonTopMargin = 3
+              DropButtonBottomMargin = 3
+              DropButtonLeftMargin = 5
+              DropButtonRightMargin = 3
+              MouseOverActionWidth = 0
+              Text = ''
+              MaxLength = 0
+              PasswordChar = #0
+              ReadOnly = False
+              AutoSelect = False
+              NumbersOnly = False
+              BorderRes = jdu9GEditHover
+              ScrollBarRes = jduScrollBarRes
+              UnFocusedColor = clBlack
+              OnChange = cbLineSpaceChange
+            end
+            object jduImage2: TJDUIImage
+              Left = 358
+              Top = 18
+              Width = 1
+              Height = 17
+              Animate = True
+              GrayScale = False
+              UseFormFontName = False
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 200
+              EnableParentClip = True
+              EnableFormClip = True
+              AutoSize = False
+              BaseProtectedBack = False
+              PaintMode = False
+              Picture.Data = {
+                89504E470D0A1A0A0000000D4948445200000001000000010802000000907753
+                DE000000097048597300000B1300000B1301009A9C1800000A4D694343505068
+                6F746F73686F70204943432070726F66696C65000078DA9D53775893F7163EDF
+                F7650F5642D8F0B1976C81002223AC08C81059A21092006184101240C585880A
+                561415119C4855C482D50A489D88E2A028B867418A885A8B555C38EE1FDCA7B5
+                7D7AEFEDEDFBD7FBBCE79CE7FCCE79CF0F8011122691E6A26A003952853C3AD8
+                1F8F4F48C4C9BD80021548E0042010E6CBC26705C50000F00379787E74B03FFC
+                01AF6F00020070D52E2412C7E1FF83BA50265700209100E02212E70B01905200
+                C82E54C81400C81800B053B3640A009400006C797C422200AA0D00ECF4493E05
+                00D8A993DC1700D8A21CA908008D0100992847240240BB00605581522C02C0C2
+                00A0AC40222E04C0AE018059B632470280BD0500768E58900F4060008099422C
+                CC0020380200431E13CD03204C03A030D2BFE0A95F7085B8480100C0CB95CD97
+                4BD23314B895D01A77F2F0E0E221E2C26CB142611729106609E4229C979B2313
+                48E7034CCE0C00001AF9D1C1FE383F90E7E6E4E1E666E76CEFF4C5A2FE6BF06F
+                223E21F1DFFEBC8C020400104ECFEFDA5FE5E5D60370C701B075BF6BA95B00DA
+                560068DFF95D33DB09A05A0AD07AF98B7938FC401E9EA150C83C1D1C0A0B0BED
+                2562A1BD30E38B3EFF33E16FE08B7EF6FC401EFEDB7AF000719A4099ADC0A383
+                FD71616E76AE528EE7CB0442316EF7E723FEC7857FFD8E29D1E234B15C2C158A
+                F15889B850224DC779B952914421C995E212E97F32F11F96FD0993770D00AC86
+                4FC04EB607B5CB6CC07EEE01028B0E58D27600407EF32D8C1A0B910010673432
+                79F7000093BFF98F402B0100CD97A4E30000BCE8185CA894174CC608000044A0
+                812AB041070CC114ACC00E9CC11DBCC01702610644400C24C03C104206E4801C
+                0AA11896411954C03AD804B5B0031AA0119AE110B4C131380DE7E0125C81EB70
+                170660189EC218BC86090441C8081361213A8811628ED822CE0817998E042261
+                48349280A420E988145122C5C872A402A9426A915D4823F22D7214398D5C40FA
+                90DBC820328AFC8ABC47319481B25103D4027540B9A81F1A8AC6A073D174340F
+                5D8096A26BD11AB41E3D80B6A2A7D14BE87574007D8A8E6380D1310E668CD961
+                5C8C87456089581A26C71663E55835568F35631D583776151BC09E61EF082402
+                8B8013EC085E8410C26C82909047584C5843A825EC23B412BA085709838431C2
+                272293A84FB4257A12F9C478623AB1905846AC26EE211E219E255E270E135F93
+                48240EC992E44E0A21259032490B496B48DB482DA453A43ED210699C4C26EB90
+                6DC9DEE408B280AC209791B7900F904F92FBC9C3E4B7143AC588E24C09A22452
+                A494124A35653FE504A59F324299A0AA51CDA99ED408AA883A9F5A496DA07650
+                2F5387A91334759A25CD9B1643CBA42DA3D5D09A696769F7682FE974BA09DD83
+                1E4597D097D26BE807E9E7E983F4770C0D860D83C7486228196B197B19A718B7
+                192F994CA605D39799C85430D7321B9967980F986F55582AF62A7C1591CA1295
+                3A9556957E95E7AA545573553FD579AA0B54AB550FAB5E567DA64655B350E3A9
+                09D416ABD5A91D55BBA936AECE5277528F50CF515FA3BE5FFD82FA630DB28685
+                46A08648A35463B7C6198D2116C63265F15842D6725603EB2C6B984D625BB2F9
+                EC4C7605FB1B762F7B4C534373AA66AC6691669DE671CD010EC6B1E0F039D99C
+                4ACE21CE0DCE7B2D032D3F2DB1D66AAD66AD7EAD37DA7ADABEDA62ED72ED16ED
+                EBDAEF75709D409D2C9DF53A6D3AF77509BA36BA51BA85BADB75CFEA3ED363EB
+                79E909F5CAF50EE9DDD147F56DF4A3F517EAEFD6EFD11F373034083690196C31
+                3863F0CC9063E86B9869B8D1F084E1A811CB68BA91C468A3D149A327B826EE87
+                67E33578173E66AC6F1C62AC34DE65DC6B3C61626932DBA4C4A4C5E4BE29CD94
+                6B9A66BAD1B4D374CCCCC82CDCACD8ACC9EC8E39D59C6B9E61BED9BCDBFC8D85
+                A5459CC54A8B368BC796DA967CCB05964D96F7AC98563E567956F556D7AC49D6
+                5CEB2CEB6DD6576C501B579B0C9B3A9BCBB6A8AD9BADC4769B6DDF14E2148F29
+                D229F5536EDA31ECFCEC0AEC9AEC06ED39F661F625F66DF6CF1DCC1C121DD63B
+                743B7C727475CC766C70BCEBA4E134C3A9C4A9C3E957671B67A1739DF33517A6
+                4B90CB1297769717536DA78AA76E9F7ACB95E51AEEBAD2B5D3F5A39BBB9BDCAD
+                D96DD4DDCC3DC57DABFB4D2E9B1BC95DC33DEF41F4F0F758E271CCE39DA79BA7
+                C2F390E72F5E765E595EFBBD1E4FB39C269ED6306DC8DBC45BE0BDCB7B603A3E
+                3D65FACEE9033EC63E029F7A9F87BEA6BE22DF3DBE237ED67E997E07FC9EFB3B
+                FACBFD8FF8BFE179F216F14E056001C101E501BD811A81B3036B031F049904A5
+                0735058D05BB062F0C3E15420C090D591F72936FC017F21BF96333DC672C9AD1
+                15CA089D155A1BFA30CC264C1ED6118E86CF08DF107E6FA6F94CE9CCB60888E0
+                476C88B81F69199917F97D14292A32AA2EEA51B453747174F72CD6ACE459FB67
+                BD8EF18FA98CB93BDB6AB6727667AC6A6C526C63EC9BB880B8AAB8817887F845
+                F1971274132409ED89E4C4D8C43D89E37302E76C9A339CE49A54967463AEE5DC
+                A2B917E6E9CECB9E773C593559907C3885981297B23FE5832042502F184FE5A7
+                6E4D1D13F2849B854F45BEA28DA251B1B7B84A3C92E69D5695F638DD3B7D43FA
+                68864F4675C633094F522B79911992B923F34D5644D6DEACCFD971D92D39949C
+                949CA3520D6996B42BD730B728B74F662B2B930DE479E66DCA1B9387CAF7E423
+                F973F3DB156C854CD1A3B452AE500E164C2FA82B785B185B78B848BD485AD433
+                DF66FEEAF9230B82167CBD90B050B8B0B3D8B87859F1E022BF45BB16238B5317
+                772E315D52BA647869F0D27DCB68CBB296FD50E2585255F26A79DCF28E5283D2
+                A5A5432B82573495A994C9CB6EAEF45AB9631561956455EF6A97D55B567F2A17
+                955FAC70ACA8AEF8B046B8E6E2574E5FD57CF5796DDADADE4AB7CAEDEB48EBA4
+                EB6EACF759BFAF4ABD6A41D5D086F00DAD1BF18DE51B5F6D4ADE74A17A6AF58E
+                CDB4CDCACD03356135ED5BCCB6ACDBF2A136A3F67A9D7F5DCB56FDADABB7BED9
+                26DAD6BFDD777BF30E831D153BDEEF94ECBCB52B78576BBD457DF56ED2EE82DD
+                8F1A621BBABFE67EDDB847774FC59E8F7BA57B07F645EFEB6A746F6CDCAFBFBF
+                B2096D52368D1E483A70E59B806FDA9BED9A77B5705A2A0EC241E5C127DFA67C
+                7BE350E8A1CEC3DCC3CDDF997FB7F508EB48792BD23ABF75AC2DA36DA03DA1BD
+                EFE88CA39D1D5E1D47BEB7FF7EEF31E36375C7358F579EA09D283DF1F9E48293
+                E3A764A79E9D4E3F3DD499DC79F74CFC996B5D515DBD6743CF9E3F1774EE4CB7
+                5FF7C9F3DEE78F5DF0BC70F422F762DB25B74BAD3DAE3D477E70FDE148AF5B6F
+                EB65F7CBED573CAE74F44DEB3BD1EFD37FFA6AC0D573D7F8D72E5D9F79BDEFC6
+                EC1BB76E26DD1CB825BAF5F876F6ED17770AEE4CDC5D7A8F78AFFCBEDAFDEA07
+                FA0FEA7FB4FEB165C06DE0F860C060CFC3590FEF0E09879EFE94FFD387E1D247
+                CC47D52346238D8F9D1F1F1B0D1ABDF264CE93E1A7B2A713CFCA7E56FF79EB73
+                ABE7DFFDE2FB4BCF58FCD8F00BF98BCFBFAE79A9F372EFABA9AF3AC723C71FBC
+                CE793DF1A6FCADCEDB7DEFB8EFBADFC7BD1F9928FC40FE50F3D1FA63C7A7D04F
+                F73EE77CFEFC2FF784F3FB25D29F330000000C4944415478DA633C77EE1C0004
+                DC026C8B02BE5E0000000049454E44AE426082}
+              StreachMode = smNearest
+              Rotate = rtNone
+              Async = False
+              KeepScale = False
+            end
+            object btBold: TJDUIButton
+              Left = 188
+              Top = 12
+              Width = 28
+              Height = 28
+              Hint = 'Bold'
+              Animate = True
+              GrayScale = False
+              UseFormFontName = True
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = True
+              Anchors = [akLeft, akBottom]
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clScrollBar
+              Font.Height = -12
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              OnClick = btBoldClick
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = ''
+              ParentFont = False
+              EllipsisPosition = epNone
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = True
+              PictureClick = False
+              Down = False
+              ImageAlign = iatCenter
+              ImagePadding = 0
+              ShowCaption = True
+              ShowShadown = False
+              CaptionShadownColor = -1
+              ShowNineGridsType = ngtHover
+              IncContentWhenClick = True
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = 0
+              Picture.Data = {
+                89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
+                610000001974455874536F6674776172650041646F626520496D616765526561
+                647971C9653C0000032469545874584D4C3A636F6D2E61646F62652E786D7000
+                000000003C3F787061636B657420626567696E3D22EFBBBF222069643D225735
+                4D304D7043656869487A7265537A4E54637A6B633964223F3E203C783A786D70
+                6D65746120786D6C6E733A783D2261646F62653A6E733A6D6574612F2220783A
+                786D70746B3D2241646F626520584D5020436F726520352E332D633031312036
+                362E3134353636312C20323031322F30322F30362D31343A35363A3237202020
+                2020202020223E203C7264663A52444620786D6C6E733A7264663D2268747470
+                3A2F2F7777772E77332E6F72672F313939392F30322F32322D7264662D73796E
+                7461782D6E7323223E203C7264663A4465736372697074696F6E207264663A61
+                626F75743D222220786D6C6E733A786D703D22687474703A2F2F6E732E61646F
+                62652E636F6D2F7861702F312E302F2220786D6C6E733A786D704D4D3D226874
+                74703A2F2F6E732E61646F62652E636F6D2F7861702F312E302F6D6D2F222078
+                6D6C6E733A73745265663D22687474703A2F2F6E732E61646F62652E636F6D2F
+                7861702F312E302F73547970652F5265736F75726365526566232220786D703A
+                43726561746F72546F6F6C3D2241646F62652050686F746F73686F7020435336
+                20284D6163696E746F7368292220786D704D4D3A496E7374616E636549443D22
+                786D702E6969643A444141393230373944413631313145383932383539413444
+                45463639433842462220786D704D4D3A446F63756D656E7449443D22786D702E
+                6469643A44414139323037414441363131314538393238353941344445463639
+                43384246223E203C786D704D4D3A4465726976656446726F6D2073745265663A
+                696E7374616E636549443D22786D702E6969643A444141393230373744413631
+                3131453839323835394134444546363943384246222073745265663A646F6375
+                6D656E7449443D22786D702E6469643A44414139323037384441363131314538
+                39323835394134444546363943384246222F3E203C2F7264663A446573637269
+                7074696F6E3E203C2F7264663A5244463E203C2F783A786D706D6574613E203C
+                3F787061636B657420656E643D2272223F3E9A2FC407000001B74944415478DA
+                CD92CB4A425114867FCFD1E3357060E00B0829153532B0C2CAB21CA954D24528
+                5211894AA1D25917139C1545D43C875256937A87EA05A29920A239D05214DD9D
+                B307819C6CD2A4051B166B2DBEBD2EBF841082BF98E4FF00AE6FEFC87DE6A663
+                61DFC0207CAB2BD068341211A0D56A917ABD8E62B1889D9D5D9AF0FBFD30998C
+                A87C547179718E42A140211BA12018562A1175D06834483E9FFF062C2D2F6374
+                6498FA57A9141E1F1E603018108FC72193C9C400C17800090683D4F7F90398B6
+                4FA1542A616FFF00EF7C77E14804FD7DBDE038AE33C0EBF58AE6D7E9BA31EBF1
+                60727C0C4AA5122CCB7606B8DD6EA8D56A04020158AD56349B4D1CC68FF0F2FC
+                048BC5824422F13BC0E17040A150201C0EC36EB7D3F8EB5B16EBA135D46A356C
+                F33BF2CCCF7506D8266CE0E41C62B1185C2E17847C2E97C3CCF40C8D6F6E45B0
+                B8E0F9EEA20D90CD668950F859FD44329984D3E904C3B0884677914EA7A1D56A
+                91C964A0D7EBC580E3D3337276724CFD6AB90C655757DB22CDE6217A0593B107
+                2A95AA7D044148C27C954A45D0034DF0B76E03F03FD20BC8E5F29F97280849D8
+                380FFB51CA52A9943E8661C452FE8B7D01631CD4E13414405D0000000049454E
+                44AE426082}
+              NineGridsRes = jdu9GLightGrayNormal
+              NineGridsResAtTop = False
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.200000002980232200
+              AnimateOutTime = 0.300000011920929000
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object btUnderLine: TJDUIButton
+              Left = 221
+              Top = 12
+              Width = 28
+              Height = 28
+              Hint = 'Under Line'
+              Animate = True
+              GrayScale = False
+              UseFormFontName = True
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = True
+              Anchors = [akLeft, akBottom]
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clScrollBar
+              Font.Height = -12
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              OnClick = btUnderLineClick
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = ''
+              ParentFont = False
+              EllipsisPosition = epNone
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = True
+              PictureClick = False
+              Down = False
+              ImageAlign = iatCenter
+              ImagePadding = 0
+              ShowCaption = True
+              ShowShadown = False
+              CaptionShadownColor = -1
+              ShowNineGridsType = ngtHover
+              IncContentWhenClick = True
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = 0
+              Picture.Data = {
+                89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
+                610000001974455874536F6674776172650041646F626520496D616765526561
+                647971C9653C0000032469545874584D4C3A636F6D2E61646F62652E786D7000
+                000000003C3F787061636B657420626567696E3D22EFBBBF222069643D225735
+                4D304D7043656869487A7265537A4E54637A6B633964223F3E203C783A786D70
+                6D65746120786D6C6E733A783D2261646F62653A6E733A6D6574612F2220783A
+                786D70746B3D2241646F626520584D5020436F726520352E332D633031312036
+                362E3134353636312C20323031322F30322F30362D31343A35363A3237202020
+                2020202020223E203C7264663A52444620786D6C6E733A7264663D2268747470
+                3A2F2F7777772E77332E6F72672F313939392F30322F32322D7264662D73796E
+                7461782D6E7323223E203C7264663A4465736372697074696F6E207264663A61
+                626F75743D222220786D6C6E733A786D703D22687474703A2F2F6E732E61646F
+                62652E636F6D2F7861702F312E302F2220786D6C6E733A786D704D4D3D226874
+                74703A2F2F6E732E61646F62652E636F6D2F7861702F312E302F6D6D2F222078
+                6D6C6E733A73745265663D22687474703A2F2F6E732E61646F62652E636F6D2F
+                7861702F312E302F73547970652F5265736F75726365526566232220786D703A
+                43726561746F72546F6F6C3D2241646F62652050686F746F73686F7020435336
+                20284D6163696E746F7368292220786D704D4D3A496E7374616E636549443D22
+                786D702E6969643A444141393230374444413631313145383932383539413444
+                45463639433842462220786D704D4D3A446F63756D656E7449443D22786D702E
+                6469643A44414139323037454441363131314538393238353941344445463639
+                43384246223E203C786D704D4D3A4465726976656446726F6D2073745265663A
+                696E7374616E636549443D22786D702E6969643A444141393230374244413631
+                3131453839323835394134444546363943384246222073745265663A646F6375
+                6D656E7449443D22786D702E6469643A44414139323037434441363131314538
+                39323835394134444546363943384246222F3E203C2F7264663A446573637269
+                7074696F6E3E203C2F7264663A5244463E203C2F783A786D706D6574613E203C
+                3F787061636B657420656E643D2272223F3E6EACD63F000001E44944415478DA
+                63FCFFFF3F03258071F018B072D5EAFFBB76EE40917473F760080D0966983475
+                1AC3E50BE7E1E23EFE010C817EBE8C7003FEFEFDFBFFE7CF9F0CE72F5C649836
+                752A585157572783A0A020030B0B0BC3AF5FBF18B66EDBCEB069E34686D2F25A
+                06351559060E0E0E0626262646B80B8006FCBF7CE52A437F5F1FDC0031313190
+                22863F7FFE303C7DF682A1B5A50928DEC5C0CBCBCBC0C6C6C688E2857FFFFEFD
+                BF74E53643534325983F63C60C90018C30B9376FDE3014161631CC9E3D8B818B
+                8B8B11230CFEFDFDF3FFD2D5BB0CE5A57960FEE2C58BE10680C0DBB76FFFA7A6
+                A6322C59B2048701405BCE9DBFC050909FC7C0CDCD8D61C0AB57AFFE67646410
+                67C08F1F3F18B66DDB8661406C6C2CC3FAF5EBF11B90949000E66FD8B4994149
+                511EAEF0C08183FF274D9AC8B07CF972067676764C0340E0CB972FFFE3E2E218
+                2E5DBAC4606E6EC100D2202C2CCC78E1D2CDFFA0C0F5F6F56388898AC46D0028
+                2A3F7EFCC8D0DBDBCBB076ED5AB8B8B2B2324358442443487010030F307C9899
+                99B11B00F20628D17CFDFA1594B8C06240C5601A682B28EEE1F18F350C642525
+                C1ECF79F3E3108F2F1C115A1F31F3C79C2C0CACA8A9A9040CEFF014CCE7F7EFF
+                66F8CFC8C6F0EFCF77B0F87F565606E6FF2C703E3B3009737172C20D00008658
+                0BF06C2B538A0000000049454E44AE426082}
+              NineGridsRes = jdu9GLightGrayNormal
+              NineGridsResAtTop = False
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.200000002980232200
+              AnimateOutTime = 0.300000011920929000
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object btSUB: TJDUIButton
+              Left = 287
+              Top = 12
+              Width = 28
+              Height = 28
+              Hint = 'sub'
+              Animate = True
+              GrayScale = False
+              UseFormFontName = True
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = True
+              Anchors = [akLeft, akBottom]
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clScrollBar
+              Font.Height = -12
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              OnClick = btSUBClick
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = ''
+              ParentFont = False
+              EllipsisPosition = epNone
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = True
+              PictureClick = False
+              Down = False
+              ImageAlign = iatCenter
+              ImagePadding = 0
+              ShowCaption = True
+              ShowShadown = False
+              CaptionShadownColor = -1
+              ShowNineGridsType = ngtHover
+              IncContentWhenClick = True
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = 0
+              Picture.Data = {
+                89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
+                610000001974455874536F6674776172650041646F626520496D616765526561
+                647971C9653C0000032469545874584D4C3A636F6D2E61646F62652E786D7000
+                000000003C3F787061636B657420626567696E3D22EFBBBF222069643D225735
+                4D304D7043656869487A7265537A4E54637A6B633964223F3E203C783A786D70
+                6D65746120786D6C6E733A783D2261646F62653A6E733A6D6574612F2220783A
+                786D70746B3D2241646F626520584D5020436F726520352E332D633031312036
+                362E3134353636312C20323031322F30322F30362D31343A35363A3237202020
+                2020202020223E203C7264663A52444620786D6C6E733A7264663D2268747470
+                3A2F2F7777772E77332E6F72672F313939392F30322F32322D7264662D73796E
+                7461782D6E7323223E203C7264663A4465736372697074696F6E207264663A61
+                626F75743D222220786D6C6E733A786D703D22687474703A2F2F6E732E61646F
+                62652E636F6D2F7861702F312E302F2220786D6C6E733A786D704D4D3D226874
+                74703A2F2F6E732E61646F62652E636F6D2F7861702F312E302F6D6D2F222078
+                6D6C6E733A73745265663D22687474703A2F2F6E732E61646F62652E636F6D2F
+                7861702F312E302F73547970652F5265736F75726365526566232220786D703A
+                43726561746F72546F6F6C3D2241646F62652050686F746F73686F7020435336
+                20284D6163696E746F7368292220786D704D4D3A496E7374616E636549443D22
+                786D702E6969643A334641423238374544413632313145383932383539413444
+                45463639433842462220786D704D4D3A446F63756D656E7449443D22786D702E
+                6469643A33464142323837464441363231314538393238353941344445463639
+                43384246223E203C786D704D4D3A4465726976656446726F6D2073745265663A
+                696E7374616E636549443D22786D702E6969643A334641423238374344413632
+                3131453839323835394134444546363943384246222073745265663A646F6375
+                6D656E7449443D22786D702E6469643A33464142323837444441363231314538
+                39323835394134444546363943384246222F3E203C2F7264663A446573637269
+                7074696F6E3E203C2F7264663A5244463E203C2F783A786D706D6574613E203C
+                3F787061636B657420656E643D2272223F3EB02ED16A0000017A4944415478DA
+                63FCFFFF3F032580717018F0EFDFBFFF9595956081F6F676062626264698027C
+                7270037EFCF8F1BFB4AC1C2E3871423F58E1BFBF7FFEE71716C3C57BBABB18D8
+                D9D9310DF8F9F3E7FF8F1F3F32C06C028119336630646464C0F920DBF9F8F818
+                383838300D0039F3DBB76F0C2043CA905C02035D5D9D0CFCFCFC0C5C5C5CD8BD
+                00F32BCC90DCDC5CB882C99327E3D48C110BBF7FFFFEEFE3E383E1822D5BB630
+                B0B2B2823577ADF9FE7FE3B10F0C7CDC6C0C2BCA79515D60676707D7B468F152
+                86B8D86838FFF0E12340357F41E1C5F0F9EB5F86C0D2B70CEDF9228830303333
+                832BDEB8712328B040B1C3E0EFEF0F173F79F224482DC394556F180E9DFFC0B0
+                B84116110BA626A66045DB776C07FB19185D60DB4061E2E9E109963B75FA14C3
+                BAFD3F1856EF7DCE30A148964144880B351A41001458B00083052C0883003BD0
+                559E79EF189EBFFB0CE6E78523790118806041606061A444981C087CF9F205EC
+                35901739393949CB0B30C3607A98999929CF4C00BA9AF5F27E72771800000000
+                49454E44AE426082}
+              NineGridsRes = jdu9GLightGrayNormal
+              NineGridsResAtTop = False
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.200000002980232200
+              AnimateOutTime = 0.300000011920929000
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object btSUP: TJDUIButton
+              Left = 320
+              Top = 12
+              Width = 28
+              Height = 28
+              Hint = 'sup'
+              Animate = True
+              GrayScale = False
+              UseFormFontName = True
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = True
+              Anchors = [akLeft, akBottom]
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clScrollBar
+              Font.Height = -12
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              OnClick = btSUPClick
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = ''
+              ParentFont = False
+              EllipsisPosition = epNone
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = True
+              PictureClick = False
+              Down = False
+              ImageAlign = iatCenter
+              ImagePadding = 0
+              ShowCaption = True
+              ShowShadown = False
+              CaptionShadownColor = -1
+              ShowNineGridsType = ngtHover
+              IncContentWhenClick = True
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = 0
+              Picture.Data = {
+                89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
+                610000001974455874536F6674776172650041646F626520496D616765526561
+                647971C9653C0000032469545874584D4C3A636F6D2E61646F62652E786D7000
+                000000003C3F787061636B657420626567696E3D22EFBBBF222069643D225735
+                4D304D7043656869487A7265537A4E54637A6B633964223F3E203C783A786D70
+                6D65746120786D6C6E733A783D2261646F62653A6E733A6D6574612F2220783A
+                786D70746B3D2241646F626520584D5020436F726520352E332D633031312036
+                362E3134353636312C20323031322F30322F30362D31343A35363A3237202020
+                2020202020223E203C7264663A52444620786D6C6E733A7264663D2268747470
+                3A2F2F7777772E77332E6F72672F313939392F30322F32322D7264662D73796E
+                7461782D6E7323223E203C7264663A4465736372697074696F6E207264663A61
+                626F75743D222220786D6C6E733A786D703D22687474703A2F2F6E732E61646F
+                62652E636F6D2F7861702F312E302F2220786D6C6E733A786D704D4D3D226874
+                74703A2F2F6E732E61646F62652E636F6D2F7861702F312E302F6D6D2F222078
+                6D6C6E733A73745265663D22687474703A2F2F6E732E61646F62652E636F6D2F
+                7861702F312E302F73547970652F5265736F75726365526566232220786D703A
+                43726561746F72546F6F6C3D2241646F62652050686F746F73686F7020435336
+                20284D6163696E746F7368292220786D704D4D3A496E7374616E636549443D22
+                786D702E6969643A334641423238374144413632313145383932383539413444
+                45463639433842462220786D704D4D3A446F63756D656E7449443D22786D702E
+                6469643A33464142323837424441363231314538393238353941344445463639
+                43384246223E203C786D704D4D3A4465726976656446726F6D2073745265663A
+                696E7374616E636549443D22786D702E6969643A444141393230374644413631
+                3131453839323835394134444546363943384246222073745265663A646F6375
+                6D656E7449443D22786D702E6469643A44414139323038304441363131314538
+                39323835394134444546363943384246222F3E203C2F7264663A446573637269
+                7074696F6E3E203C2F7264663A5244463E203C2F783A786D706D6574613E203C
+                3F787061636B657420656E643D2272223F3E3C81A7670000018D4944415478DA
+                A5523D4FC26010BEB662A146490C2BFF42D8649684843839189D590035026173
+                A291C400C181596262FC189A34C145870E0E60E2CF6051C2977CA6BC726FED6B
+                2B38204FF20E77D77B9EBBE7CA11426019708B1264EFFB447969C2C6DA2ADCA4
+                D61723D0759D0C8743E87CEAB09BF80039EE310826930949A7D3F423599681E7
+                79CE6CB2D632990CC67079FB0EDA5B13CA675E8360CA4A4E1349A654C85D002F
+                AC70D81C3F3A36D44723C815F2F0F0DC87BBA73AE44FBCE0D9940C82C16040DA
+                ED36984A8852A904914884C53899E8744230D6807AA34373B13DCB0ABD5E0F5A
+                AD162493A959E3B2E7E076BBC1E17040B7DB4541704EC95C2ED78F8956926834
+                CA9A8BC5226D962489C6E3F118CC1E4110EC5798164928149A9940555554E760
+                0E2C131012086CB3C255F91A0E0FF659AC699AED3A36021CDFEFF7B3A4A22874
+                47DC351C0EB37CB55A9D216167F46DF968A2F258A13B8BA28879EA497027486B
+                B5D71AE6E713E08708340B1F2A99C6E2437C1373735740771178AADF7FE25F35
+                9B89FFC5D2045F727DF5F24BFBAB3D0000000049454E44AE426082}
+              NineGridsRes = jdu9GLightGrayNormal
+              NineGridsResAtTop = False
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.200000002980232200
+              AnimateOutTime = 0.300000011920929000
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object btItalic: TJDUIButton
+              Left = 254
+              Top = 12
+              Width = 28
+              Height = 28
+              Hint = 'Italic'
+              Animate = True
+              GrayScale = False
+              UseFormFontName = True
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = True
+              Anchors = [akLeft, akBottom]
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clScrollBar
+              Font.Height = -12
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              OnClick = btItalicClick
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = ''
+              ParentFont = False
+              EllipsisPosition = epNone
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = True
+              PictureClick = False
+              Down = False
+              ImageAlign = iatCenter
+              ImagePadding = 0
+              ShowCaption = True
+              ShowShadown = False
+              CaptionShadownColor = -1
+              ShowNineGridsType = ngtHover
+              IncContentWhenClick = True
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = 0
+              Picture.Data = {
+                89504E470D0A1A0A0000000D4948445200000010000000100804000000B5FA37
+                EA0000000467414D410000AFC837058AE90000001974455874536F6674776172
+                650041646F626520496D616765526561647971C9653C000000894944415478DA
+                63FCCF801F30525B414EC3AF82DFFC3F3FFEBAB0C6018709F10F7ECBFF485CB7
+                008709B106BFCFFFF8B84100A715A113FEE57F59B83301A702DF077FE5BF041E
+                DA80438137D082EF1F0F0B206B4151E0348139FFDDC2B3093815583E6090FF14
+                7875030E05E60EFFF77F66B8CE8823A04C1B7E3AFC64F8C9F0EBC3B3009AC605
+                26000064CC440160698B1D0000000049454E44AE426082}
+              NineGridsRes = jdu9GLightGrayNormal
+              NineGridsResAtTop = False
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.200000002980232200
+              AnimateOutTime = 0.300000011920929000
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+          end
+          object edMessageInput: TJDUIEditOSR
+            Left = 0
+            Top = 50
+            Width = 1080
+            Height = 618
+            Margins.Left = 2
+            Margins.Top = 2
+            Margins.Right = 15
+            Margins.Bottom = 2
+            Clips.Left = 0
+            Clips.Top = 0
+            Clips.Right = 0
+            Clips.Bottom = 0
+            TabOrder = 1
+            Align = alClient
+            Padding.Left = 5
+            Padding.Right = 5
+            LineSpace = 2
+            ScrollBarMarginRight = 0
+            Alpha = 255
+            TextOnly = False
+            AutoClientSize = False
+            MaxAutoClientWidth = 0
+            MaxAutoClientHeight = 0
+            MinAutoClientWidth = 0
+            ImageUseMD5Code = False
+            MaxImageSize = 1000
+            MultiLine = True
+            WordBreak = False
+            Text = ''
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clBlack
+            Font.Height = -13
+            Font.Name = #23435#20307
+            Font.Style = []
+            ParentFont = False
+            ScrollBarRes = jduScrollBarRes
+            MaxLength = 0
+            PasswordChar = #0
+            ReadOnly = False
+            AutoSelect = False
+            NumbersOnly = False
+            UnFocusedColor = clBlack
+            UseFormFontName = False
+            UseFormFontColor = False
+            OnChange = edMessageInputChange
+            OnEditMouseUP = edMessageInputEditMouseUP
+            OnSelChanged = edMessageInputChange
+          end
+        end
+      end
+      object jduPage0: TJDUIContainer
+        Left = 0
+        Top = 0
+        Width = 1080
+        Height = 668
+        Clips.Left = 0
+        Clips.Top = 0
+        Clips.Right = 0
+        Clips.Bottom = 0
+        TabOrder = 0
+        Align = alClient
+        object jduScrollView2: TJDUIScrollView
+          Left = 0
+          Top = 0
+          Width = 1080
+          Height = 668
+          Clips.Left = 0
+          Clips.Top = 0
+          Clips.Right = 0
+          Clips.Bottom = 0
+          TabOrder = 0
+          Align = alClient
+          ScrollBarRes = jduScrollBarRes
+          DesignSize = (
+            1080
+            668)
+          object jduContainer6: TJDUIContainer
+            Left = 0
+            Top = 0
+            Width = 1049
+            Height = 649
+            Clips.Left = 0
+            Clips.Top = 0
+            Clips.Right = 0
+            Clips.Bottom = 0
+            TabOrder = 0
+            Anchors = [akLeft, akTop, akRight]
+            DesignSize = (
+              1049
+              649)
+            object btArrow: TJDUIButton
+              Left = 36
+              Top = 169
+              Width = 30
+              Height = 27
+              Hint = #31661#22836#24037#20855
+              Animate = True
+              GrayScale = False
+              UseFormFontName = False
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = True
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWhite
+              Font.Height = -12
+              Font.Name = #23435#20307
+              Font.Style = []
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = ''
+              ParentFont = False
+              EllipsisPosition = epEndEllipsis
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = True
+              PictureClick = False
+              Down = False
+              ImageAlign = iatTop
+              ImagePadding = 6
+              ShowCaption = False
+              ShowShadown = True
+              CaptionShadownColor = clBlack
+              ShowNineGridsType = ngtHover
+              IncContentWhenClick = True
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = 0
+              Picture.Data = {
+                89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
+                610000001974455874536F6674776172650041646F626520496D616765526561
+                647971C9653C000001D34944415478DA63FCFFFF3F032580916A0638CE7F3513
+                481913507F16A83E1DC43890248E6A80EDEC6767429CA48CFFFCC174111B1B23
+                C3AA3DCFCE3232324E00729780C40EA548A21A6031E5FE197F7B59E3AF5FFFA2
+                681612626558B5EB2158330B1BDB1220CD80D500E3DE1B67BC6CE48D3F7EFC03
+                E6FFFAF58B4142828D61F3C1A76781DCC3405C0852FBF7CF1F30BE5263886A80
+                6EEB85335E76AAC6AF5F7F6578FFFE3DC3D7AF5F194072DADA520C7B4FBE04F9
+                7DC2AF1F3F96FCFAF19DE1E7F71F0CCFA77AA11AA05673FC8C938D8AF1ADFB2F
+                19B4D545192E5D7F09F786AAA230C3A1638FC086FCFEF963095603144AF69DD1
+                B6D23016136067D8BFEDE2591B373DE3AB0F3FC20D5194E0663877F01AD4253F
+                9760182099BDED8C4588ADF1893587617EB6D5F5B336BEF9FA27DC10697E5686
+                FB3B8E830D7931CD7B098A01C2496BCF800580A1CDCCCABAE4EFEFDF3140B902
+                E9081FE3879F103123C2C9C4F061EDD6B36FE7059BA018C017B31C94900EB302
+                A30A185D0C7F80B1F0FBD72FB021BCF191C62F7F00A3949D81E1C7A2E5E028FD
+                B42412D505BCD1CB2089869D9D0166C0AF9F3F4134D810F69444E39F73E6C3D3
+                C3E7A5510C4419F01B6408D43B60CD40EFB102D5601840716622170000B6871C
+                F016E4537B0000000049454E44AE426082}
+              NineGridsRes = jdu9GSpeedBtn
+              NineGridsResAtTop = False
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.050000000745058060
+              AnimateOutTime = 0.200000002980232200
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object btCancel: TJDUIButton
+              Tag = 7
+              Left = 274
+              Top = 169
+              Width = 30
+              Height = 27
+              Hint = #21462#28040
+              Animate = True
+              GrayScale = False
+              UseFormFontName = False
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = True
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWhite
+              Font.Height = -12
+              Font.Name = #23435#20307
+              Font.Style = []
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = ''
+              ParentFont = False
+              EllipsisPosition = epEndEllipsis
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = True
+              PictureClick = False
+              Down = False
+              ImageAlign = iatTop
+              ImagePadding = 6
+              ShowCaption = False
+              ShowShadown = True
+              CaptionShadownColor = clBlack
+              ShowNineGridsType = ngtHover
+              IncContentWhenClick = True
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = 0
+              Picture.Data = {
+                89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
+                610000001974455874536F6674776172650041646F626520496D616765526561
+                647971C9653C000001924944415478DAAD933148025118C7BFD7657043780E8E
+                8D8AD0F882A6A0ADA6245C84A2C021572150079BBA2183C4B92D71B029683A72
+                6868ED70885C6C124B9023239D4ABBFEF77881BE6ECA1E3CDEBBF7FDBFDF7DEF
+                FFDD31D7756996C1FE0D50638C34A24D6C4DCCC298C81A49D13CA61A4BCABC49
+                80102473395E2B166D4F0880250122B69DC9F0AB7259C400B0A60055C6EE77B2
+                59DE6C36291A8DD265A92484B208732395E2BD5E8F0CC3A0DB6AD5DE75DD9529
+                4005156067C6D369DE683428168BD14DA5E24168351EE7DD6E9782C1203DD4EB
+                3603784FADE0021EA06401594F24F853AB251286C3213D773AA4EB3A0DDA6D91
+                8C2B59FBAA071EE013EB5842962211FEEA3822A6691ABD3B8E488699560067BF
+                0027002C48C398070887F978F4D307A2977EDF76A5B11F78CEFB010232793914
+                E27E3D7F9410546AF90144ABD62692EF90E0AD3E6785BC6AE231DAB83521BC86
+                90C9367A9EA8B123B58D59540003CD0308CF2180598545F9210D70353576AA56
+                70080FFA107E4138074108C9867CE31BA61A3B533D98F967FAEBF806D42FE6E1
+                5C13E3C60000000049454E44AE426082}
+              NineGridsRes = jdu9GSpeedBtn
+              NineGridsResAtTop = False
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.050000000745058060
+              AnimateOutTime = 0.200000002980232200
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object btCircle: TJDUIButton
+              Tag = 2
+              Left = 100
+              Top = 169
+              Width = 30
+              Height = 27
+              Hint = #26925#22278#24037#20855
+              Animate = True
+              GrayScale = False
+              UseFormFontName = False
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = True
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWhite
+              Font.Height = -12
+              Font.Name = #23435#20307
+              Font.Style = []
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = ''
+              ParentFont = False
+              EllipsisPosition = epEndEllipsis
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = True
+              PictureClick = False
+              Down = False
+              ImageAlign = iatTop
+              ImagePadding = 6
+              ShowCaption = False
+              ShowShadown = True
+              CaptionShadownColor = clBlack
+              ShowNineGridsType = ngtHover
+              IncContentWhenClick = True
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = 0
+              Picture.Data = {
+                89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
+                61000002BE4944415478DA6D936D48535118C7FFF79EBB5727AB342CB4576996
+                65852F5F8C28C3D00A2DB244A3DA87FA5020C90CF393821254A4E58782022153
+                90A6A124840A89F545E905CB8C0A439340876DD66CCEB9DDBB7B3A776B73D32E
+                1CCE73B8E7FF7B5ECEF3703879132B3E996AE1130FB03D8D9DE2D8FA0E81BC85
+                5A78BFFC2AB70CC031E139A2555F3225C6EFD992B046AFD3AA609F73637CCA31
+                3D35F37B003C7F1B841F5909A0D0337153D6AECDA596A2FDD89D9C08AD468024
+                B35F14B03BDDE87BF7050FBA07DDB3B3AE32164D732480C02BB614E7A69FA935
+                E781A808E617FD10FD32FC3408E0791E313A824FE3365CBDD7496DF6B9535091
+                CE20C0279DCD48DDD8DA5A550A9923F0887E26A260CE030059A6815D622B56A7
+                C6C8D80F9437B6DB3C3E2983C3891B3A81702F5AAA4AB2B3766CC2DC82C4844C
+                AC08A902088A593061DBA857E3566B0F9EF50F5772385A97B32D797D77578DD9
+                20826739CBFF844141C896C25150E8D42A8C8E4DA2E2AEB59F437E6DF9E17D3B
+                1B1F5A8AE09897986F1A0508EF7250EC0FD483C0E974A2ACBEEDB302A82E3CB4
+                B7AEE172217EB9C5B058A64B1E83E12FD91CE131FFC705CB9DB66F0AE07C76A6
+                A9B9B9B2849B5D10A3F30E41E4489B8208021C7607AED4B70D7328B86E5A1B6F
+                EC7F5A634ED21B62C02A1B80485105A4E1B3C86006F6122F873EA0E1714F4BE8
+                199B2A4A732E5C2CC8C68CCBC79E2DDA63287C2512F01CB43CC5B5C627189B98
+                CE0B02FC724AAC5E3374DF727A759A69031C2E6FC05364F114B1D24C06AD8047
+                5D03E8E87DDDC9BAB178A99545E97842BCB1BDDA9CAFCE4CDD0A2FF3EA611451
+                C987352C61855B5CF4C0DA3B046BDF9B61360F47C0713FA38749F21F2302A9CF
+                CD4AD97E303D05EBE25681572AEEF1E1EBA40DCF0747313169B342259433F1CC
+                FFA651697C238BA6885D38A6D16B92342A41E75AF03AA957FCC8BC76B0B17E15
+                79FD2FCA4D97A63D6FA1690000000049454E44AE426082}
+              NineGridsRes = jdu9GSpeedBtn
+              NineGridsResAtTop = False
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.050000000745058060
+              AnimateOutTime = 0.200000002980232200
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object btImage: TJDUIButton
+              Left = 38
+              Top = 396
+              Width = 138
+              Height = 138
+              Animate = True
+              GrayScale = False
+              UseFormFontName = False
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = False
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clScrollBar
+              Font.Height = -11
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = ''
+              ParentFont = False
+              EllipsisPosition = epNone
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = 128
+              PicureHeight = 128
+              ShowPicture = True
+              PictureClick = False
+              Down = False
+              ImageAlign = iatLeft
+              ImagePadding = 5
+              ShowCaption = False
+              ShowShadown = False
+              CaptionShadownColor = -1
+              ShowNineGridsType = ngtAlways
+              IncContentWhenClick = False
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = -1710619
+              Picture.Data = {
+                89504E470D0A1A0A0000000D49484452000001000000010010060000000CE274
+                25000000097048597300000B1300000B1301009A9C180000060069545874584D
+                4C3A636F6D2E61646F62652E786D7000000000003C3F787061636B6574206265
+                67696E3D22EFBBBF222069643D2257354D304D7043656869487A7265537A4E54
+                637A6B633964223F3E203C783A786D706D65746120786D6C6E733A783D226164
+                6F62653A6E733A6D6574612F2220783A786D70746B3D2241646F626520584D50
+                20436F726520352E362D633134352037392E3136333439392C20323031382F30
+                382F31332D31363A34303A32322020202020202020223E203C7264663A524446
+                20786D6C6E733A7264663D22687474703A2F2F7777772E77332E6F72672F3139
+                39392F30322F32322D7264662D73796E7461782D6E7323223E203C7264663A44
+                65736372697074696F6E207264663A61626F75743D222220786D6C6E733A786D
+                703D22687474703A2F2F6E732E61646F62652E636F6D2F7861702F312E302F22
+                20786D6C6E733A786D704D4D3D22687474703A2F2F6E732E61646F62652E636F
+                6D2F7861702F312E302F6D6D2F2220786D6C6E733A73744576743D2268747470
+                3A2F2F6E732E61646F62652E636F6D2F7861702F312E302F73547970652F5265
+                736F757263654576656E74232220786D6C6E733A64633D22687474703A2F2F70
+                75726C2E6F72672F64632F656C656D656E74732F312E312F2220786D6C6E733A
+                70686F746F73686F703D22687474703A2F2F6E732E61646F62652E636F6D2F70
+                686F746F73686F702F312E302F2220786D703A43726561746F72546F6F6C3D22
+                41646F62652050686F746F73686F70204343203230313920284D6163696E746F
+                7368292220786D703A437265617465446174653D22323032302D30382D323154
+                31303A30383A31342B30383A30302220786D703A4D6574616461746144617465
+                3D22323032302D30382D32315431303A30383A31342B30383A30302220786D70
+                3A4D6F64696679446174653D22323032302D30382D32315431303A30383A3134
+                2B30383A30302220786D704D4D3A496E7374616E636549443D22786D702E6969
+                643A36383734396438332D383561302D343937382D386666302D373135633063
+                3865396663312220786D704D4D3A446F63756D656E7449443D2261646F62653A
+                646F6369643A70686F746F73686F703A30346437653139342D373465352D3834
+                34642D613031622D3861333863623737623831372220786D704D4D3A4F726967
+                696E616C446F63756D656E7449443D22786D702E6469643A3163393430393530
+                2D326330382D343761352D626532312D37373435333362343162376422206463
+                3A666F726D61743D22696D6167652F706E67222070686F746F73686F703A436F
+                6C6F724D6F64653D2233222070686F746F73686F703A49434350726F66696C65
+                3D22735247422049454336313936362D322E31223E203C786D704D4D3A486973
+                746F72793E203C7264663A5365713E203C7264663A6C692073744576743A6163
+                74696F6E3D2263726561746564222073744576743A696E7374616E636549443D
+                22786D702E6969643A31633934303935302D326330382D343761352D62653231
+                2D373734353333623431623764222073744576743A7768656E3D22323032302D
+                30382D32315431303A30383A31342B30383A3030222073744576743A736F6674
+                776172654167656E743D2241646F62652050686F746F73686F70204343203230
+                313920284D6163696E746F736829222F3E203C7264663A6C692073744576743A
+                616374696F6E3D227361766564222073744576743A696E7374616E636549443D
+                22786D702E6969643A36383734396438332D383561302D343937382D38666630
+                2D373135633063386539666331222073744576743A7768656E3D22323032302D
+                30382D32315431303A30383A31342B30383A3030222073744576743A736F6674
+                776172654167656E743D2241646F62652050686F746F73686F70204343203230
+                313920284D6163696E746F736829222073744576743A6368616E6765643D222F
+                222F3E203C2F7264663A5365713E203C2F786D704D4D3A486973746F72793E20
+                3C2F7264663A4465736372697074696F6E3E203C2F7264663A5244463E203C2F
+                783A786D706D6574613E203C3F787061636B657420656E643D2272223F3ED314
+                79BF00002F5F4944415478DAEDDD09BCCD75FA07F00FA2ECFB5E964A4A7B8910
+                356449DA9B88864A51689976AD7F34D33A4DD3A27DA6B4376DDAA9CC0CD126A2
+                4451B6424896448AFEDFEFEFF77CCF750ED73DF76CCF6FF9BCE7659EBE77F9DD
+                E7772EE7FBFCB6E75BE677D8FF119186FDF11FEC8CC6326A24B1A1C40612EBA6
+                C45A29B1BAC46A12AB48AC24B1A2C49D259697582E259BCD127F95F88BC40D12
+                7F96F893C4B512D7485C951257A4C46512974A5C82CFF007F353BE2BC44B4D44
+                29CAB00020CA9E3F91BB09BA85C43D25EE21B1B9C466129B4A6CA29DBEB24512
+                174A5C2071BEC4AF25CE9338570A8715696C9B888AC302806807FC89BD6162E4
+                DB4F622B89FB48DC5B62AD74364D19736718E6489C2DF10B899F4BFC4C0A85A5
+                696F99284E580050ACF9137C4B191D92120F4A8975B4D3A5525929F1D394382D
+                11FD02E14BED448954B000A0484B3E826F9B12DB483C4C6255ED74A9A0D649FC
+                58E247123F4C449E41A02863014091E04FF4EE14FD11123B486C2FB179E9364A
+                31E7EE41982271B2C4F7A430F84C3B41A2ACB000A050F127FA83657494C42353
+                620DED3429D2564BFC5F4AFCAF1406D3B513244A0B0B000A247FA2DF4B465D24
+                1E2DB1B3444EF41424AE309820F11D89EF4A61F095768244495800902A7FA2AF
+                2CA31E12BB49EC2EB169E9364A1428EEF1C67112C74B7C4B0A83F5DA09524CB1
+                00A0824ABE567FACC4632476D24E8FA880264A7C53E2EBBCB7800A8A0500E595
+                3FE1BB23F9E35262DC1BE0106DCD35447A3511FD82605CA61B24DA2116009413
+                FE44EF5ACE9E24F10489274AACA09D2651886C92F8B2C4B1125F92C2604306DB
+                242AC2028032E24FF8AEE3DDC9124F91D823832D12517ADE92F882C417A52058
+                95E90629A65800505A9227FCD3249E2AB14B065B24A2DC7857E2F3129F634140
+                69610140DB957C777E9F947874065B24A2C2708F1F3E93887CDA80B687050025
+                F1277E37D19F2EF178EDB4882863AF487C5A0A8167B2DA1A45070B8098F327FC
+                AE323A232596D54E8F8872668BC42712D12F08DED64E8C94B00088197FC2DF57
+                46FD536203EDF488A86096491C93887E41304B3B312A10160011977C2DFFCC94
+                D85A3B3D220A8CA9121F4D44DE3B106D2C0022CA9FF85D4BDDB325F6D64E8B88
+                42E35989FF9442607C565BA3E061011011FE84DF4846E7A4C4DDB4D323A2D05A
+                2CF1E144F40B8225DA8951965800849C3FF1BBD6BA8324F6D24E8B8822EB3589
+                0F4A21F06A565B233D2C0042C69FF0EBC9E8BC94D8503B3D228A8DA512EF4F44
+                BF2058AE9D18A589054048F8137F67190D91784AA69B2322CA31D79A78B41402
+                13B413A212B00008387FE21F2AA36112F7D64E8B88A8187324DE2385C0BDDA09
+                51315800048C3FE1B790D105299188286CEE4E44BF2098AB9D1009160001E14F
+                FCDD6574A1C49EDA691111E5C81B12EF9242609C7642B1C70240993FF1BBBBF7
+                2F96B88F765A444479325BE29D52083CA89D506CB10028307FC2AF21A34B5262
+                E50CB648441446AEC3E01D89E81704ABB5138B0D160005E24FFCEEE6BDCB240E
+                D44E8B8828201E9178BB140273B2DA1A958C05409EF9137F47195D2EF1B84C37
+                47441471AEB1D06D52084CD24E28B25800E4893FF19F20A32B25B6D34E8B8828
+                24DE97788B140263B5138A1C160039E64FFC03647495443EB74F4494197729E0
+                6629041ED34E28325800E4883FF1BB463DC32536CA7473444494C42D3E749314
+                02F76827147A2C00B2E44FFCEEDAFEB512AB69A7454414516B25DE2885C06DDA
+                0985160B800CF913BF9BF0AF9358413B2D22A298D82471941402376A27143A2C
+                00D2E44FF8E564747D4A2422225D2313D12F08366B2714782C004A903CF1DF20
+                F1BA4C3747444479354AE20816022560015002BF001821231EF1131185833B13
+                7043F69B8A281600C548BEC63F2AAB6D11119196EB788F40315800A448BEABDF
+                FD85E1CD7D4444E1E46E16BC964F0DA4600120929FE3FF8B443ECE4744140DEE
+                F1C16BD84740C4BE0048EEDCF757896CE04344144DAEA1D0D5B1EF2C18DB0220
+                B957FFCD12D9B29788281E5C8BE1AB62BBD640EC0A80E4D5F96E91C8457A8888
+                E2C92D3A7465EC561F8C4D01E04FFCEE08FF56895C969788882CB70CF1155208
+                CCC96A6B6110F902C09FF86BC8E8768903B5D32222A2407A44E2655208ACD64E
+                286F625200B81691ECE0474444E9706B0C44B7015C640B007FE21F24A33B2456
+                D64E8B88884261BDC44BA41078503BA19C8B5C01E04FFCDD65F47789FB68A745
+                4444A1345BE29FA51018A79D50CE44A600F027FE1632BA53624FEDB488882812
+                DE9078B1140273B513CA5AC40A80BB647481763A44441449774B0170A1762259
+                0B7D01E04FFC4365C4D68E44445408C3A410B8573B918C85B600F027FECE3272
+                BF0076F22322A242707D02864A2130413BA1520B5D01E04FFCF564345AE229DA
+                691111512CBD2071881402CBB5134A5B480B00F75CE608ED748888888C1BA400
+                1899FDA60A243405803FF1BBD6BD0F486CA89D16111191B154E26029045ECD6A
+                6B8510F802C09FF8DDF2BC6EE2EFA59D161111D176BC26D115024BB2DA5A3E85
+                A400E0297F22220A93E05F12086C01E04FFCDD64F4B0C4DDB4D32222224AC362
+                89E74821305E3BA16D04AE00F0277ED7B3DFADCAD45B3B2D22A2D06B8A4A5EBF
+                D4D3D118E79B7833E6E212EDA422EF598903A510589FD5D67229A005001BFB10
+                1165AB0A764235D807D49A7B6BA1FE09BB7AFDEB7EC666FC64625B4C446DED24
+                6323788D83025300F813FFBE327A54626BEDB4888842A302CA9AF75160109A61
+                B8897DCC91FE6013AB9B42A0D6565FF728167B6BA4FE0DF3BCAFA342982AF14C
+                290466692714B402E016195DA19D0E1151E095F1FE07F4C76EB808FE11BE5D09
+                A5BE7937DD7507DF7705BE305F0BBC89EFF19CF64EC4CEAD52005CA99D887E01
+                E04FFC5D6534466203E597858828B8FA99E9DD5E28FD9399F8ED29FDC6D8C51C
+                F3A7AF073E404B13BFC3062CD0DE99D85926B1BF14026FAB65129002E0B1C40B
+                424444C94E4443EFDDD11EE95F6C620B544E5C302D8DAFB1DE1CFBDBED7D8483
+                B5772AF6C6480130402D03B502C09FF8FBC8E8498965D55E0822A2A0380A7570
+                2C6C2B9966B8DAC4FD50352777448DC162FCC3C4DB308F175AD56D91D84F0A81
+                670A9E41C10B80E4C7FC9E92787CC1779C8828283AA3AED7E87C8039C2FFB389
+                87A03A3AE4E1E70CC76C9C09DBAB6E199ED6DE6912AF48EC5BF0C704950A8081
+                327A38AB6D111185516BD44027F877EBDB5BC1DAA1268E2EC0CFED850FB19F89
+                0BF133E66ABF0894C2350C7A24FB4DA5A96005803FF1BB07515C638442FC9527
+                22D2B537AAE240D895E39B7B8DCD8F42ED82AE68B2081BF0B589C7E203B4D27E
+                31A818EF48EC2D85C0AABCFFC4021700E7C9E8BE02FC4422221DADCC846F6FB2
+                7337ED1D8BFA893B9E343C896FBDF633ECFC1706E74B01707FDE7F52DE0B80E4
+                237FF7C46997BCEF181151A134C22E6882A2063CA7A021CED64E6A2BD7620ECE
+                31712C96E271ED64A804EF4A3C2DEF67020A54009C23A387F2F89388880AA326
+                2AA00EEC5DFA4DBD09BFAF3C975F46FE04CD49F2D8DF3C790C90C2E05C2900F2
+                77AF5CDE0A007FE2AF28A31725F6C8DB8E1011E54B25944315D8DBB49A7A8FCF
+                D9097F888995CDC7AB6A27B703EBB119EB606F329C84BA266AF77DA1D2784BE2
+                C952086CC8F94FC87301D057464F66B52D22A2422A8FB2E6187FEB16BB7EC7BD
+                DAE633F5B4932B850958E93D6476919942FEA89D0C65C8F509782AFB4DA5C873
+                01E0EEF63F2DAF2F0F11512E9C8526B81445AD766D4FFDC6DA4965E17ACCC120
+                135FC2D244BF550A9BE7A400E89DF32DE7BC00F027FEEE32720D0E2AE4FB1522
+                222AB5D3CCF46E27C8FE7284DF1415D1423BA91C3A151FE33013BFC44F98A99D
+                0C656893C4E3A5101897B32DE7A900B84746430BF50A111195A82BEAE124F837
+                EFD916BB2D510507682795071BB1053F9B7838267A372B6E36EFF29BB593A22C
+                DD2B05C0B09C6D316705803FF1EF2FA3D7243629F42B444494D0DD4CF8A7A2E8
+                1AFE81A886B6DA4915C044FC8037610FC166E244ED6428471649EC2585C06759
+                6F31C705C05532BA49EB1522A2183B1CB5D019F66EFD26DEDDFA6D51D3BC55C6
+                CF487CE59D7FFD37BE63C3F5C8192E05C0CD596F29EB022079719F372476D27E
+                858828065CC7BD8BB03B4699D8DE14005DB5930A803EF804ED4C9C85B598A69D
+                0CE5D844893DB35E3C284705C029327A5EFB9521A208DB0FD5BC657107A2292E
+                875D4DA40E4F716FE5676CC64F261E81F7D0D0C45FB125710B1945CDA95200BC
+                90F1167254003C20A341DAAF081145481354C21E260E41335C07BFA7FEE9DA49
+                05D834ACC164D86585A779974228CA1E94026070C65BC8B800F027FEBD64345E
+                6253ED57848842AC9E79576904BB1C4A335C037B8CD328D1489C4AF61816E34E
+                136FC73C6F99618AB28512BB4921F055A9B790650170BE8C466BBF12441442B5
+                51C11CD3FB0D78EC2A75BDD1D83B9ED90565138DC4297D0330DD3BF29F86D5DE
+                99008A83215200947E95DD2C0B0077EDE164ED57808842A022CAA112EC32274D
+                BD67865C039E9D39E167E5176CF13AC5B7DDEAB9FFDFB493A20279510A80534A
+                FD9DA52E00FC89FF60194D905843FB1520A2002A8732E60F70B639C2BFCCC433
+                CC847F8189B550DE5B9C86726326D6E223D816C69FA0A376325460AB25769642
+                607ADADF996101F06719DDA1BDE74414406EB53CB7984E63EC8266DA4945D893
+                F816F79A7833E67A9752288E2E9102E0EF697F478605C0CB323A417B8F892800
+                7AA2BEB75489BD79EF5A139BA152E21661CABF73F1298E31F103FC98382F4B71
+                33560A80F41F8C4DBB00486EF5EB1A11F0D43F511CF542036FB16F7784BF0FAA
+                E020EDA462E857F3EE6D9FF3773DFF37618B9900289EDCA5804E69B70A2E6501
+                C0BBFE89E2A8236AA3076C8BDDA65E8BDD43501D1DB493227C8E75986AE2E9E6
+                FFF9FB205FFA4F0594B200784246FDB4F79088F2E86033C1DB56B243D0DC6BC0
+                73386AA28B7652B48DE7B0040F9A380A5F7A375712D93B42FC02E08C12BFB2C4
+                02C09FF81BCAC83D59DA5C7B0F892887EC84DFDEC433D1C4BBC5B733EAE078ED
+                A4A84437608ED737E1452CC5A3DAC95040CC97D8410A81A5C57E659A0580BBA9
+                E025ED3D23A21C688ECA6809BB5C6C733389D86573EB66F0143169D9227FBA98
+                83B26626AEC4267CAF9D1405CC495200BC5CEC57A45900B8E57DAF0211854F23
+                EC628EED8B26FCE3D1208D138414545FE227CC806D95FC31DA6827430175B314
+                00C38BFD8A340B807765C4E52588C2A0AE5CB81B241DF76C4FFD8126EE843228
+                AF9D9CA2F5D88C75F05B0DDB8E84AE5151D83C8FA578C4C41198E3F55B20DAD6
+                0429008ABF7BA7D802C09FF85BCAE8638955B5F78888B6A3AA99DAAB9B3818CD
+                70358A1AF19437135C05EDE4026006D6E283ADC6FBA39A77E45C56FE84CD487C
+                856126FE1BDFE121ED6428A0D6493C4C0A812FB7F98A120A00B7F0E653DA7B42
+                445BB1BDF3773171A039C2BF1CF631B0C6DE43BA35CC945F5B3BB90079C91C29
+                3F66E2626CC0D7282A90DCEB1756DDF03EF6347129369A7D23DA91BE52003CBD
+                CD674A28006E93D165DA7B40146BEE54F519E6C8FE0214F5D46F60FE95EEAA9D
+                5C00FD138BF03713DFC4723C6BE24338D0FC77F80BA479588F2F606FEFFA28B1
+                220BD18EDD2E05C0E5DB7CA68402E06D191DADBD0744B1D4CF4CEF4351D471CF
+                DECCD7543BA900BB0BDFE07AD8097F216E31713CDA63AE890DCDBB5913EDE472
+                E02579DCEF7A79FC8FA864EF4801D0759BCF6C5300243FF73F53621DED3D208A
+                8513CDBFBD01269E25CFE3EF8E4AD8473BA910B817F331D2C4FBB1007F31F131
+                1CE2F5C48F5AC7C21BF19577E6E7597CE73500222AD94A89076CD317A09802A0
+                9B8CC669674E14694799E2FA58142DA2D30A55CDA445E91A6D26FC5126DE670A
+                801B61EF8ADFDB1401C0C9A6903A4B3BB93CE8834FBC864DB3B0D6FC17516974
+                9702607CE223C514006E41C9BF69674C14296D50D34CFAFEF3F8F65475D48E50
+                0BE52659F6F6295906D75D2AB90A2D22B948F91AFC8655261E89F7B09B899BCD
+                BBF66FDA4951C85C2A0540D1BF90620A80876534503B63A2503BCC4CF8479A78
+                369A987F7EC011A865EA70CAD43598EDBD2BBD8265DECA2407C8E37C4FE2504C
+                D24E2E8FDCFEBAFD272ABD47A4003827F191620A00D7F3BFBD76C644A1D21255
+                CCA454B4880E7BEAE7C620CC404F13DF37C7C1B62D59259433AFB45D9DA4A399
+                1AA3DFE0E8AF988B8B4D7C1ADFA6B1C61BD1F64C9102A0E89C63A200F027FEBA
+                F2E139126B69674C14684DCC54649FC7B6D7F0AF31B117EAA3AF765211B0C9BC
+                2BD975ED0762BA7747D2A75893D4C8E70573DC6F97C1DD0B95CD7B57F4FD09D3
+                BC3349A9AF0351FA5649DC5B0A8115A905803BE29F9CE10F208AB686D253FF5C
+                34C59526FE118DB63AA146D95A6EA6FE25269E6326FE1EB0EB9AFD9CD4BFEC6A
+                33E5DF89A2C64751F713369B29BFE8DAFF266CF10A23A2CCB95502A7A41600FD
+                E50B1ED3CE9028106AA182775ECC7590EB63269EF310DE16B241B5101B30CFC4
+                01E648F70F26FE60A6BAE55B7DDE3E1E69DF9D4699A39738B5BE758D8CAEC0AC
+                C4BB3351760648013026B50018215F70BD7686442ADCB5E54166C2B76B68D909
+                DF365CA96C3ECE953072CF9ED27E1F45D7F8379823DE9FB7FABC5BB6F815B449
+                74258993DB4C5964FBB78DC162DCA59D0C45C44829006E482D00C6C817FC493B
+                43A282D8C91CC7DB9BC7066037EF26AB3F9978A189B5CD47EB6927176153F023
+                DE813DB3F2A9D707215579F37BB18B18BD81C3311BF16D797C26A67B6BB97D82
+                D5784F3B198A88C7A500E89F5A004C942FE8A89D21515ED94E7BF639F2BEF2FC
+                785C2798424BB795ED2338D86B57D20635BC9BDFE2C63DE7DF0E93BC4B50A967
+                46883237490A804EA905C042F9822874CD262AD21B8D31084513BE6DB1BBB776
+                5231F214BEC368D8063E5F792D8E8B7381F9CDD80B9183D014576927ADE833AC
+                F51661EF6B8EFD8FD04E8622669114004D51663F4C4005F3E6E8FB563B33A29C
+                E86A8E9B4E42D1B5FCBD5105076A271543AE37BFEBD55F9C4EA88D63BCAF3B00
+                2F6B271D00A98B1A11E5DEAEAE00384C3EF09176464419E9867A380545A7F6F7
+                4355B4D64E2AC646C9A235CF95B068CD6EA8688EF981D771B8B7CC6D19F91377
+                6761BAB706EB54AC8E748743D2D4C61500AE57D958ED8C88D272386AA1338A4E
+                151F16D36BC541738599C6ED2DC46FE27B33F997EC2DB4F39EF36F8C5DD04C3B
+                F900D8227F3A9869BF3E6C1F80DFB0563B298AA8135C0130483EF080764644DB
+                B52FAAE1501387A1396E007BEA07CD799889E3605B88FDB0D55A63C5BBDDFC46
+                9F845D9FAC1E4ED54E3E40E698297F066C83A98FBD350E88F267B02B00AE910F
+                DCA89D1191670F54462B14F5D4EF86BA38593B294AD8688E53ED5DE9674BAB5E
+                77D35A49FACB639697634FDCA6BD1301741F1678EFC2A331DF5BE698287FAE75
+                05C09DF2818BB433A298B23DF5F740518BDD13D10003B493A26DACC2AF5E87BE
+                FED2B16FA12903E6A5F17DFBA39A77A7D1533894CFB3EFC0B9F8D4BB19F203FC
+                68DE9989F2E91FAE006003202AAC7AD8198D604F1DFB8BE8B0A77EB02D3013FD
+                57B013FF746FE2FF119BB0328DEF739D1527E2087C67E2CE288B5DB47726807E
+                973F4798F2A8A1896B4DA1F5A3765214718FBB02E035F9C0B1596D8EA838D551
+                1E35E11FE1DB9BF65C4F7D4E08C1F639D679ABEEB91EFD76319A4DA5F8FEE7CC
+                71BF5DBD6E1F53061CACBD3301F635D67B4F419C888FF83A5181BCEE0A00F7A0
+                095B4E506E5434477E95E1B7D6B58F839D69A27D3CAF2A7632C50005DD7B5885
+                71B0CB1CCF483C23541A57A2056E37F10CECEAFDFE69C75EC5F7DE4D91579B32
+                E06CED642826DE7305C00CF9C001DA195148954319F3C7DE14D6049799D8CF4C
+                F8C3C09EFA61F30A96E10913AFC16C0CCCE0FB8F470333E9037F31C7FC8F68EF
+                4C885C8A59E86BE2782CC70BDAC9504CCC7405C0D7F281DDB533A290E927AD75
+                CF9023FD5DB10B9A6B2745A5F604BEC5DD26DE82B95E01575A2D5005FB99F822
+                0EC327DA3B13421DCCD1987DEEDF5EFB5FAD9D0CC5C437AE00582A1F68A09D11
+                05DC31E66DAA37EC13A47E8BDD3D50C91CEB5158DD27AD7A4797D0AAB738EECC
+                8F6DE8636F12E4A24AA5B3001BBCD7ED387C80FDB593A19859E60A005773F2EA
+                2C253BCEBCA5F7837F2DD79ED26F85AA38443B29CA9A6DD56B7F9FB655EF4359
+                6CE7211C8437613B33D6F43A3352E9BC81E57816F69E8959E8AF9D0CC5CC1A57
+                006C900FF07EECB8EB88DAE861E24034C5E5261E6A8A42DE1A1A1D979B89C65E
+                A37FCB4C3CFFCE623B17610FAF51CD3968822BB4772AC4866336CE32F1357334
+                F694763214331B5D01F09B7CA09C76465460079909BE1D8A5AECB63547727FD0
+                4E8A726E3066780FF94EC12ABC93C576DAA316BAC2360D3F30F1F03065EE484C
+                F62E99ACC226ACD04E866266B32B007ED7CE840AA425AA78CF7A0CC3EEF83F13
+                8F3247FCECFE103DBF997FD3B6ACEF27EBC97F8175989EC5F66A9B77097B93DA
+                7FD1018BB4772E02BE35475FF361EFA9791F7B6B2743B1C50220E29AA3B299F4
+                8B3AEEF5443DEF263E8AA615E648D2DED23B109F7A8B25CDC77A6FB5BD6CD9E5
+                7A67C1B66CAE883DB5773202DEC4726FB5C42BCCABCAFEABA485970022A62176
+                316FD2C0505944E70434E0CD4531B0101BBC9EFC7DE5883F57AD646FC1BE780C
+                7EE1D8477B2723E40E7CED3D45F32F2C32FF4DA461336F020CBB9AE6B75707B6
+                635B335C6BE2A968E43570298F32E633147533CC546F5BED0E3247FCF652CECF
+                E61FF54F39D86E5FE9EF301C2D3841E5C169988AB626CEC63AF39B23D2B0918F
+                01868DEBA9DF4F1ECBB3CBABDA351C2BA31CAA6A274705936DABDEE2EC8B6A38
+                D4C467CCFF4FD1DEC9085A865FF0AD895DCDABBB87763214736BD80828E87636
+                137B45D86BBA7E8B5DF73CBEEDA95F433B392AB8B1660A791C7625EFD9395D3D
+                D1ADD1F036DA7B7D415950E6C778ACF05AFD5E8ACFBDD6BF447A96B11570D094
+                31FF2B0BBB888E3FD19F69267EBB884E5DF35B6AA89D1CA9795C5AF5DE9A61AB
+                DE923C8DD6986CE27E66DA6FADBDB3117617BEC1F5B00D9416E216ED6428E6BE
+                E16240DA9AA1125AC02EC45C1FA7C35E1B6C8C4126D6427933E953DC3D8005F8
+                AB89F7603E46E461FBC3B197778DBFAFF97B37547B6763A01FA6A113EC322C6B
+                F0A17632147333B91CB0B6CE669AB7D770AF3665C09D26D6C7CEE6AD98E26E04
+                BEC410139FC792BCACAAD70B0DBC53D037611FFC4B7B676360393699DF24D005
+                93B958160544623960D7D38B2D61B4ED89CA68656237D4C32926B6432DF3A661
+                3BF655F33AF651B45D852F3000F6B9FBEFF14C1EB6BF87FCFD7A196DB26A0C44
+                A533012B3116B685F267384D3B1922CFEBAE0018231F604B8AA0B2970AF6823D
+                635007C799D803F5BD37927D50C514071476E7E2531C63E207F8D1FC8BCC9FFF
+                E1082C867F89A99EF64EC7C8DD98EFB5DA7E100B70B37632449EC75D0170A77C
+                E022ED8CA894764345EF71227B29C116061DCC5B7B37130F430DEF5AE34E2863
+                DEEA2968D6E137AC81EDD038D3FBBDE5FB9AB0EBDDEF7AF95361E56A2D06A2DC
+                F9872B00AE910FDCA89D11E5485DECEC3D35E07AFDF7447DAF939B5DFCE770B0
+                30D0F23D7EC177B0FD1BA6798B2E2DC1462CCCE3CFBB10BB6324EC1986A6B852
+                7BE763688BFCE988F7BC7F8FB643E3EA2CB749941BD7BA0260907CE001ED8C28
+                CF6C6160BB3D1C298581BB09B1A33932ECA19D5C842DC006CC853FF11F65E28F
+                D8849579FC79879BDF6767D8C7CD0EC49BDA3B1F63EE88DF9D01200A8EC1AE00
+                70BDC4C66A67444AECA504DB05E26054477B138F3685C189B0CF85D4F6169561
+                6BE1CC4CC31AEFF97A37016CC4E644E3ED7CB0ABF6D96BFBEFA283293AFCD53D
+                B8C2879E7BE5F1CDFBE5714EA2E038C1150087C9073ED2CE8802C69D31B09712
+                7A99D80635BD23D83FC8CD883BA32C5790D80EDBAA773CFC56BDC715F0E78E45
+                5BAFABC7EEA8C465660360183EC349B0375FAEC41BDAC9102569E30A00F7E4F9
+                B7DA195148D49223CDD6A8E1758FB04F279C007B69A18E77377B1573DC19C795
+                255EC052FCD3C4FFC31C33F917CE4D68E53DCFDF0BF5D96236403A9952D0BEBB
+                FE885FF37AC987A8F4764599DF61FF07EC8FFF98A339773B5213EDCC28A4DC1A
+                05F60C813D6370A81975846D80E2DF6B50DD7CBE96769279F084299EEF815D3E
+                772E2E2DE0CFB5ABF6D9864176D5BEBF6BBF08943015ABBDF66A67613A8ED64E
+                8628C9227C66DEA17F41D3D40260A27C4147ED0C29622AA11CAAC07F0CCDBE21
+                BA4647EE9E8306E66FDFAEDA4966603416609489F7617E419FA13900D5D0C6C4
+                274D893529EBAD51AED96BFE7F817F0FC048ED6488924C9202A0536A01C08640
+                54586EF1237B09C19E21682BF7181C65C6F6A6B986E66F6510CF478DC4975EEF
+                FC7F63091E2EE0CFAD86F2DE1996377138E678E39DBCE5A129582E346FB1A79A
+                F81FACC4ABDAC91025795C0A80FEA905805B6EE47AED0C29E6CA4A61E0CE1874
+                455D9C0CFF9282BDE7A0292A7A8B2815DAE598857E26BE85E5785EE1E7BB237E
+                77068082A933A6A099892BCCDBECD26C3746945323A500B821B500E82F5FF098
+                7686443B64CF14D8463AF671457B97B5BDF9B027FC3306BBE5E1E7697772BB06
+                7BE12E13FBA0B1C985826AA9795B5D047B896B8A4A814A54B20152008C492D00
+                DACB174CD6CE902823AED3E131B256426B6989BC172A9BBFE3E95B83DFCC546F
+                5BF5FA8FF17D8EB598AAB03FB683636FD89B0B5B252ED051703D8DEF709F897F
+                C557B8583B19A2EDEA2005C094D402C0AD403F476214EFD7A638DA1FD5BC6E17
+                6E31A5AEA8E75D5248BD94B00ABF628589BDCD746F0B8965D8A8F270AC5BFCE9
+                55B435FF58292CECB57F7B73ABBDF6FF5AD65B23CAA55512F7960260455101E0
+                F885803B03D0BE943F80285C5AA20A0E40514BE497B1D4BB00B6D44CFC8B15F3
+                9A8823BCC2A326CA27CA720ABE6E781F7B42FFEF0FD1B6A6C8C4DF21F191620A
+                00775FF340ED8C8962E55E538EBC0CDB40A6B6D75089C261393661096CBF8BC9
+                68AE9D0CD1763D2205C039898F1453005C22A3BF69674C140BC3B0BBB75EFC60
+                34C5D5DAC950A9B9C741DDE3A144C173A9140077243E524C01D04D46E3B43326
+                8A3477A4EF8EFC299C2EC12C6FB9EDB7B11C2F692743B45DDDA500189FF84831
+                05404319CD9458473B73A248698ECA6869E22B6893F85746E1750C3EF0165FFA
+                161B305F3B19A2246E158A03A40028EA4CB14D01E0F885C0DB3262376BA25CAA
+                23AB2CB696B5123AA016BA9A7808AA7BB7E8344145EF66320AB615D8E4BD9D76
+                C664AFF10F51F0BC23137FD76D3E534201709B8C2ED3DE03A258E988DAE86EE2
+                E1A86926177F7125FB94C26EA630D85D3B394A98881FBC657E8762A6D7908A28
+                786E9702E0F26D3E53420170BA8C9ED2DE032232DAA116BA98D803F5F047E8B7
+                468EBB5B31CF7B5B7D1C8BBD4E8D44C1D3570A80A7B7F94C0905404B197D2CB1
+                AAF69E10D1761C6E0A037BA6A01BEA7A8D685C6BE47AA88046DAC945D8B1F810
+                AD601758FD195F6B274394649DC4C3A400F8729BAF28B60070FC42E05D1975D6
+                DE23224A433994C14EB0F714D4F0EE29702D850F4575EF9E83E6D2699032F303
+                7EC572D8552BDFCBCBDA1344D99B20137F9762BF22CD02E026195DA5BD474494
+                036D64D965BB98D289285A8EB9BEF9D7DE583BB910780FABBC87A9CE97B52288
+                82E76629008617FB1569160027CA884FB81245915B7EF96054F71A801F6B4A01
+                FB5CFB51A630E865625D54483C1C4CC03FF00DAE33F1612CC4ADDAC9106DD749
+                520014DF6124CD02C0FDD3776B04B0D925511C9437654105D8AB88FEAA8A1DA5
+                715117593BC12EBFDC443B490527E0231C64E237588FD9DAC91025719D283A6C
+                F3DC7FAA120B00C72F049E90513FED3D240A955D500E154DDC842DE60FCCFFFF
+                8ECDDA49E5C081A88EB6F0CF18D86786A27E2961357EC50FB085D07BBCB99202
+                EA4999F8CF28F12B4B59009C2FA3D1DA7B48142A0D4D09608F94FF8583BDF65A
+                5FE227AF03E0BB5881B1264EC22ABC65E28FA63C5899D54FD2E56E3E740D8EEC
+                19831E28BAD7A0B1791D9A6927998529E6F7647F7F8331C3BB3442143C43A400
+                B8AFC4AF2C6501B0BF8C264AACA1BDA744A16097F5B50DB5ED32BFDF6DE7F31B
+                B1051B50D45866AA39D69C047BB3D90FDE8A1C8BCD67BFD1DE891C70F714B806
+                477619667B135D582E25B86BFEEE1E00A2E0582DB19314009F95F81D6917008E
+                5F08B89B0A4ED0DE63A250A8850A66AAB34D39DB7B13797973A45CA114DFFF29
+                D6E27DD8C2E047AF30188F1578C1C4D958673E175EEEE6C3D65BDD63603B2076
+                3185827D77B19D0FF7D04E722B4330D3CB6B9229CCDED24E8628C95899F84F4C
+                FB3B322C00FE2CA33B4AF19D44F1956D01501C772961B29C9AFED81C05FC0F45
+                670EC2CE5D42686F5E41BB22C991667C2C0ADF12793D367B6D558E30AFACBD25
+                FA376CC1AFDA2F0E51924BA400F87BDADF91610170B08C2648E4A500A21DC957
+                01509C25D8888526FED71402AFA3E8DAF5E7588BA926AE32D397BDD7C0FEEBDF
+                A2FDE264C01504DDA525B2BBE7A0499ECE187C801FBD77BB73F1A9F714045170
+                B853FF9DA500989EF67796BA0070FC42E005199DACFD0A10055AA10B8092D8C7
+                D80E84FF18DB1CED172787DA4961D0CD1406F65DE928396350C7BCDA0DB2D8EE
+                A358EC9DEFFC1BE6EDA0AD0A91861765E23FA5D4DF996501C0A70288D2119402
+                601C96E37913AFC66C9C0DFFB1C45FB45F9C3CB27D0CCAC35F66D92E9A740CEA
+                E334142DBB6C5B22B74C633B17E373EFFBDC531B44C191FE5DFFA9B22C005C37
+                F1F1129B6ABF124481A45D00ACC16F58057B0D7B123BFA6DC52DA2E46E3A747D
+                0CEA9977B7AD9FF36F8DFF999201E64D760B366A274DE45928B19B14005F957A
+                0B1917008E5F083C20A341DAAF085120691700FDF089778D7C26D6E223ED1723
+                C0EC5309E550F43442335934E9312CC29DDAC91125795026FEC1196F21470580
+                BBF6F0BCF62B4214485A05C0182CC63F4CBC0DF37085F68B40443974AA14002F
+                64BC851C15009565F486C44EDAAF0C51A014BA0058894D5866E21F309917E688
+                22C535E2EB2905C0FA8CB7947501E0F885805B2EF8A6ACB6451435852E00FE88
+                A96863E21CACC30CED9D27A21C1A2E13FFCD596F29C705806B15FC9AC43034F7
+                24CABF4215006C554B14558B24F64ABBD56F49725600387E21708F8C8616FA15
+                220AA47C17008BB0015FC3AECAF7015A69EF2C11E5C1BD32F10FCBD916F35400
+                7497D12B12355B9E10E9CB770170123EF2FA73CEC37A7CA1BDB34494439B241E
+                2F0540EE9A7CE7BC0070FC42E059199D96EF578828D0F25500DC8DF9B801F681
+                A00539B8224844C1F39C4CFCBD73BEE53C17007D65F4645E5F1EA2A0CB750130
+                0BEB30CDC43E988A76DA3B474479D44F0A80A772BEE53C17001565F4A2C41EF9
+                7A8588022DD70580BBD6EFAEFD1351D4B805A74F96026043CE7F42DE0A00C72F
+                04CE91D14379FC4944C195AB02E056CCC3E5263E8EC5B84B7BA788288FCE9589
+                FFE1BCFD84021500B564F49CC42E79FC8944C1936D0130036BCD313F70063EC1
+                91DA3B434479F4AEC4D3A4005895B79F94F702C0F10B81F36454FA558B88C22C
+                DB02A033A6A099892BCCDBC152ED9D21A23C3A5F26FEFBF3FE930A5C00B83301
+                EEE980A30BF09389F4655A008CC0971802BBCAC6123CA2BD13449447EF48EC9D
+                F7237FA7600580E31702036594BF6B1B444152DA02602A5663928967613ACB64
+                A258384726FEC295FA4A05805B3CC83DD6707C0133202ABCD21600EDCCF46FBF
+                FE27FC86B5DAC913511EB986797DB35EDCA7B40A5E00387E21D04746AE4F4059
+                854C88F22FDD02603866E34CD8D53496E169EDA489288FB64874CFF93F53F00C
+                D40A00C72F041E93517FC54C88F2A7A402600A56E16D130763067A69274B4405
+                304626FE016A1904A400E89A78417C0D143322CA3D5700BC6D0A00DBB8A78229
+                0076867F0CB0D9FC698B89A86DE24633CA7DBB0F220A8E6512FB4B01F0B65A26
+                EA0580E31702B7C8E80AED748872AAA61400FF45072C847FB1AB9CF9732966E1
+                7413C76379A25F261145D9AD32F15FA99D48D00A807D65F4A8C4D6DA6911E544
+                3594470D1327E3087C6FE234AC31FF0D0C30FFD5593B39222A80A912CF940260
+                967642C129001CBF10182AA37BB4D321CA89FD4D0960CBD97B7100C6C23EF7F2
+                A1F918B01ABF16E0695F22D2374C26FE7BB51349086801E01E1374CF43E67E19
+                44A2423AC014006D4CAC829DCC7FF937FDBD93ED468928045CE3BB81057FCCAF
+                24812B001CBF10E82623D7306837EDB4888888D2B058A26BF0335E3BA16D04B6
+                0070FC42E07A198DD04E878888280D37C8C43F523B916285A4006824A30724F2
+                496922220AA2D7240E960260897642C50A7C01E0F885C0713272854043EDB488
+                88880CB74EA79BF85FD54EA844A129001C5E122022A2E009FE29FF54212D00EA
+                C968B4C453B4D32222A2587A41E2102900966B2794B6D015008E5F08B8162AEE
+                B9CABDB5D32222A258982371A84CFC13B4132AB5D016000E1B07111151E105AF
+                B14F6985BE0070FC42E02E195DA09D0E111145D2DD32F15FA89D48D6225600B4
+                90D19D127B6AA745444491F086C48BA50098AB9D50D6225300387E21D05D467F
+                97B88F765A4444144AB325FE5926FE71DA09E54CE40A00C72F0406C9E80E8995
+                33DD1C1111C58AEBD97F894CFC0F6A279473912D001CBF1070CF655EA79D0E11
+                1185C22899F8AFCF7E5301159302A0868C6E9738503B2D22220A24B70AED6552
+                00ACD64E286F225F00387E21E0FA04DC2AF1B84C3747444491E25AF75E2113FF
+                9CACB61606B129001CBF10E828A35B24B6D34E8B888854BC2FF14A99F8276927
+                5430B12B001CBF10384146374B64274122A2787047F857C9C43F563BA1828B6D
+                01E0F885C00019FD5562A34C3747444481E696E7BD5A26FEC7B4135213FB02C0
+                F10B816132FA8BC46ADA691111514EAC95788D4CFC6C1DCF0220855F085C2EA3
+                1B2556D04E8B888832B249E2B532F1DFA69D5060B00028865F085C2BA351DAE9
+                10115146AE9389FFC6EC3715312C004AE01702236414DD86104444D1325226FE
+                1BB413092C160025F00B807232727F91D85190882898DC19DB1152006CD64E28
+                B05800A429B910B83E25121191AE9189C8893F3D2C0032947C8F803B23C09B05
+                89880AC3DDDC378AD7F833C402204BC94F0DB882808F0F1211E5877B9CEF46DE
+                D59F2516003992DC4760B84436142222CA0DD7C0E7263EC79F232C00722CB9B3
+                E05512D96298882833AE65EFCDB1EFDC976B2C00F22479AD812B2572D12122A2
+                F4B8457A6E896DAFFE7C63019067C9AB0FBA7B05B80C3111D1F6B965796F8BDD
+                EA7C85C602A040FC42C05D0AB84CE240EDB4888802E21189B7CBC43F27ABAD51
+                C9580014985F08D490D12529B1B2767A444405B25EE21D89E84FFCABB5138B0D
+                1600CAFC8260908C2E96B88F765A444479325BE29D32E13FA89D506CB1000808
+                BF10E82EA30B25F6D44E8B882847DE9078974CFCE3B4138A3D160001E317022D
+                6474414A24220A9BBB13D19FF8E76A2744820540C0F905C15019B94643EC2B40
+                4441E56EDEBB4726FC7BB513A262B0000809BF10E82CA321124FD14E8B8848BC
+                2071B44CFC13B413A212B0000819BF10A827A3F3526243EDF4882836964ABC3F
+                11FD897FB976629426160021E71704AEB1907B9AA097765A441459AF497C5026
+                FC57B3DA1AE9610110117E21E0161F3A2725EEA69D1E1185D662890F27A23FF1
+                2FC9748314102C0022CA2F08BAC9E86C89BDB5D322A2D07856E23F65C21FAF9D
+                10E5180B8088F30B01D761F0CC94D85A3B3D220A8CA9121F4D447FE25F9FE1F6
+                28E85800C48C5F10EC2BA3FE29B181767A445430CB248E49447FC29FA59D1815
+                080B8098F30B82AE323A232596D54E8F8872668BC42712D19FF0DFD64E8C94B0
+                00A0247E41D04746A74B3C5E3B2D22CAD82B129F9609FF19ED8428205800D076
+                25DF3BD027251EAD9D1E1115EB1D89CF2422AFE5D3F6B000A0B4F805412D199D
+                26F154895DB4D3238AB177253E2FF13999F05769274601C7028032925C109C2C
+                D1B526EEA19D1E5184BD25D1B5DE7D91133E65840500E5845F105494D149124F
+                9078A2C40ADA691285C826892F4B1C2BF12599F03768274821C70280F2CA2F0C
+                BACBE8B894D8443B3DA2005924F1D544F427FA71DA895144B100A082F20B82FD
+                6574ACC4632476D24E8FA880264A7C53E2EB32E17FA69D18C5040B005295FCB4
+                81BB77C0B53076670E9A6AA74994858512DD91BC6BA9FB16EFCE27552C002890
+                FCC2602F19B9A70CDCE3879D25D6D04E93682BAB254E90E81EC77B5726FAAFB4
+                13244AC2028042C52F0C0E96D151128F4C892C0C289FDC44FFBF94F85F99E8A7
+                6B2748941616001409C9F7161C21B183C4F6129B6BA749A1325FE214899325BE
+                C76BF514092C0028D2FCC2A0A18CDAA6C436120F9358553B5D2AA875123F96F8
+                91C40F13D19FE8976A274A94172C0028D6FC02A1A58C0E498907A5C43ADAE952
+                A9AC94F8694A9C9688FE04FFA576A2442A580010ED40F219047789613F89AD24
+                EE23716F89B5D2D93465CC75BC9B2371B6C42F247E2EF1331EC113ED000B00A2
+                1CF00B85BA326A21714F897B4874F7203493E81E6F8C7B4324D700C73D2EB740
+                A2BB06FFB5C47912E7CAC4BE423B71A250630140A4C82F1C1ACBA8914477C6A1
+                81C4BA29B1564AAC2EB19AC42A122B49742D9A7796585E62B9946C364BFC55E2
+                2F125DCBD99F25FE2471ADC4351257A5C415297199447744BE4426F2EF0AF152
+                13518AFF07C07D7862E0000F010000000049454E44AE426082}
+              NineGridsResAtTop = False
+              IconCreater = IconCreaterCircle
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.250000000000000000
+              AnimateOutTime = 0.200000002980232200
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object btOK: TJDUIButton
+              Tag = 8
+              Left = 307
+              Top = 169
+              Width = 67
+              Height = 27
+              Animate = True
+              GrayScale = False
+              UseFormFontName = False
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = True
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Height = -13
+              Font.Name = #23435#20307
+              Font.Style = []
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = #30830#23450
+              ParentFont = False
+              EllipsisPosition = epEndEllipsis
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = True
+              PictureClick = False
+              Down = False
+              ImageAlign = iatLeft
+              ImagePadding = 6
+              ShowCaption = True
+              ShowShadown = True
+              CaptionShadownColor = clWhite
+              ShowNineGridsType = ngtHover
+              IncContentWhenClick = True
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = 0
+              Picture.Data = {
+                89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
+                610000001974455874536F6674776172650041646F626520496D616765526561
+                647971C9653C000002054944415478DA63FCFFFF3F032580912A0630CE106260
+                606104F2802220F3FE00096E2606066646A82A206602CBCB03F15A20AF86E1EF
+                FF1DFF235EE33100A89F810D6A00C820664601A0D88234F764FF593BE79E0519
+                02346007B106B0313032CE3054D677D794D190626567FDB370D7928BFF635E9B
+                1063002350738B828442A481829EE2EFBFBF7F1FBC7CE8C6979F5FABFEC7BDD9
+                826C800750710BD87F7FFEEF60F8F30F28C60412CF14E617CA37563556FBF7EF
+                DFFF33B7CEDCFCF0F5632F507CEEFFF837D030982EE401B4A7252938C970DEDA
+                79E781AE0006D2BF1D0CCC4C3E1CECECED2A92AA1ABF7EFE627EF1F1C59D4FDF
+                3F2D04AA6D0585CBFF94B75003260B9C89098ED37BF3FA0DAB80A0C0DF151B97
+                5D00BA64210B334B9CBCBCA22ED066F6776FDF3EF8F8F9C35A606C94010DF807
+                F2DBFFACF75003FAF93D80B6B6F8FB04EA5E7E7C854D4E44F6E781BDFBAE48A9
+                CAA833B231F17C79F5E9E9C7D71F7601356731B032FE6080862DC2803E7E0686
+                DFFFC186183B9B693DFDF98C53805380E1FDB7F70C3F5E7C7BFDF1EEFB230CCC
+                0C490CAC4C1F8006306037E01730E4FFFC031B226D27AFF183F717F7EF973F3F
+                7C3EFBFECC7F268604A0C6A7400318F01BF01BE8B5CF7F3D80A9AC85CB845FE6
+                FB854F7780D2A9C028BD8E2D19FFEFF88EC5800F7F1818DEFFF160F8F7BF05E8
+                E71C06419613605BF11930A0B91100DC9D0EF041E2DA1B0000000049454E44AE
+                426082}
+              NineGridsRes = jdu9GSpeedBtn
+              NineGridsResAtTop = False
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.050000000745058060
+              AnimateOutTime = 0.200000002980232200
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object btPen: TJDUIButton
+              Tag = 3
+              Left = 132
+              Top = 169
+              Width = 30
+              Height = 27
+              Hint = #31508#30011#24037#20855
+              Animate = True
+              GrayScale = False
+              UseFormFontName = False
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = True
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWhite
+              Font.Height = -12
+              Font.Name = #23435#20307
+              Font.Style = []
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = ''
+              ParentFont = False
+              EllipsisPosition = epEndEllipsis
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = True
+              PictureClick = False
+              Down = False
+              ImageAlign = iatTop
+              ImagePadding = 6
+              ShowCaption = False
+              ShowShadown = True
+              CaptionShadownColor = clBlack
+              ShowNineGridsType = ngtHover
+              IncContentWhenClick = True
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = 0
+              Picture.Data = {
+                89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
+                610000001974455874536F6674776172650041646F626520496D616765526561
+                647971C9653C000002034944415478DA6314303060F8FBF72FC39F3F7F187001
+                E56FDF18DCDEBC6150FAFA95E12F54EC3F0383F56F0686898CF80C700769026A
+                06698401A801FEBF1818AA8178015603401ADD5FBF46D600038C407E3A50630A
+                101FFCC7C0508C6280AAA82843E6A143283A900C60056AA8F9C9C8E8F3EBFFFF
+                3B40EBE280623F190D1D1D19FEFFFFCFA024240456E5BA6E1D360378809ABBD9
+                F9F8ECDE7EFDFAE3F7DFBF6940B1B36027050505A168C062803850F344717979
+                8BA76FDE7CFCF0F56B3630008FC0FD846E8011D00B42C0308002953F8C8C9335
+                0D0C4C6F3D78F0FAE5FBF79D40CD0B500205DD00F9AB5719946FDE04318D8136
+                CF34B5B7D7BA73FFFEABDB8F1EAD01F24BD0630A970160CD4E3E3EC6B7EFDE7D
+                79FEFAF58D407EFA3F2C69049B01C68A376F82353F7CFCF8DDC98B178F0135FA
+                FE87241EFC06006343F5EBD7AF1ED59F3F4FFAFAFDFBE713172EDC0206A20936
+                8D1806C0346FDAB469D2B66DDB1E5E080A7A834F332B10F3820C589F250AE21B
+                FCFAF56FA2FF94A77620CD6969694B7CDEBFAF91FAFB17AB66362016006250DA
+                656C2EAC6250FB3C73A59A856BD8A37B0F3F25CFBA3DF9D7AF5F35A63F7E3098
+                FFFA8555B320343CC00644D73C4AD067DD30DF8069C3A7C33B8F2C9B7C852B13
+                94AC419AD10D100162665878C10C886F78F6FF0A30EA841E4E9E6CC6B23D6FEA
+                356E066C0688406DFF8B660000BB46178B30BE70E10000000049454E44AE4260
+                82}
+              NineGridsRes = jdu9GSpeedBtn
+              NineGridsResAtTop = False
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.050000000745058060
+              AnimateOutTime = 0.200000002980232200
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object btRect: TJDUIButton
+              Tag = 1
+              Left = 68
+              Top = 169
+              Width = 30
+              Height = 27
+              Hint = #30697#24418#24037#20855
+              Animate = True
+              GrayScale = False
+              UseFormFontName = False
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = True
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWhite
+              Font.Height = -12
+              Font.Name = #23435#20307
+              Font.Style = []
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = ''
+              ParentFont = False
+              EllipsisPosition = epEndEllipsis
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = True
+              PictureClick = False
+              Down = False
+              ImageAlign = iatTop
+              ImagePadding = 6
+              ShowCaption = False
+              ShowShadown = True
+              CaptionShadownColor = clBlack
+              ShowNineGridsType = ngtHover
+              IncContentWhenClick = True
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = 0
+              Picture.Data = {
+                89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
+                61000001604944415478DAAD93CD4AC34010C72760AAED21C5D7F01DC4A2088A
+                20087A153FD0FA14018B1F2F22162F5EBC0B3E8120A5A8E0454F1EB54AD2EE97
+                33BBB3EDA6542F7121CC24BBF39BFFCC6622630C9459D15DF76DBE2F2428A5F1
+                6DC2815F0229ED4C3C85FBABC7A52458C0FB4D0ADF7991AE8D7B94097C142971
+                57A2ADD72298DB6C39C0F315012478292ED000B547B0AF2CC0596101312CEC9C
+                8C005F08D04CD088225F526674242B2110659768936A05167719F044804CDA40
+                5A2A0820D9CAB8206BB58324A86079EFD4011E11D0CBC450812CC8E6CC5C8264
+                4852ABC0CA3E03BA6D04E4C26E863DF019870A58BEED413586B5833307E8B49D
+                020F089B2683DABD1281DFEBD883F543063C5CA6F0614B30C512F458ED0CA59B
+                21C0469301F71708C807F6A05510743E2CC1ABF0D7B87574EE002FD7297C6630
+                0204D7355EBFB7B30858DA6EFDC3AF7CDB796DF407C2CA8EA23F0E4E18A6691A
+                A6B2E3FC03ECCD50E5513F3E360000000049454E44AE426082}
+              NineGridsRes = jdu9GSpeedBtn
+              NineGridsResAtTop = False
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.050000000745058060
+              AnimateOutTime = 0.200000002980232200
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object btSave: TJDUIButton
+              Tag = 6
+              Left = 238
+              Top = 169
+              Width = 30
+              Height = 27
+              Hint = #20445#23384
+              Animate = True
+              GrayScale = False
+              UseFormFontName = False
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = True
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWhite
+              Font.Height = -12
+              Font.Name = #23435#20307
+              Font.Style = []
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = ''
+              ParentFont = False
+              EllipsisPosition = epEndEllipsis
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = True
+              PictureClick = False
+              Down = False
+              ImageAlign = iatTop
+              ImagePadding = 6
+              ShowCaption = False
+              ShowShadown = True
+              CaptionShadownColor = clBlack
+              ShowNineGridsType = ngtHover
+              IncContentWhenClick = True
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = 0
+              Picture.Data = {
+                89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
+                610000001974455874536F6674776172650041646F626520496D616765526561
+                647971C9653C000002334944415478DA63FCFFFF3F03258011644032CBC40C20
+                5BF973CDFBDBC468E26D1154055277E7FEC99F0136208965426FC5E2E422B548
+                5E0642EE6104E25BCB3F3374C4CEED9BF7A7A0186C40224B5F7FF1DCF8028D38
+                2186BF7FFFE23580999999E1C6A2770CBDC90B27CCFF535408362081A57762D1
+                ECB83C95584186DFBF7FE33580959595E1CEE2F70C7DA98B262DF8539C0F3620
+                9EA57B4AFEF4986C25A00B7EFCFC89D7000E7676867B40174CCC5C3275E19FD2
+                1CB001B1CC1DD3F3A6C664C8C70B337CFBF60DAF015C5C5C0C0F17BE659894BD
+                64C6E2BF15996003A299DB66E54E8A4E15F71460601367C16BC0AF977F185E6E
+                FFC030396FE9ECA57FABD2C0064431B7CCCDEA8B4CFAFEFD3B5171CFC9C9C930
+                AD68F9BC657F6B92C1064430372EC8EC8E8C3F79F22403AE84C5C8C80867DBDB
+                DB33F4E7CE5FB8E26F7D02D88030E6FA25E9EDE1D1172E5C60B0CE53C6880950
+                C81F9D7497414E4E8EE1E9D3A70CA6A6A60C130B172E5DF5B731066C400873CD
+                8AB496F0F0EBD7AF3368C789331CECBB0AD66896A90477F2D5452F19A4A4A418
+                DEBE7DCBA0A5A5C530A964E1CA357F5B22C006043257ACCD6E8B0DBA79F32683
+                6C002FC3E30D9FC11A45DC59E00680C4C4C4C418BE7EFDCAA0A0A0C030B16CFE
+                BAF57F3B82C106F8301538FE67F85F69E6AE6BAA9D2C27F076D70FB0467E2788
+                012C2C2C0C20312121484A0519D45B3E63F7D67F13DDC0067833E533FCFAFFC3
+                156848E34196F947B005A2FD9F441BD43CC1786EF7FF9990844409000043B100
+                F0FCC18A150000000049454E44AE426082}
+              NineGridsRes = jdu9GSpeedBtn
+              NineGridsResAtTop = False
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.050000000745058060
+              AnimateOutTime = 0.200000002980232200
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object btStartProgress: TJDUIButton
+              Left = 789
+              Top = 267
+              Width = 50
+              Height = 23
+              Animate = True
+              GrayScale = False
+              UseFormFontName = False
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = True
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Height = -13
+              Font.Name = #23435#20307
+              Font.Style = []
+              OnClick = btStartProgressClick
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = 'start'
+              ParentFont = False
+              EllipsisPosition = epEndEllipsis
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = True
+              PictureClick = False
+              Down = False
+              ImageAlign = iatTop
+              ImagePadding = 0
+              ShowCaption = True
+              ShowShadown = False
+              CaptionShadownColor = clBlack
+              ShowNineGridsType = ngtAlways
+              IncContentWhenClick = True
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = 0
+              NineGridsRes = jdu9GSpeedBtn
+              NineGridsResAtTop = False
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.050000000745058060
+              AnimateOutTime = 0.200000002980232200
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object btUndo: TJDUIButton
+              Tag = 5
+              Left = 206
+              Top = 169
+              Width = 30
+              Height = 27
+              Hint = #25764#28040
+              Animate = True
+              GrayScale = False
+              UseFormFontName = False
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = True
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWhite
+              Font.Height = -12
+              Font.Name = #23435#20307
+              Font.Style = []
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = ''
+              ParentFont = False
+              EllipsisPosition = epEndEllipsis
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = True
+              PictureClick = False
+              Down = False
+              ImageAlign = iatTop
+              ImagePadding = 6
+              ShowCaption = False
+              ShowShadown = True
+              CaptionShadownColor = clBlack
+              ShowNineGridsType = ngtHover
+              IncContentWhenClick = True
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = 0
+              Picture.Data = {
+                89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
+                610000001974455874536F6674776172650041646F626520496D616765526561
+                647971C9653C000001E94944415478DAC5934D48545114C7CF7DCDBC8F911166
+                1568200882B97DB373639B1A7293B549DC84224E1B255A08AE14A416AD6A5554
+                9BC81444105CD52ADC8E83AB6188191417A235238FDEF4BEEEC7BB9D77AD6126
+                08825974E10F8FC7F9FFEE3BFF731E9152422F87F40CB8BE76008665816E9A90
+                360C48A5D3057C3F85E085A4A0E538ED6219C7C0A2482916026A4FC6FF00E87A
+                010859FF559F8F820004E7FF08300C659EBB376CBFDD392AA3311FA3A1F3FC15
+                80B717089A1FCE8CD9AE2B6063EF4BB9D3876AA0AAD8D616A7B4D405185D2D29
+                F3E2AC6DD76A1E98A6A694647B290961C469D3F15BD57AE3CC71C30F82B1E708
+                F015607879FFE05171DCAE54DCAECF8DB0F7561082873950CA208E0558962E1A
+                4DEFE4A2E9BD41C0D3E3671340AE2D7D2AE02DEB4BC51B76BDFE03887E051C22
+                E15BC48109093C9640310A8ACF1197902652F8957A95B5BCD9D317B74A6470F1
+                23D0205090FBC549FBF3770DCE37F7DA19104D23C4D4535A5F4627D9AC450706
+                72108494940FDF355EDF79AC0091EF030D430519294EDBB5979B65DC873C9A01
+                FB4D21278BBA8A1AC2C9DC845C6E021CE7ABFB7EFA761B90CC1C135690DF7B60
+                64329749761C8ED9C49CAF60DDDD60FB41BE0B908C8733A63611A536B1AFBFBF
+                0B40931A4A93E9BC62BBF30BBDFF0BFF1DF0139D9445F0654C4A2F0000000049
+                454E44AE426082}
+              NineGridsRes = jdu9GSpeedBtn
+              NineGridsResAtTop = False
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.050000000745058060
+              AnimateOutTime = 0.200000002980232200
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object jduButton10: TJDUIButton
+              Left = 37
+              Top = 91
+              Width = 180
+              Height = 68
+              Animate = True
+              GrayScale = False
+              UseFormFontName = True
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = False
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = 3355443
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = 'Button'
+              ParentFont = False
+              EllipsisPosition = epNone
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = True
+              PictureClick = False
+              Down = False
+              ImageAlign = iatTop
+              ImagePadding = 8
+              ShowCaption = True
+              ShowShadown = False
+              CaptionShadownColor = 3355443
+              ShowNineGridsType = ngtAlways
+              IncContentWhenClick = True
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = 0
+              Picture.Data = {
+                89504E470D0A1A0A0000000D494844520000002000000020100600000023EAA6
+                B70000000467414D410000B18F0BFC6105000000017352474200AECE1CE90000
+                0006624B4744000000000000F943BB7F00000009704859730000004800000048
+                0046C96B3E000004A74944415478DAD5595D6C544514FEA6A59636FEB0AD0A45
+                4B30DDED8B0F3E1AA1556924C1F060C194002F427CA12DA9C46813096A0BD168
+                4D4C08698510046230C1DA604C20040234D096C4C4449EAAA5B53162C29F90A0
+                01D47AAF67E69C7B77B777B77B6FEF6EAF7B369BEE9D997B66BE6FCE3973E654
+                A140F228F6611435988285796842096C283C63FA6C2CA52FE839E68E57A6FDB6
+                F9A53049BFF5E712BD6BD3F72C6EA01D4FE16ADED7A9C2ABB00DB42AECC5CF68
+                96966DD2DE98A7692C4318709E88D4DA76E377B4218E6FA22320865E4CA0C128
+                B0D023AA9E0BBDA060322296F436D98E2664A49004F04EC7F019C6D1292F7E28
+                7D25730CDCBB3606D3835BB8863A6CA7A76E7AB6C213F0243EC5AFA8C05DCCC7
+                7D1C96D6968801E722E32B54E22F5AF1265CC19BA8C5BDD910E0F8B6DEF12FA5
+                6D7DD4E802D1A03040AED14A16D1020EAEB67F0234F0CB785F5475458D47E45F
+                01F6BD3CDF91BFCFCA29F250867774CF7BE41AAD4860576E0292C14D7BD0F95C
+                3C155C18F06FE038D3423BBA8582DD45B7FF315AEF241611358A8EDC7E696DF0
+                68613D0D9E60A9D2076993EF23931F463451DD0BBC94802BACC04D025E473699
+                4D6266DDB5620993D25A3A6DD43059421B5942922097802A62720C6BC1BE3250
+                34C0BD4468D7FD49FCBDDED3AFCC778D9B47A410D0472F0ECAD30B45071C14AF
+                6C7AB70A0BC9126E49DB2319E701CE1957485086AAAAB1073F62317594D2E74A
+                0A4FC5029C4507ED3174188D3A539C59747A5E46732E868A999DDF28908F1425
+                F00932698E61474577998FF915CDBC018A8FBB4F64496FCD0970D0A546990537
+                91B1B693A78E06D6A3376E0CABC5A79D98551E4887C2C76C01E3F85AA2E7AB3E
+                5F9C12307F4CEB71A2EEC3198147B9E399A5DF21E09410B0D2177C9B120F9D58
+                D4E33B4F2FBBD42171A9D7DC1DD7C04BF0FCFF04B8B321A78313A02F1B718213
+                A3683B8127A4F5657378020FC802B7497B1D38A0764926D69D27E02542EC7119
+                B55208AF0848C0A9E02E9024A086EEFFAB4CBE68B90BF10AFBE85639777B4302
+                2F13E083728CADF0585C30E9E720384EC18027EACC3B014CC1EB62019FCF1A78
+                FADE9D30C1334141908378AFB4B70500AFC77F14FC182C1401FE7D3C3F04B00B
+                AC87726A77165D27E6B98950F6024750026C43C0981C7B5F88F607C1C1549F1A
+                BA68B1049C82AF9901783E09B068069D07D424533EB68473D2F0624E02AAE906
+                364E519DAF50077C331F565263409C2C2B2801BC21674C9D2081979204549B60
+                D86CD4D83896554129F5FE4DF76E5DA57D1A7FCE19F06CC225BA8362619B728E
+                67C0AF98A09CC0B7DEA49F2F45C3F2B42C8B8A9372C31E8C0C38DFF616C88EBE
+                E1F3181C92EB70638A9E0C8C4E60B999C0C2856CC38A4C2C933B704124BDA092
+                A324F62ED8B776468D2084681BD96182661C1F787A7D1445F792451C91E70D51
+                A309003B6451D4916459BC1CF729E3E257D6458D2F871C4525AD763E3687298B
+                4F9762F9C788DEF177906DC74310902E7C87582677881E695D3EC7C08724B875
+                7A829B5FC95B7877F208CB10D2218A9DDA62580BB1DC048835ED76CFF1B052B0
+                F3ED71ECA7547921FEA1B4694A171F4DEA39FDDFE3D5690BB171537EFF62DC4D
+                E10773C106CE52FEA94DFB7ADED7F91F88FBD01610DF39AA0000002574455874
+                646174653A63726561746500323031382D30372D31385431313A35343A34362B
+                30383A303067BA816C0000002574455874646174653A6D6F6469667900323031
+                382D30372D31385431313A35343A34362B30383A303016E739D00000005D7445
+                58747376673A626173652D7572690066696C653A2F2F2F686F6D652F61646D69
+                6E2F69636F6E2D666F6E742F746D702F69636F6E5F6D7864626367633173772F
+                2545352541312541422545372541392542412545392541322539382E737667C7
+                F22E910000000049454E44AE426082}
+              NineGridsRes = jdu9GSpeedBtn
+              NineGridsHoverRes = jdu9GSpeedBtn
+              NineGridsDownRes = jdu9GSpeedBtn
+              NineGridsResAtTop = False
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.200000002980232200
+              AnimateOutTime = 0.300000011920929000
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object jduButton11: TJDUIButton
+              Left = 222
+              Top = 91
+              Width = 180
+              Height = 68
+              Animate = True
+              GrayScale = False
+              UseFormFontName = True
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = False
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = 3355443
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = 'Button'
+              ParentFont = False
+              EllipsisPosition = epNone
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = True
+              PictureClick = False
+              Down = False
+              ImageAlign = iatTop
+              ImagePadding = 8
+              ShowCaption = True
+              ShowShadown = False
+              CaptionShadownColor = 3355443
+              ShowNineGridsType = ngtAlways
+              IncContentWhenClick = True
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = 0
+              Picture.Data = {
+                89504E470D0A1A0A0000000D494844520000002000000020100600000023EAA6
+                B70000000467414D410000B18F0BFC6105000000017352474200AECE1CE90000
+                0006624B4744000000000000F943BB7F00000009704859730000004800000048
+                0046C96B3E000004464944415478DAED595B884D5118FEF79C63CCA08890DCC9
+                9DDC8B21E49C07945B52942711F1201E3086CE83CB88F2240FE241E281924B29
+                B93D5198178C412E934B12E5924B7266CEF6AD7F7DFB3067CE3973B0F799736A
+                FEDDD9FBECB5D6FEF7FF7FFF65FD7B2D47F244AE9E1D792483649B8C9246BD8F
+                689B48A98C9667B247F6E74B9C24397E337C28FDA0602F49402947A643717344
+                D93B97D7BE29D09C0300CF01C0A2C207E0A10C974AE9060B36488954A802AE4C
+                23A3282D3DF12F3816180035B05E4C3AE028839215B064097ED11405C7737489
+                0F22B43200F7119355B25855716503159C2A5E6C064FE68D6FF8EF4640EFA851
+                80AB655F73006A35291DA4C2EBF3A070BEC9007C9E1EB6B00D808203C0E6969B
+                B89A6C134BB6DBDCE3E59A7D54E59AB686E0CCA964C7AFE5DD92E2012053127C
+                A07245D06BE4BAC29127B45EA89615CDB8583D0E508F8DC5048011F18A5AD095
+                35BF05C39D99661D55E078122863FF846C6AC623A41CAA98C457FA078075D146
+                DE1D5376AE94B36F790695CEA2CF1C273136815F35390D6E15787DF100470B9E
+                4A14B1663AD94B973BCFE7E6EBD9957712862D4A312A0ED0E2322F095C3672E4
+                2E9F3FF487D846F0E1D2D4A56FD32047D3AAE9CA52F28BA6F4F80480A0FA138D
+                CA6970B746FC7B85733B31116BDBD7E32E8CE332461A00EAE892DD5BB05011E5
+                006B81C750B0A3FC44C91B962FD21E161F25F5B21B1632FC2AE5948E746891EC
+                5464003405623F14375F719B55E0ED325B054EC8D59CF9044FBE036018C63524
+                CCD7DE48B5FC1DF8C430C0D0099ED100AFA8E5D87E390AF984D7332900F76708
+                2DE37BEBD87321039FD9BC4E0E1200C372875ABE142CEB90D9E3725A233E21AB
+                9002DB213F4CA1E0177304B46842E006147E067BCD04008365086C6E15DDC3FE
+                C35CD85843058E5381155978163800D6153FC3AA26AF8F13537284E0EA8DDA53
+                C351ED932FB3A13143E782B03CD2A77E421D5779F5C8C0FF3B057DFB87D8A6A7
+                9C77BDD8FF95E3DFA501D2F474A3413AFBED013F380DBEA1605DD8DE358D1866
+                DC738EBB4C81C750B08A0C1ED0FC73D8216096CF4CB6BE145B21DC4A0B802363
+                F97FA8DF000449051E026D00044C3644DEB394BDDB44704743CC8C98C0B60F1C
+                5F9F1646913EBCEB593C00044F6D006407E09E0C40093B0CD39C595159A4B9D4
+                6E58189A4ED72ACFF975FF42E9BE06FD53DF707E01009E02804B69DE9D81EA51
+                86C6A40C33744897C72DB308633542A02611A0D07F8918E4B2781DCAB52AD425
+                E64BD641ED6A4AF75D4CAA590168896A103A5B507094834558662581B10A795B
+                5E237D03E03A6A8118DED4435EA3E85E9903DFDFFC5DD407B6105B4DB9D6B162
+                3DE2FFD69847DE165983EE2D44582146B9B0E24D6F7D7206C0DBB029C32F2EDF
+                7C9272677000B4445EEE09E9964C6F5D69DA25D7F204C0471A6441EB01F0B7E4
+                ED2EDF474C6F9581393F6752BB93F4C01837F3E6C808F5B8DAE201E05FA9169E
+                B60539A04473D527AE5FBC48F6FF02891504E0BEAD8F81000000257445587464
+                6174653A63726561746500323031382D30392D30345431313A32333A33382B30
+                383A3030425EF3CF0000002574455874646174653A6D6F646966790032303138
+                2D30392D30345431313A32333A33382B30383A303033034B7300000055744558
+                747376673A626173652D7572690066696C653A2F2F2F686F6D652F61646D696E
+                2F69636F6E2D666F6E742F746D702F69636F6E5F6F6E7879776263673573612F
+                2545352541462542432545352538372542412E7376671EB1679D000000004945
+                4E44AE426082}
+              NineGridsRes = jdu9GSpeedBtn
+              NineGridsHoverRes = jdu9GSpeedBtn
+              NineGridsDownRes = jdu9GSpeedBtn
+              NineGridsResAtTop = False
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.200000002980232200
+              AnimateOutTime = 0.300000011920929000
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object jduButton12: TJDUIButton
+              Left = 407
+              Top = 91
+              Width = 180
+              Height = 68
+              Animate = True
+              GrayScale = False
+              UseFormFontName = True
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = False
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = 3355443
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = 'Button'
+              ParentFont = False
+              EllipsisPosition = epNone
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = True
+              PictureClick = False
+              Down = False
+              ImageAlign = iatTop
+              ImagePadding = 8
+              ShowCaption = True
+              ShowShadown = False
+              CaptionShadownColor = 3355443
+              ShowNineGridsType = ngtAlways
+              IncContentWhenClick = True
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = 0
+              Picture.Data = {
+                89504E470D0A1A0A0000000D494844520000002000000020100600000023EAA6
+                B70000000467414D410000B18F0BFC6105000000017352474200AECE1CE90000
+                0006624B4744000000000000F943BB7F00000009704859730000004800000048
+                0046C96B3E000007044944415478DAE5597B68956518FF9D73E656DE2331C2AD
+                12BB99E1D234083197A594FD119B3734CBE62E9565572A432822C822D02862B5
+                9D6D686823A7497829B510CA4C33878648EE62348D10A336B37497EFEBF73EEF
+                F37DDB3987E3B9ECA2D07B98E7FBDEF3DE9EDFF37B6EAF01FCCF5BA0AF373882
+                B9F81499C8C0109CC158DD309BDF01B8B8CA1F1794F7DFD10187CF27F97D8633
+                8E621C36601EDA2E7D005CBCC64F10F568C628E48B8041CCD1DFEED751C3525C
+                B5456001B61116B3622D6E2078CDD8CCE7D7F9712E3E000D5882720AE8CA01DF
+                D2DEF151A39A75AB1D024700BF6AFF89A871D932CEC535320E98A9FD3951073E
+                A4CFCB713D2A518C2FFA0F807A2CC37BC8E2C4B3B81C65220E50A8BF3AF216C0
+                272AC86A8C4198073CA8FD6E3748E6621557F81783311C57E3465413CA26FF77
+                57A16A626F156E976707CFE90A0BFCE307645C15CEA395EB3C91B2C9240DC0CF
+                28C54718415A77F26FB3F64ED1EF3A5DAC8814351AA94B02C84232671A9F429C
+                F70C3569809A8D460A5CC12757D6CB5566AD254066DDFD645C21CF3111C66B04
+                29B8052457F7FF96208578C27CDCC4D51FC3E99E037040041F40EB3582EFD4DE
+                69AAD18DE4411B5DDC621EE1633CC2B79EB6DF64BF815CC938C302582E3CAEDF
+                A7A51764C239EA3C0BA73088BBB7618D3266B6AEB2877F03C9AE7BA890F7F134
+                C7A60D408368A4CAA7BAA5712DA95D458DCC8BA1765FB57AB22B4CB33162BA58
+                297D412C257372E85176913927E84136E8490A7456581859C24FCA00443AB76D
+                DA5B877F887716A6F69AC65307C230640CCFD44100B648AC019EC4DFC2887DC2
+                88F36480671A567133694261C2B03366BD1800BC70D620881ED0DE5C71410E26
+                13F16ADAD6C17E173CBA35E2517C48FD1A930861BBB03084BBF99E4168AE94F3
+                06F0A30AF81321CBA6441363C2670C00C744F3B345EF26EE5A8AAFD370B3E862
+                CB1DD3AC692CD4B7F9EA841F54D35DAF0C5840981C3E1710886A72E8B3F80044
+                4FB481669278E91222DAF3035BEF1F90DCAF0CD6B9192765A85C9CF63E06880A
+                EC153183749A03241A64F2CF30617F5C45FA00447AFB533AE12C11ABE4D2393D
+                7676471929CA701D77C8E0E72B0962364334505FC65DCDDA1BF96F3B299C479B
+                5DCBA87E324D264C11418BF014156AFABDC46B083D582B651CE9E70B3E00C788
+                7B396E53DBA9536C2A4929A391E2B405EF02D638ADDD6A5AEFA82636FBE31AF8
+                5641EABA02C4CB7AD0BCA4139BE304B89AA950A7F880EF64FD12DC220094F3D9
+                E6154B04F6207D998962453C9D0F40A31C60965008D8AA00BCAA00BC91360096
+                9AABFC771B969E8F3BDE6AEC5D3985433698F1A57831E9FDAC091F2577DB1915
+                26311B3079C20BF29B4BF7171488170800A5A8E902C06E5CAC094585F4756576
+                55290B6E9C69251E104B7708E479D1E8D4841AED6E8A217CAD46B75A33C14D49
+                02BE9BF34C4EB8444CCDC1F428B996AA5C655D00D40B7245AAF9B0DA7C895235
+                9CB4E08D22C0306E667CC941FE6B56BA97A9A961D2F114345948D87384B09D04
+                C2103B83D41DCDACAF107F5D0078A3C8BB5865B4F2F303811FC26A6391E633E5
+                F101E82D13B01AC8530057C0BACEE5FEEF0EB5DFC1BA3F9E936B105F340E9E73
+                B45162A532E14D35A1DD299D274C39800426D05B4ED0950B901005194A0DACD0
+                BE5B157908C00EBE2723CC0156C5CCB700B6E8DB974ADDC33C87A9F656720D63
+                429D499F2736958F0CEBFD1606BD2ACE95CC6D8C5270431C009A55D33969ECE4
+                29C27228320C0E26B4212A60242130D5627BE244283A6CA4DB0EE161927E10BD
+                F2005672A64A330CF8DCFFDD96DB376BB95DAD00DC99F67ED617DCA1F705FB12
+                274291130B74E2461DB05EE3EA43691FC8BB1BCC14D3D8ABEBEE148B74A9777B
+                9467056E17AFD0475410922D69EF679954A36FF31580FC98FCE382C5500EBDA8
+                ED9BA0B633B9C729B117253AA58C592C410A1821BB383C584F8BAD26F1659335
+                05DEA7021E4EBE18F29AB59DFBD496B6FB777167A51C9E72D1CAE178ED0843DB
+                07B471530C67CA858869E305561733E4CAAD14BB62E625712112994ADA099B14
+                D1B9BD763B9B6EEB62EC499EA816D6FDE5EB77B9F89A12722A5E4BF14A6C87F6
+                E6E9C4ADDCE61C938E85DC681D5D4B6BBF09EE693C4B34BE26EA26688FD612D3
+                13669E295F8A86A4A8D9A451626AB76B6AF354D46B6573BC1669E35E863A5E43
+                F437524B66920163197316E38F84EBA57C2DDEDD9BB75007B6798992AB07A991
+                686FAEC547D3179768D5954A1EE1C571E3CD2B29B08D4A5E1135AFDBF12DD5DB
+                70861A5FD677D7E2F1DA3149A167A8706F6BEF84880D0292F29A70B74373F25F
+                F43D3A15CED6035D0B7BE73F5381181535AE4E9DDB4B719D5BBF01E035CF1935
+                31EB1A2575BDA903E7A8CE67E9A8E129AD08FCA9F707DEA56CAD38DF66265097
+                CC7F8D256A9E13BD42AAB95C71A50E5DA625F8507F5C4874DAA2C0D5B3DE33E3
+                0EFB296B5FB53E07E0526FFF01442CC23F508864330000002574455874646174
+                653A63726561746500323031382D30372D31385431313A34383A30382B30383A
+                3030687DCB850000002574455874646174653A6D6F6469667900323031382D30
+                372D31385431313A34383A30382B30383A303019207339000000497445587473
+                76673A626173652D7572690066696C653A2F2F2F686F6D652F61646D696E2F69
+                636F6E2D666F6E742F746D702F69636F6E5F70796E62356F6C7579636E2F696D
+                706F72742E7376675080C19B0000000049454E44AE426082}
+              NineGridsRes = jdu9GSpeedBtn
+              NineGridsHoverRes = jdu9GSpeedBtn
+              NineGridsDownRes = jdu9GSpeedBtn
+              NineGridsResAtTop = False
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.200000002980232200
+              AnimateOutTime = 0.300000011920929000
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object jduButton13: TJDUIButton
+              Left = 593
+              Top = 91
+              Width = 180
+              Height = 68
+              Animate = True
+              GrayScale = False
+              UseFormFontName = True
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = False
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = 3355443
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = 'Button'
+              ParentFont = False
+              EllipsisPosition = epNone
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = True
+              PictureClick = False
+              Down = False
+              ImageAlign = iatTop
+              ImagePadding = 8
+              ShowCaption = True
+              ShowShadown = False
+              CaptionShadownColor = 3355443
+              ShowNineGridsType = ngtAlways
+              IncContentWhenClick = True
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = 0
+              Picture.Data = {
+                89504E470D0A1A0A0000000D494844520000002000000020100600000023EAA6
+                B70000000467414D410000B18F0BFC6105000000017352474200AECE1CE90000
+                0006624B4744000000000000F943BB7F00000009704859730000004800000048
+                0046C96B3E0000071D4944415478DAE5595D6C544514FEEE6E05145163BB5D0A
+                881AE5011E40906AA2414023017C202D504489060A02B5A26834121395F8A03E
+                288A5410A146A348A42821020688215134FC54024678D0281161D9DD1644A4F2
+                D7BD7E73E6ECBFEDF6EEB694C4B9D9DD7BEFCC9C39E73BBF33EBE07FDE9CAE5E
+                C0C56718821E8822CCCF602EE8870F03D813E32798C1CC718E77D18AA308B02F
+                80437C578583387FF903E0E2257EFB2864007D5121F7C014E90126E8A86B3D52
+                3DA5BF9BF5B781D423846903195FAC2076330011BC4B8127909011F435F90686
+                6680734417DBCA8F59F27761DEC51F29A37CEC192016000CD479E374DE0D290C
+                9BF9FB75DCF328C5E304E4AB4B07C0CF588A5BD193BAF4E36F2CD7B733F537A6
+                8C7F2A8CFAB00425988F107E50C6DD049D237893E25E49E7E845032FA3C1D710
+                CC5F53407385BD662C23C0B793B299BF50599E9EC2BEF9D4D3324A703DD7F2EA
+                321D06E018DE239B25B8821E1AA3091A061DDCADCCEE1371FDA82623F339765F
+                4E7A51B19CD13AFF49012A8CC968E2FB32CC5608860955171FA158FA7773DE32
+                F68F80B11897825BA086299D6F711145ECA9403FCC25F04D8503E0527050EC28
+                4907B14D278D169377B19E70FCC3378F529867C9E0990E23DF3ED05751EC563E
+                554A2489619E70E250A056711D630967611CD04F2B023E945E87003AC2D94EFC
+                497EFBE03E0CC202FC8273F90310411D85ABD7A7996AC80DD4580D05AECA32ED
+                AE6A36D64C55865F550BAC91A018C27642534A05AD53C7A954D156F16D0D63C4
+                1CEF00C4839B15CE466163EA31B4F06E54A769DC3B104B29F42DBC33A6FEA584
+                4E30105E64440276D1227AF3CDCE846B98DF18836910B59CBB2D3700C9746610
+                DDAB838689613928E7E2B512D4BABB45B182563808C6418AB085821BAEC71208
+                2378B18C89A1512DF4478E0DD3124664A5CF2C00221275276B578382F289A49B
+                306674B7DC59CD04CD523C44916204601AEF6B29E82475DD353A6ABABA4CA558
+                42085FB40740FA4447AE91D47C0D273616CCB0A53F45177E51A3472F057AA902
+                BDCC33DDA8D0FD5E0CBE9541D327F9A387EA7AB7D2CF56640280F4681FD1B767
+                44F0300B9142835DB3303858195A47E64CE29CC08CED90E1737C36997EA37CC7
+                F098D605073A4C3F6E0946D33EA6E712097EB5926E8352781961FB509E00EB85
+                D244BD9000C068A61F6E93FB58228FAFD64A6B76616A170D99FCFD146CFEF609
+                B0C7590CC55B3CFD95F12EC414E7B5D43DC9A2EB465C870BD4FA597CA79A1EA2
+                C17CB52A6F16573634CB09D0135C7F6F1280A8F8FE44F1146053C2440302C02B
+                9E050EB14A0CE226C9E70E2B396B6C555A3F6C93601A669A4AAE6F2C64A1DA58
+                40196EE46C530835121853081DCEB96E44347E88629A0C3552B3C2339A1516EB
+                FAD375FDB5E90004A9695B50BCAF03AB75607DCE85E3ED38DE219D9BC5072135
+                BA597887BA90F14FF36CC036747F4A61BC8E428E93F13109C2F166E68D11BE5C
+                BA4C66C99C0D401DC7ECD0F156E30EEE4DC865F9A9D160B93C150033B15A0B89
+                550AC09C2C4DE506C00079A7E4678716645DE801CF1694E4CB68D46E767C7821
+                6730B6967C0FDDE03CD3E31E86D79E047D86C8E562657B0074AE0BD868FFB522
+                5F2F9A0BE1638FF31F917B170FAA4F4FCC0BC0BE926D72B8406707C130DE9252
+                CA6166F17193E2975265124B9479A477B05DC103DC6F9AE66781635A2B2B4FC3
+                479433F353446A299F9ED6BB3C0D36896B8D554B58C2286D12E05DBA5B6B498C
+                4BDD669FD652D6C5A2364BD85C2DBE9D4E4D83C0D594A788F298343897CF1772
+                1742996923DF1616205ED61DFC40B5AC5929EB1A537D5B0F565AD4F516E5BD5E
+                B364A13B64F7E8708F604169A7104A07A0529FD6C36A7D8D068D87F36628BEC7
+                B0BBB62DB0673BFB95FE691D359E4017719D31090DE5DBAC1C6BF5699A5A6085
+                C6A20D6D0390BE19DAA38386ABEF94175C12FF860F58B0F462766E61A45EA000
+                F4964AF002DE608C588013F82B6FFA4D2278B99650BBD4750F747C33948EE078
+                7DDA92388B6B655C70596A76D776B83D7E03F471C3A55F6288694345F331DCAF
+                F5C3F6AC791D3810492F256D28FC9C884608C0D44E3B9DCDB7255D2BC8AB4177
+                7D15B06170A5B86E58DCE9BF9B8723B15602B1558118A3BD9BA4D43DCF4D48A1
+                A6EBB5A56ADC274762F624287E2456C2AB981560AE4352CF87A2454C93315A80
+                9D3C2AE11AF6B9BAD3B6CD6DB5B88F5B135F95760CEFE21BC611974AA9407F6A
+                FE187341AEE6F9583CF94F4F13355E076B11B313BDB6AD959D0098F78B65D7B7
+                D7731D11CFE327B082A65DAEE9EC69EDAD4A61DF9A7A80C65ECC54DD65C7E26D
+                35737851CA2063B3C4EB4A7478863047F57DFC8F91C3CAF8D10C6606284437EA
+                BCF81F23FD33E8EDD3CDCE736D06B74B064092291B8C22D445194B5EAB9B29B2
+                84AB35BCC3FDBA379A27F56EB308EC63902B25E4216CBC7CFE1ACB2D840DA2CD
+                34CBBE724A6B0E44066945784DCA38739D12107D2C8C4BE8C921E6EF420BA26E
+                07E0726FFF023B09BA3FE4D65CB90000002574455874646174653A6372656174
+                6500323031382D30372D31385431313A34373A33322B30383A3030B389C8A500
+                00002574455874646174653A6D6F6469667900323031382D30372D3138543131
+                3A34373A33322B30383A3030C2D4701900000049744558747376673A62617365
+                2D7572690066696C653A2F2F2F686F6D652F61646D696E2F69636F6E2D666F6E
+                742F746D702F69636F6E5F396A30346F756F387264652F6578706F72742E7376
+                670856C0AD0000000049454E44AE426082}
+              NineGridsRes = jdu9GSpeedBtn
+              NineGridsHoverRes = jdu9GSpeedBtn
+              NineGridsDownRes = jdu9GSpeedBtn
+              NineGridsResAtTop = False
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.200000002980232200
+              AnimateOutTime = 0.300000011920929000
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object jduButton14: TJDUIButton
+              Left = 778
+              Top = 91
+              Width = 180
+              Height = 68
+              Animate = True
+              GrayScale = False
+              UseFormFontName = True
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = False
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = 3355443
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = 'Button'
+              ParentFont = False
+              EllipsisPosition = epNone
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = True
+              PictureClick = False
+              Down = False
+              ImageAlign = iatTop
+              ImagePadding = 8
+              ShowCaption = True
+              ShowShadown = False
+              CaptionShadownColor = 3355443
+              ShowNineGridsType = ngtAlways
+              IncContentWhenClick = True
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = 0
+              Picture.Data = {
+                89504E470D0A1A0A0000000D494844520000002000000020100600000023EAA6
+                B7000000097048597300000B1300000B1301009A9C1800000A4D694343505068
+                6F746F73686F70204943432070726F66696C65000078DA9D53775893F7163EDF
+                F7650F5642D8F0B1976C81002223AC08C81059A21092006184101240C585880A
+                561415119C4855C482D50A489D88E2A028B867418A885A8B555C38EE1FDCA7B5
+                7D7AEFEDEDFBD7FBBCE79CE7FCCE79CF0F8011122691E6A26A003952853C3AD8
+                1F8F4F48C4C9BD80021548E0042010E6CBC26705C50000F00379787E74B03FFC
+                01AF6F00020070D52E2412C7E1FF83BA50265700209100E02212E70B01905200
+                C82E54C81400C81800B053B3640A009400006C797C422200AA0D00ECF4493E05
+                00D8A993DC1700D8A21CA908008D0100992847240240BB00605581522C02C0C2
+                00A0AC40222E04C0AE018059B632470280BD0500768E58900F4060008099422C
+                CC0020380200431E13CD03204C03A030D2BFE0A95F7085B8480100C0CB95CD97
+                4BD23314B895D01A77F2F0E0E221E2C26CB142611729106609E4229C979B2313
+                48E7034CCE0C00001AF9D1C1FE383F90E7E6E4E1E666E76CEFF4C5A2FE6BF06F
+                223E21F1DFFEBC8C020400104ECFEFDA5FE5E5D60370C701B075BF6BA95B00DA
+                560068DFF95D33DB09A05A0AD07AF98B7938FC401E9EA150C83C1D1C0A0B0BED
+                2562A1BD30E38B3EFF33E16FE08B7EF6FC401EFEDB7AF000719A4099ADC0A383
+                FD71616E76AE528EE7CB0442316EF7E723FEC7857FFD8E29D1E234B15C2C158A
+                F15889B850224DC779B952914421C995E212E97F32F11F96FD0993770D00AC86
+                4FC04EB607B5CB6CC07EEE01028B0E58D27600407EF32D8C1A0B910010673432
+                79F7000093BFF98F402B0100CD97A4E30000BCE8185CA894174CC608000044A0
+                812AB041070CC114ACC00E9CC11DBCC01702610644400C24C03C104206E4801C
+                0AA11896411954C03AD804B5B0031AA0119AE110B4C131380DE7E0125C81EB70
+                170660189EC218BC86090441C8081361213A8811628ED822CE0817998E042261
+                48349280A420E988145122C5C872A402A9426A915D4823F22D7214398D5C40FA
+                90DBC820328AFC8ABC47319481B25103D4027540B9A81F1A8AC6A073D174340F
+                5D8096A26BD11AB41E3D80B6A2A7D14BE87574007D8A8E6380D1310E668CD961
+                5C8C87456089581A26C71663E55835568F35631D583776151BC09E61EF082402
+                8B8013EC085E8410C26C82909047584C5843A825EC23B412BA085709838431C2
+                272293A84FB4257A12F9C478623AB1905846AC26EE211E219E255E270E135F93
+                48240EC992E44E0A21259032490B496B48DB482DA453A43ED210699C4C26EB90
+                6DC9DEE408B280AC209791B7900F904F92FBC9C3E4B7143AC588E24C09A22452
+                A494124A35653FE504A59F324299A0AA51CDA99ED408AA883A9F5A496DA07650
+                2F5387A91334759A25CD9B1643CBA42DA3D5D09A696769F7682FE974BA09DD83
+                1E4597D097D26BE807E9E7E983F4770C0D860D83C7486228196B197B19A718B7
+                192F994CA605D39799C85430D7321B9967980F986F55582AF62A7C1591CA1295
+                3A9556957E95E7AA545573553FD579AA0B54AB550FAB5E567DA64655B350E3A9
+                09D416ABD5A91D55BBA936AECE5277528F50CF515FA3BE5FFD82FA630DB28685
+                46A08648A35463B7C6198D2116C63265F15842D6725603EB2C6B984D625BB2F9
+                EC4C7605FB1B762F7B4C534373AA66AC6691669DE671CD010EC6B1E0F039D99C
+                4ACE21CE0DCE7B2D032D3F2DB1D66AAD66AD7EAD37DA7ADABEDA62ED72ED16ED
+                EBDAEF75709D409D2C9DF53A6D3AF77509BA36BA51BA85BADB75CFEA3ED363EB
+                79E909F5CAF50EE9DDD147F56DF4A3F517EAEFD6EFD11F373034083690196C31
+                3863F0CC9063E86B9869B8D1F084E1A811CB68BA91C468A3D149A327B826EE87
+                67E33578173E66AC6F1C62AC34DE65DC6B3C61626932DBA4C4A4C5E4BE29CD94
+                6B9A66BAD1B4D374CCCCC82CDCACD8ACC9EC8E39D59C6B9E61BED9BCDBFC8D85
+                A5459CC54A8B368BC796DA967CCB05964D96F7AC98563E567956F556D7AC49D6
+                5CEB2CEB6DD6576C501B579B0C9B3A9BCBB6A8AD9BADC4769B6DDF14E2148F29
+                D229F5536EDA31ECFCEC0AEC9AEC06ED39F661F625F66DF6CF1DCC1C121DD63B
+                743B7C727475CC766C70BCEBA4E134C3A9C4A9C3E957671B67A1739DF33517A6
+                4B90CB1297769717536DA78AA76E9F7ACB95E51AEEBAD2B5D3F5A39BBB9BDCAD
+                D96DD4DDCC3DC57DABFB4D2E9B1BC95DC33DEF41F4F0F758E271CCE39DA79BA7
+                C2F390E72F5E765E595EFBBD1E4FB39C269ED6306DC8DBC45BE0BDCB7B603A3E
+                3D65FACEE9033EC63E029F7A9F87BEA6BE22DF3DBE237ED67E997E07FC9EFB3B
+                FACBFD8FF8BFE179F216F14E056001C101E501BD811A81B3036B031F049904A5
+                0735058D05BB062F0C3E15420C090D591F72936FC017F21BF96333DC672C9AD1
+                15CA089D155A1BFA30CC264C1ED6118E86CF08DF107E6FA6F94CE9CCB60888E0
+                476C88B81F69199917F97D14292A32AA2EEA51B453747174F72CD6ACE459FB67
+                BD8EF18FA98CB93BDB6AB6727667AC6A6C526C63EC9BB880B8AAB8817887F845
+                F1971274132409ED89E4C4D8C43D89E37302E76C9A339CE49A54967463AEE5DC
+                A2B917E6E9CECB9E773C593559907C3885981297B23FE5832042502F184FE5A7
+                6E4D1D13F2849B854F45BEA28DA251B1B7B84A3C92E69D5695F638DD3B7D43FA
+                68864F4675C633094F522B79911992B923F34D5644D6DEACCFD971D92D39949C
+                949CA3520D6996B42BD730B728B74F662B2B930DE479E66DCA1B9387CAF7E423
+                F973F3DB156C854CD1A3B452AE500E164C2FA82B785B185B78B848BD485AD433
+                DF66FEEAF9230B82167CBD90B050B8B0B3D8B87859F1E022BF45BB16238B5317
+                772E315D52BA647869F0D27DCB68CBB296FD50E2585255F26A79DCF28E5283D2
+                A5A5432B82573495A994C9CB6EAEF45AB9631561956455EF6A97D55B567F2A17
+                955FAC70ACA8AEF8B046B8E6E2574E5FD57CF5796DDADADE4AB7CAEDEB48EBA4
+                EB6EACF759BFAF4ABD6A41D5D086F00DAD1BF18DE51B5F6D4ADE74A17A6AF58E
+                CDB4CDCACD03356135ED5BCCB6ACDBF2A136A3F67A9D7F5DCB56FDADABB7BED9
+                26DAD6BFDD777BF30E831D153BDEEF94ECBCB52B78576BBD457DF56ED2EE82DD
+                8F1A621BBABFE67EDDB847774FC59E8F7BA57B07F645EFEB6A746F6CDCAFBFBF
+                B2096D52368D1E483A70E59B806FDA9BED9A77B5705A2A0EC241E5C127DFA67C
+                7BE350E8A1CEC3DCC3CDDF997FB7F508EB48792BD23ABF75AC2DA36DA03DA1BD
+                EFE88CA39D1D5E1D47BEB7FF7EEF31E36375C7358F579EA09D283DF1F9E48293
+                E3A764A79E9D4E3F3DD499DC79F74CFC996B5D515DBD6743CF9E3F1774EE4CB7
+                5FF7C9F3DEE78F5DF0BC70F422F762DB25B74BAD3DAE3D477E70FDE148AF5B6F
+                EB65F7CBED573CAE74F44DEB3BD1EFD37FFA6AC0D573D7F8D72E5D9F79BDEFC6
+                EC1BB76E26DD1CB825BAF5F876F6ED17770AEE4CDC5D7A8F78AFFCBEDAFDEA07
+                FA0FEA7FB4FEB165C06DE0F860C060CFC3590FEF0E09879EFE94FFD387E1D247
+                CC47D52346238D8F9D1F1F1B0D1ABDF264CE93E1A7B2A713CFCA7E56FF79EB73
+                ABE7DFFDE2FB4BCF58FCD8F00BF98BCFBFAE79A9F372EFABA9AF3AC723C71FBC
+                CE793DF1A6FCADCEDB7DEFB8EFBADFC7BD1F9928FC40FE50F3D1FA63C7A7D04F
+                F73EE77CFEFC2FF784F3FB25D29F330000064D4944415478DACD59096C545514
+                3D7F3A2DD0BD6011BA596A0195A81817B42A88A24604214A04C528188D8A6B50
+                5343100583092826A8B810B7A8189788268A11A350A02A68894BAC5DA8D4D20A
+                A52D565BDAD2753CF7FE37ED74A3ADFD7FCA9DCCDCFFDF7FF3DEBBE7DDF57D0B
+                0ED31F48E36F0C9AD18250CCE2B50F16A6935BFC9E6D7AA56A3B101DF04F79FE
+                AFB92ED63BE067EDE7C3368E768C636EC12454B2EDA863EBB5063B40018509C3
+                69BC6AE33753C502E69BA7231C5E689DB9DBA4F716D660020EA011FB83074029
+                9254B03A78B8C3ABCD42EE37827B1D13B86F92199B38B7C5AB67A92191D49095
+                D490DFB5DD7100F2914CB113F42FADF8C4B45E104481FB124400F98EA27BB931
+                D7E34C9A511D0E0F1E8042AA78282653C145C5B7983F250CB5BCC721F1197F52
+                3F3D5CE74C9A480941C91B380079484138C66A8766FC603A270DB57403062284
+                AB6FA6A68E4739DB2AFB0620D0C6C3B0C3B49EEFD8B24662091E557E179692FF
+                8377B091BC8A76FC840B30D802EE402DE2A90957E23CEC856C69AF00E473E743
+                B1CE3C5CEAF88252B01959E40DF891162B8170366E8484CF0CA4BB004067419F
+                C444468D263ACB6E00E46B389BC806B1F5DF5CF3EAA9F8027BC8ABCDCE473364
+                2E8268DE5C5CEA2200361DA349B4F23B9E9FBFB809651D0014706FC2F086117C
+                B16B4B48C2DBF81CA2017BF13D79382ED634A9947A30C375006CF2613D339703
+                34848760ED53C58B262E4D04A0DC74712E81E94AA3A986CFA9E017622AC41ACB
+                E8A7C1FDB803370441787BC7ABD5C3358993CFC729B4F99B61A7AC9B5C5F4034
+                E6689E3816CF531764296F620379058171DEE3F44E1EFD9D250024138B8D069B
+                3B5D9F3894F3A592A7219B6627DE7F9DBAA42304E4E9200220E4A32E5AF96AFB
+                7B4C93FB999D1763348D3A15BB3583AFE7DCBB203E603E835470C5F7E11B5B03
+                42356594AC7AB4EBD3C6E33156109207DC8D87B5C552DD3B887B7013792DA3C4
+                E6A041B0DFAF010DA669B86B9379108128D83B5F04C9C9D6E071F251F4C4CB15
+                86107EC0DCED6A9C4BDE42AF503E9809FB45557E00EA4D837BDE3F8EFEE541E5
+                8B711FA4E29F8AD3C923300D579127E2357C0C3B41FA96BC8CD9C11C48915DDF
+                5E04BB0240819AC0218D0116EDD369F230E045908FA3A5E793FF8D97B016E2FD
+                5FC70B01FD62712B8D0238194F314A4BCAF20B72C80F639902E633E59897663A
+                2660DC160A5141DEC832F85705EC286AFAB12E4BC72CB2010823E63E6DCA701C
+                007FEE1F87DB78055ADD349CA193376BD53E9C7A701644F7A6E0128849DC8B4C
+                F2105EC5F7305E2B21AC3282D66ABF588E2D02852312A2390B710DC4B9EEC6CE
+                3E01F8CA6F021B4CF312C704F730E2C742C2DD4E3DA2A827C8DB037628923E7F
+                7640FF4606C55CE585E648A348356604CED1D814C5983D4F17DDA2A54C0D3EC5
+                FB9033A22C6CD5E7D76A22D5C0A8920D29B2DEA3511D8F240AACF50330CF347E
+                E480E0518881243AEBF11624E3BB887B2E0064639B2E7817BE0EB86FA24E14F6
+                63DC10EEF328482235170B20BEE332BA4BC92B52685E026C9D9E149651D3AE83
+                68CA911E8ADFCEE25B1CC1CAE152A1EAE335A9B0A578F69FEC3016C365DD4E7E
+                12F3B915E8B0D583B4E05B20E1ED3307E0758A2A099694C78981D5E0C04CC1A2
+                F54ACC48C08B78577722892380638C63A5253B6C97BB65147FE650CBDB69DD72
+                78B69A756F094D69790700794C5087F32B277E6D6A7DF26858AF0325327D961D
+                F5F22A595B5AF91100D2F58CB884363905A2E2C51AF74F0CAAA429491194CE4D
+                9255D5F47420226171A5C16A45B721FC555C12F77D8B0AB84F4FDCC2300193C8
+                0FD18B2F84A8FC9774532716597840CBE0C68000DC0D801CCDC342E9132AF8BB
+                D50031BDFDB9974A2F87668978051FA0C3E95560151E8138B9ED14FDC4214BDD
+                5D16B7A7942A3FC308DCDA3B007ECAD39265143BC831B3FF50346DA8E5191049
+                AEDFAC4A9FD1EB31799FC7E20284A8B78740F8A8F43EFD939BA777CE082EF5BE
+                87B9465F6F8EFAFD622457157F24F1B4A8111FC2368D2B865AD600416C556FD2
+                70BEC0B917235D69BBFE7A993D480A9D69B28065E62C313CC862571A8D5C659C
+                DBCBDD6CDC7100BA52E02BB31656F8F6BBC2450690918E0B6CE770AF521387D1
+                BE9F690F67FF97060D4057CAD552278C0BACE1122F570D6923B7A79A6C7AA59A
+                9D8B33F73E539C549BFB6203E04F2AAE8749731D33CB46AA78D7171B83A5FF00
+                20B5B9B70DDDF6020000000049454E44AE426082}
+              NineGridsRes = jdu9GSpeedBtn
+              NineGridsHoverRes = jdu9GSpeedBtn
+              NineGridsDownRes = jdu9GSpeedBtn
+              NineGridsResAtTop = False
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.200000002980232200
+              AnimateOutTime = 0.300000011920929000
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object jduButton15: TJDUIButton
+              Left = 19
+              Top = 228
+              Width = 191
+              Height = 23
+              Animate = True
+              GrayScale = False
+              UseFormFontName = True
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = False
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = 3355443
+              Font.Height = -16
+              Font.Name = 'Tahoma'
+              Font.Style = [fsBold]
+              OnMouseDown = FormMouseDown
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = #9670' Checkbox & RadioBox'
+              ParentFont = False
+              EllipsisPosition = epNone
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = False
+              PictureClick = False
+              Down = False
+              ImageAlign = iatLeft
+              ImagePadding = 0
+              ShowCaption = True
+              ShowShadown = False
+              CaptionShadownColor = 3355443
+              ShowNineGridsType = ngtHover
+              IncContentWhenClick = False
+              ShowNineGridsCenter = False
+              PictureBackgroundColor = 0
+              NineGridsResAtTop = True
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.200000002980232200
+              AnimateOutTime = 0.300000011920929000
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object jduButton16: TJDUIButton
+              Left = 427
+              Top = 228
+              Width = 191
+              Height = 23
+              Animate = True
+              GrayScale = False
+              UseFormFontName = True
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = False
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = 3355443
+              Font.Height = -16
+              Font.Name = 'Tahoma'
+              Font.Style = [fsBold]
+              OnMouseDown = FormMouseDown
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = #9670' Progress & Track'
+              ParentFont = False
+              EllipsisPosition = epNone
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = False
+              PictureClick = False
+              Down = False
+              ImageAlign = iatLeft
+              ImagePadding = 0
+              ShowCaption = True
+              ShowShadown = False
+              CaptionShadownColor = 3355443
+              ShowNineGridsType = ngtHover
+              IncContentWhenClick = False
+              ShowNineGridsCenter = False
+              PictureBackgroundColor = 0
+              NineGridsResAtTop = True
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.200000002980232200
+              AnimateOutTime = 0.300000011920929000
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object jduButton17: TJDUIButton
+              Left = 19
+              Top = 359
+              Width = 191
+              Height = 23
+              Animate = True
+              GrayScale = False
+              UseFormFontName = True
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = False
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = 3355443
+              Font.Height = -16
+              Font.Name = 'Tahoma'
+              Font.Style = [fsBold]
+              OnMouseDown = FormMouseDown
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = #9670' Image'
+              ParentFont = False
+              EllipsisPosition = epNone
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = False
+              PictureClick = False
+              Down = False
+              ImageAlign = iatLeft
+              ImagePadding = 0
+              ShowCaption = True
+              ShowShadown = False
+              CaptionShadownColor = 3355443
+              ShowNineGridsType = ngtHover
+              IncContentWhenClick = False
+              ShowNineGridsCenter = False
+              PictureBackgroundColor = 0
+              NineGridsResAtTop = True
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.200000002980232200
+              AnimateOutTime = 0.300000011920929000
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object jduButton18: TJDUIButton
+              Left = 38
+              Top = 540
+              Width = 138
+              Height = 33
+              Animate = True
+              GrayScale = False
+              UseFormFontName = False
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = True
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Height = -13
+              Font.Name = #23435#20307
+              Font.Style = []
+              OnClick = jduButton18Click
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = 'switch image'
+              ParentFont = False
+              EllipsisPosition = epEndEllipsis
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = True
+              PictureClick = False
+              Down = False
+              ImageAlign = iatTop
+              ImagePadding = 0
+              ShowCaption = True
+              ShowShadown = False
+              CaptionShadownColor = clBlack
+              ShowNineGridsType = ngtAlways
+              IncContentWhenClick = True
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = 0
+              NineGridsRes = jdu9GSpeedBtn
+              NineGridsResAtTop = False
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.050000000745058060
+              AnimateOutTime = 0.200000002980232200
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object jduButton4: TJDUIButton
+              Left = 19
+              Top = 8
+              Width = 191
+              Height = 23
+              Animate = True
+              GrayScale = False
+              UseFormFontName = True
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = False
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = 3355443
+              Font.Height = -16
+              Font.Name = 'Tahoma'
+              Font.Style = [fsBold]
+              OnMouseDown = FormMouseDown
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = #9670' Button'
+              ParentFont = False
+              EllipsisPosition = epNone
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = False
+              PictureClick = False
+              Down = False
+              ImageAlign = iatLeft
+              ImagePadding = 0
+              ShowCaption = True
+              ShowShadown = False
+              CaptionShadownColor = 3355443
+              ShowNineGridsType = ngtHover
+              IncContentWhenClick = False
+              ShowNineGridsCenter = False
+              PictureBackgroundColor = 0
+              NineGridsResAtTop = True
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.200000002980232200
+              AnimateOutTime = 0.300000011920929000
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object jduButton5: TJDUIButton
+              Left = 222
+              Top = 44
+              Width = 180
+              Height = 38
+              Animate = True
+              GrayScale = False
+              UseFormFontName = True
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = False
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = 3355443
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = 'Button'
+              ParentFont = False
+              EllipsisPosition = epNone
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = False
+              PictureClick = False
+              Down = False
+              ImageAlign = iatTop
+              ImagePadding = 0
+              ShowCaption = True
+              ShowShadown = False
+              CaptionShadownColor = 3355443
+              ShowNineGridsType = ngtAlways
+              IncContentWhenClick = True
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = 0
+              NineGridsRes = jdu9GButtonLigntNormal
+              NineGridsHoverRes = jdu9GButtonLigntHover
+              NineGridsDownRes = jdu9GButtonLigntDown
+              NineGridsResAtTop = False
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.200000002980232200
+              AnimateOutTime = 0.300000011920929000
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object jduButton6: TJDUIButton
+              Left = 407
+              Top = 44
+              Width = 180
+              Height = 38
+              Animate = True
+              GrayScale = False
+              UseFormFontName = True
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = False
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = 3355443
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = 'Button'
+              ParentFont = False
+              EllipsisPosition = epNone
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = False
+              PictureClick = False
+              Down = False
+              ImageAlign = iatTop
+              ImagePadding = 0
+              ShowCaption = True
+              ShowShadown = False
+              CaptionShadownColor = 3355443
+              ShowNineGridsType = ngtAlways
+              IncContentWhenClick = True
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = 0
+              NineGridsRes = jdu9GLightBlueNormal
+              NineGridsHoverRes = jdu9GLightBlueHover
+              NineGridsDownRes = jdu9GLightBlueDown
+              NineGridsResAtTop = False
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.200000002980232200
+              AnimateOutTime = 0.300000011920929000
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object jduButton7: TJDUIButton
+              Left = 592
+              Top = 44
+              Width = 180
+              Height = 38
+              Animate = True
+              GrayScale = False
+              UseFormFontName = True
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = False
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = 3355443
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = 'Button'
+              ParentFont = False
+              EllipsisPosition = epNone
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = False
+              PictureClick = False
+              Down = False
+              ImageAlign = iatTop
+              ImagePadding = 0
+              ShowCaption = True
+              ShowShadown = False
+              CaptionShadownColor = 3355443
+              ShowNineGridsType = ngtAlways
+              IncContentWhenClick = True
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = 0
+              NineGridsRes = jdu9GLightYellowNormal
+              NineGridsHoverRes = jdu9GLightYellowHover
+              NineGridsDownRes = jdu9GLightYellowDown
+              NineGridsResAtTop = False
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.200000002980232200
+              AnimateOutTime = 0.300000011920929000
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object jduButton8: TJDUIButton
+              Left = 778
+              Top = 44
+              Width = 180
+              Height = 38
+              Animate = True
+              GrayScale = False
+              UseFormFontName = True
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = False
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = 3355443
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = 'Button'
+              ParentFont = False
+              EllipsisPosition = epNone
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = False
+              PictureClick = False
+              Down = False
+              ImageAlign = iatTop
+              ImagePadding = 0
+              ShowCaption = True
+              ShowShadown = False
+              CaptionShadownColor = 3355443
+              ShowNineGridsType = ngtAlways
+              IncContentWhenClick = True
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = 0
+              NineGridsRes = jdu9GLightRedNormal
+              NineGridsHoverRes = jdu9GLightRedHover
+              NineGridsDownRes = jdu9GLightYellowDown
+              NineGridsResAtTop = False
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.200000002980232200
+              AnimateOutTime = 0.300000011920929000
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object jduButton9: TJDUIButton
+              Left = 37
+              Top = 44
+              Width = 180
+              Height = 38
+              Animate = True
+              GrayScale = False
+              UseFormFontName = True
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = False
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = 3355443
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = 'Button'
+              ParentFont = False
+              EllipsisPosition = epNone
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = False
+              PictureClick = False
+              Down = False
+              ImageAlign = iatTop
+              ImagePadding = 0
+              ShowCaption = True
+              ShowShadown = False
+              CaptionShadownColor = 3355443
+              ShowNineGridsType = ngtAlways
+              IncContentWhenClick = True
+              ShowNineGridsCenter = True
+              PictureBackgroundColor = 0
+              NineGridsRes = jdu9GLightGrayNormal
+              NineGridsHoverRes = jdu9GLightGrayHover
+              NineGridsDownRes = jdu9GLightGrayDown
+              NineGridsResAtTop = False
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.200000002980232200
+              AnimateOutTime = 0.300000011920929000
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object jduCheckBox0: TJDUICheckBox
+              Left = 33
+              Top = 266
+              Width = 93
+              Height = 28
+              Animate = True
+              GrayScale = False
+              UseFormFontName = False
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              JduTabStop = True
+              JduTabOrder = 0
+              Caption = 'CheckBox'
+              ParentFont = False
+              CheckBoxRes = jduCheckBoxRes1
+              IconTextSpace = 5
+              Checked = False
+              EllipsisPosition = epNone
+              ShowShadown = False
+              CaptionShadownColor = -1
+            end
+            object jduCheckBox1: TJDUICheckBox
+              Left = 33
+              Top = 300
+              Width = 93
+              Height = 28
+              Animate = True
+              GrayScale = False
+              UseFormFontName = False
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              JduTabStop = True
+              JduTabOrder = 0
+              Caption = 'CheckBox'
+              ParentFont = False
+              CheckBoxRes = jduCheckBoxRes1
+              IconTextSpace = 5
+              Checked = True
+              EllipsisPosition = epNone
+              ShowShadown = False
+              CaptionShadownColor = -1
+            end
+            object jduCheckBox2: TJDUICheckBox
+              Left = 153
+              Top = 266
+              Width = 93
+              Height = 28
+              Animate = True
+              GrayScale = False
+              UseFormFontName = False
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              JduTabStop = True
+              JduTabOrder = 0
+              Caption = 'CheckBox'
+              ParentFont = False
+              CheckBoxRes = jduCheckBoxRes2
+              IconTextSpace = 5
+              Checked = False
+              EllipsisPosition = epNone
+              ShowShadown = False
+              CaptionShadownColor = -1
+            end
+            object jduCheckBox3: TJDUICheckBox
+              Left = 153
+              Top = 300
+              Width = 93
+              Height = 28
+              Animate = True
+              GrayScale = False
+              UseFormFontName = False
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              JduTabStop = True
+              JduTabOrder = 0
+              Caption = 'CheckBox'
+              ParentFont = False
+              CheckBoxRes = jduCheckBoxRes2
+              IconTextSpace = 5
+              Checked = True
+              EllipsisPosition = epNone
+              ShowShadown = False
+              CaptionShadownColor = -1
+            end
+            object jduProgressBar1: TJDUIProgressBar
+              Left = 445
+              Top = 271
+              Width = 337
+              Height = 17
+              Animate = True
+              GrayScale = False
+              UseFormFontName = False
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              Max = 100
+              Min = 0
+              Value = 30
+              Background9GRes = jdu9GProgressBack
+              Foreground9GRes = jdu9GProgressFore
+            end
+            object jduRadioButton1: TJDUIRadioButton
+              Left = 274
+              Top = 266
+              Width = 100
+              Height = 28
+              Animate = True
+              GrayScale = False
+              UseFormFontName = False
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              JduTabStop = True
+              JduTabOrder = 0
+              Caption = 'RadioButton'
+              ParentFont = False
+              CheckBoxRes = jduCheckBoxRes3
+              IconTextSpace = 5
+              Checked = False
+              EllipsisPosition = epNone
+              ShowShadown = False
+              CaptionShadownColor = -1
+              GroupID = 0
+            end
+            object jduRadioButton2: TJDUIRadioButton
+              Left = 274
+              Top = 300
+              Width = 100
+              Height = 28
+              Animate = True
+              GrayScale = False
+              UseFormFontName = False
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              JduTabStop = True
+              JduTabOrder = 0
+              Caption = 'RadioButton'
+              ParentFont = False
+              CheckBoxRes = jduCheckBoxRes3
+              IconTextSpace = 5
+              Checked = True
+              EllipsisPosition = epNone
+              ShowShadown = False
+              CaptionShadownColor = -1
+              GroupID = 0
+            end
+            object jduTrackBar1: TJDUITrackBar
+              Left = 445
+              Top = 304
+              Width = 337
+              Height = 21
+              Animate = True
+              GrayScale = False
+              UseFormFontName = False
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              Max = 100
+              Min = 0
+              Value = 30
+              Background9GRes = jdu9GProgressBack
+              Foreground9GRes = jdu9GProgressFore
+              OnChange = jduTrackBar1Change
+              TrackPicture.Data = {
+                89504E470D0A1A0A0000000D494844520000000F0000000F08060000003BD695
+                4A0000001974455874536F6674776172650041646F626520496D616765526561
+                647971C9653C0000032269545874584D4C3A636F6D2E61646F62652E786D7000
+                000000003C3F787061636B657420626567696E3D22EFBBBF222069643D225735
+                4D304D7043656869487A7265537A4E54637A6B633964223F3E203C783A786D70
+                6D65746120786D6C6E733A783D2261646F62653A6E733A6D6574612F2220783A
+                786D70746B3D2241646F626520584D5020436F726520352E332D633031312036
+                362E3134353636312C20323031322F30322F30362D31343A35363A3237202020
+                2020202020223E203C7264663A52444620786D6C6E733A7264663D2268747470
+                3A2F2F7777772E77332E6F72672F313939392F30322F32322D7264662D73796E
+                7461782D6E7323223E203C7264663A4465736372697074696F6E207264663A61
+                626F75743D222220786D6C6E733A786D703D22687474703A2F2F6E732E61646F
+                62652E636F6D2F7861702F312E302F2220786D6C6E733A786D704D4D3D226874
+                74703A2F2F6E732E61646F62652E636F6D2F7861702F312E302F6D6D2F222078
+                6D6C6E733A73745265663D22687474703A2F2F6E732E61646F62652E636F6D2F
+                7861702F312E302F73547970652F5265736F75726365526566232220786D703A
+                43726561746F72546F6F6C3D2241646F62652050686F746F73686F7020435336
+                202857696E646F7773292220786D704D4D3A496E7374616E636549443D22786D
+                702E6969643A4144374146454541414630433131453339383644393245323437
+                3846444436422220786D704D4D3A446F63756D656E7449443D22786D702E6469
+                643A414437414645454241463043313145333938364439324532343738464444
+                3642223E203C786D704D4D3A4465726976656446726F6D2073745265663A696E
+                7374616E636549443D22786D702E6969643A4144374146454538414630433131
+                453339383644393245323437384644443642222073745265663A646F63756D65
+                6E7449443D22786D702E6469643A414437414645453941463043313145333938
+                3644393245323437384644443642222F3E203C2F7264663A4465736372697074
+                696F6E3E203C2F7264663A5244463E203C2F783A786D706D6574613E203C3F78
+                7061636B657420656E643D2272223F3EDCC19222000001174944415478DAAD93
+                316B83501485EF03DD5C04A58B0A2E2E8D8B9D93FE8D766F07F38392A19DDBFC
+                8DA4B375305D5C049552507071AA823DB7E581B4B4B1690F1C1EC2FBEEF35ECE
+                155114D1272DE0109EC3265CC10FF01ADEF1852008DE2F8A113C83979AA685A6
+                69124E521485FABEA7B66DA9AA2A3EB9C00AF07E0C074288C8B22C62F03B7181
+                B22C69188633147894F08DE338578661D021D5754D799EDF02BE66788E5FDC79
+                9E7710944AD3945B3867F8CE75DD4B5DD727C34DD35096651B865F7CDF3F5155
+                7532DC751D2549F2CCF020473F551818C571FCFAE797EFD1F3C5B13D2F30EDED
+                B1D3E6EF956DDBE14F0191E2A01445B1C69C96123E45C2F6BF48D80CF0D3BF64
+                7B2CB9557C725E6BFAD8A62F5BF5065E34AA5671796E0C0000000049454E44AE
+                426082}
+              TrackPictureHover.Data = {
+                89504E470D0A1A0A0000000D494844520000000F0000000F08060000003BD695
+                4A0000001974455874536F6674776172650041646F626520496D616765526561
+                647971C9653C0000036669545874584D4C3A636F6D2E61646F62652E786D7000
+                000000003C3F787061636B657420626567696E3D22EFBBBF222069643D225735
+                4D304D7043656869487A7265537A4E54637A6B633964223F3E203C783A786D70
+                6D65746120786D6C6E733A783D2261646F62653A6E733A6D6574612F2220783A
+                786D70746B3D2241646F626520584D5020436F726520352E332D633031312036
+                362E3134353636312C20323031322F30322F30362D31343A35363A3237202020
+                2020202020223E203C7264663A52444620786D6C6E733A7264663D2268747470
+                3A2F2F7777772E77332E6F72672F313939392F30322F32322D7264662D73796E
+                7461782D6E7323223E203C7264663A4465736372697074696F6E207264663A61
+                626F75743D222220786D6C6E733A786D704D4D3D22687474703A2F2F6E732E61
+                646F62652E636F6D2F7861702F312E302F6D6D2F2220786D6C6E733A73745265
+                663D22687474703A2F2F6E732E61646F62652E636F6D2F7861702F312E302F73
+                547970652F5265736F75726365526566232220786D6C6E733A786D703D226874
+                74703A2F2F6E732E61646F62652E636F6D2F7861702F312E302F2220786D704D
+                4D3A4F726967696E616C446F63756D656E7449443D22786D702E6469643A3641
+                3645453243323043414645333131393042304132324242374139324242332220
+                786D704D4D3A446F63756D656E7449443D22786D702E6469643A333131333544
+                39314146304431314533414245384134454331453944333236462220786D704D
+                4D3A496E7374616E636549443D22786D702E6969643A33313133354439304146
+                304431314533414245384134454331453944333236462220786D703A43726561
+                746F72546F6F6C3D2241646F62652050686F746F73686F702043533620285769
+                6E646F777329223E203C786D704D4D3A4465726976656446726F6D2073745265
+                663A696E7374616E636549443D22786D702E6969643A36413645453243323043
+                41464533313139304230413232424237413932424233222073745265663A646F
+                63756D656E7449443D22786D702E6469643A3636364545324332304341464533
+                313139304230413232424237413932424233222F3E203C2F7264663A44657363
+                72697074696F6E3E203C2F7264663A5244463E203C2F783A786D706D6574613E
+                203C3F787061636B657420656E643D2272223F3E225A8DB80000012849444154
+                78DAA593314F836010868FC00403013406080B13894C38B7FE0DDD75A03FA81D
+                7456FF8675C6A9244C2C043051200C301808BDD37C09D1B4C5FA266F2E24DFF3
+                C11DEF714110C00FCDD13E7A863E45BFA35FD02BF49A0E789EF775901BC12E7A
+                218AA2AF691A60054110A0EB3A68DB168AA2A04A172C11DE8C618FE3B840D775
+                50551576A92C4BC8F31C8661B8C00B5E197C679AE68DA22870485555419AA6F7
+                08DF123CC34F5CDBB67D10648AE3985AB824F8C1B2AC6B599627C3755D439224
+                4F04BF398E7346C3992A1A62144519C183EBBA9341120E0CC230FCFCF79B1FB1
+                E7AB637B9EE3B49F8F9D363D2F0DC3F0F7058489829265D90AFFF382C1E798B0
+                CD1F12E6221CEECCB62449C0F33CF47D0F4DD3ECCDF6586CABA89EA03FE07B9B
+                7E6DD5163914AA566338F0630000000049454E44AE426082}
+              TrackPictureDown.Data = {
+                89504E470D0A1A0A0000000D494844520000000F0000000F08060000003BD695
+                4A0000001974455874536F6674776172650041646F626520496D616765526561
+                647971C9653C0000036669545874584D4C3A636F6D2E61646F62652E786D7000
+                000000003C3F787061636B657420626567696E3D22EFBBBF222069643D225735
+                4D304D7043656869487A7265537A4E54637A6B633964223F3E203C783A786D70
+                6D65746120786D6C6E733A783D2261646F62653A6E733A6D6574612F2220783A
+                786D70746B3D2241646F626520584D5020436F726520352E332D633031312036
+                362E3134353636312C20323031322F30322F30362D31343A35363A3237202020
+                2020202020223E203C7264663A52444620786D6C6E733A7264663D2268747470
+                3A2F2F7777772E77332E6F72672F313939392F30322F32322D7264662D73796E
+                7461782D6E7323223E203C7264663A4465736372697074696F6E207264663A61
+                626F75743D222220786D6C6E733A786D704D4D3D22687474703A2F2F6E732E61
+                646F62652E636F6D2F7861702F312E302F6D6D2F2220786D6C6E733A73745265
+                663D22687474703A2F2F6E732E61646F62652E636F6D2F7861702F312E302F73
+                547970652F5265736F75726365526566232220786D6C6E733A786D703D226874
+                74703A2F2F6E732E61646F62652E636F6D2F7861702F312E302F2220786D704D
+                4D3A4F726967696E616C446F63756D656E7449443D22786D702E6469643A3641
+                3645453243323043414645333131393042304132324242374139324242332220
+                786D704D4D3A446F63756D656E7449443D22786D702E6469643A314238454546
+                42384146304431314533383739424330314245344237333146452220786D704D
+                4D3A496E7374616E636549443D22786D702E6969643A31423845454642374146
+                304431314533383739424330314245344237333146452220786D703A43726561
+                746F72546F6F6C3D2241646F62652050686F746F73686F702043533620285769
+                6E646F777329223E203C786D704D4D3A4465726976656446726F6D2073745265
+                663A696E7374616E636549443D22786D702E6969643A36413645453243323043
+                41464533313139304230413232424237413932424233222073745265663A646F
+                63756D656E7449443D22786D702E6469643A3636364545324332304341464533
+                313139304230413232424237413932424233222F3E203C2F7264663A44657363
+                72697074696F6E3E203C2F7264663A5244463E203C2F783A786D706D6574613E
+                203C3F787061636B657420656E643D2272223F3E8A9934DA0000011749444154
+                78DAAD93314F835010C7EF858581C00084818584D14E38B77E0DDD75A01FA81D
+                74AE7E8DD619A7BA92306024C00061200682FFD3BC8468B4B4FA4FFEB9BCE4FD
+                0EEEDE9D88A288BE680187F01CB6E11C7E84D7F08E2F0441F071518CE019BC54
+                5535340C8310495114EAFB9EDAB6A5AAAA38728215E0FD180E841091699AC4E0
+                4FE2046559D2300CE748F024E15BDBB6AF755DA743AAEB9AF23CBF037CC3F01C
+                BFB8735DF7202895A6299770C1F0C6719C2B4DD326C34DD35096650F0CBF7A9E
+                E77073A6AAEB3A4A92E485E1C1F7FDC9200B0DA3388EDFFEFCE57BD47C796ACD
+                0B747B7B6AB7F9BCB22C2BFC6D40A478508AA258E39D97123EC384ED8F98B019
+                E0E77F99EDB1E45671B4E0823EB7E9DB56BD0300F8AA568F7DF0630000000049
+                454E44AE426082}
+            end
+            object JDUIButton5: TJDUIButton
+              Left = 299
+              Top = 359
+              Width = 191
+              Height = 23
+              Animate = True
+              GrayScale = False
+              UseFormFontName = True
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = False
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = 3355443
+              Font.Height = -16
+              Font.Name = 'Tahoma'
+              Font.Style = [fsBold]
+              OnMouseDown = FormMouseDown
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = #9670' Edit'
+              ParentFont = False
+              EllipsisPosition = epNone
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = False
+              PictureClick = False
+              Down = False
+              ImageAlign = iatLeft
+              ImagePadding = 0
+              ShowCaption = True
+              ShowShadown = False
+              CaptionShadownColor = 3355443
+              ShowNineGridsType = ngtHover
+              IncContentWhenClick = False
+              ShowNineGridsCenter = False
+              PictureBackgroundColor = 0
+              NineGridsResAtTop = True
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.200000002980232200
+              AnimateOutTime = 0.300000011920929000
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object JDUIButton6: TJDUIButton
+              Left = 317
+              Top = 393
+              Width = 191
+              Height = 23
+              Animate = True
+              GrayScale = False
+              UseFormFontName = True
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = False
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = 3355443
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              OnMouseDown = FormMouseDown
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = 'Normal'
+              ParentFont = False
+              EllipsisPosition = epNone
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = False
+              PictureClick = False
+              Down = False
+              ImageAlign = iatLeft
+              ImagePadding = 0
+              ShowCaption = True
+              ShowShadown = False
+              CaptionShadownColor = 3355443
+              ShowNineGridsType = ngtHover
+              IncContentWhenClick = False
+              ShowNineGridsCenter = False
+              PictureBackgroundColor = 0
+              NineGridsResAtTop = True
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.200000002980232200
+              AnimateOutTime = 0.300000011920929000
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object JDUIButton7: TJDUIButton
+              Left = 514
+              Top = 393
+              Width = 191
+              Height = 23
+              Animate = True
+              GrayScale = False
+              UseFormFontName = True
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = False
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = 3355443
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              OnMouseDown = FormMouseDown
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = 'NumberOnly'
+              ParentFont = False
+              EllipsisPosition = epNone
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = False
+              PictureClick = False
+              Down = False
+              ImageAlign = iatLeft
+              ImagePadding = 0
+              ShowCaption = True
+              ShowShadown = False
+              CaptionShadownColor = 3355443
+              ShowNineGridsType = ngtHover
+              IncContentWhenClick = False
+              ShowNineGridsCenter = False
+              PictureBackgroundColor = 0
+              NineGridsResAtTop = True
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.200000002980232200
+              AnimateOutTime = 0.300000011920929000
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object JDUIButton8: TJDUIButton
+              Left = 712
+              Top = 393
+              Width = 191
+              Height = 23
+              Animate = True
+              GrayScale = False
+              UseFormFontName = True
+              UseFormFontColor = False
+              UseExtendResource = False
+              Alpha = 255
+              EnableParentClip = True
+              EnableFormClip = True
+              ShowHint = False
+              AutoSize = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = 3355443
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              OnMouseDown = FormMouseDown
+              JduTabStop = False
+              JduTabOrder = 0
+              KeepPicture = False
+              Caption = 'Password'
+              ParentFont = False
+              EllipsisPosition = epNone
+              Default = False
+              DropDownIconClickAreaWidth = 0
+              DropDownIconClickAreaMargin = 0
+              DropDownIconHoverColor = 0
+              PicureWidth = -1
+              PicureHeight = -1
+              ShowPicture = False
+              PictureClick = False
+              Down = False
+              ImageAlign = iatLeft
+              ImagePadding = 0
+              ShowCaption = True
+              ShowShadown = False
+              CaptionShadownColor = 3355443
+              ShowNineGridsType = ngtHover
+              IncContentWhenClick = False
+              ShowNineGridsCenter = False
+              PictureBackgroundColor = 0
+              NineGridsResAtTop = True
+              AnimateInType = batAlpha
+              AnimateOutType = batAlpha
+              AnimateInTime = 0.200000002980232200
+              AnimateOutTime = 0.300000011920929000
+              AnimationInType = jduAnimationOut
+              AnimationOutType = jduAnimationOut
+              AnimationInInterpolation = jduInterpolationSinusoidal
+              AnimationOutInterpolation = jduInterpolationSinusoidal
+            end
+            object JDUIEditOSR1: TJDUIEditOSR
+              Left = 310
+              Top = 419
+              Width = 192
+              Height = 35
+              Margins.Left = 7
+              Margins.Top = 2
+              Margins.Right = 7
+              Margins.Bottom = 2
+              Clips.Left = 0
+              Clips.Top = 0
+              Clips.Right = 0
+              Clips.Bottom = 0
+              TabOrder = 0
+              Padding.Left = 5
+              Padding.Right = 5
+              Anchors = [akTop, akRight]
+              LineSpace = 2
+              ScrollBarMarginRight = 0
+              Alpha = 255
+              TextOnly = True
+              AutoClientSize = False
+              MaxAutoClientWidth = 0
+              MaxAutoClientHeight = 0
+              MinAutoClientWidth = 0
+              ImageUseMD5Code = False
+              MaxImageSize = 1000
+              MultiLine = False
+              WordBreak = False
+              Text = ''
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Height = -13
+              Font.Name = #23435#20307
+              Font.Style = []
+              ParentFont = False
+              BorderRes = jdu9GEdit
+              MaxLength = 0
+              PasswordChar = #0
+              ReadOnly = False
+              AutoSelect = False
+              NumbersOnly = False
+              UnFocusedColor = clBlack
+              UseFormFontName = False
+              UseFormFontColor = False
+            end
+            object JDUIEditOSR2: TJDUIEditOSR
+              Left = 507
+              Top = 419
+              Width = 193
+              Height = 35
+              Margins.Left = 7
+              Margins.Top = 2
+              Margins.Right = 7
+              Margins.Bottom = 2
+              Clips.Left = 0
+              Clips.Top = 0
+              Clips.Right = 0
+              Clips.Bottom = 0
+              TabOrder = 1
+              Padding.Left = 5
+              Padding.Right = 5
+              Anchors = [akTop, akRight]
+              LineSpace = 2
+              ScrollBarMarginRight = 0
+              Alpha = 255
+              TextOnly = True
+              AutoClientSize = False
+              MaxAutoClientWidth = 0
+              MaxAutoClientHeight = 0
+              MinAutoClientWidth = 0
+              ImageUseMD5Code = False
+              MaxImageSize = 1000
+              MultiLine = False
+              WordBreak = False
+              Text = ''
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Height = -13
+              Font.Name = #23435#20307
+              Font.Style = []
+              ParentFont = False
+              BorderRes = jdu9GEdit
+              MaxLength = 0
+              PasswordChar = #0
+              ReadOnly = False
+              AutoSelect = False
+              NumbersOnly = True
+              UnFocusedColor = clBlack
+              UseFormFontName = False
+              UseFormFontColor = False
+            end
+            object JDUIEditOSR3: TJDUIEditOSR
+              Left = 705
+              Top = 419
+              Width = 193
+              Height = 35
+              Margins.Left = 7
+              Margins.Top = 2
+              Margins.Right = 7
+              Margins.Bottom = 2
+              Clips.Left = 0
+              Clips.Top = 0
+              Clips.Right = 0
+              Clips.Bottom = 0
+              TabOrder = 2
+              Padding.Left = 5
+              Padding.Right = 5
+              Anchors = [akTop, akRight]
+              LineSpace = 2
+              ScrollBarMarginRight = 0
+              Alpha = 255
+              TextOnly = True
+              AutoClientSize = False
+              MaxAutoClientWidth = 0
+              MaxAutoClientHeight = 0
+              MinAutoClientWidth = 0
+              ImageUseMD5Code = False
+              MaxImageSize = 1000
+              MultiLine = False
+              WordBreak = False
+              Text = ''
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Height = -13
+              Font.Name = #23435#20307
+              Font.Style = []
+              ParentFont = False
+              BorderRes = jdu9GEdit
+              MaxLength = 0
+              PasswordChar = '*'
+              ReadOnly = False
+              AutoSelect = False
+              NumbersOnly = False
+              UnFocusedColor = clBlack
+              UseFormFontName = False
+              UseFormFontColor = False
             end
           end
         end

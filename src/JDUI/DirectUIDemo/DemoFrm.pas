@@ -217,6 +217,13 @@ type
     JDUIButton2: TJDUIButton;
     JDUIButton3: TJDUIButton;
     JDUIButton4: TJDUIButton;
+    JDUIEditOSR1: TJDUIEditOSR;
+    JDUIButton5: TJDUIButton;
+    JDUIButton6: TJDUIButton;
+    JDUIButton7: TJDUIButton;
+    JDUIEditOSR2: TJDUIEditOSR;
+    JDUIButton8: TJDUIButton;
+    JDUIEditOSR3: TJDUIEditOSR;
     procedure FormCreate(Sender: TObject);
     procedure FormMouseDown(Sender: TObject; Button: TMouseButton; Shift: TShiftState; X, Y: Integer);
     procedure jduTab0Click(Sender: TObject);
