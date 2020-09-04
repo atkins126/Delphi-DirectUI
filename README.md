@@ -21,26 +21,19 @@ JDUI是一套Delphi DirectUI界面引擎，基于Graphics32并做了大量针对
 ## 安装编译
 
 1. clone 所有文件至本地电脑；
-
 2. 打开 JDUI Projects项目组；
-
 3. 编译并安装：PngComponents;
-
 4. 编译并安装：DCEF3;
-
 5. 编译并安装：Graphics32;
-
 6. 编译并安装：DragDrop；
-
 7. 编译并安装：DXScene；
-
 8. 安装  JDUIControls（DirectUI界面组件）;
-   1. 复制DirectUIDemo/win32/Debug/*.dll 文件至 C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl （注意不一定是C盘）；
-   2. 编译并安装 JDUIControls 控件。
-
+   1. 编译(Build) JDUIControls 控件；
+   2. 复制 DirectUIDemo/win32/Debug/*.dll 文件至 JDUIControls.bpl所在目录，通常应该是 C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl （先确认 JDUIControls.bpl 在此目录中）；
+3. 安装(install) JDUIControls 控件。
+   
 9. 打开Demo项目；
-   在控件未安装之前，请勿打开此项目中的窗口文件，避免找不到控件导致控件被移除，可能造成无法编译或运行出错；
-
+   在 JDUIControls控件未安装之前，请勿打开此项目中的窗口文件，避免找不到控件导致控件被移除，可能造成无法编译或运行出错；
 10. 编译运行DEMO项目；
       直接编译并运行Demo项目即可（如以Release方式运行，请先将Debug目录中的文件复制到Release目录）。
 
