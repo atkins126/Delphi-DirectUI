@@ -370,7 +370,7 @@ TFlashPlayerControl = class(TWinControl,
                             IOleInPlaceFrame,
                             IDispatch,
                             IPropertyNotifySink,
-                            ISimpleFrameSite,
+                            //ISimpleFrameSite,
                             IFlashPlayerControlBase,
                             IOleWindow,
                             DShockwaveFlashEvents)
@@ -641,19 +641,19 @@ TFlashPlayerControl = class(TWinControl,
       Flags: Word; var Params; VarResult, ExcepInfo, ArgErr: Pointer): HResult; stdcall;
     { ISimpleFrameSite }
 
-{$IF CompilerVersion >= 33}
-    function PreMessageFilter(wnd: HWnd; msg: UInt; wp: WPARAM; lp: LPARAM;
-      out res: LRESULT; out Cookie: DWORD): HResult;
-      stdcall;
-    function PostMessageFilter(wnd: HWnd; msg: UInt; wp: WPARAM; lp: LPARAM;
-      out res: LRESULT; Cookie: DWORD): HResult;
-      stdcall;
-{$ELSE}
-    function PreMessageFilter(wnd: HWnd; msg, wp, lp: Integer;
-      out res: IntPtr; out Cookie: Longint): HResult; stdcall;
-    function PostMessageFilter(wnd: HWnd; msg, wp, lp: Integer;
-      out res: IntPtr; Cookie: Longint): HResult; stdcall;
-{$IFEND}
+//{$IF CompilerVersion >= 33}
+//    function PreMessageFilter(wnd: HWnd; msg: UInt; wp: WPARAM; lp: LPARAM;
+//      out res: LRESULT; out Cookie: DWORD): HResult;
+//      stdcall;
+//    function PostMessageFilter(wnd: HWnd; msg: UInt; wp: WPARAM; lp: LPARAM;
+//      out res: LRESULT; Cookie: DWORD): HResult;
+//      stdcall;
+//{$ELSE}
+//    function PreMessageFilter(wnd: HWnd; msg, wp, lp: Integer;
+//      out res: IntPtr; out Cookie: Longint): HResult; stdcall;
+//    function PostMessageFilter(wnd: HWnd; msg, wp, lp: Integer;
+//      out res: IntPtr; Cookie: Longint): HResult; stdcall;
+//{$IFEND}
 
     { TFlashPlayerControl }
     procedure CreateWnd; override;
@@ -4848,31 +4848,31 @@ begin
 end;
 
 { TFlashPlayerControl.ISimpleFrameSite }
-{$IF CompilerVersion >= 33}
-function TFlashPlayerControl.PreMessageFilter(wnd: HWnd; msg: UInt; wp: WPARAM; lp: LPARAM;
-      out res: LRESULT; out Cookie: DWORD): HResult;
-begin
-  Result := S_OK;
-end;
-
-function TFlashPlayerControl.PostMessageFilter(wnd: HWnd; msg: UInt; wp: WPARAM; lp: LPARAM;
-      out res: LRESULT; Cookie: DWORD): HResult;
-begin
-  Result := S_OK;
-end;
-{$ELSE}
-function TFlashPlayerControl.PreMessageFilter(wnd: HWnd; msg, wp, lp: Integer;
-  out res: IntPtr; out Cookie: Longint): HResult;
-begin
-  Result := S_OK;
-end;
-
-function TFlashPlayerControl.PostMessageFilter(wnd: HWnd; msg, wp, lp: Integer;
-  out res: IntPtr; Cookie: Longint): HResult;
-begin
-  Result := S_OK;
-end;
-{$IFEND}
+//{$IF CompilerVersion >= 33}
+//function TFlashPlayerControl.PreMessageFilter(wnd: HWnd; msg: UInt; wp: WPARAM; lp: LPARAM;
+//      out res: LRESULT; out Cookie: DWORD): HResult;
+//begin
+//  Result := S_OK;
+//end;
+//
+//function TFlashPlayerControl.PostMessageFilter(wnd: HWnd; msg: UInt; wp: WPARAM; lp: LPARAM;
+//      out res: LRESULT; Cookie: DWORD): HResult;
+//begin
+//  Result := S_OK;
+//end;
+//{$ELSE}
+//function TFlashPlayerControl.PreMessageFilter(wnd: HWnd; msg, wp, lp: Integer;
+//  out res: IntPtr; out Cookie: Longint): HResult;
+//begin
+//  Result := S_OK;
+//end;
+//
+//function TFlashPlayerControl.PostMessageFilter(wnd: HWnd; msg, wp, lp: Integer;
+//  out res: IntPtr; Cookie: Longint): HResult;
+//begin
+//  Result := S_OK;
+//end;
+//{$IFEND}
 
 //=============================================================================
 // Flash specific
