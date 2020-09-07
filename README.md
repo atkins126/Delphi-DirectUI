@@ -83,7 +83,6 @@ DirectUI的窗体以 WS_EX_LAYERED 模式运行，通过 UpdateLayeredWindow 方
     EnabledGlass := VistaUP and (not Win8) and (not Win10); //是否显示毛玻璃效果，仅Win7或Vista有效
     DWMEnabled := EnabledGlass; //开启DWMEnabled，EnabledGlass才会生效
     
-    PlaySwfSkin := True; //是否允许加载Flash皮肤（动态）
     BlendBorder := True; //窗体四角是否做遮罩处理（通常是为了处理平滑的圆角效果）
   
     Self.ShowStyle := fssZoom; //窗体打开时的动画效果，有很多种效果，具体请查看枚举值
