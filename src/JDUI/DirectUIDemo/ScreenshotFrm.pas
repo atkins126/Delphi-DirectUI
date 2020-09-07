@@ -6,8 +6,7 @@ uses
   Generics.Collections, JDUIUtils, JDUIControl, JDUIBaseControl, ScreenshotToolFrm, Gr32_Lines, SuperObject, jinUtils, DateUtils,
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, GR32, GR32_Image, GR32_Layers, Clipbrd,
-  Vcl.AppEvnts, GR32_Objects, GR32_Misc, Vcl.Menus, Vcl.ImgList,
-  PngImageList, Vcl.ExtCtrls, System.ImageList;
+  Vcl.AppEvnts, GR32_Objects, GR32_Misc, Vcl.Menus, Vcl.ImgList, Vcl.ExtCtrls, System.ImageList;
 
 type
   TSaveDialog = class(Vcl.Dialogs.TSaveDialog)
@@ -35,21 +34,6 @@ type
     Image32: TImage32;
     ApplicationEvents2: TApplicationEvents;
     SaveDialog: TSaveDialog;
-    pmMenus: TPopupMenu;
-    miArrow: TMenuItem;
-    miRect: TMenuItem;
-    miCircle: TMenuItem;
-    miPen: TMenuItem;
-    miText: TMenuItem;
-    miOffline: TMenuItem;
-    jpmMenus: TJDUIPopupMenu;
-    miUndo: TMenuItem;
-    miReset: TMenuItem;
-    N1: TMenuItem;
-    N2: TMenuItem;
-    N3: TMenuItem;
-    N4: TMenuItem;
-    imgMenus: TPngImageList;
     procedure FormCreate(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
     procedure Image32MouseMove(Sender: TObject; Shift: TShiftState; X,
@@ -1577,13 +1561,8 @@ begin
     if FSelected then
     begin
       ARect := GetSelectedRect;
-      if PtInRect(ARect, Point(X, Y)) then
-      begin
-        jpmMenus.Popup(X, Y, Self);
-      end
-      else
-        CancelSelected(X, Y);
-    end
+      CancelSelected(X, Y);
+     end
     else
     begin
       Close;

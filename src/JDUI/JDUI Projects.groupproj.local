@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Default.Personality>
-		<Projects ActiveProject="C:\工作\JDUI\Libs\pngcomponents\PackagesD2010\PngComponentsDesign.dproj"/>
+		<Projects ActiveProject="C:\工作\JDUI\Packages\DirectUI\JDUIControls.dproj"/>
 	</Default.Personality>
 	<Transactions>
     <Transaction>2014/01/09 19:57:54.000.089,C:\工作\新版IM\IM\Client\Projects.groupproj=C:\工作\新版IM\IM\Client\IM Projects.groupproj</Transaction>

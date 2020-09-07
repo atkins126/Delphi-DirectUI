@@ -12,9 +12,6 @@
         <Projects Include="Libs\DragDrop\Packages\DragDropDXE5.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="Libs\DXScene442\packages\dxscene_d2011.dproj">
-            <Dependencies/>
-        </Projects>
         <Projects Include="Libs\Graphics32\Packages\GR32_DSGN_RSXE3.dproj">
             <Dependencies/>
         </Projects>
@@ -22,12 +19,6 @@
             <Dependencies/>
         </Projects>
         <Projects Include="Libs\chromium\packages\DCEF_XE5.dproj">
-            <Dependencies/>
-        </Projects>
-        <Projects Include="Libs\pngcomponents\PackagesD2010\PngComponents.dproj">
-            <Dependencies/>
-        </Projects>
-        <Projects Include="Libs\pngcomponents\PackagesD2010\PngComponentsDesign.dproj">
             <Dependencies/>
         </Projects>
     </ItemGroup>
@@ -65,15 +56,6 @@
     <Target Name="DragDropDXE5:Make">
         <MSBuild Projects="Libs\DragDrop\Packages\DragDropDXE5.dproj" Targets="Make"/>
     </Target>
-    <Target Name="dxscene_d2011">
-        <MSBuild Projects="Libs\DXScene442\packages\dxscene_d2011.dproj"/>
-    </Target>
-    <Target Name="dxscene_d2011:Clean">
-        <MSBuild Projects="Libs\DXScene442\packages\dxscene_d2011.dproj" Targets="Clean"/>
-    </Target>
-    <Target Name="dxscene_d2011:Make">
-        <MSBuild Projects="Libs\DXScene442\packages\dxscene_d2011.dproj" Targets="Make"/>
-    </Target>
     <Target Name="GR32_DSGN_RSXE3">
         <MSBuild Projects="Libs\Graphics32\Packages\GR32_DSGN_RSXE3.dproj"/>
     </Target>
@@ -101,32 +83,14 @@
     <Target Name="DCEF_XE5:Make">
         <MSBuild Projects="Libs\chromium\packages\DCEF_XE5.dproj" Targets="Make"/>
     </Target>
-    <Target Name="PngComponents">
-        <MSBuild Projects="Libs\pngcomponents\PackagesD2010\PngComponents.dproj"/>
-    </Target>
-    <Target Name="PngComponents:Clean">
-        <MSBuild Projects="Libs\pngcomponents\PackagesD2010\PngComponents.dproj" Targets="Clean"/>
-    </Target>
-    <Target Name="PngComponents:Make">
-        <MSBuild Projects="Libs\pngcomponents\PackagesD2010\PngComponents.dproj" Targets="Make"/>
-    </Target>
-    <Target Name="PngComponentsDesign">
-        <MSBuild Projects="Libs\pngcomponents\PackagesD2010\PngComponentsDesign.dproj"/>
-    </Target>
-    <Target Name="PngComponentsDesign:Clean">
-        <MSBuild Projects="Libs\pngcomponents\PackagesD2010\PngComponentsDesign.dproj" Targets="Clean"/>
-    </Target>
-    <Target Name="PngComponentsDesign:Make">
-        <MSBuild Projects="Libs\pngcomponents\PackagesD2010\PngComponentsDesign.dproj" Targets="Make"/>
-    </Target>
     <Target Name="Build">
-        <CallTarget Targets="DirectUIDemo;JDUIControls;DragDropDXE5;dxscene_d2011;GR32_DSGN_RSXE3;GR32_RSXE3;DCEF_XE5;PngComponents;PngComponentsDesign"/>
+        <CallTarget Targets="DirectUIDemo;JDUIControls;DragDropDXE5;GR32_DSGN_RSXE3;GR32_RSXE3;DCEF_XE5"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="DirectUIDemo:Clean;JDUIControls:Clean;DragDropDXE5:Clean;dxscene_d2011:Clean;GR32_DSGN_RSXE3:Clean;GR32_RSXE3:Clean;DCEF_XE5:Clean;PngComponents:Clean;PngComponentsDesign:Clean"/>
+        <CallTarget Targets="DirectUIDemo:Clean;JDUIControls:Clean;DragDropDXE5:Clean;GR32_DSGN_RSXE3:Clean;GR32_RSXE3:Clean;DCEF_XE5:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="DirectUIDemo:Make;JDUIControls:Make;DragDropDXE5:Make;dxscene_d2011:Make;GR32_DSGN_RSXE3:Make;GR32_RSXE3:Make;DCEF_XE5:Make;PngComponents:Make;PngComponentsDesign:Make"/>
+        <CallTarget Targets="DirectUIDemo:Make;JDUIControls:Make;DragDropDXE5:Make;GR32_DSGN_RSXE3:Make;GR32_RSXE3:Make;DCEF_XE5:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>

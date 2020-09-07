@@ -71,8 +71,8 @@
         <DCC_RemoteDebug>true</DCC_RemoteDebug>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
-        <VerInfo_Build>782</VerInfo_Build>
-        <VerInfo_Keys>CompanyName=;FileVersion=1.0.0.782;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductVersion=1.0.0.0;Comments=;ProgramID=com.embarcadero.$(MSBuildProjectName);FileDescription=$(MSBuildProjectName);ProductName=$(MSBuildProjectName)</VerInfo_Keys>
+        <VerInfo_Build>793</VerInfo_Build>
+        <VerInfo_Keys>CompanyName=;FileVersion=1.0.0.793;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductVersion=1.0.0.0;Comments=;ProgramID=com.embarcadero.$(MSBuildProjectName);FileDescription=$(MSBuildProjectName);ProductName=$(MSBuildProjectName)</VerInfo_Keys>
         <VerInfo_AutoIncVersion>true</VerInfo_AutoIncVersion>
         <DCC_MapFile>3</DCC_MapFile>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
@@ -100,8 +100,7 @@
         <DCCReference Include="DCEF_XE5.dcp"/>
         <DCCReference Include="DragDropDXE5.dcp"/>
         <DCCReference Include="vcldb.dcp"/>
-        <DCCReference Include="PngComponents.dcp"/>
-        <DCCReference Include="dxscene_d2011.dcp"/>
+        <DCCReference Include="GR32_RSXE3.dcp"/>
         <DCCReference Include="JDUIControl.pas"/>
         <DCCReference Include="JDUIFonts.pas"/>
         <DCCReference Include="JDUIObjects.pas"/>
@@ -113,9 +112,6 @@
         </DCCReference>
         <DCCReference Include="Forms\JDUITooltipFrm.pas">
             <Form>jduTooltipForm</Form>
-        </DCCReference>
-        <DCCReference Include="Forms\JDUIWidgetfrm.pas">
-            <Form>Widget3DSwithForm</Form>
         </DCCReference>
         <DCCReference Include="Forms\JDUIDropListFrm.pas">
             <Form>JDUIDropListForm</Form>
@@ -182,6 +178,12 @@
                 </Excluded_Packages>
             </Delphi.Personality>
             <Deployment Version="3">
+                <DeployFile LocalName="C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl\JDUIControls.bpl" Configuration="Debug" Class="ProjectOutput">
+                    <Platform Name="Win32">
+                        <RemoteName>JDUIControls.bpl</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="C:\Users\Public\Documents\Embarcadero\Studio\16.0\Bpl\JDUIControls.bpl" Configuration="Release" Class="ProjectOutput"/>
                 <DeployFile LocalName="C:\Users\Public\Documents\Embarcadero\Studio\16.0\Bpl\JDUIControls.bpl" Configuration="Debug" Class="ProjectOutput"/>
                 <DeployClass Name="AdditionalDebugSymbols">

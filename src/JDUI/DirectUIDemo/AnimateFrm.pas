@@ -46,8 +46,6 @@ begin
   EnabledGlass := True;
   DWMEnabled := True;
 
-  PlaySwfSkin := True;
-
   BlendBorder := True;
 
   BorderMask := DemoForm.jduBorderMask;

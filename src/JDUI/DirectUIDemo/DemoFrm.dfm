@@ -154,7 +154,7 @@ object DemoForm: TDemoForm
         AnimateInType = batAlpha
         AnimateOutType = batAlpha
         AnimateInTime = 0.150000005960464500
-        AnimateOutTime = 0.349999994039535500
+        AnimateOutTime = 0.349999994039535600
         AnimationInType = jduAnimationOut
         AnimationOutType = jduAnimationOut
         AnimationInInterpolation = jduInterpolationSinusoidal
@@ -213,7 +213,7 @@ object DemoForm: TDemoForm
         AnimateInType = batAlpha
         AnimateOutType = batAlpha
         AnimateInTime = 0.150000005960464500
-        AnimateOutTime = 0.349999994039535500
+        AnimateOutTime = 0.349999994039535600
         AnimationInType = jduAnimationOut
         AnimationOutType = jduAnimationOut
         AnimationInInterpolation = jduInterpolationSinusoidal
@@ -272,7 +272,7 @@ object DemoForm: TDemoForm
         AnimateInType = batAlpha
         AnimateOutType = batAlpha
         AnimateInTime = 0.150000005960464500
-        AnimateOutTime = 0.349999994039535500
+        AnimateOutTime = 0.349999994039535600
         AnimationInType = jduAnimationOut
         AnimationOutType = jduAnimationOut
         AnimationInInterpolation = jduInterpolationSinusoidal
@@ -331,7 +331,7 @@ object DemoForm: TDemoForm
         AnimateInType = batAlpha
         AnimateOutType = batAlpha
         AnimateInTime = 0.150000005960464500
-        AnimateOutTime = 0.349999994039535500
+        AnimateOutTime = 0.349999994039535600
         AnimationInType = jduAnimationOut
         AnimationOutType = jduAnimationOut
         AnimationInInterpolation = jduInterpolationSinusoidal
@@ -390,7 +390,7 @@ object DemoForm: TDemoForm
         AnimateInType = batAlpha
         AnimateOutType = batAlpha
         AnimateInTime = 0.150000005960464500
-        AnimateOutTime = 0.349999994039535500
+        AnimateOutTime = 0.349999994039535600
         AnimationInType = jduAnimationOut
         AnimationOutType = jduAnimationOut
         AnimationInInterpolation = jduInterpolationSinusoidal
@@ -449,7 +449,7 @@ object DemoForm: TDemoForm
         AnimateInType = batAlpha
         AnimateOutType = batAlpha
         AnimateInTime = 0.150000005960464500
-        AnimateOutTime = 0.349999994039535500
+        AnimateOutTime = 0.349999994039535600
         AnimationInType = jduAnimationOut
         AnimationOutType = jduAnimationOut
         AnimationInInterpolation = jduInterpolationSinusoidal
@@ -508,7 +508,7 @@ object DemoForm: TDemoForm
         AnimateInType = batAlpha
         AnimateOutType = batAlpha
         AnimateInTime = 0.150000005960464500
-        AnimateOutTime = 0.349999994039535500
+        AnimateOutTime = 0.349999994039535600
         AnimationInType = jduAnimationOut
         AnimationOutType = jduAnimationOut
         AnimationInInterpolation = jduInterpolationSinusoidal

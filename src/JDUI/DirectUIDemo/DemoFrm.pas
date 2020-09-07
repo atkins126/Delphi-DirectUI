@@ -588,8 +588,6 @@ begin
   EnabledGlass := VistaUP and (not Win8) and (not Win10);
   DWMEnabled := EnabledGlass;
 
-  PlaySwfSkin := True;
-
   BlendBorder := True;
 
 
@@ -1034,11 +1032,6 @@ begin
   Self.cbAnimateOpenStyle.Items.Add.Caption := 'ZoomSliderTop';
   Self.cbAnimateOpenStyle.Items.Add.Caption := 'ZoomSliderRight';
   Self.cbAnimateOpenStyle.Items.Add.Caption := 'ZoomSliderBottom';
-  Self.cbAnimateOpenStyle.Items.Add.Caption := '3DSwitch';
-  Self.cbAnimateOpenStyle.Items.Add.Caption := '3DZoomSwitch';
-  Self.cbAnimateOpenStyle.Items.Add.Caption := '3DZoomSwitchLeft';
-  Self.cbAnimateOpenStyle.Items.Add.Caption := '3DZoomHSwitchTop';
-  Self.cbAnimateOpenStyle.Items.Add.Caption := '3DZoomHSwitchBottom';
   Self.cbAnimateOpenStyle.ItemIndex := 7;
 
   Self.cbAnimateCloseStyle.Items.Add.Caption := 'Blend';
@@ -1181,19 +1174,6 @@ begin
               0,
               bdtStretch);
     end;
-
-    AddSkin('¶¯Ì¬Æ¤·ô(Ñô¹â)',
-            ExtractFilePath(Application.ExeName) + 'skins\sun.jskin',
-            0,
-            bdtStretchBorder);
-    AddSkin('¶¯Ì¬Æ¤·ô(¶àÔÆ)',
-            ExtractFilePath(Application.ExeName) + 'skins\cloud.jskin',
-            0,
-            bdtStretchBorder);
-    AddSkin('¶¯Ì¬Æ¤·ô(ÓêÌì)',
-            ExtractFilePath(Application.ExeName) + 'skins\rain.jskin',
-            0,
-            bdtStretchBorder);
 
     AddSkin('´¿É«Æ¤·ô(#29B6F6)',
             '',

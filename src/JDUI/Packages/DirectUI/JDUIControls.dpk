@@ -35,8 +35,7 @@ requires
   DCEF_XE5,
   DragDropDXE5,
   vcldb,
-  PngComponents,
-  dxscene_d2011;
+  GR32_RSXE3;
 
 contains
   JDUIControl in 'JDUIControl.pas',
@@ -47,7 +46,6 @@ contains
   JDUIBaseControl in 'JDUIBaseControl.pas',
   JDUIPopupFrm in 'Forms\JDUIPopupFrm.pas' {jduPopupForm},
   JDUITooltipFrm in 'Forms\JDUITooltipFrm.pas' {jduTooltipForm},
-  JDUIWidgetfrm in 'Forms\JDUIWidgetfrm.pas' {Widget3DSwithForm},
   JDUIDropListFrm in 'Forms\JDUIDropListFrm.pas' {JDUIDropListForm};
 
 end.
