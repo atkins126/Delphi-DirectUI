@@ -136,9 +136,17 @@ end;
 	
 implementation
 procedure TJDUIImageView.PaintSelf(ATargetBitmap: TBitmap32);
+var
+	ABitmap32: TBitmap32;
 begin
   //在 ATargetBitmap 上绘制即可，此处仅做示例
-  ATargetBitmap.LoadFromFile(FImageFile);
+  ABitmap32 := TBitmap32.Create;
+  try
+  	ABitmap32.LoadFromFile(FImageFile);
+  	ABitmap32.DrawTo(ATargetBitmap, 0, 0);
+  finally
+  	ABitmap32.Free;
+  end;  
 end;
 	
 procedure TJDUIImageView.LoadImage(AImageFile: String);
@@ -177,5 +185,5 @@ end;
 
 # 五、技术交流
 
-QQ:  32702924 微信:  18674590115
+wechat:  supersoho
 
