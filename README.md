@@ -2,7 +2,13 @@
 
 # 一、JDUI 介绍
 
-JDUI是一套Delphi DirectUI界面引擎，基于Graphics32并做了大量针对性的性能优化，支持高DPI缩放， 具有非常优秀的渲染性能和酷炫的动画特效。
+JDUI是一套Delphi DirectUI界面引擎，基于Graphics32并做了大量针对性的性能优化，支持高DPI缩放， 具有非常优秀的渲染性能和酷炫的动画特效，本项目开发于2013年，一直给自己项目使用，已上线运营案例：
+
+- [慧阅卷(https://17yuejuan.cn)](https://17yuejuan.cn)
+所见即所得的答题卡编辑器、富文本试题录入、WEB容器等。
+  
+- [班比(https://www.51banbi.com.cn)
+类似于钉钉教育版的一款教育平台。
 
 ![alt Animate](http://imupdate.oss-cn-hangzhou.aliyuncs.com/pc/DDUI/FILE/screenshot/AnimateDemo.gif)
 
@@ -185,5 +191,5 @@ end;
 
 # 五、技术交流
 
-wechat:  supersoho
+wechat:  18674590115 
 
