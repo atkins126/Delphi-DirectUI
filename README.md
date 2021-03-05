@@ -10,7 +10,7 @@ JDUI是一套Delphi DirectUI界面引擎，基于Graphics32并做了大量针对
 
 - [班比(http://www.51banbi.com.cn)](http://www.51banbi.com.cn)
 
-  类似于钉钉教育版的一款教育平台。
+  类似于钉钉教育版的一款教育平台。 
 
 ![alt Animate](http://imupdate.oss-cn-hangzhou.aliyuncs.com/pc/DDUI/FILE/screenshot/AnimateDemo.gif)
 
