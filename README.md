@@ -2,7 +2,15 @@
 
 # 一、JDUI 介绍
 
-JDUI是一套Delphi DirectUI界面引擎，基于Graphics32并做了大量针对性的性能优化，支持高DPI缩放， 具有非常优秀的渲染性能和酷炫的动画特效。
+JDUI是一套Delphi DirectUI界面引擎，基于Graphics32并做了大量针对性的性能优化，支持高DPI缩放， 具有非常优秀的渲染性能和酷炫的动画特效，本项目开发于2013年，一直给自己项目使用，已上线运营案例：
+
+- [慧阅卷(http://17yuejuan.cn)](http://17yuejuan.cn)
+
+  所见即所得的答题卡编辑器、富文本试题录入、WEB容器等。
+
+- [班比(http://www.51banbi.com.cn)](http://www.51banbi.com.cn)
+
+  类似于钉钉教育版的一款教育平台。 
 
 ![alt Animate](http://imupdate.oss-cn-hangzhou.aliyuncs.com/pc/DDUI/FILE/screenshot/AnimateDemo.gif)
 
@@ -136,9 +144,17 @@ end;
 	
 implementation
 procedure TJDUIImageView.PaintSelf(ATargetBitmap: TBitmap32);
+var
+	ABitmap32: TBitmap32;
 begin
   //在 ATargetBitmap 上绘制即可，此处仅做示例
-  ATargetBitmap.LoadFromFile(FImageFile);
+  ABitmap32 := TBitmap32.Create;
+  try
+  	ABitmap32.LoadFromFile(FImageFile);
+  	ABitmap32.DrawTo(ATargetBitmap, 0, 0);
+  finally
+  	ABitmap32.Free;
+  end;  
 end;
 	
 procedure TJDUIImageView.LoadImage(AImageFile: String);
@@ -175,7 +191,7 @@ end;
 
 
 
-# 五、获取完整源码
+# 五、技术交流
 
-获取JDUI DirectUI引擎完整源码（有偿），详情请联系：QQ:  32702924 微信:  18674590115
+wechat:  18674590115 
 
